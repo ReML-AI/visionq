@@ -1,0 +1,148 @@
+{
+  "name": "EXP_045 v9.10 qualitative figure codebook",
+  "kind": "root",
+  "revision_variant": "v9.10_codebook_tree",
+  "revision_source": "v9.9_rigor_audit.md + v9_axis_construction_principles.md",
+  "revision_note": "Frozen six-axis codebook tree for claim-level backfill. This file is not an automated atom remap; claim counts are pending direct backfill.",
+  "status": "codebook_tree_pending_backfill",
+  "children": [
+    {
+      "name": "Image Appearance",
+      "kind": "top_cluster",
+      "definition": "Whole-panel, crop-level, or panel-level low-level visual appearance.",
+      "evaluator_question": "Does the figure, crop, or panel have acceptable low-level visual appearance?",
+      "positive_scope": "Blur, noise, exposure, contrast, color, lighting, global artifact, realism, and style.",
+      "negative_scope": "Object shape errors, spatial relation errors, prompt mismatch, reference mismatch, point distribution, keypoint accuracy, mask accuracy, and latent attention-map behavior.",
+      "children": [
+        {"name": "Blur", "kind": "l1_cluster", "definition": "Focus loss, smear, or blur visible at the panel or crop level.", "children": []},
+        {"name": "Noise", "kind": "l1_cluster", "definition": "Random speckle, grain, sensor-like corruption, or noisy visual artifacts.", "children": []},
+        {"name": "Exposure", "kind": "l1_cluster", "definition": "Over-exposure, under-exposure, saturation clipping, or visibility loss from brightness.", "children": []},
+        {"name": "Contrast", "kind": "l1_cluster", "definition": "Insufficient or excessive tonal separation that harms visible interpretation.", "children": []},
+        {"name": "Color", "kind": "l1_cluster", "definition": "Color cast, color inconsistency, or visually implausible color independent of prompt/reference criteria.", "children": []},
+        {"name": "Lighting", "kind": "l1_cluster", "definition": "Illumination, shadow, reflection, or lighting quality visible in the output.", "children": []},
+        {"name": "Global Artifact", "kind": "l1_cluster", "definition": "Panel-wide artifact not better explained by object form, layout, relation, prompt, or reference match.", "children": []},
+        {"name": "Realism", "kind": "l1_cluster", "definition": "Overall perceptual plausibility or photorealism when not tied to a specific object, prompt, or reference.", "children": []},
+        {"name": "Style", "kind": "l1_cluster", "definition": "Global visual style or aesthetic quality when judged directly rather than as reference or prompt match.", "children": []}
+      ]
+    },
+    {
+      "name": "Object Form",
+      "kind": "top_cluster",
+      "definition": "Internal quality of visible objects, regions, bodies, faces, surfaces, and masks.",
+      "evaluator_question": "Are visible objects or regions internally well-formed?",
+      "positive_scope": "Shape, boundary, texture, surface, material, completeness, pose, face, anatomy, detail, and segmentation boundary quality.",
+      "negative_scope": "Whole-scene arrangement, pairwise relation, explicit prompt matching, and visible reference or ground-truth matching.",
+      "children": [
+        {"name": "Shape", "kind": "l1_cluster", "definition": "Object geometry, silhouette, deformation, or structural shape correctness.", "children": []},
+        {"name": "Boundary", "kind": "l1_cluster", "definition": "Object or region edge quality, contour sharpness, silhouette completeness, or boundary artifacts.", "children": []},
+        {"name": "Texture", "kind": "l1_cluster", "definition": "Local texture quality, texture continuity, or texture corruption on visible regions.", "children": []},
+        {"name": "Surface", "kind": "l1_cluster", "definition": "Surface smoothness, topology, wrinkles, holes, or visible surface defects.", "children": []},
+        {"name": "Material", "kind": "l1_cluster", "definition": "Material appearance or material property quality of an object or region.", "children": []},
+        {"name": "Completeness", "kind": "l1_cluster", "definition": "Missing, truncated, duplicated, or incomplete object parts.", "children": []},
+        {"name": "Pose", "kind": "l1_cluster", "definition": "Pose plausibility of a single visible object, body, or articulated entity when not judged against ground truth.", "children": []},
+        {"name": "Face", "kind": "l1_cluster", "definition": "Face-specific form quality including expression quality when not prompt- or reference-driven.", "children": []},
+        {"name": "Anatomy", "kind": "l1_cluster", "definition": "Body, limb, hand, joint, or anatomical plausibility of one entity.", "children": []},
+        {"name": "Detail", "kind": "l1_cluster", "definition": "Fine detail, thin structures, small parts, or local feature preservation.", "children": []},
+        {"name": "Segmentation", "kind": "l1_cluster", "definition": "Mask or segmentation visual quality when judged as object-region form rather than GT match.", "children": []}
+      ]
+    },
+    {
+      "name": "Scene Layout",
+      "kind": "top_cluster",
+      "definition": "Scene-level spatial organization and physical arrangement.",
+      "evaluator_question": "Are scene-level spatial properties correct?",
+      "positive_scope": "Composition, depth, scale, view, spatial distribution, occlusion layout, camera geometry, and physical plausibility.",
+      "negative_scope": "Object-internal defects, exact pairwise relation claims, explicit reference matching, and prompt-specific layout instructions.",
+      "children": [
+        {"name": "Composition", "kind": "l1_cluster", "definition": "Overall arrangement of regions, objects, foreground, background, or panel contents.", "children": []},
+        {"name": "Depth", "kind": "l1_cluster", "definition": "Depth ordering, 3D arrangement, or perceived scene depth.", "children": []},
+        {"name": "Scale", "kind": "l1_cluster", "definition": "Relative or absolute size plausibility at scene level.", "children": []},
+        {"name": "View", "kind": "l1_cluster", "definition": "Viewpoint, novel-view layout, or multi-view scene-level consistency.", "children": []},
+        {"name": "Spatial Distribution", "kind": "l1_cluster", "definition": "Distribution, spacing, clumping, or spread of visible scene elements or point samples.", "children": []},
+        {"name": "Occlusion Layout", "kind": "l1_cluster", "definition": "Occlusion ordering or impossible scene-level overlap patterns.", "children": []},
+        {"name": "Camera Geometry", "kind": "l1_cluster", "definition": "Camera perspective, projection geometry, or viewpoint geometry visible in the figure.", "children": []},
+        {"name": "Physical Plausibility", "kind": "l1_cluster", "definition": "Scene-level physical plausibility such as floating objects, floor contact at scene scale, or impossible arrangements.", "children": []}
+      ]
+    },
+    {
+      "name": "Relation",
+      "kind": "top_cluster",
+      "definition": "Correctness of relationships between visible entities, parts, attributes, or correspondence points.",
+      "evaluator_question": "Are relationships between visible entities correct?",
+      "positive_scope": "Contact, correspondence, attribute binding, spatial relation, interaction, and part-whole relation.",
+      "negative_scope": "Single-entity pose plausibility, GT/keypoint accuracy, bounding-box accuracy, segmentation quality, and protocol robustness.",
+      "children": [
+        {"name": "Contact", "kind": "l1_cluster", "definition": "Whether two visible entities or parts touch, connect, intersect, or maintain contact correctly.", "children": []},
+        {"name": "Correspondence", "kind": "l1_cluster", "definition": "Visible correspondence between entities, parts, points, views, or panels.", "children": []},
+        {"name": "Attribute Binding", "kind": "l1_cluster", "definition": "Correct binding of visible attributes to the right entity or part.", "children": []},
+        {"name": "Spatial Relation", "kind": "l1_cluster", "definition": "Pairwise relation such as left/right, above/below, inside/outside, near/far, or in-front/behind.", "children": []},
+        {"name": "Interaction", "kind": "l1_cluster", "definition": "Visible interaction between people, objects, agents, tools, or scene elements.", "children": []},
+        {"name": "Part-Whole Relation", "kind": "l1_cluster", "definition": "Relationship between an object and its visible parts when the relation itself is the criterion.", "children": []}
+      ]
+    },
+    {
+      "name": "Reference Match",
+      "kind": "top_cluster",
+      "definition": "Fidelity to a visible source, target, ground truth, before-after panel, or comparison reference.",
+      "evaluator_question": "Does the output match a visible source, target, ground truth, or comparison panel?",
+      "positive_scope": "Identity, background, reconstruction, edit preservation, geometry match, style match, mask match, landmark match, and segmentation match.",
+      "negative_scope": "Prompt-only matching, absolute image appearance with no reference, single-object form with no visible reference, and protocol robustness.",
+      "children": [
+        {"name": "Identity", "kind": "l1_cluster", "definition": "Identity preservation or identity match against a visible source/reference.", "children": []},
+        {"name": "Background", "kind": "l1_cluster", "definition": "Background preservation or match to visible source/reference.", "children": []},
+        {"name": "Reconstruction", "kind": "l1_cluster", "definition": "Reconstruction fidelity against target, source, or ground truth.", "children": []},
+        {"name": "Edit Preservation", "kind": "l1_cluster", "definition": "Preservation of non-edited content in before/after or edit-reference setups.", "children": []},
+        {"name": "Geometry Match", "kind": "l1_cluster", "definition": "Geometric fidelity to visible source, target, annotation, or ground truth.", "children": []},
+        {"name": "Style Match", "kind": "l1_cluster", "definition": "Style fidelity when a visible reference style is the criterion.", "children": []},
+        {"name": "Mask Match", "kind": "l1_cluster", "definition": "Mask fidelity against visible mask, annotation, or ground truth.", "children": []},
+        {"name": "Landmark Match", "kind": "l1_cluster", "definition": "Keypoint, landmark, or pose-coordinate match against visible ground truth or annotation.", "children": []},
+        {"name": "Segmentation Match", "kind": "l1_cluster", "definition": "Segmentation output fidelity against visible ground-truth segmentation.", "children": []}
+      ]
+    },
+    {
+      "name": "Prompt Match",
+      "kind": "top_cluster",
+      "definition": "Match to a text prompt, caption, instruction, requested content, or requested attribute.",
+      "evaluator_question": "Does the output match the text prompt, caption, or instruction?",
+      "positive_scope": "Object presence, attribute match, spatial instruction, semantic match, text legibility, count match, action match, and expression match.",
+      "negative_scope": "Lighting, expression, physical plausibility, or object quality when not specified by prompt/caption/instruction.",
+      "children": [
+        {"name": "Object Presence", "kind": "l1_cluster", "definition": "Requested object, entity, category, or scene element is present or absent as specified.", "children": []},
+        {"name": "Attribute Match", "kind": "l1_cluster", "definition": "Requested color, material, style, state, or other attribute is correctly assigned.", "children": []},
+        {"name": "Spatial Instruction", "kind": "l1_cluster", "definition": "Prompt-specified spatial arrangement or relation is satisfied.", "children": []},
+        {"name": "Semantic Match", "kind": "l1_cluster", "definition": "Overall semantic content matches the caption, prompt, or instruction.", "children": []},
+        {"name": "Text Legibility", "kind": "l1_cluster", "definition": "Requested text, glyphs, symbols, or readable writing are rendered correctly.", "children": []},
+        {"name": "Count Match", "kind": "l1_cluster", "definition": "Requested number of objects or entities is correct.", "children": []},
+        {"name": "Action Match", "kind": "l1_cluster", "definition": "Requested action, activity, or event is depicted correctly.", "children": []},
+        {"name": "Expression Match", "kind": "l1_cluster", "definition": "Requested facial expression, emotion, or pose state is depicted correctly.", "children": []}
+      ]
+    }
+  ],
+  "sidecar": {
+    "name": "Sidecar / Rejected",
+    "kind": "sidecar",
+    "definition": "Research concepts that should not be forced into the main qualitative figure tree.",
+    "reason_codes": [
+      "temporal_out_of_scope",
+      "method_or_nonvisual_property",
+      "protocol_robustness",
+      "latent_internal_metric",
+      "dataset_training_property",
+      "metric_calibration",
+      "multi_sample_required",
+      "not_visible_in_figure",
+      "requires_external_knowledge"
+    ],
+    "children": [
+      {"name": "Temporal Behavior", "kind": "sidecar_cluster", "definition": "Claims requiring video playback, sequence behavior, flicker, jitter, or temporal dynamics."},
+      {"name": "Multi-Sample Diversity", "kind": "sidecar_cluster", "definition": "Claims requiring multiple generated samples or distribution-level diversity evidence."},
+      {"name": "Method Control", "kind": "sidecar_cluster", "definition": "Claims about controllability or intervention behavior not directly judged from a single qualitative figure."},
+      {"name": "Protocol Robustness", "kind": "sidecar_cluster", "definition": "Claims about robustness to perturbations, occlusion protocols, or test-time conditions."},
+      {"name": "Latent Representation", "kind": "sidecar_cluster", "definition": "Claims about attention maps, internal features, embeddings, or hidden model states when not used as visible figure output."},
+      {"name": "Dataset Coverage", "kind": "sidecar_cluster", "definition": "Claims about dataset distribution, coverage, domain breadth, or benchmark composition."},
+      {"name": "Training Memorization", "kind": "sidecar_cluster", "definition": "Claims about memorization, training data leakage, or learned representations."},
+      {"name": "Metric Calibration", "kind": "sidecar_cluster", "definition": "Claims about numerical metrics, calibration, FID, LPIPS, IoU, or other score behavior."},
+      {"name": "Nonvisual Method Property", "kind": "sidecar_cluster", "definition": "Claims about speed, efficiency, architecture, optimization, or generalization without direct visual figure evidence."}
+    ]
+  }
+}

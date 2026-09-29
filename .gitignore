@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+logs/
+outputs/
+results/figures/
+results/dashboard_profiles.html
+data/images/

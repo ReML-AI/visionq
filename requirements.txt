@@ -1,0 +1,17 @@
+# Analysis and figures (enough to reproduce the paper's numbers)
+numpy
+matplotlib
+pillow
+
+# Benchmark runner
+httpx
+boto3
+
+# VisionQ-Judge training and evaluation (GPU)
+torch
+transformers
+trl
+peft
+datasets
+accelerate
+bitsandbytes

@@ -1,0 +1,1245 @@
+paper_id,paper_title,task_type,task_type_confidence,axis,leaf,n_records
+paper_1217,MagicFusion: Boosting Text-to-Image Generation Performance by Fusing Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,17
+paper_0843,RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D,generative_3d,1.000,Prompt Match,Semantic Match,15
+paper_1161,Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions,neural_radiance_field,0.833,Prompt Match,Semantic Match,15
+paper_0815,PRDP: Proximal Reward Difference Prediction for Large-Scale Reward Finetuning of Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,13
+paper_0942,ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models,novel_view_synthesis,0.932,Reference Fidelity,Identity Preservation,13
+paper_0082,Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models,generative_3d,0.586,Prompt Match,Semantic Match,12
+paper_0202,Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections,reconstruction_3d,1.000,Object Form,Surface,12
+paper_0315,SINE: SINgle Image Editing With Text-to-Image Diffusion Models,generative_2d,1.000,Prompt Match,Action Match,12
+paper_0396,LP-DIF: Learning Local Pattern-Specific Deep Implicit Function for 3D Objects and Scenes,reconstruction_3d,0.950,Object Form,Detail,12
+paper_0578,Enhancing 3D Fidelity of Text-to-3D using Cross-View Correspondences,generative_3d,0.844,Object Form,Shape,12
+paper_0856,SPAD: Spatially Aware Multi-View Diffusers,novel_view_synthesis,0.520,Relation,Spatial Relation,12
+paper_1135,GridPull: Towards Scalability in Learning Implicit Representations from 3D Point Clouds,point_cloud_analysis,1.000,Object Form,Detail,12
+paper_1158,Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,12
+paper_1298,SIRA-PCR: Sim-to-Real Adaptation for 3D Point Cloud Registration,point_cloud_analysis,1.000,Scene Layout,Spatial Distribution,12
+paper_0276,PaletteNeRF: Palette-Based Appearance Editing of Neural Radiance Fields,neural_radiance_field,0.841,Relation,Correspondence,11
+paper_0312,SCADE: NeRFs from Space Carving With Ambiguity-Aware Depth Estimates,neural_radiance_field,0.714,Object Form,Detail,11
+paper_0799,NoiseCLR: A Contrastive Learning Approach for Unsupervised Discovery of Interpretable Directions in Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,11
+paper_1112,FaceCLIPNeRF: Text-driven 3D Face Manipulation using Deformable Neural Radiance Fields,neural_radiance_field,0.648,Prompt Match,Semantic Match,11
+paper_1255,PODIA-3D: Domain Adaptation of 3D Generative Model Across Large Domain Gap Using Pose-Preserved Text-to-Image Diffusion,generative_3d,0.469,Prompt Match,Semantic Match,11
+paper_0142,Imagic: Text-Based Real Image Editing With Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,10
+paper_0284,PersonNeRF: Personalized Reconstruction From Photo Collections,novel_view_synthesis,1.000,Image Appearance,Global Artifact,10
+paper_0315,SINE: SINgle Image Editing With Text-to-Image Diffusion Models,generative_2d,1.000,Object Form,Boundary,10
+paper_0924,UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion,generative_3d,0.733,Object Form,Shape,10
+paper_1185,Learning a Room with the Occ-SDF Hybrid: Signed Distance Function Mingled with Occupancy Aids Scene Representation,reconstruction_3d,1.000,Object Form,Detail,10
+paper_1217,MagicFusion: Boosting Text-to-Image Generation Performance by Fusing Diffusion Models,generative_2d,1.000,Object Form,Detail,10
+paper_1263,PlankAssembly: Robust 3D Reconstruction from Three Orthographic Views with Learnt Shape Programs,reconstruction_3d,1.000,Object Form,Completeness,10
+paper_1331,Structure-Aware Surface Reconstruction via Primitive Assembly,point_cloud_analysis,1.000,Object Form,Detail,10
+paper_0175,Learning To Render Novel Views From Wide-Baseline Stereo Pairs,novel_view_synthesis,1.000,Reference Fidelity,Reconstruction Fidelity,9
+paper_0195,Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation,depth_estimation,1.000,Object Form,Shape,9
+paper_0365,Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment,point_cloud_analysis,1.000,Object Form,Surface,9
+paper_0438,Instant Volumetric Head Avatars,human_avatar,0.950,Object Form,Detail,9
+paper_0843,RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D,generative_3d,1.000,Object Form,Surface,9
+paper_0910,Text-to-3D using Gaussian Splatting,gaussian_splatting,0.591,Object Form,Shape,9
+paper_1143,BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes,human_avatar,0.900,Reference Fidelity,Reconstruction Fidelity,9
+paper_1225,Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor,slam_localization,0.512,Reference Fidelity,Reconstruction Fidelity,9
+paper_1299,SVDFormer: Complementing Point Cloud via Self-view Augmentation and Self-structure Dual-generator,point_cloud_analysis,0.754,Object Form,Completeness,9
+paper_0078,Diffusion-SDF: Text-To-Shape via Voxelized Diffusion,reconstruction_3d,0.783,Prompt Match,Semantic Match,8
+paper_0186,Long Range Pooling for 3D Large-Scale Scene Understanding,point_cloud_analysis,1.000,Reference Fidelity,Segmentation Fidelity,8
+paper_0199,Local Implicit Ray Function for Generalizable Radiance Field Representation,neural_radiance_field,0.703,Object Form,Detail,8
+paper_0201,Local-to-Global Registration for Bundle-Adjusting Neural Radiance Fields,neural_radiance_field,0.909,Reference Fidelity,Reconstruction Fidelity,8
+paper_0231,NULL-Text Inversion for Editing Real Images Using Guided Diffusion Models,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,8
+paper_0236,NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects,neural_radiance_field,0.863,Image Appearance,Blur,8
+paper_0240,NeRFInvertor: High Fidelity NeRF-GAN Inversion for Single-Shot Real Image Animation,neural_radiance_field,0.615,Reference Fidelity,Identity Preservation,8
+paper_0269,PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction,point_cloud_analysis,0.675,Object Form,Detail,8
+paper_0332,"Shape, Pose, and Appearance From a Single Image via Bootstrapped Radiance Field Inversion",neural_radiance_field,0.721,Object Form,Detail,8
+paper_0698,L0-Sampler: An L0 Model Guided Volume Sampling for NeRF,neural_radiance_field,0.942,Object Form,Detail,8
+paper_0782,NeLF-Pro: Neural Light Field Probes for Multi-Scale Novel View Synthesis,novel_view_synthesis,0.765,Object Form,Detail,8
+paper_0858,SVDTree: Semantic Voxel Diffusion for Single Image Tree Reconstruction,reconstruction_3d,0.950,Object Form,Detail,8
+paper_0948,Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,8
+paper_0976,NECA: Neural Customizable Human Avatar,human_avatar,1.000,Image Appearance,Lighting,8
+paper_1109,Erasing Concepts from Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,8
+paper_1155,HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion,generative_3d,1.000,Object Form,Detail,8
+paper_1162,IntrinsicNeRF: Learning Intrinsic Neural Radiance Fields for Editable Novel View Synthesis,novel_view_synthesis,0.526,Object Form,Material,8
+paper_1286,Relightify: Relightable 3D Faces from a Single Image via Diffusion Models,face_centric,0.950,Object Form,Completeness,8
+paper_1342,Tetra-NeRF: Representing Neural Radiance Fields Using Tetrahedra,neural_radiance_field,0.792,Object Form,Detail,8
+paper_0017,AnyFlow: Arbitrary Scale Optical Flow With Implicit Neural Representation,optical_flow_stereo,0.887,Object Form,Boundary,7
+paper_0076,DiffusioNeRF: Regularizing Neural Radiance Fields With Denoising Diffusion Models,neural_radiance_field,0.660,Object Form,Surface,7
+paper_0102,Frequency-Modulated Point Cloud Rendering With Easy Editing,point_cloud_analysis,0.588,Object Form,Texture,7
+paper_0156,Instant-NVR: Instant Neural Volumetric Rendering for Human-Object Interactions From Monocular RGBD Stream,tracking,0.667,Image Appearance,Surface,7
+paper_0276,PaletteNeRF: Palette-Based Appearance Editing of Neural Radiance Fields,neural_radiance_field,0.841,Relation,Spatial Relation,7
+paper_0445,3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis,gaussian_splatting,0.695,Reference Fidelity,Reconstruction Fidelity,7
+paper_0749,MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model,motion_generation,0.950,Sidecar / Rejected,Sidecar / Rejected,7
+paper_0889,StraightPCF: Straight Point Cloud Filtering,point_cloud_analysis,1.000,Object Form,Completeness,7
+paper_0902,TULIP: Transformer for Upsampling of LiDAR Point Clouds,point_cloud_analysis,0.727,Object Form,Boundary,7
+paper_0948,Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models,generative_2d,1.000,Object Form,Detail,7
+paper_0949,Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation,generative_2d,0.950,Object Form,Completeness,7
+paper_1121,FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model,generative_2d,1.000,Prompt Match,Semantic Match,7
+paper_1123,Deformer: Dynamic Fusion Transformer for Robust Hand Pose Estimation,hand_centric,1.000,Object Form,Pose,7
+paper_1151,One-shot Implicit Animatable Avatars with Model-based Priors,neural_radiance_field,0.750,Object Form,Surface,7
+paper_1159,Improving Sample Quality of Diffusion Models Using Self-Attention Guidance,generative_2d,1.000,Image Appearance,Detail,7
+paper_1175,Open-vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models,scene_understanding,0.850,Prompt Match,Semantic Match,7
+paper_1184,Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection,point_cloud_analysis,0.737,Object Form,Surface,7
+paper_1193,Learning Non-Local Spatial-Angular Correlation for Light Field Image Super-Resolution,image_restoration,0.938,Relation,Correspondence,7
+paper_1235,NSF: Neural Surface Fields for Human Modeling from Monocular Depth,reconstruction_3d,1.000,Object Form,Detail,7
+paper_1242,NeRF-MS: Neural Radiance Fields with Multi-Sequence,neural_radiance_field,0.822,Image Appearance,Global Artifact,7
+paper_1246,Nerfbusters: Removing Ghostly Artifacts from Casually Captured NeRFs,neural_radiance_field,0.545,Object Form,Completeness,7
+paper_1247,Neural Implicit Surface Evolution,reconstruction_3d,0.850,Object Form,Surface,7
+paper_1336,Surface Normal Clustering for Implicit Representation of Manhattan Scenes,novel_view_synthesis,0.722,Object Form,Completeness,7
+paper_0006,3D-Aware Multi-Class Image-to-Image Translation With NeRFs,generative_3d,0.950,Scene Layout,View,6
+paper_0009,ABLE-NeRF: Attention-Based Rendering With Learnable Embeddings for Neural Radiance Field,neural_radiance_field,0.976,Reference Fidelity,Reconstruction Fidelity,6
+paper_0026,FFHQ-UV: Normalized Facial UV-Texture Dataset for 3D Face Reconstruction,face_centric,0.932,Reference Fidelity,Reconstruction Fidelity,6
+paper_0027,High-Fidelity Facial Avatar Reconstruction From Monocular Video With Generative Priors,face_centric,0.950,Object Form,Attribute Match,6
+paper_0075,DiffRF: Rendering-Guided 3D Radiance Field Diffusion,neural_radiance_field,0.576,Object Form,Completeness,6
+paper_0083,Conditional Generation of Audio From Video via Foley Analogies,generative_2d,0.900,Sidecar / Rejected,Sidecar / Rejected,6
+paper_0085,ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields,slam_localization,0.802,Reference Fidelity,Geometry Fidelity,6
+paper_0093,F2-NeRF: Fast Neural Radiance Field Training With Free Camera Trajectories,neural_radiance_field,0.847,Image Appearance,Blur,6
+paper_0123,Shape-Constraint Recurrent Flow for 6D Object Pose Estimation,optical_flow_stereo,1.000,Object Form,Shape,6
+paper_0139,ISBNet: A 3D Point Cloud Instance Segmentation Network With Instance-Aware Sampling and Box-Aware Dynamic Convolution,segmentation_detection,0.642,Relation,Correspondence,6
+paper_0144,Implicit Neural Head Synthesis via Controllable Local Deformation Fields,face_centric,0.545,Object Form,Detail,6
+paper_0179,A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction From In-the-Wild Images,face_centric,1.000,Object Form,Detail,6
+paper_0184,DynIBaR: Neural Dynamic Image-Based Rendering,novel_view_synthesis,1.000,Image Appearance,Realism,6
+paper_0190,High-Fidelity Clothed Avatar Reconstruction From a Single Image,human_avatar,1.000,Object Form,Completeness,6
+paper_0210,Marching-Primitives: Shape Abstraction From Signed Distance Function,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,6
+paper_0213,Metadata-Based RAW Reconstruction via Implicit Neural Functions,image_restoration,1.000,Reference Fidelity,Reconstruction Fidelity,6
+paper_0255,NeuralUDF: Learning Unsigned Distance Fields for Multi-View Reconstruction of Surfaces With Arbitrary Topologies,reconstruction_3d,0.610,Object Form,Shape,6
+paper_0256,Neuralangelo: High-Fidelity Neural Surface Reconstruction,reconstruction_3d,0.950,Object Form,Surface,6
+paper_0269,PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction,point_cloud_analysis,0.675,Reference Fidelity,Reconstruction Fidelity,6
+paper_0275,Painting 3D Nature in 2D: View Synthesis of Natural Scenes From a Single Semantic Mask,novel_view_synthesis,0.758,Image Appearance,Realism,6
+paper_0296,Progressively Optimized Local Radiance Fields for Robust View Synthesis,novel_view_synthesis,0.538,Object Form,Detail,6
+paper_0319,Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation,generative_3d,0.667,Object Form,Detail,6
+paper_0334,Global-to-Local Modeling for Video-Based 3D Human Pose and Shape Estimation,human_pose_mesh,1.000,Object Form,Anatomy,6
+paper_0383,Unsupervised Inference of Signed Distance Functions From Single Sparse Point Clouds Without Learning Priors,point_cloud_analysis,0.889,Object Form,Surface,6
+paper_0390,VisFusion: Visibility-Aware Online 3D Scene Reconstruction From Videos,reconstruction_3d,0.571,Object Form,Detail,6
+paper_0419,Connecting the Dots: Floorplan Reconstruction Using Two-Level Queries,reconstruction_3d,0.556,Object Form,Boundary,6
+paper_0446,3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting,gaussian_splatting,0.608,Object Form,Detail,6
+paper_0503,CommonCanvas: Open Diffusion Models Trained on Creative-Commons Images,generative_2d,1.000,Prompt Match,Semantic Match,6
+paper_0547,Diffusion Handles Enabling 3D Edits for Diffusion Models by Lifting Activations to 3D,generative_2d,0.625,Object Form,Surface,6
+paper_0624,GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces,gaussian_splatting,0.886,Object Form,Surface,6
+paper_0710,LeftRefill: Filling Right Canvas based on Left Reference through Generalized Text-to-Image Diffusion Model,generative_2d,0.531,Scene Layout,View,6
+paper_0716,DiffAvatar: Simulation-Ready Garment Optimization with Differentiable Simulation,reconstruction_3d,0.500,Object Form,Completeness,6
+paper_0825,ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D Image,human_pose_mesh,0.600,Object Form,Detail,6
+paper_0915,Total-Decom: Decomposed 3D Scene Reconstruction with Minimal Interaction,reconstruction_3d,0.667,Scene Layout,Composition,6
+paper_0946,ViewFusion: Towards Multi-View Consistency via Interpolated Denoising,novel_view_synthesis,0.902,Relation,Correspondence,6
+paper_0960,Watermark-embedded Adversarial Examples for Copyright Protection against Diffusion Models,other,0.900,Prompt Match,Semantic Match,6
+paper_0965,Wired Perspectives: Multi-View Wire Art Embraces Generative AI,generative_2d,1.000,Object Form,Boundary,6
+paper_0965,Wired Perspectives: Multi-View Wire Art Embraces Generative AI,generative_2d,1.000,Prompt Match,Semantic Match,6
+paper_0984,ScoreHypo: Probabilistic Human Mesh Estimation with Hypothesis Scoring,human_pose_mesh,1.000,Relation,Correspondence,6
+paper_0989,Benchmarking Segmentation Models with Mask-Preserved Attribute Editing,segmentation_detection,1.000,Object Form,Boundary,6
+paper_1024,A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance,generative_2d,1.000,Reference Fidelity,Identity Preservation,6
+paper_1101,Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF,neural_radiance_field,1.000,Object Form,Completeness,6
+paper_1111,ExBluRF: Efficient Radiance Fields for Extreme Motion Blurred Images,neural_radiance_field,0.600,Image Appearance,Blur,6
+paper_1115,FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models,novel_view_synthesis,0.479,Object Form,Boundary,6
+paper_1115,FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models,novel_view_synthesis,0.479,Relation,Correspondence,6
+paper_1119,Forward Flow for Novel View Synthesis of Dynamic Scenes,novel_view_synthesis,0.644,Reference Fidelity,Reconstruction Fidelity,6
+paper_1133,GeoUDF: Surface Reconstruction from 3D Point Clouds via Geometry-guided Distance Representation,point_cloud_analysis,0.778,Reference Fidelity,Reconstruction Fidelity,6
+paper_1142,Harnessing the Spatial-Temporal Attention of Diffusion Models for High-Fidelity Text-to-Image Synthesis,generative_2d,1.000,Prompt Match,Semantic Match,6
+paper_1155,HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion,generative_3d,1.000,Sidecar / Rejected,Sidecar / Rejected,6
+paper_1170,"FishNet: A Large-scale Dataset and Benchmark for Fish Recognition, Detection, and Functional Trait Prediction",segmentation_detection,0.950,Prompt Match,Semantic Match,6
+paper_1176,LERF: Language Embedded Radiance Fields,neural_radiance_field,1.000,Prompt Match,Semantic Match,6
+paper_1177,LIST: Learning Implicitly from Spatial Transformers for Single-View 3D Reconstruction,reconstruction_3d,0.909,Object Form,Detail,6
+paper_1181,Learning Neural Implicit Surfaces with Object-Aware Radiance Fields,neural_radiance_field,0.824,Object Form,Completeness,6
+paper_1210,MV-DeepSDF: Implicit Modeling with Multi-Sweep Point Clouds for 3D Vehicle Reconstruction in Autonomous Driving,reconstruction_3d,0.631,Object Form,Completeness,6
+paper_1233,NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space,scene_understanding,1.000,Object Form,Segmentation,6
+paper_1239,NaviNeRF: NeRF-based 3D Representation Disentanglement by Latent Semantic Navigation,neural_radiance_field,0.882,Prompt Match,Semantic Match,6
+paper_1243,NeRFrac: Neural Radiance Fields through Refractive Surface,neural_radiance_field,0.667,Object Form,Shape,6
+paper_1266,PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-Modal Distillation and Super-Voxel Clustering,segmentation_detection,0.500,Object Form,Segmentation,6
+paper_1273,ProtoTransfer: Cross-Modal Prototype Transfer for Point Cloud Segmentation,point_cloud_analysis,0.519,Object Form,Detail,6
+paper_1286,Relightify: Relightable 3D Faces from a Single Image via Diffusion Models,face_centric,0.950,Reference Fidelity,Reconstruction Fidelity,6
+paper_1291,S-VolSDF: Sparse Multi-View Stereo Regularization of Neural Implicit Surfaces,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,6
+paper_1294,SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image,novel_view_synthesis,1.000,Object Form,Detail,6
+paper_1326,StegaNeRF: Embedding Invisible Information within Neural Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,6
+paper_1345,Text2Tex: Text-driven Texture Synthesis via Diffusion Models,generative_3d,0.950,Object Form,Texture,6
+paper_0005,3D-Aware Facial Landmark Detection via Multi-View Consistent Training on Synthetic Data,generative_2d,1.000,Relation,Correspondence,5
+paper_0011,ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction,reconstruction_3d,0.714,Object Form,Detail,5
+paper_0016,Ambiguous Medical Image Segmentation Using Diffusion Models,segmentation_detection,1.000,Sidecar / Rejected,Sidecar / Rejected,5
+paper_0022,Attention-Based Point Cloud Edge Sampling,point_cloud_analysis,0.800,Object Form,Detail,5
+paper_0023,BBDM: Image-to-Image Translation With Brownian Bridge Diffusion Models,generative_2d,1.000,Image Appearance,Realism,5
+paper_0025,BUOL: A Bottom-Up Framework With Occupancy-Aware Lifting for Panoptic 3D Scene Reconstruction From a Single Image,segmentation_detection,0.600,Object Form,Attribute Match,5
+paper_0045,BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks,segmentation_detection,1.000,Object Form,Completeness,5
+paper_0049,Clothed Human Performance Capture With a Double-Layer Neural Radiance Fields,neural_radiance_field,1.000,Object Form,Completeness,5
+paper_0049,Clothed Human Performance Capture With a Double-Layer Neural Radiance Fields,neural_radiance_field,1.000,Object Form,Surface,5
+paper_0092,Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields,neural_radiance_field,1.000,Object Form,Detail,5
+paper_0096,Mutual Information-Based Temporal Difference Learning for Human Pose Estimation in Video,human_pose_mesh,0.854,Relation,Correspondence,5
+paper_0097,FlexNeRF: Photorealistic Free-Viewpoint Rendering of Moving Humans From Sparse Views,neural_radiance_field,0.889,Object Form,Detail,5
+paper_0134,HumanGen: Generating Human Radiance Fields With Explicit Priors,neural_radiance_field,0.548,Object Form,Detail,5
+paper_0135,"Diffusion-Based Generation, Optimization, and Planning in 3D Scenes",scene_understanding,0.500,Scene Layout,Physical Plausibility,5
+paper_0143,Implicit Diffusion Models for Continuous Super-Resolution,image_restoration,1.000,Object Form,Texture,5
+paper_0173,Learning To Fuse Monocular and Multi-View Cues for Multi-Frame Depth Estimation in Dynamic Scenes,depth_estimation,0.857,Object Form,Shape,5
+paper_0206,3D Human Mesh Estimation From Virtual Markers,human_pose_mesh,1.000,Object Form,Anatomy,5
+paper_0215,MixNeRF: Modeling a Ray With Mixture Density for Novel View Synthesis From Sparse Inputs,novel_view_synthesis,0.707,Object Form,Detail,5
+paper_0266,On Distillation of Guided Diffusion Models,generative_2d,0.793,Prompt Match,Semantic Match,5
+paper_0281,PermutoSDF: Fast Multi-View Reconstruction With Implicit Surfaces Using Permutohedral Lattices,reconstruction_3d,0.552,Object Form,Detail,5
+paper_0301,Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization,neural_radiance_field,0.757,Reference Fidelity,Style Fidelity,5
+paper_0308,Robust Dynamic Radiance Fields,neural_radiance_field,0.627,Image Appearance,Global Artifact,5
+paper_0311,Rotation-Invariant Transformer for Point Cloud Matching,point_cloud_analysis,1.000,Relation,Correspondence,5
+paper_0318,SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting With Neural Radiance Fields,neural_radiance_field,0.840,Object Form,Boundary,5
+paper_0319,Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation,generative_3d,0.667,Object Form,Shape,5
+paper_0324,Seeing Through the Glass: Neural 3D Reconstruction of Object Inside a Transparent Container,reconstruction_3d,1.000,Object Form,Completeness,5
+paper_0335,Learning Human Mesh Recovery in 3D Scenes,human_pose_mesh,0.583,Reference Fidelity,Reconstruction Fidelity,5
+paper_0371,Trap Attention: Monocular Depth Estimation With Manual Traps,depth_estimation,1.000,Object Form,Detail,5
+paper_0417,DyLiN: Making Light Field Networks Dynamic,neural_radiance_field,1.000,Object Form,Detail,5
+paper_0429,PointAvatar: Deformable Point-Based Head Avatars From Videos,human_avatar,1.000,Object Form,Detail,5
+paper_0467,Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes,face_centric,0.590,Object Form,Detail,5
+paper_0479,CAD: Photorealistic 3D Generation via Adversarial Distillation,generative_3d,0.615,Image Appearance,Realism,5
+paper_0716,DiffAvatar: Simulation-Ready Garment Optimization with Differentiable Simulation,reconstruction_3d,0.500,Object Form,Surface,5
+paper_0754,MicroDiffusion: Implicit Representation-Guided Diffusion for 3D Reconstruction from Limited 2D Microscopy Projections,reconstruction_3d,1.000,Image Appearance,Blur,5
+paper_0816,PaReNeRF: Toward Fast Large-scale Dynamic NeRF with Patch-based Reference,neural_radiance_field,0.745,Image Appearance,Global Artifact,5
+paper_0841,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,depth_estimation,0.915,Object Form,Detail,5
+paper_0842,Rethinking Few-shot 3D Point Cloud Semantic Segmentation,segmentation_detection,0.545,Relation,Attribute Binding,5
+paper_0913,TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields,neural_radiance_field,0.740,Object Form,Boundary,5
+paper_0931,UnionFormer: Unified-Learning Transformer with Multi-View Representation for Image Manipulation Detection and Localization,generative_2d,1.000,Object Form,Boundary,5
+paper_0933,Unsupervised Gaze Representation Learning from Multi-view Face Images,face_centric,0.900,Reference Fidelity,Landmark Fidelity,5
+paper_0939,VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction,gaussian_splatting,0.567,Object Form,Completeness,5
+paper_0940,DiffusionPoser: Real-time Human Motion Reconstruction From Arbitrary Sparse Sensors Using Autoregressive Diffusion,motion_generation,0.950,Reference Fidelity,Geometry Fidelity,5
+paper_0968,WorDepth: Variational Language Prior for Monocular Depth Estimation,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,5
+paper_0975,FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding,human_avatar,0.605,Object Form,Detail,5
+paper_0977,MS-MANO: Enabling Hand Pose Tracking with Biomechanical Constraints,hand_centric,1.000,Reference Fidelity,Geometry Fidelity,5
+paper_1032,Iterative Superquadric Recomposition of 3D Objects from Multiple Views,reconstruction_3d,0.900,Object Form,Completeness,5
+paper_1046,Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields,neural_radiance_field,0.938,Prompt Match,Semantic Match,5
+paper_1126,GECCO: Geometrically-Conditioned Point Diffusion Models,point_cloud_analysis,0.552,Object Form,Completeness,5
+paper_1127,GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds,point_cloud_analysis,0.516,Sidecar / Rejected,Sidecar / Rejected,5
+paper_1130,GasMono: Geometry-Aided Self-Supervised Monocular Depth Estimation for Indoor Scenes,depth_estimation,1.000,Object Form,Detail,5
+paper_1132,Generative Novel View Synthesis with 3D-Aware Diffusion Models,novel_view_synthesis,1.000,Image Appearance,Blur,5
+paper_1132,Generative Novel View Synthesis with 3D-Aware Diffusion Models,novel_view_synthesis,1.000,Scene Layout,Composition,5
+paper_1135,GridPull: Towards Scalability in Learning Implicit Representations from 3D Point Clouds,point_cloud_analysis,1.000,Object Form,Surface,5
+paper_1137,From Sky to the Ground: A Large-scale Benchmark and Simple Baseline Towards Real Rain Removal,image_restoration,1.000,Object Form,Surface,5
+paper_1149,HoloFusion: Towards Photo-realistic 3D Generative Modeling,generative_3d,0.692,Relation,Correspondence,5
+paper_1155,HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion,generative_3d,1.000,Object Form,Shape,5
+paper_1156,ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization,neural_radiance_field,0.833,Reference Fidelity,Edit Preservation,5
+paper_1168,Joint Implicit Neural Representation for High-fidelity and Compact Vector Fonts,reconstruction_3d,1.000,Object Form,Boundary,5
+paper_1177,LIST: Learning Implicitly from Spatial Transformers for Single-View 3D Reconstruction,reconstruction_3d,0.909,Object Form,Completeness,5
+paper_1178,LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs,neural_radiance_field,0.821,Reference Fidelity,Geometry Fidelity,5
+paper_1181,Learning Neural Implicit Surfaces with Object-Aware Radiance Fields,neural_radiance_field,0.824,Sidecar / Rejected,Sidecar / Rejected,5
+paper_1208,MUVA: A New Large-Scale Benchmark for Multi-View Amodal Instance Segmentation in the Shopping Scenario,segmentation_detection,1.000,Object Form,Segmentation,5
+paper_1216,MVPSNet: Fast Generalizable Multi-view Photometric Stereo,reconstruction_3d,0.725,Object Form,Surface,5
+paper_1232,Multiscale Representation for Real-Time Anti-Aliasing Neural Rendering,neural_radiance_field,0.939,Image Appearance,Global Artifact,5
+paper_1234,NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects,novel_view_synthesis,0.789,Object Form,Surface,5
+paper_1244,NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction,reconstruction_3d,1.000,Sidecar / Rejected,Sidecar / Rejected,5
+paper_1252,Open-vocabulary Object Segmentation with Diffusion Models,generative_2d,1.000,Reference Fidelity,Segmentation Fidelity,5
+paper_1254,PARF: Primitive-Aware Radiance Fusion for Indoor Scene Novel View Synthesis,novel_view_synthesis,0.679,Image Appearance,Blur,5
+paper_1258,Partition Speeds Up Learning Implicit Neural Representations Based on Exponential-Increase Hypothesis,image_restoration,0.850,Image Appearance,Noise,5
+paper_1274,Understanding 3D Object Interaction from a Single Image,hand_centric,1.000,Prompt Match,Semantic Match,5
+paper_1277,Prior-guided Source-free Domain Adaptation for Human Pose Estimation,human_pose_mesh,1.000,Relation,Correspondence,5
+paper_1285,RegFormer: An Efficient Projection-Aware Transformer Network for Large-Scale Point Cloud Registration,point_cloud_analysis,1.000,Relation,Correspondence,5
+paper_1288,Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering,depth_estimation,0.908,Object Form,Completeness,5
+paper_1291,S-VolSDF: Sparse Multi-View Stereo Regularization of Neural Implicit Surfaces,reconstruction_3d,1.000,Object Form,Completeness,5
+paper_1319,Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction,generative_3d,0.950,Reference Fidelity,Reconstruction Fidelity,5
+paper_1321,SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,5
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,neural_radiance_field,0.882,Reference Fidelity,Reconstruction Fidelity,5
+paper_0008,A Light Touch Approach to Teaching Transformers Multi-View Geometry,scene_understanding,0.850,Reference Fidelity,Geometry Fidelity,4
+paper_0028,Learning Personalized High Quality Volumetric Head Avatars From Monocular RGB Videos,human_avatar,0.581,Reference Fidelity,Reconstruction Fidelity,4
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,point_cloud_analysis,1.000,Object Form,Completeness,4
+paper_0041,CLIP2Scene: Towards Label-Efficient 3D Scene Understanding by CLIP,scene_understanding,0.588,Reference Fidelity,Segmentation Fidelity,4
+paper_0050,Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM,slam_localization,1.000,Object Form,Detail,4
+paper_0059,Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories,novel_view_synthesis,0.558,Relation,Correspondence,4
+paper_0065,Cross-Guided Optimization of Radiance Fields With Multi-View Image Super-Resolution for High-Resolution Novel View Synthesis,novel_view_synthesis,0.476,Object Form,Texture,4
+paper_0081,Domain Generalized Stereo Matching via Hierarchical Visual Transformation,optical_flow_stereo,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0086,ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model With Knowledge-Enhanced Mixture-of-Denoising-Experts,generative_2d,1.000,Prompt Match,Semantic Match,4
+paper_0089,Enhanced Stable View Synthesis,novel_view_synthesis,0.571,Image Appearance,Global Artifact,4
+paper_0091,EventNeRF: Neural Radiance Fields From a Single Colour Event Camera,neural_radiance_field,0.806,Object Form,Detail,4
+paper_0099,Reconstructing Signing Avatars From Video Using Linguistic Priors,reconstruction_3d,0.500,Sidecar / Rejected,Sidecar / Rejected,4
+paper_0103,Auto-CARD: Efficient and Robust Codec Avatar Driving for Real-Time Mobile Telepresence,human_avatar,0.882,Reference Fidelity,Reconstruction Fidelity,4
+paper_0104,GM-NeRF: Learning Generalizable Model-Based Neural Radiance Fields From Multi-View Images,neural_radiance_field,0.915,Image Appearance,Realism,4
+paper_0115,GrowSP: Unsupervised Semantic Segmentation of 3D Point Clouds,point_cloud_analysis,0.514,Prompt Match,Semantic Match,4
+paper_0116,GANmouflage: 3D Object Nondetection With Texture Fields,segmentation_detection,1.000,Object Form,Texture,4
+paper_0142,Imagic: Text-Based Real Image Editing With Diffusion Models,generative_2d,1.000,Reference Fidelity,Edit Preservation,4
+paper_0147,Interactive Segmentation of Radiance Fields,neural_radiance_field,0.571,Object Form,Boundary,4
+paper_0149,Iterative Geometry Encoding Volume for Stereo Matching,optical_flow_stereo,0.612,Object Form,Detail,4
+paper_0169,LayoutDM: Transformer-Based Diffusion Model for Layout Generation,generative_2d,0.950,Scene Layout,Composition,4
+paper_0174,Learning To Measure the Point Cloud Reconstruction Loss in a Representation Space,point_cloud_analysis,0.545,Object Form,Completeness,4
+paper_0174,Learning To Measure the Point Cloud Reconstruction Loss in a Representation Space,point_cloud_analysis,0.545,Reference Fidelity,Reconstruction Fidelity,4
+paper_0184,DynIBaR: Neural Dynamic Image-Based Rendering,novel_view_synthesis,1.000,Object Form,Detail,4
+paper_0191,Lift3D: Synthesize 3D Training Data by Lifting 2D GAN to 3D Generative Radiance Field,generative_3d,0.545,Prompt Match,Action Match,4
+paper_0194,ShadowNeuS: Neural SDF Reconstruction by Shadow Ray Supervision,reconstruction_3d,0.471,Reference Fidelity,Reconstruction Fidelity,4
+paper_0207,OTAvatar: One-Shot Talking Face Avatar With Controllable Tri-Plane Rendering,human_avatar,0.644,Reference Fidelity,Identity Preservation,4
+paper_0218,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,neural_radiance_field,0.725,Object Form,Detail,4
+paper_0222,MonoATT: Online Monocular 3D Object Detection With Adaptive Token Transformer,segmentation_detection,1.000,Reference Fidelity,Geometry Fidelity,4
+paper_0224,Multi-View Inverse Rendering for Large-Scale Real-World Indoor Scenes,novel_view_synthesis,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0225,Multi-View Azimuth Stereo via Tangent Space Consistency,reconstruction_3d,1.000,Object Form,Shape,4
+paper_0225,Multi-View Azimuth Stereo via Tangent Space Consistency,reconstruction_3d,1.000,Object Form,Surface,4
+paper_0225,Multi-View Azimuth Stereo via Tangent Space Consistency,reconstruction_3d,1.000,Reference Fidelity,Landmark Fidelity,4
+paper_0226,Multi-View Reconstruction Using Signed Ray Distance Functions (SRDF),reconstruction_3d,0.875,Object Form,Boundary,4
+paper_0227,Multi-View Stereo Representation Revist: Region-Aware MVSNet,reconstruction_3d,1.000,Object Form,Completeness,4
+paper_0238,NeRF-RPN: A General Framework for Object Detection in NeRFs,neural_radiance_field,0.656,Relation,Correspondence,4
+paper_0245,NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction,reconstruction_3d,1.000,Object Form,Detail,4
+paper_0253,NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions,human_avatar,0.900,Reference Fidelity,Reconstruction Fidelity,4
+paper_0256,Neuralangelo: High-Fidelity Neural Surface Reconstruction,reconstruction_3d,0.950,Object Form,Detail,4
+paper_0258,NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior,neural_radiance_field,0.689,Image Appearance,Global Artifact,4
+paper_0265,OmniVidar: Omnidirectional Depth Estimation From Multi-Fisheye Images,depth_estimation,1.000,Object Form,Detail,4
+paper_0269,PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction,point_cloud_analysis,0.675,Image Appearance,Blur,4
+paper_0270,PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters,reconstruction_3d,0.920,Relation,Correspondence,4
+paper_0277,Parallel Diffusion Models of Operator and Image for Blind Inverse Problems,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0283,Person Image Synthesis via Denoising Diffusion Model,generative_2d,1.000,Object Form,Texture,4
+paper_0292,Point2Pix: Photo-Realistic Point Cloud Rendering via Neural Radiance Fields,neural_radiance_field,0.565,Image Appearance,Realism,4
+paper_0297,RIAV-MVS: Recurrent-Indexing an Asymmetric Volume for Multi-View Stereo,reconstruction_3d,0.915,Object Form,Detail,4
+paper_0298,RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models,point_cloud_analysis,1.000,Image Appearance,Realism,4
+paper_0299,ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects,novel_view_synthesis,0.602,Object Form,Texture,4
+paper_0301,Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization,neural_radiance_field,0.757,Relation,Correspondence,4
+paper_0302,RefSR-NeRF: Towards High Fidelity and Super Resolution View Synthesis,neural_radiance_field,0.556,Object Form,Texture,4
+paper_0305,Removing Objects From Neural Radiance Fields,neural_radiance_field,0.873,Image Appearance,Global Artifact,4
+paper_0319,Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation,generative_3d,0.667,Image Appearance,Realism,4
+paper_0321,SeSDF: Self-Evolved Signed Distance Field for Implicit 3D Clothed Human Reconstruction,reconstruction_3d,0.458,Object Form,Detail,4
+paper_0322,SeaThru-NeRF: Neural Radiance Fields in Scattering Media,neural_radiance_field,1.000,Relation,Attribute Binding,4
+paper_0323,Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding,generative_2d,1.000,Prompt Match,Semantic Match,4
+paper_0330,ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal,generative_2d,1.000,Image Appearance,Lighting,4
+paper_0331,Shakes on a Plane: Unsupervised Depth Estimation From Unstabilized Photography,depth_estimation,0.857,Object Form,Detail,4
+paper_0338,PLIKS: A Pseudo-Linear Inverse Kinematic Solver for 3D Human Body Estimation,human_pose_mesh,1.000,Relation,Correspondence,4
+paper_0340,Panoptic Lifting for 3D Scene Understanding With Neural Fields,scene_understanding,0.545,Prompt Match,Semantic Match,4
+paper_0391,VolRecon: Volume Rendering of Signed Ray Distance Functions for Generalizable Multi-View Reconstruction,reconstruction_3d,0.476,Object Form,Boundary,4
+paper_0392,VoxFormer: Sparse Voxel Transformer for Camera-Based 3D Semantic Scene Completion,depth_estimation,0.500,Scene Layout,Composition,4
+paper_0427,PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation,human_pose_mesh,1.000,Object Form,Pose,4
+paper_0447,3DFIRES: Few Image 3D REconstruction for Scenes with Hidden Surfaces,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0452,A Simple Baseline for Efficient Hand Mesh Reconstruction,hand_centric,0.706,Relation,Correspondence,4
+paper_0474,Seamless Human Motion Composition with Blended Positional Encodings,motion_generation,1.000,Sidecar / Rejected,Sidecar / Rejected,4
+paper_0487,CVT-xRF: Contrastive In-Voxel Transformer for 3D Consistent Radiance Fields from Sparse Inputs,neural_radiance_field,0.807,Scene Layout,View,4
+paper_0507,Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis,novel_view_synthesis,0.540,Reference Fidelity,Reconstruction Fidelity,4
+paper_0508,ConTex-Human: Free-View Rendering of Human from a Single Image with Texture-Consistent Synthesis,human_avatar,0.588,Reference Fidelity,Style Fidelity,4
+paper_0528,HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations,human_avatar,1.000,Object Form,Surface,4
+paper_0528,HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations,human_avatar,1.000,Sidecar / Rejected,Sidecar / Rejected,4
+paper_0546,DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis,generative_3d,0.950,Scene Layout,Physical Plausibility,4
+paper_0549,Diffusion-FOF: Single-View Clothed Human Reconstruction via Diffusion-Based Fourier Occupancy Field,reconstruction_3d,0.538,Object Form,Detail,4
+paper_0605,GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning,gaussian_splatting,0.470,Object Form,Detail,4
+paper_0608,GES : Generalized Exponential Splatting for Efficient Radiance Field Rendering,gaussian_splatting,0.661,Reference Fidelity,Reconstruction Fidelity,4
+paper_0619,GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians,human_avatar,0.824,Object Form,Boundary,4
+paper_0624,GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces,gaussian_splatting,0.886,Object Form,Material,4
+paper_0626,Gear-NeRF: Free-Viewpoint Rendering and Tracking with Motion-aware Spatio-Temporal Sampling,neural_radiance_field,0.714,Relation,Correspondence,4
+paper_0682,Inlier Confidence Calibration for Point Cloud Registration,point_cloud_analysis,1.000,Object Form,Shape,4
+paper_0685,Inverse Rendering of Glossy Objects via the Neural Plenoptic Function and Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0697,OpenESS: Event-based Semantic Scene Understanding with Open Vocabularies,segmentation_detection,1.000,Prompt Match,Semantic Match,4
+paper_0712,3D Feature Tracking via Event Camera,tracking,0.900,Reference Fidelity,Landmark Fidelity,4
+paper_0749,MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model,motion_generation,0.950,Image Appearance,Global Artifact,4
+paper_0781,NViST: In the Wild New View Synthesis from a Single Image with Transformers,novel_view_synthesis,0.900,Prompt Match,Action Match,4
+paper_0801,Not All Voxels Are Equal: Hardness-Aware Semantic Scene Completion with Self-Distillation,reconstruction_3d,0.950,Reference Fidelity,Segmentation Fidelity,4
+paper_0816,PaReNeRF: Toward Fast Large-scale Dynamic NeRF with Patch-based Reference,neural_radiance_field,0.745,Object Form,Detail,4
+paper_0817,Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models,generative_2d,1.000,Object Form,Texture,4
+paper_0818,How to Train Neural Field Representations: A Comprehensive Study and Benchmark,reconstruction_3d,0.850,Reference Fidelity,Reconstruction Fidelity,4
+paper_0819,PanoRecon: Real-Time Panoptic 3D Reconstruction from Monocular Video,reconstruction_3d,1.000,Object Form,Completeness,4
+paper_0820,Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform,point_cloud_analysis,1.000,Reference Fidelity,Segmentation Fidelity,4
+paper_0824,Perturbing Attention Gives You More Bang for the Buck: Subtle Imaging Perturbations That Efficiently Fool Customized Diffusion Models,generative_2d,1.000,Image Appearance,Global Artifact,4
+paper_0829,PlatoNeRF: 3D Reconstruction in Plato's Cave via Single-View Two-Bounce Lidar,reconstruction_3d,0.500,Reference Fidelity,Reconstruction Fidelity,4
+paper_0844,Robust Synthetic-to-Real Transfer for Stereo Matching,optical_flow_stereo,1.000,Object Form,Texture,4
+paper_0845,ConCon-Chi: Concept-Context Chimera Benchmark for Personalized Vision-Language Tasks,generative_2d,0.850,Relation,Attribute Binding,4
+paper_0848,SANeRF-HQ: Segment Anything for NeRF in High Quality,neural_radiance_field,0.750,Object Form,Segmentation,4
+paper_0849,SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes,gaussian_splatting,0.657,Object Form,Detail,4
+paper_0853,SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model,generative_2d,0.900,Image Appearance,Realism,4
+paper_0859,Relightable Gaussian Codec Avatars,human_avatar,1.000,Object Form,Detail,4
+paper_0884,SplaTAM: Splat Track & Map 3D Gaussians for Dense RGB-D SLAM,slam_localization,0.740,Reference Fidelity,Reconstruction Fidelity,4
+paper_0886,Splatter Image: Ultra-Fast Single-View 3D Reconstruction,reconstruction_3d,0.598,Object Form,Detail,4
+paper_0897,SuperNormal: Neural Surface Reconstruction via Multi-View Normal Integration,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,4
+paper_0900,TI2V-Zero: Zero-Shot Image Conditioning for Text-to-Video Diffusion Models,generative_2d,0.950,Sidecar / Rejected,Sidecar / Rejected,4
+paper_0904,Taming Mode Collapse in Score Distillation for Text-to-3D Generation,generative_3d,1.000,Object Form,Completeness,4
+paper_0905,TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video,neural_radiance_field,0.750,Object Form,Detail,4
+paper_0909,Text-to-3D Generation with Bidirectional Diffusion using both 2D and 3D priors,generative_3d,1.000,Object Form,Completeness,4
+paper_0937,VMINer: Versatile Multi-view Inverse Rendering with Near- and Far-field Light Sources,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0951,3D Face Reconstruction with the Geometric Guidance of Facial Part Segmentation,face_centric,1.000,Object Form,Boundary,4
+paper_0955,Move as You Say Interact as You Can: Language-guided Human Motion Generation with Scene Affordance,motion_generation,1.000,Relation,Interaction,4
+paper_0957,Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding,scene_understanding,1.000,Prompt Match,Semantic Match,4
+paper_0959,WateRF: Robust Watermarks in Radiance Fields for Protection of Copyrights,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_0962,FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects,novel_view_synthesis,1.000,Prompt Match,Semantic Match,4
+paper_0973,IPoD: Implicit Field Learning with Point Diffusion for Generalizable 3D Object Reconstruction from Single RGB-D Images,reconstruction_3d,0.500,Object Form,Completeness,4
+paper_1016,2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision,point_cloud_analysis,0.557,Prompt Match,Semantic Match,4
+paper_1033,Aggregating Feature Point Cloud for Depth Completion,point_cloud_analysis,0.528,Object Form,Detail,4
+paper_1072,DPS-Net: Deep Polarimetric Stereo Depth Estimation,depth_estimation,1.000,Reference Fidelity,Geometry Fidelity,4
+paper_1084,DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability,generative_2d,1.000,Prompt Match,Semantic Match,4
+paper_1090,Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions,reconstruction_3d,0.462,Object Form,Detail,4
+paper_1097,TORE: Token Reduction for Efficient Human Mesh Recovery with Transformer,human_pose_mesh,0.505,Prompt Match,Action Match,4
+paper_1103,EGformer: Equirectangular Geometry-biased Transformer for 360 Depth Estimation,depth_estimation,1.000,Object Form,Detail,4
+paper_1106,Editing Implicit Assumptions in Text-to-Image Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,4
+paper_1119,Forward Flow for Novel View Synthesis of Dynamic Scenes,novel_view_synthesis,0.644,Image Appearance,Noise,4
+paper_1136,Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model Using Pixel-Aligned Reconstruction Priors,generative_3d,0.545,Object Form,Detail,4
+paper_1145,Hierarchical Prior Mining for Non-local Multi-View Stereo,reconstruction_3d,1.000,Object Form,Completeness,4
+paper_1150,360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking,tracking,1.000,Prompt Match,Action Match,4
+paper_1154,Hyperbolic Chamfer Distance for Point Cloud Completion,point_cloud_analysis,0.737,Reference Fidelity,Reconstruction Fidelity,4
+paper_1160,Instance Neural Radiance Field,neural_radiance_field,0.747,Reference Fidelity,Mask Fidelity,4
+paper_1176,LERF: Language Embedded Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Geometry Fidelity,4
+paper_1179,Label-Guided Knowledge Distillation for Continual Semantic Segmentation on 2D Images and 3D Point Clouds,segmentation_detection,0.600,Prompt Match,Semantic Match,4
+paper_1189,JOTR: 3D Joint Contrastive Learning with Transformers for Occluded Human Mesh Recovery,human_pose_mesh,0.586,Object Form,Anatomy,4
+paper_1194,Lighting up NeRF via Unsupervised Decomposition and Enhancement,neural_radiance_field,0.817,Image Appearance,Realism,4
+paper_1196,VI-Net: Boosting Category-level 6D Object Pose Estimation via Learning Decoupled Rotations on the Spherical Representations,tracking,0.850,Object Form,Shape,4
+paper_1198,Learning Clothing and Pose Invariant 3D Shape Representation for Long-Term Person Re-Identification,tracking,1.000,Object Form,Anatomy,4
+paper_1215,Synchronize Feature Extracting and Matching: A Single Branch Framework for 3D Object Tracking,tracking,1.000,Reference Fidelity,Landmark Fidelity,4
+paper_1218,EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries,reconstruction_3d,1.000,Sidecar / Rejected,Sidecar / Rejected,4
+paper_1219,Masked Spatio-Temporal Structure Prediction for Self-supervised Learning on Point Cloud Videos,point_cloud_analysis,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_1223,MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond,neural_radiance_field,0.789,Image Appearance,Global Artifact,4
+paper_1224,MonoNeRF: Learning a Generalizable Dynamic Radiance Field from Monocular Videos,neural_radiance_field,0.812,Prompt Match,Action Match,4
+paper_1225,Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor,slam_localization,0.512,Object Form,Attribute Match,4
+paper_1230,Multi-view Spectral Polarization Propagation for Video Glass Segmentation,segmentation_detection,1.000,Object Form,Boundary,4
+paper_1231,Multi-view Self-supervised Disentanglement for General Image Denoising,image_restoration,1.000,Image Appearance,Noise,4
+paper_1234,NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects,novel_view_synthesis,0.789,Object Form,Detail,4
+paper_1238,NeO 360: Neural Fields for Sparse View Synthesis of Outdoor Scenes,novel_view_synthesis,0.800,Image Appearance,Blur,4
+paper_1238,NeO 360: Neural Fields for Sparse View Synthesis of Outdoor Scenes,novel_view_synthesis,0.800,Prompt Match,Semantic Match,4
+paper_1248,Neural LiDAR Fields for Novel View Synthesis,novel_view_synthesis,0.848,Reference Fidelity,Reconstruction Fidelity,4
+paper_1250,ObjectSDF++: Improved Object-Compositional Neural Implicit Surfaces,reconstruction_3d,1.000,Object Form,Surface,4
+paper_1254,PARF: Primitive-Aware Radiance Fusion for Indoor Scene Novel View Synthesis,novel_view_synthesis,0.679,Scene Layout,Composition,4
+paper_1259,Source-free Domain Adaptive Human Pose Estimation,human_pose_mesh,1.000,Relation,Spatial Relation,4
+paper_1282,ReNeRF: Relightable Neural Radiance Fields with Nearfield Lighting,neural_radiance_field,0.936,Prompt Match,Semantic Match,4
+paper_1284,Reference-guided Controllable Inpainting of Neural Radiance Fields,neural_radiance_field,0.949,Object Form,Texture,4
+paper_1287,Retro-FPN: Retrospective Feature Pyramid Network for Point Cloud Semantic Segmentation,point_cloud_analysis,0.526,Relation,Correspondence,4
+paper_1292,Root Pose Decomposition Towards Generic Non-rigid 3D Reconstruction with Monocular Videos,reconstruction_3d,1.000,Object Form,Completeness,4
+paper_1294,SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image,novel_view_synthesis,1.000,Object Form,Boundary,4
+paper_1295,SHACIRA: Scalable HAsh-grid Compression for Implicit Neural Representations,neural_radiance_field,1.000,Image Appearance,Global Artifact,4
+paper_1299,SVDFormer: Complementing Point Cloud via Self-view Augmentation and Self-structure Dual-generator,point_cloud_analysis,0.754,Object Form,Detail,4
+paper_1302,S-TREK: Sequential Translation and Rotation Equivariant Keypoints for Local Feature Extraction,reconstruction_3d,0.625,Object Form,Detail,4
+paper_1303,SGAligner: 3D Scene Alignment with Scene Graphs,scene_understanding,1.000,Prompt Match,Semantic Match,4
+paper_1304,ScatterNeRF: Seeing Through Fog with Physically-Based Inverse Neural Rendering,reconstruction_3d,0.900,Image Appearance,Contrast,4
+paper_1325,Spectral Graphormer: Spectral Graph-Based Transformer for Egocentric Two-Hand Reconstruction using Multi-View Color Images,hand_centric,1.000,Object Form,Anatomy,4
+paper_1325,Spectral Graphormer: Spectral Graph-Based Transformer for Egocentric Two-Hand Reconstruction using Multi-View Color Images,hand_centric,1.000,Object Form,Detail,4
+paper_1325,Spectral Graphormer: Spectral Graph-Based Transformer for Egocentric Two-Hand Reconstruction using Multi-View Color Images,hand_centric,1.000,Object Form,Pose,4
+paper_1327,Stochastic Segmentation with Conditional Categorical Diffusion Models,segmentation_detection,1.000,Image Appearance,Realism,4
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,neural_radiance_field,0.882,Image Appearance,Blur,4
+paper_1332,StyleDiffusion: Controllable Disentangled Style Transfer via Diffusion Models,generative_2d,0.950,Relation,Attribute Binding,4
+paper_1333,CaPhy: Capturing Physical Properties for Animatable Human Avatars,human_avatar,1.000,Reference Fidelity,Reconstruction Fidelity,4
+paper_1344,TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models,generative_2d,1.000,Object Form,Texture,4
+paper_0007,A Dynamic Multi-Scale Voxel Flow Network for Video Prediction,motion_generation,1.000,Reference Fidelity,Geometry Fidelity,3
+paper_0010,ACL-SPC: Adaptive Closed-Loop System for Self-Supervised Point Cloud Completion,point_cloud_analysis,0.729,Object Form,Completeness,3
+paper_0010,ACL-SPC: Adaptive Closed-Loop System for Self-Supervised Point Cloud Completion,point_cloud_analysis,0.729,Reference Fidelity,Reconstruction Fidelity,3
+paper_0012,3DAvatarGAN: Bridging Domains for Personalized Editable Avatars,face_centric,0.545,Object Form,Texture,3
+paper_0015,AligNeRF: High-Fidelity Neural Radiance Fields via Alignment-Aware Training,neural_radiance_field,0.901,Reference Fidelity,Reconstruction Fidelity,3
+paper_0016,Ambiguous Medical Image Segmentation Using Diffusion Models,segmentation_detection,1.000,Object Form,Completeness,3
+paper_0019,BAAM: Monocular 3D Pose and Shape Reconstruction With Bi-Contextual Attention Module and Attention-Guided Modeling,reconstruction_3d,0.850,Object Form,Pose,3
+paper_0020,AnchorFormer: Point Cloud Completion From Discriminative Nodes,point_cloud_analysis,0.646,Object Form,Detail,3
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,point_cloud_analysis,1.000,Reference Fidelity,Segmentation Fidelity,3
+paper_0042,Hand Avatar: Free-Pose Hand Animation and Rendering From Monocular Video,hand_centric,0.714,Image Appearance,Lighting,3
+paper_0058,Continuous Pseudo-Label Rectified Domain Adaptive Semantic Segmentation With Implicit Neural Representations,segmentation_detection,1.000,Object Form,Boundary,3
+paper_0058,Continuous Pseudo-Label Rectified Domain Adaptive Semantic Segmentation With Implicit Neural Representations,segmentation_detection,1.000,Object Form,Segmentation,3
+paper_0066,DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields,neural_radiance_field,0.795,Image Appearance,Global Artifact,3
+paper_0069,DP-NeRF: Deblurred Neural Radiance Field With Physical Scene Priors,neural_radiance_field,0.871,Reference Fidelity,Reconstruction Fidelity,3
+paper_0071,Deep Graph-Based Spatial Consistency for Robust Non-Rigid Point Cloud Registration,point_cloud_analysis,1.000,Scene Layout,Composition,3
+paper_0074,Depth Estimation From Indoor Panoramas With Neural Scene Representation,depth_estimation,0.553,Object Form,Completeness,3
+paper_0077,Diffusion-Based Signed Distance Fields for 3D Shape Generation,reconstruction_3d,0.533,Object Form,Shape,3
+paper_0079,PLA: Language-Driven Open-Vocabulary 3D Scene Understanding,scene_understanding,1.000,Prompt Match,Semantic Match,3
+paper_0080,DisCoScene: Spatially Disentangled Generative Radiance Fields for Controllable 3D-Aware Scene Synthesis,neural_radiance_field,0.789,Object Form,Shape,3
+paper_0085,ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields,slam_localization,0.802,Reference Fidelity,Landmark Fidelity,3
+paper_0088,Efficient View Synthesis and 3D-Based Multi-Frame Denoising With Multiplane Feature Representations,novel_view_synthesis,0.917,Object Form,Detail,3
+paper_0089,Enhanced Stable View Synthesis,novel_view_synthesis,0.571,Sidecar / Rejected,Sidecar / Rejected,3
+paper_0090,EditableNeRF: Editing Topologically Varying Neural Radiance Fields by Key Points,neural_radiance_field,0.758,Image Appearance,Global Artifact,3
+paper_0092,Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields,neural_radiance_field,1.000,Image Appearance,Noise,3
+paper_0098,Flow Supervision for Deformable NeRF,neural_radiance_field,0.729,Object Form,Detail,3
+paper_0106,The ObjectFolder Benchmark: Multisensory Learning With Neural and Real Objects,reconstruction_3d,0.850,Prompt Match,Semantic Match,3
+paper_0113,Grid-Guided Neural Radiance Fields for Large Urban Scenes,neural_radiance_field,0.964,Image Appearance,Noise,3
+paper_0113,Grid-Guided Neural Radiance Fields for Large Urban Scenes,neural_radiance_field,0.964,Image Appearance,Realism,3
+paper_0117,Knowledge Distillation for 6D Pose Estimation by Aligning Distributions of Local Predictions,other,0.000,Reference Fidelity,Landmark Fidelity,3
+paper_0126,High-Fidelity 3D GAN Inversion by Pseudo-Multi-View Optimization,generative_3d,0.950,Reference Fidelity,Reconstruction Fidelity,3
+paper_0140,Im2Hands: Learning Attentive Implicit Representation of Interacting Two-Hand Shapes,hand_centric,1.000,Object Form,Detail,3
+paper_0140,Im2Hands: Learning Attentive Implicit Representation of Interacting Two-Hand Shapes,hand_centric,1.000,Relation,Interaction,3
+paper_0141,Neural Voting Field for Camera-Space 3D Hand Pose Estimation,hand_centric,1.000,Object Form,Surface,3
+paper_0143,Implicit Diffusion Models for Continuous Super-Resolution,image_restoration,1.000,Reference Fidelity,Identity Preservation,3
+paper_0144,Implicit Neural Head Synthesis via Controllable Local Deformation Fields,face_centric,0.545,Object Form,Shape,3
+paper_0145,Improving Graph Representation for Point Cloud Segmentation via Attentive Filtering,point_cloud_analysis,0.590,Object Form,Boundary,3
+paper_0146,Instant Multi-View Head Capture Through Learnable Registration,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0148,Inversion-Based Style Transfer With Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,3
+paper_0152,Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline,segmentation_detection,1.000,Object Form,Boundary,3
+paper_0154,Ultra-High Resolution Segmentation With Ultra-Rich Context: A Novel Benchmark,segmentation_detection,0.950,Object Form,Boundary,3
+paper_0163,Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures,neural_radiance_field,0.714,Prompt Match,Semantic Match,3
+paper_0170,Learning Human-to-Robot Handovers From Point Clouds,point_cloud_analysis,1.000,Sidecar / Rejected,Sidecar / Rejected,3
+paper_0177,TTA-COPE: Test-Time Adaptation for Category-Level Object Pose Estimation,other,0.850,Prompt Match,Semantic Match,3
+paper_0177,TTA-COPE: Test-Time Adaptation for Category-Level Object Pose Estimation,other,0.850,Reference Fidelity,Reconstruction Fidelity,3
+paper_0178,Human Pose Estimation in Extremely Low-Light Conditions,human_pose_mesh,1.000,Reference Fidelity,Landmark Fidelity,3
+paper_0180,EFEM: Equivariant Neural Field Expectation Maximization for 3D Object Segmentation Without Scene Supervision,segmentation_detection,0.950,Reference Fidelity,Segmentation Fidelity,3
+paper_0183,AShapeFormer: Semantics-Guided Object-Level Active Shape Encoding for 3D Object Detection via Transformers,segmentation_detection,0.913,Prompt Match,Object Presence,3
+paper_0196,Delving Into Discrete Normalizing Flows on SO(3) Manifold for Probabilistic Rotation Modeling,other,0.900,Relation,Correspondence,3
+paper_0198,FAC: 3D Representation Learning via Foreground Aware Feature Contrast,point_cloud_analysis,0.950,Relation,Spatial Relation,3
+paper_0215,MixNeRF: Modeling a Ray With Mixture Density for Novel View Synthesis From Sparse Inputs,novel_view_synthesis,0.707,Reference Fidelity,Geometry Fidelity,3
+paper_0221,Multi-Sensor Large-Scale Dataset for Multi-View 3D Reconstruction,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0228,Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis,novel_view_synthesis,0.608,Image Appearance,Lighting,3
+paper_0228,Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis,novel_view_synthesis,0.608,Object Form,Detail,3
+paper_0229,NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction From Multi-View Images,neural_radiance_field,1.000,Object Form,Completeness,3
+paper_0235,NeRDi: Single-View NeRF Synthesis With Language-Guided Diffusion As General Image Priors,neural_radiance_field,0.703,Image Appearance,Blur,3
+paper_0239,NeRF-Supervised Deep Stereo,neural_radiance_field,1.000,Object Form,Detail,3
+paper_0242,NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds,neural_radiance_field,0.726,Image Appearance,Global Artifact,3
+paper_0245,NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction,reconstruction_3d,1.000,Image Appearance,Realism,3
+paper_0255,NeuralUDF: Learning Unsigned Distance Fields for Multi-View Reconstruction of Surfaces With Arbitrary Topologies,reconstruction_3d,0.610,Object Form,Surface,3
+paper_0263,OmniCity: Omnipotent City Understanding With Multi-Level and Multi-View Images,scene_understanding,0.900,Reference Fidelity,Segmentation Fidelity,3
+paper_0264,AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation,hand_centric,1.000,Reference Fidelity,Geometry Fidelity,3
+paper_0267,One-Shot High-Fidelity Talking-Head Synthesis With Deformable Neural Radiance Field,neural_radiance_field,0.771,Reference Fidelity,Identity Preservation,3
+paper_0274,Paint by Example: Exemplar-Based Image Editing With Diffusion Models,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0279,PartSLIP: Low-Shot Part Segmentation for 3D Point Clouds via Pretrained Image-Language Models,point_cloud_analysis,0.609,Prompt Match,Semantic Match,3
+paper_0280,Parts2Words: Learning Joint Embedding of Point Clouds and Texts by Bidirectional Matching Between Parts and Words,point_cloud_analysis,1.000,Prompt Match,Semantic Match,3
+paper_0282,OpenScene: 3D Scene Understanding With Open Vocabularies,scene_understanding,0.609,Object Form,Segmentation,3
+paper_0283,Person Image Synthesis via Denoising Diffusion Model,generative_2d,1.000,Image Appearance,Realism,3
+paper_0284,PersonNeRF: Personalized Reconstruction From Photo Collections,novel_view_synthesis,1.000,Scene Layout,View,3
+paper_0285,Object Pop-Up: Can We Infer 3D Objects and Their Poses From Human Interactions Alone?,point_cloud_analysis,1.000,Prompt Match,Semantic Match,3
+paper_0286,Physics-Driven Diffusion Models for Impact Sound Synthesis From Videos,other,0.900,Image Appearance,Noise,3
+paper_0289,PlaneDepth: Self-Supervised Depth Estimation via Orthogonal Planes,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0290,Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting,point_cloud_analysis,1.000,Image Appearance,Blur,3
+paper_0293,Pointersect: Neural Rendering With Cloud-Ray Intersection,point_cloud_analysis,1.000,Object Form,Completeness,3
+paper_0299,ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects,novel_view_synthesis,0.602,Image Appearance,Lighting,3
+paper_0300,ProxyFormer: Proxy Alignment Assisted Point Cloud Completion With Missing Part Sensitive Transformer,point_cloud_analysis,0.725,Object Form,Surface,3
+paper_0314,SE-ORNet: Self-Ensembling Orientation-Aware Network for Unsupervised Point Cloud Shape Correspondence,point_cloud_analysis,1.000,Relation,Correspondence,3
+paper_0322,SeaThru-NeRF: Neural Radiance Fields in Scattering Media,neural_radiance_field,1.000,Object Form,Completeness,3
+paper_0326,Self-Supervised Super-Plane for Neural 3D Reconstruction,reconstruction_3d,1.000,Object Form,Segmentation,3
+paper_0337,X-Avatar: Expressive Human Avatars,human_avatar,0.707,Object Form,Anatomy,3
+paper_0364,Temporally Consistent Online Depth Estimation Using Point-Based Fusion,depth_estimation,0.750,Scene Layout,Spatial Distribution,3
+paper_0369,Towards Unbiased Volume Rendering of Neural Implicit Surfaces With Geometry Priors,reconstruction_3d,1.000,Object Form,Texture,3
+paper_0377,UV Volumes for Real-Time Rendering of Editable Free-View Human Performance,novel_view_synthesis,0.634,Object Form,Detail,3
+paper_0382,Unsupervised Continual Semantic Adaptation Through Neural Rendering,neural_radiance_field,0.625,Reference Fidelity,Geometry Fidelity,3
+paper_0388,VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models,generative_2d,0.600,Prompt Match,Semantic Match,3
+paper_0414,VectorFloorSeg: Two-Stream Graph Attention Network for Vectorized Roughcast Floorplan Segmentation,segmentation_detection,1.000,Image Appearance,Global Artifact,3
+paper_0463,Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion,depth_estimation,0.590,Image Appearance,Lighting,3
+paper_0475,Behind the Veil: Enhanced Indoor 3D Scene Reconstruction with Occluded Surfaces Completion,reconstruction_3d,1.000,Object Form,Completeness,3
+paper_0497,Morphable Diffusion: 3D-Consistent Diffusion for Single-image Avatar Creation,human_avatar,0.950,Relation,Correspondence,3
+paper_0498,SecondPose: SE(3)-Consistent Dual-Stream Feature Fusion for Category-Level Pose Estimation,tracking,0.850,Sidecar / Rejected,Sidecar / Rejected,3
+paper_0505,Compact 3D Gaussian Representation for Radiance Field,gaussian_splatting,0.623,Reference Fidelity,Reconstruction Fidelity,3
+paper_0521,DEADiff: An Efficient Stylization Diffusion Model with Disentangled Representations,generative_2d,1.000,Reference Fidelity,Style Fidelity,3
+paper_0543,Depth Prompting for Sensor-Agnostic Depth Estimation,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0544,DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis,novel_view_synthesis,1.000,Reference Fidelity,Identity Preservation,3
+paper_0548,Diffusion Model Alignment Using Direct Preference Optimization,generative_2d,1.000,Object Form,Anatomy,3
+paper_0560,Draw Step by Step: Reconstructing CAD Construction Sequences from Point Clouds via Multimodal Diffusion.,point_cloud_analysis,1.000,Object Form,Detail,3
+paper_0565,DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes,gaussian_splatting,0.957,Relation,Correspondence,3
+paper_0581,Entangled View-Epipolar Information Aggregation for Generalizable Neural Radiance Fields,neural_radiance_field,0.956,Object Form,Texture,3
+paper_0602,G-NeRF: Geometry-enhanced Novel View Synthesis from Single-View Images,novel_view_synthesis,0.535,Object Form,Shape,3
+paper_0607,GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis,novel_view_synthesis,0.495,Object Form,Texture,3
+paper_0610,GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation,generative_3d,1.000,Prompt Match,Semantic Match,3
+paper_0625,LPSNet: End-to-End Human Pose and Shape Estimation with Lensless Imaging,human_pose_mesh,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0626,Gear-NeRF: Free-Viewpoint Rendering and Tracking with Motion-aware Spatio-Temporal Sampling,neural_radiance_field,0.714,Object Form,Detail,3
+paper_0632,GeoAuxNet: Towards Universal 3D Representation Learning for Multi-sensor Point Clouds,point_cloud_analysis,0.870,Object Form,Detail,3
+paper_0643,MoMask: Generative Masked Modeling of 3D Human Motions,motion_generation,1.000,Prompt Match,Action Match,3
+paper_0651,HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D,generative_3d,0.909,Object Form,Completeness,3
+paper_0651,HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D,generative_3d,0.909,Relation,Correspondence,3
+paper_0669,ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization,neural_radiance_field,0.630,Prompt Match,Semantic Match,3
+paper_0673,Image Neural Field Diffusion Models,generative_2d,0.593,Object Form,Texture,3
+paper_0695,Know Your Neighbors: Improving Single-View Reconstruction via Spatial Vision-Language Reasoning,reconstruction_3d,0.800,Object Form,Shape,3
+paper_0695,Know Your Neighbors: Improving Single-View Reconstruction via Spatial Vision-Language Reasoning,reconstruction_3d,0.800,Reference Fidelity,Geometry Fidelity,3
+paper_0707,Learning Intra-view and Cross-view Geometric Knowledge for Stereo Matching,optical_flow_stereo,1.000,Object Form,Surface,3
+paper_0711,LiDAR-Net: A Real-scanned 3D Point Cloud Dataset for Indoor Scenes,point_cloud_analysis,1.000,Reference Fidelity,Segmentation Fidelity,3
+paper_0714,BEVNeXt: Reviving Dense BEV Frameworks for 3D Object Detection,segmentation_detection,0.875,Object Form,Boundary,3
+paper_0715,HyperSDFusion: Bridging Hierarchical Structures in Language and Geometry for Enhanced 3D Text2Shape Generation,generative_3d,1.000,Prompt Match,Semantic Match,3
+paper_0737,MACE: Mass Concept Erasure in Diffusion Models,generative_2d,1.000,Relation,Correspondence,3
+paper_0759,Mip-Splatting: Alias-free 3D Gaussian Splatting,gaussian_splatting,0.857,Image Appearance,Global Artifact,3
+paper_0771,MuRF: Multi-Baseline Radiance Fields,neural_radiance_field,0.714,Scene Layout,Camera Geometry,3
+paper_0781,NViST: In the Wild New View Synthesis from a Single Image with Transformers,novel_view_synthesis,0.900,Object Form,Boundary,3
+paper_0786,NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation,neural_radiance_field,0.787,Object Form,Segmentation,3
+paper_0788,NeRFCodec: Neural Feature Compression Meets Neural Radiance Fields for Memory-Efficient Scene Representation,neural_radiance_field,0.785,Object Form,Surface,3
+paper_0803,OmniLocalRF: Omnidirectional Local Radiance Fields from Dynamic Videos,neural_radiance_field,0.600,Object Form,Boundary,3
+paper_0806,One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion,generative_3d,0.938,Object Form,Texture,3
+paper_0814,PLGSLAM: Progressive Neural Scene Represenation with Local to Global Bundle Adjustment,slam_localization,0.600,Reference Fidelity,Reconstruction Fidelity,3
+paper_0830,"Prompt-Free Diffusion: Taking ""Text"" out of Text-to-Image Diffusion Models",generative_2d,1.000,Image Appearance,Style,3
+paper_0832,Polarization Wavefront Lidar: Learning Large Scene Reconstruction from Polarized Wavefronts,reconstruction_3d,0.950,Object Form,Detail,3
+paper_0839,Relation Rectification in Diffusion Model,generative_2d,0.900,Relation,Spatial Relation,3
+paper_0841,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,depth_estimation,0.915,Object Form,Surface,3
+paper_0841,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,depth_estimation,0.915,Prompt Match,Semantic Match,3
+paper_0849,SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes,gaussian_splatting,0.657,Prompt Match,Action Match,3
+paper_0870,Shadow Generation for Composite Image Using Diffusion Model,generative_2d,0.950,Image Appearance,Realism,3
+paper_0870,Shadow Generation for Composite Image Using Diffusion Model,generative_2d,0.950,Object Form,Shape,3
+paper_0883,SpecNeRF: Gaussian Directional Encoding for Specular Reflections,novel_view_synthesis,0.722,Reference Fidelity,Reconstruction Fidelity,3
+paper_0887,SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting,gaussian_splatting,0.892,Image Appearance,Realism,3
+paper_0901,TIGER: Time-Varying Denoising Model for 3D Point Cloud Generation with Diffusion Process,point_cloud_analysis,1.000,Object Form,Detail,3
+paper_0904,Taming Mode Collapse in Score Distillation for Text-to-3D Generation,generative_3d,1.000,Object Form,Shape,3
+paper_0914,Texture-Preserving Diffusion Models for High-Fidelity Virtual Try-On,generative_2d,1.000,Object Form,Texture,3
+paper_0916,Towards Effective Usage of Human-Centric Priors in Diffusion Models for Text-based Human Image Generation,generative_2d,1.000,Object Form,Anatomy,3
+paper_0919,Towards Memorization-Free Diffusion Models,generative_2d,1.000,Image Appearance,Global Artifact,3
+paper_0921,Towards Realistic Scene Generation with LiDAR Diffusion Models,generative_2d,1.000,Object Form,Shape,3
+paper_0925,UFORecon: Generalizable Sparse-View Surface Reconstruction from Arbitrary and Unfavorable Sets,reconstruction_3d,1.000,Object Form,Shape,3
+paper_0929,UniDepth: Universal Monocular Metric Depth Estimation,depth_estimation,0.913,Reference Fidelity,Reconstruction Fidelity,3
+paper_0930,Unsigned Orthogonal Distance Fields: An Accurate Neural Implicit Representation for Diverse 3D Shapes,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_0931,UnionFormer: Unified-Learning Transformer with Multi-View Representation for Image Manipulation Detection and Localization,generative_2d,1.000,Relation,Spatial Relation,3
+paper_0932,Unsupervised Keypoints from Pretrained Diffusion Models,generative_2d,1.000,Object Form,Detail,3
+paper_0933,Unsupervised Gaze Representation Learning from Multi-view Face Images,face_centric,0.900,Relation,Correspondence,3
+paper_0934,Unsupervised Template-assisted Point Cloud Shape Correspondence Network,point_cloud_analysis,1.000,Relation,Correspondence,3
+paper_0942,ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models,novel_view_synthesis,0.932,Reference Fidelity,Reconstruction Fidelity,3
+paper_0942,ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models,novel_view_synthesis,0.932,Relation,Spatial Relation,3
+paper_0946,ViewFusion: Towards Multi-View Consistency via Interpolated Denoising,novel_view_synthesis,0.902,Object Form,Surface,3
+paper_0950,WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models,generative_2d,1.000,Image Appearance,Realism,3
+paper_0951,3D Face Reconstruction with the Geometric Guidance of Facial Part Segmentation,face_centric,1.000,Reference Fidelity,Landmark Fidelity,3
+paper_0953,FreeMan: Towards Benchmarking 3D Human Pose Estimation under Real-World Conditions,human_pose_mesh,1.000,Prompt Match,Semantic Match,3
+paper_0958,Object Pose Estimation via the Aggregation of Diffusion Features,scene_understanding,1.000,Prompt Match,Semantic Match,3
+paper_0962,FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects,novel_view_synthesis,1.000,Relation,Correspondence,3
+paper_0963,Weakly Supervised Point Cloud Semantic Segmentation via Artificial Oracle,segmentation_detection,0.562,Reference Fidelity,Segmentation Fidelity,3
+paper_0966,Wonder3D: Single Image to 3D using Cross-Domain Diffusion,generative_3d,1.000,Object Form,Completeness,3
+paper_0971,XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies,generative_3d,0.857,Object Form,Detail,3
+paper_0974,RGBD Objects in the Wild: Scaling Real-World 3D Object Learning from RGB-D Videos,novel_view_synthesis,0.486,Reference Fidelity,Geometry Fidelity,3
+paper_0978,3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features,segmentation_detection,0.508,Relation,Spatial Relation,3
+paper_0979,UVEB: A Large-scale Benchmark and Baseline Towards Real-World Underwater Video Enhancement,image_restoration,0.950,Image Appearance,Color,3
+paper_0982,Memory-based Adapters for Online 3D Scene Perception,segmentation_detection,0.818,Reference Fidelity,Mask Fidelity,3
+paper_0984,ScoreHypo: Probabilistic Human Mesh Estimation with Hypothesis Scoring,human_pose_mesh,1.000,Object Form,Pose,3
+paper_1002,Prompt3D: Random Prompt Assisted Weakly-Supervised 3D Object Detection,segmentation_detection,0.840,Reference Fidelity,Geometry Fidelity,3
+paper_1014,pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction,gaussian_splatting,0.457,Image Appearance,Blur,3
+paper_1047,CL-MVSNet: Unsupervised Multi-View Stereo with Dual-Level Contrastive Learning,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_1080,Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement,neural_radiance_field,0.580,Object Form,Detail,3
+paper_1083,Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model,image_restoration,0.781,Object Form,Texture,3
+paper_1087,DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models,human_pose_mesh,1.000,Object Form,Anatomy,3
+paper_1089,DiffPose: SpatioTemporal Diffusion Model for Video-Based Human Pose Estimation,human_pose_mesh,0.795,Object Form,Pose,3
+paper_1092,DiffusionRet: Generative Text-Video Retrieval with Diffusion Model,other,0.900,Prompt Match,Semantic Match,3
+paper_1094,Divide and Conquer: 3D Point Cloud Instance Segmentation With Point-Wise Binarization,segmentation_detection,0.545,Object Form,Segmentation,3
+paper_1098,DreamBooth3D: Subject-Driven Text-to-3D Generation,generative_3d,0.800,Prompt Match,Attribute Match,3
+paper_1099,Dynamic Mesh Recovery from Partial Point Cloud Sequence,point_cloud_analysis,0.643,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1102,E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images,neural_radiance_field,0.888,Image Appearance,Global Artifact,3
+paper_1108,Enhancing NeRF akin to Enhancing LLMs: Generalizable NeRF Transformer with Mixture-of-View-Experts,neural_radiance_field,0.733,Object Form,Detail,3
+paper_1114,Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation,generative_3d,1.000,Prompt Match,Semantic Match,3
+paper_1121,FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model,generative_2d,1.000,Prompt Match,Attribute Match,3
+paper_1127,GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds,point_cloud_analysis,0.516,Scene Layout,Spatial Distribution,3
+paper_1128,GaPro: Box-Supervised 3D Point Cloud Instance Segmentation Using Gaussian Processes as Pseudo Labelers,segmentation_detection,0.568,Reference Fidelity,Mask Fidelity,3
+paper_1131,Generative Multiplane Neural Radiance for 3D-Aware Image Generation,generative_2d,1.000,Image Appearance,Global Artifact,3
+paper_1132,Generative Novel View Synthesis with 3D-Aware Diffusion Models,novel_view_synthesis,1.000,Scene Layout,Occlusion Layout,3
+paper_1134,Geometry-guided Feature Learning and Fusion for Indoor Scene Reconstruction,segmentation_detection,0.500,Object Form,Surface,3
+paper_1141,HairNeRF: Geometry-Aware Image Synthesis for Hairstyle Transfer,generative_2d,1.000,Object Form,Detail,3
+paper_1141,HairNeRF: Geometry-Aware Image Synthesis for Hairstyle Transfer,generative_2d,1.000,Object Form,Shape,3
+paper_1148,HollowNeRF: Pruning Hashgrid-Based NeRFs with Trainable Collision Mitigation,neural_radiance_field,1.000,Image Appearance,Realism,3
+paper_1149,HoloFusion: Towards Photo-realistic 3D Generative Modeling,generative_3d,0.692,Image Appearance,Global Artifact,3
+paper_1152,LVOS: A Benchmark for Long-term Video Object Segmentation,segmentation_detection,1.000,Relation,Correspondence,3
+paper_1156,ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization,neural_radiance_field,0.833,Relation,Spatial Relation,3
+paper_1157,ImGeoNet: Image-induced Geometry-aware Voxel Representation for Multi-view 3D Object Detection,segmentation_detection,0.950,Object Form,Completeness,3
+paper_1172,Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models,generative_3d,0.950,Image Appearance,Realism,3
+paper_1174,Predict to Detect: Prediction-guided 3D Object Detection using Sequential Images,segmentation_detection,0.909,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1186,Collecting The Puzzle Pieces: Disentangled Self-Driven Human Pose Transfer by Permuting Textures,tracking,1.000,Object Form,Texture,3
+paper_1187,Learning from Semantic Alignment between Unpaired Multiviews for Egocentric Video Recognition,scene_understanding,0.850,Relation,Correspondence,3
+paper_1190,RenderIH: A Large-Scale Synthetic Dataset for 3D Interacting Hand Pose Estimation,hand_centric,1.000,Reference Fidelity,Geometry Fidelity,3
+paper_1191,Representation Disparity-aware Distillation for 3D Object Detection,segmentation_detection,0.714,Object Form,Boundary,3
+paper_1193,Learning Non-Local Spatial-Angular Correlation for Light Field Image Super-Resolution,image_restoration,0.938,Object Form,Detail,3
+paper_1198,Learning Clothing and Pose Invariant 3D Shape Representation for Long-Term Person Re-Identification,tracking,1.000,Object Form,Completeness,3
+paper_1202,LivePose: Online 3D Reconstruction from Monocular Video with Dynamic Camera Poses,reconstruction_3d,0.522,Scene Layout,Composition,3
+paper_1203,LoLep: Single-View View Synthesis with Locally-Learned Planes and Self-Attention Occlusion Inference,novel_view_synthesis,0.765,Object Form,Shape,3
+paper_1204,Localizing Object-Level Shape Variations with Text-to-Image Diffusion Models,generative_2d,1.000,Object Form,Shape,3
+paper_1204,Localizing Object-Level Shape Variations with Text-to-Image Diffusion Models,generative_2d,1.000,Reference Fidelity,Background Preservation,3
+paper_1205,Locally Stylized Neural Radiance Fields,neural_radiance_field,0.814,Object Form,Texture,3
+paper_1206,Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models,novel_view_synthesis,1.000,Prompt Match,Semantic Match,3
+paper_1208,MUVA: A New Large-Scale Benchmark for Multi-View Amodal Instance Segmentation in the Shopping Scenario,segmentation_detection,1.000,Relation,Correspondence,3
+paper_1209,MAMo: Leveraging Memory and Attention for Monocular Video Depth Estimation,depth_estimation,1.000,Object Form,Detail,3
+paper_1209,MAMo: Leveraging Memory and Attention for Monocular Video Depth Estimation,depth_estimation,1.000,Prompt Match,Semantic Match,3
+paper_1213,MV-Map: Offboard HD-Map Generation with Multi-view Consistency,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_1221,Mixed Neural Voxels for Fast Multi-view Video Synthesis,novel_view_synthesis,1.000,Object Form,Detail,3
+paper_1229,Monocular 3D Object Detection with Bounding Box Denoising in 3D by Perceiver,segmentation_detection,1.000,Relation,Correspondence,3
+paper_1230,Multi-view Spectral Polarization Propagation for Video Glass Segmentation,segmentation_detection,1.000,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1231,Multi-view Self-supervised Disentanglement for General Image Denoising,image_restoration,1.000,Reference Fidelity,Reconstruction Fidelity,3
+paper_1238,NeO 360: Neural Fields for Sparse View Synthesis of Outdoor Scenes,novel_view_synthesis,0.800,Prompt Match,Action Match,3
+paper_1240,NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection,neural_radiance_field,0.491,Prompt Match,Action Match,3
+paper_1240,NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection,neural_radiance_field,0.491,Reference Fidelity,Reconstruction Fidelity,3
+paper_1240,NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection,neural_radiance_field,0.491,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1241,NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping,neural_radiance_field,0.889,Object Form,Completeness,3
+paper_1242,NeRF-MS: Neural Radiance Fields with Multi-Sequence,neural_radiance_field,0.822,Reference Fidelity,Geometry Fidelity,3
+paper_1244,NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction,reconstruction_3d,1.000,Object Form,Detail,3
+paper_1244,NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction,reconstruction_3d,1.000,Object Form,Shape,3
+paper_1250,ObjectSDF++: Improved Object-Compositional Neural Implicit Surfaces,reconstruction_3d,1.000,Object Form,Completeness,3
+paper_1250,ObjectSDF++: Improved Object-Compositional Neural Implicit Surfaces,reconstruction_3d,1.000,Object Form,Detail,3
+paper_1251,Novel-View Synthesis and Pose Estimation for Hand-Object Interaction from Sparse Views,hand_centric,0.950,Object Form,Texture,3
+paper_1253,P2C: Self-Supervised Point Cloud Completion from Single Partial Clouds,point_cloud_analysis,0.747,Object Form,Detail,3
+paper_1261,PhysDiff: Physics-Guided Human Motion Diffusion Model,motion_generation,1.000,Image Appearance,Global Artifact,3
+paper_1265,PointMBF: A Multi-scale Bidirectional Fusion Network for Unsupervised RGB-D Point Cloud Registration,point_cloud_analysis,1.000,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1267,Ponder: Point Cloud Pre-training via Neural Rendering,point_cloud_analysis,0.737,Object Form,Detail,3
+paper_1267,Ponder: Point Cloud Pre-training via Neural Rendering,point_cloud_analysis,0.737,Reference Fidelity,Reconstruction Fidelity,3
+paper_1270,Point-SLAM: Dense Neural Point Cloud-based SLAM,slam_localization,0.828,Object Form,Texture,3
+paper_1271,Probabilistic Triangulation for Uncalibrated Multi-View 3D Human Pose Estimation,human_pose_mesh,0.852,Prompt Match,Semantic Match,3
+paper_1271,Probabilistic Triangulation for Uncalibrated Multi-View 3D Human Pose Estimation,human_pose_mesh,0.852,Relation,Correspondence,3
+paper_1273,ProtoTransfer: Cross-Modal Prototype Transfer for Point Cloud Segmentation,point_cloud_analysis,0.519,Object Form,Boundary,3
+paper_1274,Understanding 3D Object Interaction from a Single Image,hand_centric,1.000,Object Form,Boundary,3
+paper_1274,Understanding 3D Object Interaction from a Single Image,hand_centric,1.000,Object Form,Completeness,3
+paper_1274,Understanding 3D Object Interaction from a Single Image,hand_centric,1.000,Prompt Match,Attribute Match,3
+paper_1275,R3D3: Dense 3D Reconstruction of Dynamic Scenes from Multiple Cameras,reconstruction_3d,0.878,Reference Fidelity,Reconstruction Fidelity,3
+paper_1275,R3D3: Dense 3D Reconstruction of Dynamic Scenes from Multiple Cameras,reconstruction_3d,0.878,Scene Layout,Depth,3
+paper_1276,RPEFlow: Multimodal Fusion of RGB-PointCloud-Event for Joint Optical Flow and Scene Flow Estimation,optical_flow_stereo,0.937,Reference Fidelity,Reconstruction Fidelity,3
+paper_1289,Replay: Multi-modal Multi-view Acted Videos for Casual Holography,novel_view_synthesis,0.636,Scene Layout,View,3
+paper_1293,SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection,segmentation_detection,0.553,Reference Fidelity,Mask Fidelity,3
+paper_1294,SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image,novel_view_synthesis,1.000,Image Appearance,Blur,3
+paper_1296,"SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data",point_cloud_analysis,0.800,Relation,Correspondence,3
+paper_1299,SVDFormer: Complementing Point Cloud via Self-view Augmentation and Self-structure Dual-generator,point_cloud_analysis,0.754,Object Form,Boundary,3
+paper_1299,SVDFormer: Complementing Point Cloud via Self-view Augmentation and Self-structure Dual-generator,point_cloud_analysis,0.754,Object Form,Surface,3
+paper_1304,ScatterNeRF: Seeing Through Fog with Physically-Based Inverse Neural Rendering,reconstruction_3d,0.900,Object Form,Detail,3
+paper_1308,Seal-3D: Interactive Pixel-Level Editing for Neural Radiance Fields,neural_radiance_field,1.000,Image Appearance,Lighting,3
+paper_1312,Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation,human_pose_mesh,1.000,Relation,Correspondence,3
+paper_1313,Self-Supervised Monocular Depth Estimation by Direction-aware Cumulative Convolution Network,depth_estimation,1.000,Object Form,Surface,3
+paper_1314,PhaseMP: Robust 3D Pose Estimation via Phase-conditioned Human Motion Prior,motion_generation,1.000,Sidecar / Rejected,Sidecar / Rejected,3
+paper_1316,DPF-Net: Combining Explicit Shape Priors in Deformable Primitive Field for Unsupervised Structural Reconstruction of 3D Objects,reconstruction_3d,0.950,Object Form,Shape,3
+paper_1316,DPF-Net: Combining Explicit Shape Priors in Deformable Primitive Field for Unsupervised Structural Reconstruction of 3D Objects,reconstruction_3d,0.950,Reference Fidelity,Geometry Fidelity,3
+paper_1319,Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction,generative_3d,0.950,Image Appearance,Texture,3
+paper_1321,SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments,depth_estimation,1.000,Object Form,Boundary,3
+paper_1327,Stochastic Segmentation with Conditional Categorical Diffusion Models,segmentation_detection,1.000,Reference Fidelity,Segmentation Fidelity,3
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,neural_radiance_field,0.882,Image Appearance,Global Artifact,3
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,neural_radiance_field,0.882,Object Form,Detail,3
+paper_1331,Structure-Aware Surface Reconstruction via Primitive Assembly,point_cloud_analysis,1.000,Object Form,Shape,3
+paper_1337,DINAR: Diffusion Inpainting of Neural Textures for One-Shot Human Avatars,human_avatar,0.950,Object Form,Completeness,3
+paper_0002,3D Neural Field Generation Using Triplane Diffusion,generative_3d,0.829,Object Form,Detail,2
+paper_0003,3D Concept Learning and Reasoning From Multi-View Images,scene_understanding,1.000,Prompt Match,Semantic Match,2
+paper_0006,3D-Aware Multi-Class Image-to-Image Translation With NeRFs,generative_3d,0.950,Image Appearance,Realism,2
+paper_0012,3DAvatarGAN: Bridging Domains for Personalized Editable Avatars,face_centric,0.545,Prompt Match,Semantic Match,2
+paper_0013,Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo,reconstruction_3d,1.000,Prompt Match,Semantic Match,2
+paper_0014,Adversarially Masking Synthetic To Mimic Real: Adaptive Noise Injection for Point Cloud Segmentation Adaptation,segmentation_detection,0.500,Reference Fidelity,Segmentation Fidelity,2
+paper_0016,Ambiguous Medical Image Segmentation Using Diffusion Models,segmentation_detection,1.000,Prompt Match,Semantic Match,2
+paper_0018,Avatars Grow Legs: Generating Smooth Human Motion From Sparse Tracking Inputs With Diffusion Model,motion_generation,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_0018,Avatars Grow Legs: Generating Smooth Human Motion From Sparse Tracking Inputs With Diffusion Model,motion_generation,1.000,Relation,Spatial Relation,2
+paper_0019,BAAM: Monocular 3D Pose and Shape Reconstruction With Bi-Contextual Attention Module and Attention-Guided Modeling,reconstruction_3d,0.850,Object Form,Completeness,2
+paper_0024,BKinD-3D: Self-Supervised 3D Keypoint Discovery From Multi-View Videos,human_pose_mesh,0.900,Object Form,Attribute Match,2
+paper_0024,BKinD-3D: Self-Supervised 3D Keypoint Discovery From Multi-View Videos,human_pose_mesh,0.900,Reference Fidelity,Landmark Fidelity,2
+paper_0030,Behind the Scenes: Density Fields for Single View Reconstruction,reconstruction_3d,0.511,Object Form,Completeness,2
+paper_0032,"BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration",point_cloud_analysis,1.000,Relation,Correspondence,2
+paper_0033,Omni3D: A Large Benchmark and Model for 3D Object Detection in the Wild,segmentation_detection,1.000,Sidecar / Rejected,Sidecar / Rejected,2
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,point_cloud_analysis,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,point_cloud_analysis,1.000,Relation,Part-Whole Relation,2
+paper_0035,BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects,reconstruction_3d,1.000,Object Form,Completeness,2
+paper_0037,CLIP2: Contrastive Language-Image-Point Pretraining From Real-World Point Cloud Data,point_cloud_analysis,1.000,Prompt Match,Semantic Match,2
+paper_0039,Real-Time Neural Light Field on Mobile Devices,neural_radiance_field,0.698,Image Appearance,Blur,2
+paper_0040,AVFace: Towards Detailed Audio-Visual 4D Face Reconstruction,face_centric,0.872,Object Form,Face,2
+paper_0043,TexPose: Neural Texture Learning for Self-Supervised 6D Object Pose Estimation,novel_view_synthesis,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_0045,BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks,segmentation_detection,1.000,Prompt Match,Object Presence,2
+paper_0046,Seeing With Sound: Long-range Acoustic Beamforming for Multimodal Scene Understanding,segmentation_detection,1.000,Image Appearance,Blur,2
+paper_0050,Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM,slam_localization,1.000,Object Form,Completeness,2
+paper_0052,Compressing Volumetric Radiance Fields to 1 MB,neural_radiance_field,0.711,Reference Fidelity,Reconstruction Fidelity,2
+paper_0055,Conditional Image-to-Video Generation With Latent Flow Diffusion Models,motion_generation,0.538,Object Form,Face,2
+paper_0057,Consistent View Synthesis With Pose-Guided Diffusion Models,novel_view_synthesis,1.000,Object Form,Boundary,2
+paper_0063,CutMIB: Boosting Light Field Super-Resolution via Multi-View Image Blending,image_restoration,0.857,Object Form,Detail,2
+paper_0066,DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields,neural_radiance_field,0.795,Reference Fidelity,Reconstruction Fidelity,2
+paper_0066,DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields,neural_radiance_field,0.795,Relation,Correspondence,2
+paper_0067,DINER: Depth-Aware Image-Based NEural Radiance Fields,neural_radiance_field,0.833,Image Appearance,Realism,2
+paper_0068,DINER: Disorder-Invariant Implicit Neural Representation,reconstruction_3d,0.700,Object Form,Detail,2
+paper_0070,SLOPER4D: A Scene-Aware Dataset for Global 4D Human Pose Estimation in Urban Environments,human_pose_mesh,1.000,Relation,Spatial Relation,2
+paper_0073,Depth Estimation From Camera Image and mmWave Radar Point Cloud,depth_estimation,0.500,Object Form,Shape,2
+paper_0073,Depth Estimation From Camera Image and mmWave Radar Point Cloud,depth_estimation,0.500,Reference Fidelity,Reconstruction Fidelity,2
+paper_0074,Depth Estimation From Indoor Panoramas With Neural Scene Representation,depth_estimation,0.553,Object Form,Boundary,2
+paper_0074,Depth Estimation From Indoor Panoramas With Neural Scene Representation,depth_estimation,0.553,Reference Fidelity,Reconstruction Fidelity,2
+paper_0080,DisCoScene: Spatially Disentangled Generative Radiance Fields for Controllable 3D-Aware Scene Synthesis,neural_radiance_field,0.789,Prompt Match,Semantic Match,2
+paper_0084,DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation,generative_2d,1.000,Reference Fidelity,Identity Preservation,2
+paper_0087,Efficient Hierarchical Entropy Model for Learned Point Cloud Compression,point_cloud_analysis,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0090,EditableNeRF: Editing Topologically Varying Neural Radiance Fields by Key Points,neural_radiance_field,0.758,Prompt Match,Action Match,2
+paper_0091,EventNeRF: Neural Radiance Fields From a Single Colour Event Camera,neural_radiance_field,0.806,Image Appearance,Global Artifact,2
+paper_0092,Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0094,Learning Analytical Posterior Probability for Human Mesh Recovery,human_pose_mesh,0.583,Relation,Correspondence,2
+paper_0095,Fast Monocular Scene Reconstruction With Global-Sparse Local-Dense Grids,reconstruction_3d,1.000,Object Form,Detail,2
+paper_0097,FlexNeRF: Photorealistic Free-Viewpoint Rendering of Moving Humans From Sparse Views,neural_radiance_field,0.889,Object Form,Completeness,2
+paper_0098,Flow Supervision for Deformable NeRF,neural_radiance_field,0.729,Object Form,Surface,2
+paper_0100,FreeNeRF: Improving Few-Shot Neural Rendering With Free Frequency Regularization,neural_radiance_field,0.658,Object Form,Completeness,2
+paper_0100,FreeNeRF: Improving Few-Shot Neural Rendering With Free Frequency Regularization,neural_radiance_field,0.658,Object Form,Detail,2
+paper_0100,FreeNeRF: Improving Few-Shot Neural Rendering With Free Frequency Regularization,neural_radiance_field,0.658,Object Form,Surface,2
+paper_0105,GINA-3D: Learning To Generate Implicit Neural Assets in the Wild,generative_3d,0.545,Object Form,Completeness,2
+paper_0108,GeoMVSNet: Learning Multi-View Stereo With Geometry Perception,reconstruction_3d,0.870,Object Form,Completeness,2
+paper_0112,Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent With Learned Distance Functions,point_cloud_analysis,0.757,Object Form,Surface,2
+paper_0114,Geometry and Uncertainty-Aware 3D Point Cloud Class-Incremental Semantic Segmentation,point_cloud_analysis,0.516,Prompt Match,Semantic Match,2
+paper_0126,High-Fidelity 3D GAN Inversion by Pseudo-Multi-View Optimization,generative_3d,0.950,Reference Fidelity,Edit Preservation,2
+paper_0126,High-Fidelity 3D GAN Inversion by Pseudo-Multi-View Optimization,generative_3d,0.950,Scene Layout,View,2
+paper_0129,HouseDiffusion: Vector Floorplan Generation via a Diffusion Model With Discrete and Continuous Denoising,generative_2d,0.950,Prompt Match,Action Match,2
+paper_0130,Highly Confident Local Structure Based Consensus Graph Learning for Incomplete Multi-View Clustering,segmentation_detection,1.000,Object Form,Shape,2
+paper_0137,I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs,reconstruction_3d,0.950,Image Appearance,Realism,2
+paper_0143,Implicit Diffusion Models for Continuous Super-Resolution,image_restoration,1.000,Object Form,Detail,2
+paper_0147,Interactive Segmentation of Radiance Fields,neural_radiance_field,0.571,Prompt Match,Action Match,2
+paper_0151,JacobiNeRF: NeRF Shaping With Mutual Information Gradients,neural_radiance_field,1.000,Reference Fidelity,Segmentation Fidelity,2
+paper_0155,InstantAvatar: Learning Avatars From Monocular Video in 60 Seconds,neural_radiance_field,0.500,Scene Layout,View,2
+paper_0159,Self-Correctable and Adaptable Inference for Generalizable Human Pose Estimation,human_pose_mesh,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_0165,LayoutDM: Discrete Diffusion Model for Controllable Layout Generation,generative_2d,0.950,Prompt Match,Attribute Match,2
+paper_0165,LayoutDM: Discrete Diffusion Model for Controllable Layout Generation,generative_2d,0.950,Prompt Match,Spatial Instruction,2
+paper_0166,LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation,generative_2d,1.000,Prompt Match,Spatial Instruction,2
+paper_0172,Learning Spatial-Temporal Implicit Neural Representations for Event-Guided Video Super-Resolution,image_restoration,1.000,Object Form,Detail,2
+paper_0173,Learning To Fuse Monocular and Multi-View Cues for Multi-Frame Depth Estimation in Dynamic Scenes,depth_estimation,0.857,Relation,Correspondence,2
+paper_0175,Learning To Render Novel Views From Wide-Baseline Stereo Pairs,novel_view_synthesis,1.000,Scene Layout,View,2
+paper_0176,Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation,optical_flow_stereo,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0181,Level-S$^2$fM: Structure From Motion on Neural Level Set of Implicit Surfaces,reconstruction_3d,0.925,Object Form,Completeness,2
+paper_0182,Less Is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation,segmentation_detection,0.630,Reference Fidelity,Segmentation Fidelity,2
+paper_0183,AShapeFormer: Semantics-Guided Object-Level Active Shape Encoding for 3D Object Detection via Transformers,segmentation_detection,0.913,Reference Fidelity,Landmark Fidelity,2
+paper_0184,DynIBaR: Neural Dynamic Image-Based Rendering,novel_view_synthesis,1.000,Object Form,Segmentation,2
+paper_0187,MEGANE: Morphable Eyeglass and Avatar Network,human_avatar,0.833,Prompt Match,Semantic Match,2
+paper_0191,Lift3D: Synthesize 3D Training Data by Lifting 2D GAN to 3D Generative Radiance Field,generative_3d,0.545,Image Appearance,Realism,2
+paper_0194,ShadowNeuS: Neural SDF Reconstruction by Shadow Ray Supervision,reconstruction_3d,0.471,Object Form,Boundary,2
+paper_0194,ShadowNeuS: Neural SDF Reconstruction by Shadow Ray Supervision,reconstruction_3d,0.471,Object Form,Completeness,2
+paper_0197,A Soma Segmentation Benchmark in Full Adult Fly Brain,segmentation_detection,0.950,Object Form,Boundary,2
+paper_0198,FAC: 3D Representation Learning via Foreground Aware Feature Contrast,point_cloud_analysis,0.950,Relation,Correspondence,2
+paper_0199,Local Implicit Ray Function for Generalizable Radiance Field Representation,neural_radiance_field,0.703,Relation,Correspondence,2
+paper_0200,PoseExaminer: Automated Testing of Out-of-Distribution Robustness in Human Pose and Shape Estimation,human_pose_mesh,0.950,Relation,Correspondence,2
+paper_0204,MV-JAR: Masked Voxel Jigsaw and Reconstruction for LiDAR-Based Self-Supervised Pre-Training,segmentation_detection,1.000,Object Form,Completeness,2
+paper_0205,MVImgNet: A Large-Scale Dataset of Multi-View Images,point_cloud_analysis,1.000,Object Form,Boundary,2
+paper_0205,MVImgNet: A Large-Scale Dataset of Multi-View Images,point_cloud_analysis,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0206,3D Human Mesh Estimation From Virtual Markers,human_pose_mesh,1.000,Object Form,Completeness,2
+paper_0209,MarS3D: A Plug-and-Play Motion-Aware Model for Semantic Segmentation on Multi-Scan 3D Point Clouds,segmentation_detection,0.686,Reference Fidelity,Segmentation Fidelity,2
+paper_0216,MoDAR: Using Motion Forecasting for 3D Object Detection in Point Cloud Sequences,segmentation_detection,0.950,Reference Fidelity,Landmark Fidelity,2
+paper_0226,Multi-View Reconstruction Using Signed Ray Distance Functions (SRDF),reconstruction_3d,0.875,Object Form,Detail,2
+paper_0226,Multi-View Reconstruction Using Signed Ray Distance Functions (SRDF),reconstruction_3d,0.875,Object Form,Shape,2
+paper_0230,Multiview Compressive Coding for 3D Reconstruction,reconstruction_3d,0.682,Object Form,Detail,2
+paper_0231,NULL-Text Inversion for Editing Real Images Using Guided Diffusion Models,generative_2d,1.000,Object Form,Detail,2
+paper_0232,NIRVANA: Neural Implicit Representations of Videos With Adaptive Networks and Autoregressive Patch-Wise Modeling,other,0.850,Reference Fidelity,Reconstruction Fidelity,2
+paper_0234,NeAT: Learning Neural Implicit Surfaces With Arbitrary Topologies From Multi-View Images,reconstruction_3d,1.000,Object Form,Surface,2
+paper_0236,NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects,neural_radiance_field,0.863,Relation,Spatial Relation,2
+paper_0239,NeRF-Supervised Deep Stereo,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0240,NeRFInvertor: High Fidelity NeRF-GAN Inversion for Single-Shot Real Image Animation,neural_radiance_field,0.615,Prompt Match,Action Match,2
+paper_0241,NeRFLight: Fast and Light Neural Radiance Fields Using a Shared Feature Grid,neural_radiance_field,0.942,Object Form,Detail,2
+paper_0242,NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds,neural_radiance_field,0.726,Image Appearance,Blur,2
+paper_0243,NerVE: Neural Volumetric Edges for Parametric Curve Extraction From Point Cloud,point_cloud_analysis,1.000,Object Form,Completeness,2
+paper_0243,NerVE: Neural Volumetric Edges for Parametric Curve Extraction From Point Cloud,point_cloud_analysis,1.000,Object Form,Detail,2
+paper_0244,Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation From 2D Supervision,neural_radiance_field,0.590,Reference Fidelity,Segmentation Fidelity,2
+paper_0245,NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction,reconstruction_3d,1.000,Relation,Correspondence,2
+paper_0246,NeuFace: Realistic 3D Neural Face Rendering From Multi-View Images,face_centric,1.000,Object Form,Completeness,2
+paper_0246,NeuFace: Realistic 3D Neural Face Rendering From Multi-View Images,face_centric,1.000,Object Form,Texture,2
+paper_0247,NeurOCS: Neural NOCS Supervision for Monocular 3D Object Localization,reconstruction_3d,1.000,Object Form,Completeness,2
+paper_0250,Neural Pixel Composition for 3D-4D View Synthesis From Multi-Views,novel_view_synthesis,1.000,Object Form,Detail,2
+paper_0251,Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos,neural_radiance_field,1.000,Image Appearance,Realism,2
+paper_0255,NeuralUDF: Learning Unsigned Distance Fields for Multi-View Reconstruction of Surfaces With Arbitrary Topologies,reconstruction_3d,0.610,Object Form,Completeness,2
+paper_0258,NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior,neural_radiance_field,0.689,Object Form,Detail,2
+paper_0259,ObjectStitch: Object Compositing With Diffusion Model,novel_view_synthesis,1.000,Prompt Match,Semantic Match,2
+paper_0260,Occlusion-Free Scene Recovery via Neural Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0261,Novel Class Discovery for 3D Point Cloud Semantic Segmentation,segmentation_detection,0.571,Object Form,Segmentation,2
+paper_0274,Paint by Example: Exemplar-Based Image Editing With Diffusion Models,generative_2d,1.000,Image Appearance,Global Artifact,2
+paper_0274,Paint by Example: Exemplar-Based Image Editing With Diffusion Models,generative_2d,1.000,Reference Fidelity,Style Fidelity,2
+paper_0276,PaletteNeRF: Palette-Based Appearance Editing of Neural Radiance Fields,neural_radiance_field,0.841,Image Appearance,Realism,2
+paper_0284,PersonNeRF: Personalized Reconstruction From Photo Collections,novel_view_synthesis,1.000,Object Form,Texture,2
+paper_0287,PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection,segmentation_detection,0.545,Prompt Match,Action Match,2
+paper_0291,PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering,neural_radiance_field,0.902,Object Form,Detail,2
+paper_0293,Pointersect: Neural Rendering With Cloud-Ray Intersection,point_cloud_analysis,1.000,Object Form,Surface,2
+paper_0294,Polynomial Implicit Neural Representations for Large Diverse Datasets,generative_2d,0.900,Image Appearance,Realism,2
+paper_0300,ProxyFormer: Proxy Alignment Assisted Point Cloud Completion With Missing Part Sensitive Transformer,point_cloud_analysis,0.725,Object Form,Completeness,2
+paper_0303,Relightable Neural Human Assets From Multi-View Gradient Illuminations,novel_view_synthesis,1.000,Image Appearance,Realism,2
+paper_0303,Relightable Neural Human Assets From Multi-View Gradient Illuminations,novel_view_synthesis,1.000,Object Form,Material,2
+paper_0306,Rethinking the Approximation Error in 3D Surface Fitting for Point Cloud Normal Estimation,point_cloud_analysis,1.000,Object Form,Surface,2
+paper_0312,SCADE: NeRFs from Space Carving With Ambiguity-Aware Depth Estimates,neural_radiance_field,0.714,Object Form,Surface,2
+paper_0312,SCADE: NeRFs from Space Carving With Ambiguity-Aware Depth Estimates,neural_radiance_field,0.714,Prompt Match,Semantic Match,2
+paper_0313,SCPNet: Semantic Scene Completion on Point Cloud,point_cloud_analysis,0.727,Object Form,Completeness,2
+paper_0318,SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting With Neural Radiance Fields,neural_radiance_field,0.840,Object Form,Surface,2
+paper_0323,Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0325,Self-Guided Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,2
+paper_0325,Self-Guided Diffusion Models,generative_2d,1.000,Prompt Match,Spatial Instruction,2
+paper_0327,Self-Positioning Point-Based Transformer for Point Cloud Understanding,point_cloud_analysis,1.000,Relation,Correspondence,2
+paper_0340,Panoptic Lifting for 3D Scene Understanding With Neural Fields,scene_understanding,0.545,Object Form,Segmentation,2
+paper_0342,Single Image Depth Prediction Made Better: A Multivariate Gaussian Take,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0343,SmartBrush: Text and Shape Guided Object Inpainting With Diffusion Model,generative_2d,0.829,Prompt Match,Attribute Match,2
+paper_0348,Spatiotemporal Self-Supervised Learning for Point Clouds in the Wild,point_cloud_analysis,0.525,Object Form,Segmentation,2
+paper_0363,Temporal Interpolation Is All You Need for Dynamic Neural Radiance Fields,neural_radiance_field,1.000,Object Form,Detail,2
+paper_0370,Towards Unsupervised Object Detection From LiDAR Point Clouds,segmentation_detection,0.556,Relation,Correspondence,2
+paper_0394,AutoRecon: Automated 3D Object Discovery and Reconstruction,reconstruction_3d,0.556,Object Form,Completeness,2
+paper_0416,MIME: Human-Aware 3D Scene Generation,generative_3d,0.950,Relation,Contact,2
+paper_0416,MIME: Human-Aware 3D Scene Generation,generative_3d,0.950,Relation,Interaction,2
+paper_0442,2S-UDF: A Novel Two-stage UDF Learning Method for Robust Non-watertight Model Reconstruction from Multi-view Images,reconstruction_3d,0.950,Reference Fidelity,Reconstruction Fidelity,2
+paper_0449,4D Gaussian Splatting for Real-Time Dynamic Scene Rendering,gaussian_splatting,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0450,4K4D: Real-Time 4D View Synthesis at 4K Resolution,novel_view_synthesis,0.690,Object Form,Detail,2
+paper_0452,A Simple Baseline for Efficient Hand Mesh Reconstruction,hand_centric,0.706,Object Form,Detail,2
+paper_0459,Alchemist: Parametric Control of Material Properties with Diffusion Models,generative_2d,1.000,Object Form,Completeness,2
+paper_0464,Attention-Driven Training-Free Efficiency Enhancement of Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,2
+paper_0487,CVT-xRF: Contrastive In-Voxel Transformer for 3D Consistent Radiance Fields from Sparse Inputs,neural_radiance_field,0.807,Object Form,Detail,2
+paper_0499,Real Acoustic Fields: An Audio-Visual Room Acoustics Dataset and Benchmark,other,0.850,Reference Fidelity,Reconstruction Fidelity,2
+paper_0500,Cinematic Behavior Transfer via NeRF-based Differentiable Filming,neural_radiance_field,0.581,Reference Fidelity,Geometry Fidelity,2
+paper_0513,Contrastive Pre-Training with Multi-View Fusion for No-Reference Point Cloud Quality Assessment,point_cloud_analysis,1.000,Object Form,Segmentation,2
+paper_0518,CrowdDiff: Multi-hypothesis Crowd Density Estimation using Diffusion Models,segmentation_detection,0.900,Reference Fidelity,Reconstruction Fidelity,2
+paper_0525,DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization,neural_radiance_field,0.459,Object Form,Detail,2
+paper_0536,RAM-Avatar: Real-time Photo-Realistic Avatar from Monocular Videos with Full-body Control,human_avatar,0.921,Object Form,Detail,2
+paper_0536,RAM-Avatar: Real-time Photo-Realistic Avatar from Monocular Videos with Full-body Control,human_avatar,0.921,Scene Layout,Physical Plausibility,2
+paper_0538,DiSR-NeRF: Diffusion-Guided View-Consistent Super-Resolution NeRF,neural_radiance_field,0.556,Object Form,Detail,2
+paper_0539,MoSAR: Monocular Semi-Supervised Model for Avatar Reconstruction using Differentiable Shading,human_avatar,0.833,Image Appearance,Lighting,2
+paper_0539,MoSAR: Monocular Semi-Supervised Model for Avatar Reconstruction using Differentiable Shading,human_avatar,0.833,Object Form,Texture,2
+paper_0541,DiffAssemble: A Unified Graph-Diffusion Model for 2D and 3D Reassembly,generative_2d,1.000,Object Form,Completeness,2
+paper_0547,Diffusion Handles Enabling 3D Edits for Diffusion Models by Lifting Activations to 3D,generative_2d,0.625,Reference Fidelity,Identity Preservation,2
+paper_0549,Diffusion-FOF: Single-View Clothed Human Reconstruction via Diffusion-Based Fourier Occupancy Field,reconstruction_3d,0.538,Object Form,Texture,2
+paper_0568,Normalizing Flows on the Product Space of SO(3) Manifolds for Probabilistic Human Pose Modeling,human_pose_mesh,0.900,Object Form,Pose,2
+paper_0571,DyBluRF: Dynamic Neural Radiance Fields from Blurry Monocular Video,neural_radiance_field,0.706,Reference Fidelity,Reconstruction Fidelity,2
+paper_0573,ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation,depth_estimation,1.000,Object Form,Boundary,2
+paper_0575,EasyDrag: Efficient Point-based Manipulation on Diffusion Models,generative_2d,1.000,Object Form,Shape,2
+paper_0597,FlowDiffuser: Advancing Optical Flow Estimation with Diffusion Models,optical_flow_stereo,1.000,Object Form,Detail,2
+paper_0618,Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle,gaussian_splatting,0.638,Object Form,Detail,2
+paper_0620,GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians,human_avatar,0.556,Object Form,Detail,2
+paper_0624,GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces,gaussian_splatting,0.886,Object Form,Detail,2
+paper_0627,GenN2N: Generative NeRF2NeRF Translation,neural_radiance_field,0.753,Relation,Correspondence,2
+paper_0636,Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0639,GoMVS: Geometrically Consistent Cost Aggregation for Multi-View Stereo,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_0642,HIR-Diff: Unsupervised Hyperspectral Image Restoration Via Improved Diffusion Models,image_restoration,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0648,HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting,gaussian_splatting,0.468,Scene Layout,Composition,2
+paper_0649,HUGS: Human Gaussian Splats,gaussian_splatting,0.625,Object Form,Detail,2
+paper_0654,Holoported Characters: Real-time Free-viewpoint Rendering of Humans from Sparse RGB Cameras,human_avatar,0.950,Object Form,Detail,2
+paper_0657,HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting,gaussian_splatting,1.000,Image Appearance,Blur,2
+paper_0659,MatchU: Matching Unseen Objects for 6D Pose Estimation from RGB-D Images,slam_localization,1.000,Prompt Match,Action Match,2
+paper_0663,Human Gaussian Splatting: Real-time Rendering of Animatable Avatars,gaussian_splatting,0.835,Object Form,Pose,2
+paper_0668,HumanRef: Single Image to 3D Human Generation via Reference-Guided Diffusion,human_avatar,0.538,Reference Fidelity,Reconstruction Fidelity,2
+paper_0680,InitNO: Boosting Text-to-Image Diffusion Models via Initial Noise Optimization,generative_2d,1.000,Prompt Match,Semantic Match,2
+paper_0687,Is Vanilla MLP in Neural Radiance Field Enough for Few-shot View Synthesis?,neural_radiance_field,0.605,Object Form,Surface,2
+paper_0690,3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling,optical_flow_stereo,0.767,Relation,Spatial Relation,2
+paper_0701,LangSplat: 3D Language Gaussian Splatting,gaussian_splatting,0.788,Object Form,Segmentation,2
+paper_0704,Layout-Agnostic Scene Text Image Synthesis with Diffusion Models,generative_2d,1.000,Prompt Match,Text Legibility,2
+paper_0705,Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes,point_cloud_analysis,1.000,Relation,Correspondence,2
+paper_0708,Learning Occupancy for Monocular 3D Object Detection,segmentation_detection,0.882,Scene Layout,Spatial Distribution,2
+paper_0709,Learning with Unreliability: Fast Few-shot Voxel Radiance Fields with Relative Geometric Consistency,neural_radiance_field,0.556,Object Form,Detail,2
+paper_0721,LidaRF: Delving into Lidar for Neural Radiance Field on Street Scenes,neural_radiance_field,0.742,Object Form,Completeness,2
+paper_0735,LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching,generative_3d,1.000,Prompt Match,Semantic Match,2
+paper_0745,MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures,generative_2d,1.000,Scene Layout,View,2
+paper_0748,FISBe: A Real-World Benchmark Dataset for Instance Segmentation of Long-Range Thin Filamentous Structures,segmentation_detection,1.000,Object Form,Segmentation,2
+paper_0761,Mitigating Object Dependencies: Improving Point Cloud Self-Supervised Learning through Object Exchange,point_cloud_analysis,0.625,Relation,Spatial Relation,2
+paper_0769,Mosaic-SDF for 3D Generative Models,reconstruction_3d,0.474,Object Form,Shape,2
+paper_0777,Multiway Point Cloud Mosaicking with Diffusion and Global Optimization,point_cloud_analysis,0.842,Reference Fidelity,Geometry Fidelity,2
+paper_0781,NViST: In the Wild New View Synthesis from a Single Image with Transformers,novel_view_synthesis,0.900,Object Form,Detail,2
+paper_0781,NViST: In the Wild New View Synthesis from a Single Image with Transformers,novel_view_synthesis,0.900,Prompt Match,Semantic Match,2
+paper_0782,NeLF-Pro: Neural Light Field Probes for Multi-Scale Novel View Synthesis,novel_view_synthesis,0.765,Image Appearance,Blur,2
+paper_0811,PI3D: Efficient Text-to-3D Generation with Pseudo-Image Diffusion,generative_3d,0.789,Object Form,Surface,2
+paper_0812,PDF: A Probability-Driven Framework for Open World 3D Point Cloud Semantic Segmentation,segmentation_detection,0.568,Reference Fidelity,Segmentation Fidelity,2
+paper_0814,PLGSLAM: Progressive Neural Scene Represenation with Local to Global Bundle Adjustment,slam_localization,0.600,Reference Fidelity,Landmark Fidelity,2
+paper_0817,Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models,generative_2d,1.000,Object Form,Detail,2
+paper_0820,Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform,point_cloud_analysis,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_0825,ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D Image,human_pose_mesh,0.600,Reference Fidelity,Reconstruction Fidelity,2
+paper_0838,RecDiffusion: Rectangling for Image Stitching with Diffusion Models,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_0842,Rethinking Few-shot 3D Point Cloud Semantic Segmentation,segmentation_detection,0.545,Prompt Match,Semantic Match,2
+paper_0842,Rethinking Few-shot 3D Point Cloud Semantic Segmentation,segmentation_detection,0.545,Relation,Spatial Relation,2
+paper_0857,SPU-PMD: Self-Supervised Point Cloud Upsampling via Progressive Mesh Deformation,point_cloud_analysis,0.725,Object Form,Detail,2
+paper_0860,SVGDreamer: Text Guided SVG Generation with Diffusion Model,generative_2d,0.950,Object Form,Detail,2
+paper_0862,Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering,gaussian_splatting,1.000,Image Appearance,Lighting,2
+paper_0862,Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering,gaussian_splatting,1.000,Prompt Match,Semantic Match,2
+paper_0864,Sculpt3D: Multi-View Consistent Text-to-3D Generation with Sparse 3D Prior,generative_3d,0.876,Scene Layout,View,2
+paper_0866,Selective-Stereo: Adaptive Frequency Information Selection for Stereo Matching,optical_flow_stereo,0.938,Object Form,Detail,2
+paper_0868,Semantic Human Mesh Reconstruction with Textures,human_pose_mesh,0.505,Object Form,Texture,2
+paper_0871,Sherpa3D: Boosting High-Fidelity Text-to-3D Generation via Coarse 3D Prior,generative_3d,1.000,Prompt Match,Semantic Match,2
+paper_0872,Towards Real-World HDR Video Reconstruction: A Large-Scale Benchmark Dataset and A Two-Stage Alignment Network,image_restoration,0.900,Image Appearance,Global Artifact,2
+paper_0874,SimAC: A Simple Anti-Customization Method for Protecting Face Privacy against Text-to-Image Synthesis of Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,2
+paper_0888,StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On,generative_2d,1.000,Reference Fidelity,Edit Preservation,2
+paper_0892,Structure-Aware Sparse-View X-ray 3D Reconstruction,neural_radiance_field,0.548,Reference Fidelity,Reconstruction Fidelity,2
+paper_0894,Style Injection in Diffusion: A Training-free Approach for Adapting Large-scale Diffusion Models for Style Transfer,generative_2d,1.000,Reference Fidelity,Edit Preservation,2
+paper_0895,SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering,gaussian_splatting,0.806,Object Form,Surface,2
+paper_0901,TIGER: Time-Varying Denoising Model for 3D Point Cloud Generation with Diffusion Process,point_cloud_analysis,1.000,Relation,Correspondence,2
+paper_0903,Tactile-Augmented Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_0905,TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video,neural_radiance_field,0.750,Object Form,Surface,2
+paper_0906,A Unified Diffusion Framework for Scene-aware Human Motion Estimation from Sparse Signals,motion_generation,0.950,Relation,Spatial Relation,2
+paper_0911,Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers,generative_2d,1.000,Prompt Match,Semantic Match,2
+paper_0912,Text2Loc: 3D Point Cloud Localization from Natural Language,point_cloud_analysis,1.000,Prompt Match,Semantic Match,2
+paper_0914,Texture-Preserving Diffusion Models for High-Fidelity Virtual Try-On,generative_2d,1.000,Object Form,Detail,2
+paper_0918,Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner,generative_2d,0.950,Image Appearance,Realism,2
+paper_0922,Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers,gaussian_splatting,0.471,Object Form,Completeness,2
+paper_0923,No More Ambiguity in 360deg Room Layout via Bi-Layout Estimation,scene_understanding,1.000,Prompt Match,Semantic Match,2
+paper_0923,No More Ambiguity in 360deg Room Layout via Bi-Layout Estimation,scene_understanding,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_0925,UFORecon: Generalizable Sparse-View Surface Reconstruction from Arbitrary and Unfavorable Sets,reconstruction_3d,1.000,Object Form,Surface,2
+paper_0926,UltrAvatar: A Realistic Animatable 3D Avatar Diffusion Model with Authenticity Guided Textures,human_avatar,0.875,Object Form,Material,2
+paper_0926,UltrAvatar: A Realistic Animatable 3D Avatar Diffusion Model with Authenticity Guided Textures,human_avatar,0.875,Prompt Match,Semantic Match,2
+paper_0928,Unifying Correspondence Pose and NeRF for Generalized Pose-Free Novel View Synthesis,novel_view_synthesis,0.598,Reference Fidelity,Geometry Fidelity,2
+paper_0928,Unifying Correspondence Pose and NeRF for Generalized Pose-Free Novel View Synthesis,novel_view_synthesis,0.598,Scene Layout,View,2
+paper_0934,Unsupervised Template-assisted Point Cloud Shape Correspondence Network,point_cloud_analysis,1.000,Object Form,Shape,2
+paper_0935,Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution,image_restoration,0.878,Object Form,Texture,2
+paper_0935,Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution,image_restoration,0.878,Prompt Match,Text Legibility,2
+paper_0941,VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation,generative_3d,0.950,Object Form,Shape,2
+paper_0943,Video Interpolation with Diffusion Models,generative_2d,0.950,Image Appearance,Blur,2
+paper_0943,Video Interpolation with Diffusion Models,generative_2d,0.950,Object Form,Texture,2
+paper_0947,View-Category Interactive Sharing Transformer for Incomplete Multi-View Multi-Label Learning,segmentation_detection,0.900,Sidecar / Rejected,Sidecar / Rejected,2
+paper_0949,Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation,generative_2d,0.950,Reference Fidelity,Style Fidelity,2
+paper_0950,WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models,generative_2d,1.000,Sidecar / Rejected,Sidecar / Rejected,2
+paper_0955,Move as You Say Interact as You Can: Language-guided Human Motion Generation with Scene Affordance,motion_generation,1.000,Relation,Correspondence,2
+paper_0961,Weakly Supervised Monocular 3D Detection with a Single-View Image,point_cloud_analysis,1.000,Prompt Match,Semantic Match,2
+paper_0964,GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh,human_avatar,0.870,Object Form,Detail,2
+paper_0970,X-Adapter: Adding Universal Compatibility of Plugins for Upgraded Diffusion Model,generative_2d,0.950,Relation,Interaction,2
+paper_0972,XScale-NVS: Cross-Scale Novel View Synthesis with Hash Featurized Manifold,novel_view_synthesis,0.842,Sidecar / Rejected,Sidecar / Rejected,2
+paper_0975,FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding,human_avatar,0.605,Scene Layout,View,2
+paper_0976,NECA: Neural Customizable Human Avatar,human_avatar,1.000,Prompt Match,Action Match,2
+paper_0978,3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features,segmentation_detection,0.508,Reference Fidelity,Reconstruction Fidelity,2
+paper_0978,3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features,segmentation_detection,0.508,Relation,Correspondence,2
+paper_0980,6D-Diff: A Keypoint Diffusion Framework for 6D Object Pose Estimation,tracking,0.850,Relation,Correspondence,2
+paper_0981,Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians,human_avatar,0.950,Object Form,Anatomy,2
+paper_0981,Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians,human_avatar,0.950,Object Form,Detail,2
+paper_0981,Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians,human_avatar,0.950,Object Form,Face,2
+paper_0986,AttriHuman-3D: Editable 3D Human Avatar Generation with Attribute Decomposition and Indexing,human_avatar,0.722,Object Form,Completeness,2
+paper_0990,SAI3D: Segment Any Instance in 3D Scenes,segmentation_detection,0.857,Prompt Match,Semantic Match,2
+paper_1003,RoHM: Robust Human Motion Reconstruction via Diffusion,motion_generation,0.950,Object Form,Pose,2
+paper_1018,3D Motion Magnification: Visualizing Subtle Motions from Time-Varying Radiance Fields,novel_view_synthesis,0.592,Image Appearance,Exposure,2
+paper_1020,3D Distillation: Improving Self-Supervised Monocular Depth Estimation on Reflective Surfaces,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_1021,3D-aware Blending with Generative NeRFs,neural_radiance_field,0.833,Object Form,Detail,2
+paper_1025,A Large-Scale Outdoor Multi-Modal Dataset and Benchmark for Novel View Synthesis and Implicit Scene Reconstruction,novel_view_synthesis,0.545,Image Appearance,Realism,2
+paper_1028,ActorsNeRF: Animatable Few-shot Human Rendering with Generalizable NeRFs,neural_radiance_field,0.493,Object Form,Boundary,2
+paper_1029,Adaptive Positional Encoding for Bundle-Adjusting Neural Radiance Fields,neural_radiance_field,0.723,Object Form,Detail,2
+paper_1036,AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration,generative_2d,1.000,Object Form,Detail,2
+paper_1044,Building3D: A Urban-Scale Dataset and Benchmarks for Learning Roof Structures from Point Clouds,point_cloud_analysis,0.655,Object Form,Completeness,2
+paper_1049,CPCM: Contextual Point Cloud Modeling for Weakly-supervised Point Cloud Semantic Segmentation,point_cloud_analysis,0.634,Prompt Match,Semantic Match,2
+paper_1058,Global Adaptation Meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation,human_pose_mesh,1.000,Object Form,Pose,2
+paper_1060,Coordinate Quantized Neural Implicit Representations for Multi-view Reconstruction,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_1068,DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion,generative_2d,1.000,Object Form,Texture,2
+paper_1070,DELFlow: Dense Efficient Learning of Scene Flow for Large-Scale Point Clouds,optical_flow_stereo,0.726,Object Form,Detail,2
+paper_1075,"DeLiRa: Self-Supervised Depth, Light, and Radiance Fields",novel_view_synthesis,0.514,Object Form,Detail,2
+paper_1076,DeformToon3D: Deformable Neural Radiance Fields for 3D Toonification,neural_radiance_field,0.818,Object Form,Surface,2
+paper_1076,DeformToon3D: Deformable Neural Radiance Fields for 3D Toonification,neural_radiance_field,0.818,Prompt Match,Attribute Match,2
+paper_1077,Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings,novel_view_synthesis,0.520,Object Form,Detail,2
+paper_1077,Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings,novel_view_synthesis,0.520,Reference Fidelity,Reconstruction Fidelity,2
+paper_1089,DiffPose: SpatioTemporal Diffusion Model for Video-Based Human Pose Estimation,human_pose_mesh,0.795,Object Form,Detail,2
+paper_1090,Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions,reconstruction_3d,0.462,Object Form,Surface,2
+paper_1092,DiffusionRet: Generative Text-Video Retrieval with Diffusion Model,other,0.900,Relation,Correspondence,2
+paper_1095,AG3D: Learning to Generate 3D Avatars from 2D Image Collections,human_avatar,0.950,Object Form,Boundary,2
+paper_1095,AG3D: Learning to Generate 3D Avatars from 2D Image Collections,human_avatar,0.950,Object Form,Completeness,2
+paper_1100,Dynamic Mesh-Aware Radiance Fields,neural_radiance_field,1.000,Image Appearance,Global Artifact,2
+paper_1102,E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images,neural_radiance_field,0.888,Image Appearance,Blur,2
+paper_1109,Erasing Concepts from Diffusion Models,generative_2d,1.000,Object Form,Completeness,2
+paper_1113,Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection,reconstruction_3d,0.556,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1114,Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation,generative_3d,1.000,Object Form,Surface,2
+paper_1116,Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance,point_cloud_analysis,0.516,Reference Fidelity,Reconstruction Fidelity,2
+paper_1117,Few-Shot Physically-Aware Articulated Mesh Generation via Hierarchical Deformation,generative_3d,1.000,Object Form,Shape,2
+paper_1118,FineRecon: Depth-aware Feed-forward Network for Detailed 3D Reconstruction,reconstruction_3d,1.000,Object Form,Detail,2
+paper_1118,FineRecon: Depth-aware Feed-forward Network for Detailed 3D Reconstruction,reconstruction_3d,1.000,Object Form,Surface,2
+paper_1122,Dancing in the Dark: A Benchmark towards General Low-light Video Enhancement,image_restoration,0.950,Image Appearance,Exposure,2
+paper_1122,Dancing in the Dark: A Benchmark towards General Low-light Video Enhancement,image_restoration,0.950,Image Appearance,Noise,2
+paper_1122,Dancing in the Dark: A Benchmark towards General Low-light Video Enhancement,image_restoration,0.950,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1124,Distribution-Aligned Diffusion for Human Mesh Recovery,human_pose_mesh,0.626,Object Form,Completeness,2
+paper_1128,GaPro: Box-Supervised 3D Point Cloud Instance Segmentation Using Gaussian Processes as Pseudo Labelers,segmentation_detection,0.568,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1129,Generalized Few-Shot Point Cloud Segmentation via Geometric Words,point_cloud_analysis,0.557,Reference Fidelity,Segmentation Fidelity,2
+paper_1132,Generative Novel View Synthesis with 3D-Aware Diffusion Models,novel_view_synthesis,1.000,Scene Layout,Depth,2
+paper_1134,Geometry-guided Feature Learning and Fusion for Indoor Scene Reconstruction,segmentation_detection,0.500,Reference Fidelity,Landmark Fidelity,2
+paper_1135,GridPull: Towards Scalability in Learning Implicit Representations from 3D Point Clouds,point_cloud_analysis,1.000,Object Form,Boundary,2
+paper_1138,HOSNeRF: Dynamic Human-Object-Scene Neural Radiance Fields from a Single Video,neural_radiance_field,1.000,Object Form,Completeness,2
+paper_1139,Pseudo Flow Consistency for Self-Supervised 6D Object Pose Estimation,tracking,0.850,Object Form,Detail,2
+paper_1139,Pseudo Flow Consistency for Self-Supervised 6D Object Pose Estimation,tracking,0.850,Object Form,Pose,2
+paper_1139,Pseudo Flow Consistency for Self-Supervised 6D Object Pose Estimation,tracking,0.850,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1140,HaMuCo: Hand Pose Estimation via Multiview Collaborative Self-Supervised Learning,hand_centric,1.000,Object Form,Pose,2
+paper_1143,BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes,human_avatar,0.900,Object Form,Anatomy,2
+paper_1144,"Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks",other,0.950,Object Form,Segmentation,2
+paper_1144,"Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks",other,0.950,Object Form,Texture,2
+paper_1146,Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation,point_cloud_analysis,0.525,Reference Fidelity,Segmentation Fidelity,2
+paper_1149,HoloFusion: Towards Photo-realistic 3D Generative Modeling,generative_3d,0.692,Object Form,Completeness,2
+paper_1151,One-shot Implicit Animatable Avatars with Model-based Priors,neural_radiance_field,0.750,Prompt Match,Semantic Match,2
+paper_1157,ImGeoNet: Image-induced Geometry-aware Voxel Representation for Multi-view 3D Object Detection,segmentation_detection,0.950,Reference Fidelity,Geometry Fidelity,2
+paper_1159,Improving Sample Quality of Diffusion Models Using Self-Attention Guidance,generative_2d,1.000,Image Appearance,Texture,2
+paper_1159,Improving Sample Quality of Diffusion Models Using Self-Attention Guidance,generative_2d,1.000,Object Form,Detail,2
+paper_1160,Instance Neural Radiance Field,neural_radiance_field,0.747,Reference Fidelity,Segmentation Fidelity,2
+paper_1161,Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions,neural_radiance_field,0.833,Prompt Match,Action Match,2
+paper_1162,IntrinsicNeRF: Learning Intrinsic Neural Radiance Fields for Editable Novel View Synthesis,novel_view_synthesis,0.526,Object Form,Boundary,2
+paper_1164,AffordPose: A Large-Scale Dataset of Hand-Object Interactions with Affordance-Driven Hand Pose,hand_centric,1.000,Prompt Match,Attribute Match,2
+paper_1166,Center-Based Decoupled Point-cloud Registration for 6D Object Pose Estimation,point_cloud_analysis,1.000,Object Form,Detail,2
+paper_1166,Center-Based Decoupled Point-cloud Registration for 6D Object Pose Estimation,point_cloud_analysis,1.000,Object Form,Shape,2
+paper_1167,Guided Motion Diffusion for Controllable Human Motion Synthesis,motion_generation,1.000,Prompt Match,Action Match,2
+paper_1167,Guided Motion Diffusion for Controllable Human Motion Synthesis,motion_generation,1.000,Prompt Match,Semantic Match,2
+paper_1169,EMDB: The Electromagnetic Database of Global 3D Human Pose and Shape in the Wild,human_pose_mesh,0.926,Reference Fidelity,Reconstruction Fidelity,2
+paper_1171,Ego-Humans: An Ego-Centric 3D Multi-Human Benchmark,reconstruction_3d,1.000,Relation,Correspondence,2
+paper_1172,Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models,generative_3d,0.950,Relation,Spatial Relation,2
+paper_1173,PG-RCNN: Semantic Surface Point Generation for 3D Object Detection,segmentation_detection,0.625,Relation,Correspondence,2
+paper_1179,Label-Guided Knowledge Distillation for Continual Semantic Segmentation on 2D Images and 3D Point Clouds,segmentation_detection,0.600,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1180,Learning Depth Estimation for Transparent and Mirror Surfaces,depth_estimation,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_1183,Learning Unified Decompositional and Compositional NeRF for Editable Novel View Synthesis,novel_view_synthesis,0.639,Object Form,Detail,2
+paper_1184,Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection,point_cloud_analysis,0.737,Object Form,Completeness,2
+paper_1184,Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection,point_cloud_analysis,0.737,Object Form,Detail,2
+paper_1185,Learning a Room with the Occ-SDF Hybrid: Signed Distance Function Mingled with Occupancy Aids Scene Representation,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_1194,Lighting up NeRF via Unsupervised Decomposition and Enhancement,neural_radiance_field,0.817,Image Appearance,Global Artifact,2
+paper_1194,Lighting up NeRF via Unsupervised Decomposition and Enhancement,neural_radiance_field,0.817,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1195,Learning Robust Representations with Information Bottleneck and Memory Network for RGB-D-based Gesture Recognition,segmentation_detection,0.850,Relation,Correspondence,2
+paper_1196,VI-Net: Boosting Category-level 6D Object Pose Estimation via Learning Decoupled Rotations on the Spherical Representations,tracking,0.850,Reference Fidelity,Landmark Fidelity,2
+paper_1199,Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation,segmentation_detection,0.900,Object Form,Boundary,2
+paper_1199,Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation,segmentation_detection,0.900,Relation,Correspondence,2
+paper_1200,Linear-Covariance Loss for End-to-End Learning of 6D Pose Estimation,tracking,0.850,Prompt Match,Semantic Match,2
+paper_1203,LoLep: Single-View View Synthesis with Locally-Learned Planes and Self-Attention Occlusion Inference,novel_view_synthesis,0.765,Image Appearance,Blur,2
+paper_1206,Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models,novel_view_synthesis,1.000,Relation,Correspondence,2
+paper_1207,Perpetual Humanoid Control for Real-time Simulated Avatars,human_avatar,1.000,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1210,MV-DeepSDF: Implicit Modeling with Multi-Sweep Point Clouds for 3D Vehicle Reconstruction in Autonomous Driving,reconstruction_3d,0.631,Object Form,Surface,2
+paper_1211,MBPTrack: Improving 3D Point Cloud Tracking with Memory Networks and Box Priors,point_cloud_analysis,0.571,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1212,MIMO-NeRF: Fast Neural Rendering with Multi-input Multi-output Neural Radiance Fields,neural_radiance_field,0.833,Image Appearance,Global Artifact,2
+paper_1214,A Benchmark for Chinese-English Scene Text Image Super-Resolution,image_restoration,1.000,Object Form,Shape,2
+paper_1220,Environment-Invariant Curriculum Relation Learning for Fine-Grained Scene Graph Generation,scene_understanding,1.000,Prompt Match,Semantic Match,2
+paper_1221,Mixed Neural Voxels for Fast Multi-view Video Synthesis,novel_view_synthesis,1.000,Object Form,Boundary,2
+paper_1221,Mixed Neural Voxels for Fast Multi-view Video Synthesis,novel_view_synthesis,1.000,Prompt Match,Semantic Match,2
+paper_1224,MonoNeRF: Learning a Generalizable Dynamic Radiance Field from Monocular Videos,neural_radiance_field,0.812,Prompt Match,Semantic Match,2
+paper_1224,MonoNeRF: Learning a Generalizable Dynamic Radiance Field from Monocular Videos,neural_radiance_field,0.812,Relation,Interaction,2
+paper_1225,Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor,slam_localization,0.512,Scene Layout,Composition,2
+paper_1226,Multi-Object Navigation with Dynamically Learned Neural Implicit Representations,slam_localization,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_1228,Multi-task View Synthesis with Neural Radiance Fields,neural_radiance_field,0.600,Reference Fidelity,Reconstruction Fidelity,2
+paper_1237,NeMF: Inverse Volume Rendering with Neural Microflake Field,reconstruction_3d,0.900,Object Form,Surface,2
+paper_1238,NeO 360: Neural Fields for Sparse View Synthesis of Outdoor Scenes,novel_view_synthesis,0.800,Image Appearance,Global Artifact,2
+paper_1241,NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping,neural_radiance_field,0.889,Reference Fidelity,Reconstruction Fidelity,2
+paper_1242,NeRF-MS: Neural Radiance Fields with Multi-Sequence,neural_radiance_field,0.822,Object Form,Detail,2
+paper_1243,NeRFrac: Neural Radiance Fields through Refractive Surface,neural_radiance_field,0.667,Object Form,Detail,2
+paper_1245,NerfAcc: Efficient Sampling Accelerates NeRFs,neural_radiance_field,0.959,Image Appearance,Realism,2
+paper_1247,Neural Implicit Surface Evolution,reconstruction_3d,0.850,Image Appearance,Style,2
+paper_1247,Neural Implicit Surface Evolution,reconstruction_3d,0.850,Object Form,Detail,2
+paper_1250,ObjectSDF++: Improved Object-Compositional Neural Implicit Surfaces,reconstruction_3d,1.000,Reference Fidelity,Mask Fidelity,2
+paper_1256,Parameterized Cost Volume for Stereo Matching,optical_flow_stereo,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_1258,Partition Speeds Up Learning Implicit Neural Representations Based on Exponential-Increase Hypothesis,image_restoration,0.850,Image Appearance,Global Artifact,2
+paper_1260,Phasic Content Fusing Diffusion Model with Directional Distribution Consistency for Few-Shot Model Adaption,segmentation_detection,1.000,Image Appearance,Style,2
+paper_1264,Point-TTA: Test-Time Adaptation for Point Cloud Registration Using Multitask Meta-Auxiliary Learning,point_cloud_analysis,1.000,Relation,Correspondence,2
+paper_1268,Pose-Free Neural Radiance Fields via Implicit Pose Regularization,neural_radiance_field,0.785,Image Appearance,Global Artifact,2
+paper_1277,Prior-guided Source-free Domain Adaptation for Human Pose Estimation,human_pose_mesh,1.000,Prompt Match,Semantic Match,2
+paper_1277,Prior-guided Source-free Domain Adaptation for Human Pose Estimation,human_pose_mesh,1.000,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1278,Re-ReND: Real-Time Rendering of NeRFs across Devices,neural_radiance_field,0.772,Object Form,Detail,2
+paper_1280,ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model,motion_generation,1.000,Prompt Match,Action Match,2
+paper_1283,Ref-NeuS: Ambiguity-Reduced Neural Implicit Surface Learning for Multi-View Reconstruction with Reflection,reconstruction_3d,0.885,Object Form,Surface,2
+paper_1290,Robust Monocular Depth Estimation under Challenging Conditions,depth_estimation,0.900,Image Appearance,Global Artifact,2
+paper_1290,Robust Monocular Depth Estimation under Challenging Conditions,depth_estimation,0.900,Prompt Match,Semantic Match,2
+paper_1291,S-VolSDF: Sparse Multi-View Stereo Regularization of Neural Implicit Surfaces,reconstruction_3d,1.000,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1294,SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image,novel_view_synthesis,1.000,Scene Layout,View,2
+paper_1298,SIRA-PCR: Sim-to-Real Adaptation for 3D Point Cloud Registration,point_cloud_analysis,1.000,Object Form,Completeness,2
+paper_1300,SVQNet: Sparse Voxel-Adjacent Query Network for 4D Spatio-Temporal LiDAR Semantic Segmentation,segmentation_detection,1.000,Reference Fidelity,Segmentation Fidelity,2
+paper_1304,ScatterNeRF: Seeing Through Fog with Physically-Based Inverse Neural Rendering,reconstruction_3d,0.900,Image Appearance,Global Artifact,2
+paper_1306,GACE: Geometry Aware Confidence Enhancement for Black-Box 3D Object Detectors on LiDAR-Data,point_cloud_analysis,1.000,Prompt Match,Semantic Match,2
+paper_1309,Self-Ordering Point Clouds,point_cloud_analysis,1.000,Object Form,Shape,2
+paper_1312,Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation,human_pose_mesh,1.000,Prompt Match,Semantic Match,2
+paper_1312,Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation,human_pose_mesh,1.000,Reference Fidelity,Landmark Fidelity,2
+paper_1316,DPF-Net: Combining Explicit Shape Priors in Deformable Primitive Field for Unsupervised Structural Reconstruction of 3D Objects,reconstruction_3d,0.950,Reference Fidelity,Reconstruction Fidelity,2
+paper_1319,Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction,generative_3d,0.950,Image Appearance,Surface,2
+paper_1321,SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments,depth_estimation,1.000,Reference Fidelity,Geometry Fidelity,2
+paper_1323,Spacetime Surface Regularization for Neural Dynamic Scene Reconstruction,reconstruction_3d,1.000,Object Form,Surface,2
+paper_1324,SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis,novel_view_synthesis,0.659,Object Form,Boundary,2
+paper_1324,SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis,novel_view_synthesis,0.659,Object Form,Detail,2
+paper_1332,StyleDiffusion: Controllable Disentangled Style Transfer via Diffusion Models,generative_2d,0.950,Object Form,Texture,2
+paper_1335,Vision Relation Transformer for Unbiased Scene Graph Generation,scene_understanding,0.833,Sidecar / Rejected,Sidecar / Rejected,2
+paper_1337,DINAR: Diffusion Inpainting of Neural Textures for One-Shot Human Avatars,human_avatar,0.950,Object Form,Pose,2
+paper_1339,Take-A-Photo: 3D-to-2D Generative Pre-training of Point Cloud Models,point_cloud_analysis,1.000,Reference Fidelity,Reconstruction Fidelity,2
+paper_1342,Tetra-NeRF: Representing Neural Radiance Fields Using Tetrahedra,neural_radiance_field,0.792,Object Form,Completeness,2
+paper_0008,A Light Touch Approach to Teaching Transformers Multi-View Geometry,scene_understanding,0.850,Relation,Correspondence,1
+paper_0009,ABLE-NeRF: Attention-Based Rendering With Learnable Embeddings for Neural Radiance Field,neural_radiance_field,0.976,Object Form,Material,1
+paper_0009,ABLE-NeRF: Attention-Based Rendering With Learnable Embeddings for Neural Radiance Field,neural_radiance_field,0.976,Object Form,Texture,1
+paper_0011,ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction,reconstruction_3d,0.714,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0013,Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo,reconstruction_3d,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_0015,AligNeRF: High-Fidelity Neural Radiance Fields via Alignment-Aware Training,neural_radiance_field,0.901,Object Form,Detail,1
+paper_0024,BKinD-3D: Self-Supervised 3D Keypoint Discovery From Multi-View Videos,human_pose_mesh,0.900,Prompt Match,Semantic Match,1
+paper_0027,High-Fidelity Facial Avatar Reconstruction From Monocular Video With Generative Priors,face_centric,0.950,Object Form,Detail,1
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,point_cloud_analysis,1.000,Prompt Match,Action Match,1
+paper_0041,CLIP2Scene: Towards Label-Efficient 3D Scene Understanding by CLIP,scene_understanding,0.588,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0042,Hand Avatar: Free-Pose Hand Animation and Rendering From Monocular Video,hand_centric,0.714,Object Form,Texture,1
+paper_0044,"SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",reconstruction_3d,1.000,Object Form,Completeness,1
+paper_0047,Implicit 3D Human Mesh Recovery Using Consistency With Pose and Shape From Unseen-View,human_pose_mesh,0.718,Reference Fidelity,Mask Fidelity,1
+paper_0049,Clothed Human Performance Capture With a Double-Layer Neural Radiance Fields,neural_radiance_field,1.000,Image Appearance,Global Artifact,1
+paper_0057,Consistent View Synthesis With Pose-Guided Diffusion Models,novel_view_synthesis,1.000,Scene Layout,Scale,1
+paper_0063,CutMIB: Boosting Light Field Super-Resolution via Multi-View Image Blending,image_restoration,0.857,Object Form,Texture,1
+paper_0069,DP-NeRF: Deblurred Neural Radiance Field With Physical Scene Priors,neural_radiance_field,0.871,Image Appearance,Blur,1
+paper_0085,ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields,slam_localization,0.802,Object Form,Detail,1
+paper_0085,ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields,slam_localization,0.802,Reference Fidelity,Reconstruction Fidelity,1
+paper_0089,Enhanced Stable View Synthesis,novel_view_synthesis,0.571,Reference Fidelity,Reconstruction Fidelity,1
+paper_0089,Enhanced Stable View Synthesis,novel_view_synthesis,0.571,Relation,Correspondence,1
+paper_0091,EventNeRF: Neural Radiance Fields From a Single Colour Event Camera,neural_radiance_field,0.806,Image Appearance,Blur,1
+paper_0095,Fast Monocular Scene Reconstruction With Global-Sparse Local-Dense Grids,reconstruction_3d,1.000,Scene Layout,Spatial Distribution,1
+paper_0097,FlexNeRF: Photorealistic Free-Viewpoint Rendering of Moving Humans From Sparse Views,neural_radiance_field,0.889,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0101,FrustumFormer: Adaptive Instance-Aware Resampling for Multi-View 3D Detection,reconstruction_3d,1.000,Prompt Match,Count Match,1
+paper_0101,FrustumFormer: Adaptive Instance-Aware Resampling for Multi-View 3D Detection,reconstruction_3d,1.000,Relation,Correspondence,1
+paper_0104,GM-NeRF: Learning Generalizable Model-Based Neural Radiance Fields From Multi-View Images,neural_radiance_field,0.915,Object Form,Anatomy,1
+paper_0104,GM-NeRF: Learning Generalizable Model-Based Neural Radiance Fields From Multi-View Images,neural_radiance_field,0.915,Object Form,Completeness,1
+paper_0104,GM-NeRF: Learning Generalizable Model-Based Neural Radiance Fields From Multi-View Images,neural_radiance_field,0.915,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0106,The ObjectFolder Benchmark: Multisensory Learning With Neural and Real Objects,reconstruction_3d,0.850,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0118,Vid2Avatar: 3D Avatar Reconstruction From Videos in the Wild via Self-Supervised Scene Decomposition,human_avatar,0.833,Object Form,Completeness,1
+paper_0121,Rigidity-Aware Detection for 6D Object Pose Estimation,segmentation_detection,1.000,Relation,Spatial Relation,1
+paper_0124,In-Hand 3D Object Scanning From an RGB Sequence,hand_centric,0.545,Object Form,Completeness,1
+paper_0127,High-Frequency Stereo Matching Network,optical_flow_stereo,1.000,Object Form,Detail,1
+paper_0137,I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs,reconstruction_3d,0.950,Object Form,Completeness,1
+paper_0137,I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs,reconstruction_3d,0.950,Object Form,Detail,1
+paper_0147,Interactive Segmentation of Radiance Fields,neural_radiance_field,0.571,Image Appearance,Noise,1
+paper_0168,Learnable Skeleton-Aware 3D Point Cloud Sampling,point_cloud_analysis,1.000,Object Form,Shape,1
+paper_0173,Learning To Fuse Monocular and Multi-View Cues for Multi-Frame Depth Estimation in Dynamic Scenes,depth_estimation,0.857,Reference Fidelity,Reconstruction Fidelity,1
+paper_0185,LoGoNet: Towards Accurate 3D Object Detection With Local-to-Global Cross-Modal Fusion,segmentation_detection,0.789,Prompt Match,Semantic Match,1
+paper_0187,MEGANE: Morphable Eyeglass and Avatar Network,human_avatar,0.833,Object Form,Boundary,1
+paper_0190,High-Fidelity Clothed Avatar Reconstruction From a Single Image,human_avatar,1.000,Object Form,Surface,1
+paper_0203,MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation,generative_2d,0.950,Image Appearance,Realism,1
+paper_0213,Metadata-Based RAW Reconstruction via Implicit Neural Functions,image_restoration,1.000,Object Form,Boundary,1
+paper_0220,Multi-Space Neural Radiance Fields,neural_radiance_field,0.977,Reference Fidelity,Reconstruction Fidelity,1
+paper_0234,NeAT: Learning Neural Implicit Surfaces With Arbitrary Topologies From Multi-View Images,reconstruction_3d,1.000,Object Form,Detail,1
+paper_0250,Neural Pixel Composition for 3D-4D View Synthesis From Multi-Views,novel_view_synthesis,1.000,Scene Layout,View,1
+paper_0252,Neural Vector Fields: Implicit Representation by Explicit Learning,reconstruction_3d,0.950,Object Form,Completeness,1
+paper_0252,Neural Vector Fields: Implicit Representation by Explicit Learning,reconstruction_3d,0.950,Object Form,Detail,1
+paper_0260,Occlusion-Free Scene Recovery via Neural Radiance Fields,neural_radiance_field,1.000,Image Appearance,Global Artifact,1
+paper_0262,Octree Guided Unoriented Surface Reconstruction,point_cloud_analysis,1.000,Prompt Match,Semantic Match,1
+paper_0263,OmniCity: Omnipotent City Understanding With Multi-Level and Multi-View Images,scene_understanding,0.900,Object Form,Segmentation,1
+paper_0263,OmniCity: Omnipotent City Understanding With Multi-Level and Multi-View Images,scene_understanding,0.900,Prompt Match,Semantic Match,1
+paper_0264,AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation,hand_centric,1.000,Relation,Correspondence,1
+paper_0276,PaletteNeRF: Palette-Based Appearance Editing of Neural Radiance Fields,neural_radiance_field,0.841,Object Form,Texture,1
+paper_0285,Object Pop-Up: Can We Infer 3D Objects and Their Poses From Human Interactions Alone?,point_cloud_analysis,1.000,Relation,Interaction,1
+paper_0287,PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection,segmentation_detection,0.545,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0303,Relightable Neural Human Assets From Multi-View Gradient Illuminations,novel_view_synthesis,1.000,Object Form,Detail,1
+paper_0305,Removing Objects From Neural Radiance Fields,neural_radiance_field,0.873,Scene Layout,Occlusion Layout,1
+paper_0326,Self-Supervised Super-Plane for Neural 3D Reconstruction,reconstruction_3d,1.000,Object Form,Surface,1
+paper_0326,Self-Supervised Super-Plane for Neural 3D Reconstruction,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,1
+paper_0342,Single Image Depth Prediction Made Better: A Multivariate Gaussian Take,depth_estimation,1.000,Object Form,Detail,1
+paper_0384,VDN-NeRF: Resolving Shape-Radiance Ambiguity via View-Dependence Normalization,neural_radiance_field,0.833,Object Form,Detail,1
+paper_0424,Generating Human Motion From Textual Descriptions With Discrete Representations,motion_generation,1.000,Prompt Match,Semantic Match,1
+paper_0425,Two-Stage Co-Segmentation Network Based on Discriminative Representation for Recovering Human Mesh From Videos,human_pose_mesh,1.000,Object Form,Completeness,1
+paper_0430,Human Body Shape Completion With Implicit Shape and Flow Learning,human_pose_mesh,0.900,Object Form,Completeness,1
+paper_0444,3D LiDAR Mapping in Dynamic Environments using a 4D Implicit Neural Representation,point_cloud_analysis,0.667,Scene Layout,Occlusion Layout,1
+paper_0450,4K4D: Real-Time 4D View Synthesis at 4K Resolution,novel_view_synthesis,0.690,Object Form,Surface,1
+paper_0451,A Conditional Denoising Diffusion Probabilistic Model for Point Cloud Upsampling,point_cloud_analysis,0.790,Object Form,Detail,1
+paper_0467,Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes,face_centric,0.590,Object Form,Face,1
+paper_0477,Bidirectional Multi-Scale Implicit Neural Representations for Image Deraining,image_restoration,1.000,Image Appearance,Global Artifact,1
+paper_0483,CLIP-BEVFormer: Enhancing Multi-View Image-Based BEV Detector with Ground Truth Flow,segmentation_detection,1.000,Reference Fidelity,Geometry Fidelity,1
+paper_0525,DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization,neural_radiance_field,0.459,Object Form,Surface,1
+paper_0536,RAM-Avatar: Real-time Photo-Realistic Avatar from Monocular Videos with Full-body Control,human_avatar,0.921,Image Appearance,Realism,1
+paper_0546,DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis,generative_3d,0.950,Prompt Match,Semantic Match,1
+paper_0549,Diffusion-FOF: Single-View Clothed Human Reconstruction via Diffusion-Based Fourier Occupancy Field,reconstruction_3d,0.538,Object Form,Completeness,1
+paper_0608,GES : Generalized Exponential Splatting for Efficient Radiance Field Rendering,gaussian_splatting,0.661,Object Form,Shape,1
+paper_0614,GauHuman: Articulated Gaussian Splatting from Monocular Human Videos,gaussian_splatting,0.912,Object Form,Detail,1
+paper_0634,Geometry-aware Reconstruction and Fusion-refined Rendering for Generalizable Neural Radiance Fields,neural_radiance_field,0.662,Image Appearance,Global Artifact,1
+paper_0659,MatchU: Matching Unseen Objects for 6D Pose Estimation from RGB-D Images,slam_localization,1.000,Prompt Match,Semantic Match,1
+paper_0673,Image Neural Field Diffusion Models,generative_2d,0.593,Image Appearance,Noise,1
+paper_0709,Learning with Unreliability: Fast Few-shot Voxel Radiance Fields with Relative Geometric Consistency,neural_radiance_field,0.556,Image Appearance,Noise,1
+paper_0719,MVBench: A Comprehensive Multi-modal Video Understanding Benchmark,scene_understanding,0.900,Prompt Match,Semantic Match,1
+paper_0721,LidaRF: Delving into Lidar for Neural Radiance Field on Street Scenes,neural_radiance_field,0.742,Reference Fidelity,Reconstruction Fidelity,1
+paper_0813,PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF,neural_radiance_field,0.956,Object Form,Boundary,1
+paper_0844,Robust Synthetic-to-Real Transfer for Stereo Matching,optical_flow_stereo,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_0846,FAR: Flexible Accurate and Robust 6DoF Relative Camera Pose Estimation,slam_localization,0.950,Reference Fidelity,Reconstruction Fidelity,1
+paper_0847,S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes,neural_radiance_field,0.706,Object Form,Texture,1
+paper_0865,Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model,image_restoration,1.000,Image Appearance,Blur,1
+paper_0878,SketchINR: A First Look into Sketches as Implicit Neural Representations,generative_2d,0.850,Image Appearance,Blur,1
+paper_0879,Slice3D: Multi-Slice Occlusion-Revealing Single View 3D Reconstruction,reconstruction_3d,0.755,Scene Layout,Occlusion Layout,1
+paper_0883,SpecNeRF: Gaussian Directional Encoding for Specular Reflections,novel_view_synthesis,0.722,Object Form,Detail,1
+paper_0887,SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting,gaussian_splatting,0.892,Object Form,Surface,1
+paper_0902,TULIP: Transformer for Upsampling of LiDAR Point Clouds,point_cloud_analysis,0.727,Object Form,Completeness,1
+paper_0902,TULIP: Transformer for Upsampling of LiDAR Point Clouds,point_cloud_analysis,0.727,Object Form,Detail,1
+paper_0903,Tactile-Augmented Radiance Fields,neural_radiance_field,1.000,Relation,Correspondence,1
+paper_0910,Text-to-3D using Gaussian Splatting,gaussian_splatting,0.591,Object Form,Completeness,1
+paper_0915,Total-Decom: Decomposed 3D Scene Reconstruction with Minimal Interaction,reconstruction_3d,0.667,Object Form,Boundary,1
+paper_0916,Towards Effective Usage of Human-Centric Priors in Diffusion Models for Text-based Human Image Generation,generative_2d,1.000,Object Form,Pose,1
+paper_0926,UltrAvatar: A Realistic Animatable 3D Avatar Diffusion Model with Authenticity Guided Textures,human_avatar,0.875,Reference Fidelity,Reconstruction Fidelity,1
+paper_0938,Using Human Feedback to Fine-tune Diffusion Models without Any Reward Model,generative_2d,0.950,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0939,VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction,gaussian_splatting,0.567,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0941,VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation,generative_3d,0.950,Object Form,Texture,1
+paper_0944,VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,1
+paper_0945,VideoRF: Rendering Dynamic Radiance Fields as 2D Feature Video Streams,neural_radiance_field,1.000,Image Appearance,Blur,1
+paper_0956,IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing,human_avatar,1.000,Object Form,Material,1
+paper_0956,IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing,human_avatar,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_0957,Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding,scene_understanding,1.000,Prompt Match,Spatial Instruction,1
+paper_0958,Object Pose Estimation via the Aggregation of Diffusion Features,scene_understanding,1.000,Object Form,Pose,1
+paper_0961,Weakly Supervised Monocular 3D Detection with a Single-View Image,point_cloud_analysis,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0963,Weakly Supervised Point Cloud Semantic Segmentation via Artificial Oracle,segmentation_detection,0.562,Prompt Match,Semantic Match,1
+paper_0964,GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh,human_avatar,0.870,Image Appearance,Lighting,1
+paper_0967,MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark,tracking,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_0972,XScale-NVS: Cross-Scale Novel View Synthesis with Hash Featurized Manifold,novel_view_synthesis,0.842,Image Appearance,Realism,1
+paper_0975,FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding,human_avatar,0.605,Object Form,Completeness,1
+paper_0976,NECA: Neural Customizable Human Avatar,human_avatar,1.000,Relation,Spatial Relation,1
+paper_0980,6D-Diff: A Keypoint Diffusion Framework for 6D Object Pose Estimation,tracking,0.850,Image Appearance,Noise,1
+paper_0983,Relightable and Animatable Neural Avatar from Sparse-View Video,human_avatar,0.636,Object Form,Material,1
+paper_1040,CC3D: Layout-Conditioned Generation of Compositional 3D Scenes,generative_3d,1.000,Image Appearance,Realism,1
+paper_1047,CL-MVSNet: Unsupervised Multi-View Stereo with Dual-Level Contrastive Learning,reconstruction_3d,1.000,Object Form,Detail,1
+paper_1078,Deformable Neural Radiance Fields using RGB and Event Cameras,neural_radiance_field,1.000,Scene Layout,View,1
+paper_1093,Discriminative Class Tokens for Text-to-Image Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,1
+paper_1100,Dynamic Mesh-Aware Radiance Fields,neural_radiance_field,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1116,Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance,point_cloud_analysis,0.516,Object Form,Pose,1
+paper_1116,Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance,point_cloud_analysis,0.516,Relation,Attribute Binding,1
+paper_1125,GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction,slam_localization,0.926,Object Form,Completeness,1
+paper_1143,BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes,human_avatar,0.900,Object Form,Completeness,1
+paper_1147,Normalizing Flows for Human Pose Anomaly Detection,segmentation_detection,0.900,Object Form,Anatomy,1
+paper_1147,Normalizing Flows for Human Pose Anomaly Detection,segmentation_detection,0.900,Prompt Match,Action Match,1
+paper_1153,HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation,generative_2d,1.000,Prompt Match,Semantic Match,1
+paper_1156,ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization,neural_radiance_field,0.833,Object Form,Detail,1
+paper_1161,Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions,neural_radiance_field,0.833,Scene Layout,View,1
+paper_1162,IntrinsicNeRF: Learning Intrinsic Neural Radiance Fields for Editable Novel View Synthesis,novel_view_synthesis,0.526,Object Form,Surface,1
+paper_1169,EMDB: The Electromagnetic Database of Global 3D Human Pose and Shape in the Wild,human_pose_mesh,0.926,Object Form,Pose,1
+paper_1171,Ego-Humans: An Ego-Centric 3D Multi-Human Benchmark,reconstruction_3d,1.000,Scene Layout,Occlusion Layout,1
+paper_1172,Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models,generative_3d,0.950,Prompt Match,Attribute Match,1
+paper_1172,Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models,generative_3d,0.950,Relation,Correspondence,1
+paper_1173,PG-RCNN: Semantic Surface Point Generation for 3D Object Detection,segmentation_detection,0.625,Prompt Match,Semantic Match,1
+paper_1178,LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs,neural_radiance_field,0.821,Scene Layout,Camera Geometry,1
+paper_1180,Learning Depth Estimation for Transparent and Mirror Surfaces,depth_estimation,1.000,Object Form,Surface,1
+paper_1182,LeaF: Learning Frames for 4D Point Cloud Sequence Understanding,point_cloud_analysis,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1190,RenderIH: A Large-Scale Synthetic Dataset for 3D Interacting Hand Pose Estimation,hand_centric,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1192,CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network,other,0.850,Prompt Match,Action Match,1
+paper_1192,CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network,other,0.850,Prompt Match,Semantic Match,1
+paper_1194,Lighting up NeRF via Unsupervised Decomposition and Enhancement,neural_radiance_field,0.817,Object Form,Detail,1
+paper_1197,Bird's-Eye-View Scene Graph for Vision-Language Navigation,scene_understanding,0.850,Scene Layout,Composition,1
+paper_1201,PlanarTrack: A Large-scale Challenging Benchmark for Planar Object Tracking,tracking,1.000,Relation,Spatial Relation,1
+paper_1202,LivePose: Online 3D Reconstruction from Monocular Video with Dynamic Camera Poses,reconstruction_3d,0.522,Reference Fidelity,Reconstruction Fidelity,1
+paper_1203,LoLep: Single-View View Synthesis with Locally-Learned Planes and Self-Attention Occlusion Inference,novel_view_synthesis,0.765,Object Form,Surface,1
+paper_1203,LoLep: Single-View View Synthesis with Locally-Learned Planes and Self-Attention Occlusion Inference,novel_view_synthesis,0.765,Prompt Match,Semantic Match,1
+paper_1204,Localizing Object-Level Shape Variations with Text-to-Image Diffusion Models,generative_2d,1.000,Prompt Match,Semantic Match,1
+paper_1205,Locally Stylized Neural Radiance Fields,neural_radiance_field,0.814,Relation,Correspondence,1
+paper_1208,MUVA: A New Large-Scale Benchmark for Multi-View Amodal Instance Segmentation in the Shopping Scenario,segmentation_detection,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1210,MV-DeepSDF: Implicit Modeling with Multi-Sweep Point Clouds for 3D Vehicle Reconstruction in Autonomous Driving,reconstruction_3d,0.631,Reference Fidelity,Reconstruction Fidelity,1
+paper_1215,Synchronize Feature Extracting and Matching: A Single Branch Framework for 3D Object Tracking,tracking,1.000,Object Form,Completeness,1
+paper_1218,EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,1
+paper_1222,MonoNeRD: NeRF-like Representations for Monocular 3D Object Detection,neural_radiance_field,0.509,Object Form,Completeness,1
+paper_1222,MonoNeRD: NeRF-like Representations for Monocular 3D Object Detection,neural_radiance_field,0.509,Scene Layout,Scene Layout,1
+paper_1226,Multi-Object Navigation with Dynamically Learned Neural Implicit Representations,slam_localization,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1228,Multi-task View Synthesis with Neural Radiance Fields,neural_radiance_field,0.600,Object Form,Attribute Match,1
+paper_1230,Multi-view Spectral Polarization Propagation for Video Glass Segmentation,segmentation_detection,1.000,Object Form,Completeness,1
+paper_1233,NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space,scene_understanding,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_1233,NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space,scene_understanding,1.000,Scene Layout,Spatial Distribution,1
+paper_1234,NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects,novel_view_synthesis,0.789,Prompt Match,Attribute Match,1
+paper_1235,NSF: Neural Surface Fields for Human Modeling from Monocular Depth,reconstruction_3d,1.000,Object Form,Completeness,1
+paper_1242,NeRF-MS: Neural Radiance Fields with Multi-Sequence,neural_radiance_field,0.822,Object Form,Texture,1
+paper_1243,NeRFrac: Neural Radiance Fields through Refractive Surface,neural_radiance_field,0.667,Image Appearance,Global Artifact,1
+paper_1244,NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction,reconstruction_3d,1.000,Object Form,Surface,1
+paper_1249,Neural Radiance Field with LiDAR maps,neural_radiance_field,0.684,Object Form,Completeness,1
+paper_1249,Neural Radiance Field with LiDAR maps,neural_radiance_field,0.684,Reference Fidelity,Reconstruction Fidelity,1
+paper_1249,Neural Radiance Field with LiDAR maps,neural_radiance_field,0.684,Relation,Correspondence,1
+paper_1261,PhysDiff: Physics-Guided Human Motion Diffusion Model,motion_generation,1.000,Prompt Match,Action Match,1
+paper_1262,Pixel-Aligned Recurrent Queries for Multi-View 3D Object Detection,reconstruction_3d,0.514,Prompt Match,Object Presence,1
+paper_1269,Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models,generative_2d,1.000,Image Appearance,Realism,1
+paper_1272,Prompt Tuning Inversion for Text-driven Image Editing Using Diffusion Models,generative_2d,1.000,Prompt Match,Action Match,1
+paper_1272,Prompt Tuning Inversion for Text-driven Image Editing Using Diffusion Models,generative_2d,1.000,Reference Fidelity,Edit Preservation,1
+paper_1272,Prompt Tuning Inversion for Text-driven Image Editing Using Diffusion Models,generative_2d,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_1276,RPEFlow: Multimodal Fusion of RGB-PointCloud-Event for Joint Optical Flow and Scene Flow Estimation,optical_flow_stereo,0.937,Image Appearance,Global Artifact,1
+paper_1278,Re-ReND: Real-Time Rendering of NeRFs across Devices,neural_radiance_field,0.772,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1280,ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model,motion_generation,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1291,S-VolSDF: Sparse Multi-View Stereo Regularization of Neural Implicit Surfaces,reconstruction_3d,1.000,Object Form,Surface,1
+paper_1295,SHACIRA: Scalable HAsh-grid Compression for Implicit Neural Representations,neural_radiance_field,1.000,Object Form,Texture,1
+paper_1297,SHERF: Generalizable Human NeRF from a Single Image,neural_radiance_field,0.703,Object Form,Texture,1
+paper_1301,Sample-adaptive Augmentation for Point Cloud Recognition Against Real-world Corruptions,point_cloud_analysis,1.000,Object Form,Completeness,1
+paper_1302,S-TREK: Sequential Translation and Rotation Equivariant Keypoints for Local Feature Extraction,reconstruction_3d,0.625,Relation,Correspondence,1
+paper_1304,ScatterNeRF: Seeing Through Fog with Physically-Based Inverse Neural Rendering,reconstruction_3d,0.900,Object Form,Shape,1
+paper_1310,See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data,point_cloud_analysis,0.595,Reference Fidelity,Segmentation Fidelity,1
+paper_1311,Template Inversion Attack against Face Recognition Systems using 3D Face Reconstruction,face_centric,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_1315,3DPPE: 3D Point Positional Encoding for Transformer-based Multi-Camera 3D Object Detection,segmentation_detection,1.000,Image Appearance,Style,1
+paper_1315,3DPPE: 3D Point Positional Encoding for Transformer-based Multi-Camera 3D Object Detection,segmentation_detection,1.000,Prompt Match,Semantic Match,1
+paper_1321,SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments,depth_estimation,1.000,Prompt Match,Semantic Match,1
+paper_1322,GraphAlign: Enhancing Accurate Feature Alignment by Graph matching for Multi-Modal 3D Object Detection,segmentation_detection,0.677,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1323,Spacetime Surface Regularization for Neural Dynamic Scene Reconstruction,reconstruction_3d,1.000,Image Appearance,Global Artifact,1
+paper_1324,SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis,novel_view_synthesis,0.659,Reference Fidelity,Reconstruction Fidelity,1
+paper_1327,Stochastic Segmentation with Conditional Categorical Diffusion Models,segmentation_detection,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,neural_radiance_field,0.882,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1330,Strivec: Sparse Tri-Vector Radiance Fields,neural_radiance_field,1.000,Reference Fidelity,Reconstruction Fidelity,1
+paper_1330,Strivec: Sparse Tri-Vector Radiance Fields,neural_radiance_field,1.000,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1336,Surface Normal Clustering for Implicit Representation of Manhattan Scenes,novel_view_synthesis,0.722,Object Form,Surface,1
+paper_1336,Surface Normal Clustering for Implicit Representation of Manhattan Scenes,novel_view_synthesis,0.722,Sidecar / Rejected,Sidecar / Rejected,1
+paper_1337,DINAR: Diffusion Inpainting of Neural Textures for One-Shot Human Avatars,human_avatar,0.950,Image Appearance,Global Artifact,1
+paper_1340,Social Diffusion: Long-term Multiple Human Motion Anticipation,motion_generation,0.950,Reference Fidelity,Reconstruction Fidelity,1
+paper_1341,Temporal Enhanced Training of Multi-view 3D Object Detector via Historical Object Prediction,reconstruction_3d,1.000,Reference Fidelity,Geometry Fidelity,1

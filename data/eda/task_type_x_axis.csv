@@ -1,0 +1,21 @@
+task_type,n_records_total,Image Appearance,Object Form,Prompt Match,Reference Fidelity,Relation,Scene Layout,Sidecar / Rejected,pct_Image Appearance,pct_Object Form,pct_Prompt Match,pct_Reference Fidelity,pct_Relation,pct_Scene Layout,pct_Sidecar / Rejected
+neural_radiance_field,696,140,277,78,121,50,14,16,20.1,39.8,11.2,17.4,7.2,2.0,2.3
+reconstruction_3d,495,19,338,15,79,10,15,19,3.8,68.3,3.0,16.0,2.0,3.0,3.8
+generative_2d,454,56,120,163,66,24,12,13,12.3,26.4,35.9,14.5,5.3,2.6,2.9
+point_cloud_analysis,401,11,211,31,67,44,19,18,2.7,52.6,7.7,16.7,11.0,4.7,4.5
+novel_view_synthesis,358,66,132,26,63,37,28,6,18.4,36.9,7.3,17.6,10.3,7.8,1.7
+generative_3d,233,25,103,60,10,15,14,6,10.7,44.2,25.8,4.3,6.4,6.0,2.6
+segmentation_detection,232,12,79,32,48,36,2,23,5.2,34.1,13.8,20.7,15.5,0.9,9.9
+human_avatar,148,13,78,6,37,4,4,6,8.8,52.7,4.1,25.0,2.7,2.7,4.1
+depth_estimation,130,5,69,9,38,2,7,0,3.8,53.1,6.9,29.2,1.5,5.4,0.0
+human_pose_mesh,126,0,51,15,22,36,0,2,0.0,40.5,11.9,17.5,28.6,0.0,1.6
+gaussian_splatting,96,13,56,5,16,3,2,1,13.5,58.3,5.2,16.7,3.1,2.1,1.0
+scene_understanding,75,0,13,34,14,4,7,3,0.0,17.3,45.3,18.7,5.3,9.3,4.0
+image_restoration,75,22,28,2,14,7,0,2,29.3,37.3,2.7,18.7,9.3,0.0,2.7
+face_centric,75,0,49,2,21,3,0,0,0.0,65.3,2.7,28.0,4.0,0.0,0.0
+hand_centric,73,3,40,10,11,8,0,1,4.1,54.8,13.7,15.1,11.0,0.0,1.4
+motion_generation,58,7,4,11,11,10,0,15,12.1,6.9,19.0,19.0,17.2,0.0,25.9
+tracking,52,8,19,6,10,3,0,6,15.4,36.5,11.5,19.2,5.8,0.0,11.5
+slam_localization,52,0,15,3,31,0,2,1,0.0,28.8,5.8,59.6,0.0,3.8,1.9
+optical_flow_stereo,46,1,31,0,12,2,0,0,2.2,67.4,0.0,26.1,4.3,0.0,0.0
+other,36,3,4,14,10,5,0,0,8.3,11.1,38.9,27.8,13.9,0.0,0.0

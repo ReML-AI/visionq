@@ -1,0 +1,1410 @@
+paper_id,title,venue,year,task_type
+paper_0001,3D Human Keypoints Estimation From Point Clouds in the Wild Without Human Labels,CVPR,2023,point_cloud_analysis
+paper_0002,3D Neural Field Generation Using Triplane Diffusion,CVPR,2023,generative_3d
+paper_0003,3D Concept Learning and Reasoning From Multi-View Images,CVPR,2023,scene_understanding
+paper_0004,3D Spatial Multimodal Knowledge Accumulation for Scene Graph Prediction in Point Cloud,CVPR,2023,scene_understanding
+paper_0005,3D-Aware Facial Landmark Detection via Multi-View Consistent Training on Synthetic Data,CVPR,2023,generative_2d
+paper_0006,3D-Aware Multi-Class Image-to-Image Translation With NeRFs,CVPR,2023,generative_3d
+paper_0007,A Dynamic Multi-Scale Voxel Flow Network for Video Prediction,CVPR,2023,motion_generation
+paper_0008,A Light Touch Approach to Teaching Transformers Multi-View Geometry,CVPR,2023,scene_understanding
+paper_0009,ABLE-NeRF: Attention-Based Rendering With Learnable Embeddings for Neural Radiance Field,CVPR,2023,neural_radiance_field
+paper_0010,ACL-SPC: Adaptive Closed-Loop System for Self-Supervised Point Cloud Completion,CVPR,2023,point_cloud_analysis
+paper_0011,ALTO: Alternating Latent Topologies for Implicit 3D Reconstruction,CVPR,2023,reconstruction_3d
+paper_0012,3DAvatarGAN: Bridging Domains for Personalized Editable Avatars,CVPR,2023,face_centric
+paper_0013,Adaptive Patch Deformation for Textureless-Resilient Multi-View Stereo,CVPR,2023,reconstruction_3d
+paper_0014,Adversarially Masking Synthetic To Mimic Real: Adaptive Noise Injection for Point Cloud Segmentation Adaptation,CVPR,2023,segmentation_detection
+paper_0015,AligNeRF: High-Fidelity Neural Radiance Fields via Alignment-Aware Training,CVPR,2023,neural_radiance_field
+paper_0016,Ambiguous Medical Image Segmentation Using Diffusion Models,CVPR,2023,segmentation_detection
+paper_0017,AnyFlow: Arbitrary Scale Optical Flow With Implicit Neural Representation,CVPR,2023,optical_flow_stereo
+paper_0018,Avatars Grow Legs: Generating Smooth Human Motion From Sparse Tracking Inputs With Diffusion Model,CVPR,2023,motion_generation
+paper_0019,BAAM: Monocular 3D Pose and Shape Reconstruction With Bi-Contextual Attention Module and Attention-Guided Modeling,CVPR,2023,reconstruction_3d
+paper_0020,AnchorFormer: Point Cloud Completion From Discriminative Nodes,CVPR,2023,point_cloud_analysis
+paper_0021,BAD-NeRF: Bundle Adjusted Deblur Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0022,Attention-Based Point Cloud Edge Sampling,CVPR,2023,point_cloud_analysis
+paper_0023,BBDM: Image-to-Image Translation With Brownian Bridge Diffusion Models,CVPR,2023,generative_2d
+paper_0024,BKinD-3D: Self-Supervised 3D Keypoint Discovery From Multi-View Videos,CVPR,2023,human_pose_mesh
+paper_0025,BUOL: A Bottom-Up Framework With Occupancy-Aware Lifting for Panoptic 3D Scene Reconstruction From a Single Image,CVPR,2023,segmentation_detection
+paper_0026,FFHQ-UV: Normalized Facial UV-Texture Dataset for 3D Face Reconstruction,CVPR,2023,face_centric
+paper_0027,High-Fidelity Facial Avatar Reconstruction From Monocular Video With Generative Priors,CVPR,2023,face_centric
+paper_0028,Learning Personalized High Quality Volumetric Head Avatars From Monocular RGB Videos,CVPR,2023,human_avatar
+paper_0029,Balanced Spherical Grid for Egocentric View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0030,Behind the Scenes: Density Fields for Single View Reconstruction,CVPR,2023,reconstruction_3d
+paper_0031,Probabilistic Debiasing of Scene Graphs,CVPR,2023,scene_understanding
+paper_0032,"BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration",CVPR,2023,point_cloud_analysis
+paper_0033,Omni3D: A Large Benchmark and Model for 3D Object Detection in the Wild,CVPR,2023,segmentation_detection
+paper_0034,Building Rearticulable Models for Arbitrary 3D Objects From 4D Point Clouds,CVPR,2023,point_cloud_analysis
+paper_0035,BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects,CVPR,2023,reconstruction_3d
+paper_0036,CAPE: Camera View Position Embedding for Multi-View 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0037,CLIP2: Contrastive Language-Image-Point Pretraining From Real-World Point Cloud Data,CVPR,2023,point_cloud_analysis
+paper_0038,A New Comprehensive Benchmark for Semi-Supervised Video Anomaly Detection and Anticipation,CVPR,2023,segmentation_detection
+paper_0039,Real-Time Neural Light Field on Mobile Devices,CVPR,2023,neural_radiance_field
+paper_0040,AVFace: Towards Detailed Audio-Visual 4D Face Reconstruction,CVPR,2023,face_centric
+paper_0041,CLIP2Scene: Towards Label-Efficient 3D Scene Understanding by CLIP,CVPR,2023,scene_understanding
+paper_0042,Hand Avatar: Free-Pose Hand Animation and Rendering From Monocular Video,CVPR,2023,hand_centric
+paper_0043,TexPose: Neural Texture Learning for Self-Supervised 6D Object Pose Estimation,CVPR,2023,novel_view_synthesis
+paper_0044,"SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",CVPR,2023,reconstruction_3d
+paper_0045,BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks,CVPR,2023,segmentation_detection
+paper_0046,Seeing With Sound: Long-range Acoustic Beamforming for Multimodal Scene Understanding,CVPR,2023,segmentation_detection
+paper_0047,Implicit 3D Human Mesh Recovery Using Consistency With Pose and Shape From Unseen-View,CVPR,2023,human_pose_mesh
+paper_0048,Class-Balancing Diffusion Models,CVPR,2023,generative_2d
+paper_0049,Clothed Human Performance Capture With a Double-Layer Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0050,Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM,CVPR,2023,slam_localization
+paper_0051,Complementary Intrinsics From Neural Radiance Fields and CNNs for Outdoor Scene Relighting,CVPR,2023,neural_radiance_field
+paper_0052,Compressing Volumetric Radiance Fields to 1 MB,CVPR,2023,neural_radiance_field
+paper_0053,Complete-to-Partial 4D Distillation for Self-Supervised Point Cloud Sequence Representation Learning,CVPR,2023,point_cloud_analysis
+paper_0054,ConQueR: Query Contrast Voxel-DETR for 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0055,Conditional Image-to-Video Generation With Latent Flow Diffusion Models,CVPR,2023,motion_generation
+paper_0056,Combining Implicit-Explicit View Correlation for Light Field Semantic Segmentation,CVPR,2023,segmentation_detection
+paper_0057,Consistent View Synthesis With Pose-Guided Diffusion Models,CVPR,2023,novel_view_synthesis
+paper_0058,Continuous Pseudo-Label Rectified Domain Adaptive Semantic Segmentation With Implicit Neural Representations,CVPR,2023,segmentation_detection
+paper_0059,Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories,CVPR,2023,novel_view_synthesis
+paper_0060,ContraNeRF: Generalizable Neural Radiance Fields for Synthetic-to-Real Novel View Synthesis via Contrastive Learning,CVPR,2023,novel_view_synthesis
+paper_0061,Controllable Mesh Generation Through Sparse Latent Point Diffusion Models,CVPR,2023,point_cloud_analysis
+paper_0062,Structured 3D Features for Reconstructing Controllable Avatars,CVPR,2023,novel_view_synthesis
+paper_0063,CutMIB: Boosting Light Field Super-Resolution via Multi-View Image Blending,CVPR,2023,image_restoration
+paper_0064,DATID-3D: Diversity-Preserved Domain Adaptation Using Text-to-Image Diffusion for 3D Generative Model,CVPR,2023,generative_3d
+paper_0065,Cross-Guided Optimization of Radiance Fields With Multi-View Image Super-Resolution for High-Resolution Novel View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0066,DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0067,DINER: Depth-Aware Image-Based NEural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0068,DINER: Disorder-Invariant Implicit Neural Representation,CVPR,2023,reconstruction_3d
+paper_0069,DP-NeRF: Deblurred Neural Radiance Field With Physical Scene Priors,CVPR,2023,neural_radiance_field
+paper_0070,SLOPER4D: A Scene-Aware Dataset for Global 4D Human Pose Estimation in Urban Environments,CVPR,2023,human_pose_mesh
+paper_0071,Deep Graph-Based Spatial Consistency for Robust Non-Rigid Point Cloud Registration,CVPR,2023,point_cloud_analysis
+paper_0072,Deep Incomplete Multi-View Clustering With Cross-View Partial Sample and Prototype Alignment,CVPR,2023,segmentation_detection
+paper_0073,Depth Estimation From Camera Image and mmWave Radar Point Cloud,CVPR,2023,depth_estimation
+paper_0074,Depth Estimation From Indoor Panoramas With Neural Scene Representation,CVPR,2023,depth_estimation
+paper_0075,DiffRF: Rendering-Guided 3D Radiance Field Diffusion,CVPR,2023,neural_radiance_field
+paper_0076,DiffusioNeRF: Regularizing Neural Radiance Fields With Denoising Diffusion Models,CVPR,2023,neural_radiance_field
+paper_0077,Diffusion-Based Signed Distance Fields for 3D Shape Generation,CVPR,2023,reconstruction_3d
+paper_0078,Diffusion-SDF: Text-To-Shape via Voxelized Diffusion,CVPR,2023,reconstruction_3d
+paper_0079,PLA: Language-Driven Open-Vocabulary 3D Scene Understanding,CVPR,2023,scene_understanding
+paper_0080,DisCoScene: Spatially Disentangled Generative Radiance Fields for Controllable 3D-Aware Scene Synthesis,CVPR,2023,neural_radiance_field
+paper_0081,Domain Generalized Stereo Matching via Hierarchical Visual Transformation,CVPR,2023,optical_flow_stereo
+paper_0082,Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models,CVPR,2023,generative_3d
+paper_0083,Conditional Generation of Audio From Video via Foley Analogies,CVPR,2023,generative_2d
+paper_0084,DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation,CVPR,2023,generative_2d
+paper_0085,ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields,CVPR,2023,slam_localization
+paper_0086,ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model With Knowledge-Enhanced Mixture-of-Denoising-Experts,CVPR,2023,generative_2d
+paper_0087,Efficient Hierarchical Entropy Model for Learned Point Cloud Compression,CVPR,2023,point_cloud_analysis
+paper_0088,Efficient View Synthesis and 3D-Based Multi-Frame Denoising With Multiplane Feature Representations,CVPR,2023,novel_view_synthesis
+paper_0089,Enhanced Stable View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0090,EditableNeRF: Editing Topologically Varying Neural Radiance Fields by Key Points,CVPR,2023,neural_radiance_field
+paper_0091,EventNeRF: Neural Radiance Fields From a Single Colour Event Camera,CVPR,2023,neural_radiance_field
+paper_0092,Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0093,F2-NeRF: Fast Neural Radiance Field Training With Free Camera Trajectories,CVPR,2023,neural_radiance_field
+paper_0094,Learning Analytical Posterior Probability for Human Mesh Recovery,CVPR,2023,human_pose_mesh
+paper_0095,Fast Monocular Scene Reconstruction With Global-Sparse Local-Dense Grids,CVPR,2023,reconstruction_3d
+paper_0096,Mutual Information-Based Temporal Difference Learning for Human Pose Estimation in Video,CVPR,2023,human_pose_mesh
+paper_0097,FlexNeRF: Photorealistic Free-Viewpoint Rendering of Moving Humans From Sparse Views,CVPR,2023,neural_radiance_field
+paper_0098,Flow Supervision for Deformable NeRF,CVPR,2023,neural_radiance_field
+paper_0099,Reconstructing Signing Avatars From Video Using Linguistic Priors,CVPR,2023,reconstruction_3d
+paper_0100,FreeNeRF: Improving Few-Shot Neural Rendering With Free Frequency Regularization,CVPR,2023,neural_radiance_field
+paper_0101,FrustumFormer: Adaptive Instance-Aware Resampling for Multi-View 3D Detection,CVPR,2023,reconstruction_3d
+paper_0102,Frequency-Modulated Point Cloud Rendering With Easy Editing,CVPR,2023,point_cloud_analysis
+paper_0103,Auto-CARD: Efficient and Robust Codec Avatar Driving for Real-Time Mobile Telepresence,CVPR,2023,human_avatar
+paper_0104,GM-NeRF: Learning Generalizable Model-Based Neural Radiance Fields From Multi-View Images,CVPR,2023,neural_radiance_field
+paper_0105,GINA-3D: Learning To Generate Implicit Neural Assets in the Wild,CVPR,2023,generative_3d
+paper_0106,The ObjectFolder Benchmark: Multisensory Learning With Neural and Real Objects,CVPR,2023,reconstruction_3d
+paper_0107,Gated Stereo: Joint Depth Estimation From Gated and Wide-Baseline Active Stereo Cues,CVPR,2023,depth_estimation
+paper_0108,GeoMVSNet: Learning Multi-View Stereo With Geometry Perception,CVPR,2023,reconstruction_3d
+paper_0109,Dense-Localizing Audio-Visual Events in Untrimmed Videos: A Large-Scale Benchmark and Baseline,CVPR,2023,segmentation_detection
+paper_0110,Human Pose As Compositional Tokens,CVPR,2023,human_pose_mesh
+paper_0111,GraVoS: Voxel Selection for 3D Point-Cloud Detection,CVPR,2023,segmentation_detection
+paper_0112,Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent With Learned Distance Functions,CVPR,2023,point_cloud_analysis
+paper_0113,Grid-Guided Neural Radiance Fields for Large Urban Scenes,CVPR,2023,neural_radiance_field
+paper_0114,Geometry and Uncertainty-Aware 3D Point Cloud Class-Incremental Semantic Segmentation,CVPR,2023,point_cloud_analysis
+paper_0115,GrowSP: Unsupervised Semantic Segmentation of 3D Point Clouds,CVPR,2023,point_cloud_analysis
+paper_0116,GANmouflage: 3D Object Nondetection With Texture Fields,CVPR,2023,segmentation_detection
+paper_0117,Knowledge Distillation for 6D Pose Estimation by Aligning Distributions of Local Predictions,CVPR,2023,other
+paper_0118,Vid2Avatar: 3D Avatar Reconstruction From Videos in the Wild via Self-Supervised Scene Decomposition,CVPR,2023,human_avatar
+paper_0119,H2ONet: Hand-Occlusion-and-Orientation-Aware Network for Real-Time 3D Hand Mesh Reconstruction,CVPR,2023,hand_centric
+paper_0120,HOLODIFFUSION: Training a 3D Diffusion Model Using 2D Images,CVPR,2023,generative_3d
+paper_0121,Rigidity-Aware Detection for 6D Object Pose Estimation,CVPR,2023,segmentation_detection
+paper_0122,HRDFuse: Monocular 360deg Depth Estimation by Collaboratively Learning Holistic-With-Regional Depth Distributions,CVPR,2023,depth_estimation
+paper_0123,Shape-Constraint Recurrent Flow for 6D Object Pose Estimation,CVPR,2023,optical_flow_stereo
+paper_0124,In-Hand 3D Object Scanning From an RGB Sequence,CVPR,2023,hand_centric
+paper_0125,HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes With Iterative Intertwined Regularization,CVPR,2023,reconstruction_3d
+paper_0126,High-Fidelity 3D GAN Inversion by Pseudo-Multi-View Optimization,CVPR,2023,generative_3d
+paper_0127,High-Frequency Stereo Matching Network,CVPR,2023,optical_flow_stereo
+paper_0128,High-Resolution Image Reconstruction With Latent Diffusion Models From Human Brain Activity,CVPR,2023,generative_2d
+paper_0129,HouseDiffusion: Vector Floorplan Generation via a Diffusion Model With Discrete and Continuous Denoising,CVPR,2023,generative_2d
+paper_0130,Highly Confident Local Structure Based Consensus Graph Learning for Incomplete Multi-View Clustering,CVPR,2023,segmentation_detection
+paper_0131,How to Backdoor Diffusion Models?,CVPR,2023,generative_2d
+paper_0132,Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0133,Semi-Supervised 2D Human Pose Estimation Driven by Position Inconsistency Pseudo Label Correction Module,CVPR,2023,human_pose_mesh
+paper_0134,HumanGen: Generating Human Radiance Fields With Explicit Priors,CVPR,2023,neural_radiance_field
+paper_0135,"Diffusion-Based Generation, Optimization, and Planning in 3D Scenes",CVPR,2023,scene_understanding
+paper_0136,Hybrid Neural Rendering for Large-Scale Scenes With Motion Blur,CVPR,2023,novel_view_synthesis
+paper_0137,I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs,CVPR,2023,reconstruction_3d
+paper_0138,Hyperspherical Embedding for Point Cloud Completion,CVPR,2023,point_cloud_analysis
+paper_0139,ISBNet: A 3D Point Cloud Instance Segmentation Network With Instance-Aware Sampling and Box-Aware Dynamic Convolution,CVPR,2023,segmentation_detection
+paper_0140,Im2Hands: Learning Attentive Implicit Representation of Interacting Two-Hand Shapes,CVPR,2023,hand_centric
+paper_0141,Neural Voting Field for Camera-Space 3D Hand Pose Estimation,CVPR,2023,hand_centric
+paper_0142,Imagic: Text-Based Real Image Editing With Diffusion Models,CVPR,2023,generative_2d
+paper_0143,Implicit Diffusion Models for Continuous Super-Resolution,CVPR,2023,image_restoration
+paper_0144,Implicit Neural Head Synthesis via Controllable Local Deformation Fields,CVPR,2023,face_centric
+paper_0145,Improving Graph Representation for Point Cloud Segmentation via Attentive Filtering,CVPR,2023,point_cloud_analysis
+paper_0146,Instant Multi-View Head Capture Through Learnable Registration,CVPR,2023,reconstruction_3d
+paper_0147,Interactive Segmentation of Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0148,Inversion-Based Style Transfer With Diffusion Models,CVPR,2023,generative_2d
+paper_0149,Iterative Geometry Encoding Volume for Stereo Matching,CVPR,2023,optical_flow_stereo
+paper_0150,JAWS: Just a Wild Shot for Cinematic Transfer in Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0151,JacobiNeRF: NeRF Shaping With Mutual Information Gradients,CVPR,2023,neural_radiance_field
+paper_0152,Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline,CVPR,2023,segmentation_detection
+paper_0153,A2J-Transformer: Anchor-to-Joint Transformer Network for 3D Interacting Hand Pose Estimation From a Single RGB Image,CVPR,2023,hand_centric
+paper_0154,Ultra-High Resolution Segmentation With Ultra-Rich Context: A Novel Benchmark,CVPR,2023,segmentation_detection
+paper_0155,InstantAvatar: Learning Avatars From Monocular Video in 60 Seconds,CVPR,2023,neural_radiance_field
+paper_0156,Instant-NVR: Instant Neural Volumetric Rendering for Human-Object Interactions From Monocular RGBD Stream,CVPR,2023,tracking
+paper_0157,Devil's on the Edges: Selective Quad Attention for Scene Graph Generation,CVPR,2023,scene_understanding
+paper_0158,"K-Planes: Explicit Radiance Fields in Space, Time, and Appearance",CVPR,2023,neural_radiance_field
+paper_0159,Self-Correctable and Adaptable Inference for Generalizable Human Pose Estimation,CVPR,2023,human_pose_mesh
+paper_0160,"X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection",CVPR,2023,segmentation_detection
+paper_0161,Benchmarking Self-Supervised Learning on Diverse Pathology Datasets,CVPR,2023,segmentation_detection
+paper_0162,Learning To Predict Scene-Level Implicit 3D From Posed RGBD Data,CVPR,2023,reconstruction_3d
+paper_0163,Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures,CVPR,2023,neural_radiance_field
+paper_0164,FitMe: Deep Photorealistic 3D Morphable Model Avatars,CVPR,2023,human_avatar
+paper_0165,LayoutDM: Discrete Diffusion Model for Controllable Layout Generation,CVPR,2023,generative_2d
+paper_0166,LayoutDiffusion: Controllable Diffusion Model for Layout-to-Image Generation,CVPR,2023,generative_2d
+paper_0167,Leapfrog Diffusion Model for Stochastic Trajectory Prediction,CVPR,2023,motion_generation
+paper_0168,Learnable Skeleton-Aware 3D Point Cloud Sampling,CVPR,2023,point_cloud_analysis
+paper_0169,LayoutDM: Transformer-Based Diffusion Model for Layout Generation,CVPR,2023,generative_2d
+paper_0170,Learning Human-to-Robot Handovers From Point Clouds,CVPR,2023,point_cloud_analysis
+paper_0171,Learning Neural Duplex Radiance Fields for Real-Time View Synthesis,CVPR,2023,neural_radiance_field
+paper_0172,Learning Spatial-Temporal Implicit Neural Representations for Event-Guided Video Super-Resolution,CVPR,2023,image_restoration
+paper_0173,Learning To Fuse Monocular and Multi-View Cues for Multi-Frame Depth Estimation in Dynamic Scenes,CVPR,2023,depth_estimation
+paper_0174,Learning To Measure the Point Cloud Reconstruction Loss in a Representation Space,CVPR,2023,point_cloud_analysis
+paper_0175,Learning To Render Novel Views From Wide-Baseline Stereo Pairs,CVPR,2023,novel_view_synthesis
+paper_0176,Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation,CVPR,2023,optical_flow_stereo
+paper_0177,TTA-COPE: Test-Time Adaptation for Category-Level Object Pose Estimation,CVPR,2023,other
+paper_0178,Human Pose Estimation in Extremely Low-Light Conditions,CVPR,2023,human_pose_mesh
+paper_0179,A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction From In-the-Wild Images,CVPR,2023,face_centric
+paper_0180,EFEM: Equivariant Neural Field Expectation Maximization for 3D Object Segmentation Without Scene Supervision,CVPR,2023,segmentation_detection
+paper_0181,Level-S$^2$fM: Structure From Motion on Neural Level Set of Implicit Surfaces,CVPR,2023,reconstruction_3d
+paper_0182,Less Is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation,CVPR,2023,segmentation_detection
+paper_0183,AShapeFormer: Semantics-Guided Object-Level Active Shape Encoding for 3D Object Detection via Transformers,CVPR,2023,segmentation_detection
+paper_0184,DynIBaR: Neural Dynamic Image-Based Rendering,CVPR,2023,novel_view_synthesis
+paper_0185,LoGoNet: Towards Accurate 3D Object Detection With Local-to-Global Cross-Modal Fusion,CVPR,2023,segmentation_detection
+paper_0186,Long Range Pooling for 3D Large-Scale Scene Understanding,CVPR,2023,point_cloud_analysis
+paper_0187,MEGANE: Morphable Eyeglass and Avatar Network,CVPR,2023,human_avatar
+paper_0188,Robust Model-Based Face Reconstruction Through Weakly-Supervised Outlier Segmentation,CVPR,2023,face_centric
+paper_0189,Towards Benchmarking and Assessing Visual Naturalness of Physical World Adversarial Attacks,CVPR,2023,other
+paper_0190,High-Fidelity Clothed Avatar Reconstruction From a Single Image,CVPR,2023,human_avatar
+paper_0191,Lift3D: Synthesize 3D Training Data by Lifting 2D GAN to 3D Generative Radiance Field,CVPR,2023,generative_3d
+paper_0192,Cross-Domain 3D Hand Pose Estimation With Dual Modalities,CVPR,2023,hand_centric
+paper_0193,Harmonious Feature Learning for Interactive Hand-Object Pose Estimation,CVPR,2023,hand_centric
+paper_0194,ShadowNeuS: Neural SDF Reconstruction by Shadow Ray Supervision,CVPR,2023,reconstruction_3d
+paper_0195,Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation,CVPR,2023,depth_estimation
+paper_0196,Delving Into Discrete Normalizing Flows on SO(3) Manifold for Probabilistic Rotation Modeling,CVPR,2023,other
+paper_0197,A Soma Segmentation Benchmark in Full Adult Fly Brain,CVPR,2023,segmentation_detection
+paper_0198,FAC: 3D Representation Learning via Foreground Aware Feature Contrast,CVPR,2023,point_cloud_analysis
+paper_0199,Local Implicit Ray Function for Generalizable Radiance Field Representation,CVPR,2023,neural_radiance_field
+paper_0200,PoseExaminer: Automated Testing of Out-of-Distribution Robustness in Human Pose and Shape Estimation,CVPR,2023,human_pose_mesh
+paper_0201,Local-to-Global Registration for Bundle-Adjusting Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0202,Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections,CVPR,2023,reconstruction_3d
+paper_0203,MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation,CVPR,2023,generative_2d
+paper_0204,MV-JAR: Masked Voxel Jigsaw and Reconstruction for LiDAR-Based Self-Supervised Pre-Training,CVPR,2023,segmentation_detection
+paper_0205,MVImgNet: A Large-Scale Dataset of Multi-View Images,CVPR,2023,point_cloud_analysis
+paper_0206,3D Human Mesh Estimation From Virtual Markers,CVPR,2023,human_pose_mesh
+paper_0207,OTAvatar: One-Shot Talking Face Avatar With Controllable Tri-Plane Rendering,CVPR,2023,human_avatar
+paper_0208,Magic3D: High-Resolution Text-to-3D Content Creation,CVPR,2023,generative_3d
+paper_0209,MarS3D: A Plug-and-Play Motion-Aware Model for Semantic Segmentation on Multi-Scan 3D Point Clouds,CVPR,2023,segmentation_detection
+paper_0210,Marching-Primitives: Shape Abstraction From Signed Distance Function,CVPR,2023,reconstruction_3d
+paper_0211,Masked Representation Learning for Domain Generalized Stereo Matching,CVPR,2023,optical_flow_stereo
+paper_0212,Masked Wavelet Representation for Compact Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0213,Metadata-Based RAW Reconstruction via Implicit Neural Functions,CVPR,2023,image_restoration
+paper_0214,"Spring: A High-Resolution High-Detail Dataset and Benchmark for Scene Flow, Optical Flow and Stereo",CVPR,2023,optical_flow_stereo
+paper_0215,MixNeRF: Modeling a Ray With Mixture Density for Novel View Synthesis From Sparse Inputs,CVPR,2023,novel_view_synthesis
+paper_0216,MoDAR: Using Motion Forecasting for 3D Object Detection in Point Cloud Sequences,CVPR,2023,segmentation_detection
+paper_0217,MobileBrick: Building LEGO for 3D Reconstruction on Mobile Devices,CVPR,2023,reconstruction_3d
+paper_0218,MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures,CVPR,2023,neural_radiance_field
+paper_0219,Modality-Invariant Visual Odometry for Embodied Vision,CVPR,2023,slam_localization
+paper_0220,Multi-Space Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0221,Multi-Sensor Large-Scale Dataset for Multi-View 3D Reconstruction,CVPR,2023,reconstruction_3d
+paper_0222,MonoATT: Online Monocular 3D Object Detection With Adaptive Token Transformer,CVPR,2023,segmentation_detection
+paper_0223,Multi-View Adversarial Discriminator: Mine the Non-Causal Factors for Object Detection in Unseen Domains,CVPR,2023,segmentation_detection
+paper_0224,Multi-View Inverse Rendering for Large-Scale Real-World Indoor Scenes,CVPR,2023,novel_view_synthesis
+paper_0225,Multi-View Azimuth Stereo via Tangent Space Consistency,CVPR,2023,reconstruction_3d
+paper_0226,Multi-View Reconstruction Using Signed Ray Distance Functions (SRDF),CVPR,2023,reconstruction_3d
+paper_0227,Multi-View Stereo Representation Revist: Region-Aware MVSNet,CVPR,2023,reconstruction_3d
+paper_0228,Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0229,NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction From Multi-View Images,CVPR,2023,neural_radiance_field
+paper_0230,Multiview Compressive Coding for 3D Reconstruction,CVPR,2023,reconstruction_3d
+paper_0231,NULL-Text Inversion for Editing Real Images Using Guided Diffusion Models,CVPR,2023,generative_2d
+paper_0232,NIRVANA: Neural Implicit Representations of Videos With Adaptive Networks and Autoregressive Patch-Wise Modeling,CVPR,2023,other
+paper_0233,Unbiased Scene Graph Generation in Videos,CVPR,2023,scene_understanding
+paper_0234,NeAT: Learning Neural Implicit Surfaces With Arbitrary Topologies From Multi-View Images,CVPR,2023,reconstruction_3d
+paper_0235,NeRDi: Single-View NeRF Synthesis With Language-Guided Diffusion As General Image Priors,CVPR,2023,neural_radiance_field
+paper_0236,NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects,CVPR,2023,neural_radiance_field
+paper_0237,NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0238,NeRF-RPN: A General Framework for Object Detection in NeRFs,CVPR,2023,neural_radiance_field
+paper_0239,NeRF-Supervised Deep Stereo,CVPR,2023,neural_radiance_field
+paper_0240,NeRFInvertor: High Fidelity NeRF-GAN Inversion for Single-Shot Real Image Animation,CVPR,2023,neural_radiance_field
+paper_0241,NeRFLight: Fast and Light Neural Radiance Fields Using a Shared Feature Grid,CVPR,2023,neural_radiance_field
+paper_0242,NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds,CVPR,2023,neural_radiance_field
+paper_0243,NerVE: Neural Volumetric Edges for Parametric Curve Extraction From Point Cloud,CVPR,2023,point_cloud_analysis
+paper_0244,Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation From 2D Supervision,CVPR,2023,neural_radiance_field
+paper_0245,NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction,CVPR,2023,reconstruction_3d
+paper_0246,NeuFace: Realistic 3D Neural Face Rendering From Multi-View Images,CVPR,2023,face_centric
+paper_0247,NeurOCS: Neural NOCS Supervision for Monocular 3D Object Localization,CVPR,2023,reconstruction_3d
+paper_0248,Neural Intrinsic Embedding for Non-Rigid Point Cloud Matching,CVPR,2023,point_cloud_analysis
+paper_0249,Neural Kernel Surface Reconstruction,CVPR,2023,point_cloud_analysis
+paper_0250,Neural Pixel Composition for 3D-4D View Synthesis From Multi-Views,CVPR,2023,novel_view_synthesis
+paper_0251,Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos,CVPR,2023,neural_radiance_field
+paper_0252,Neural Vector Fields: Implicit Representation by Explicit Learning,CVPR,2023,reconstruction_3d
+paper_0253,NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions,CVPR,2023,human_avatar
+paper_0254,NeuralPCI: Spatio-Temporal Neural Field for 3D Point Cloud Multi-Frame Non-Linear Interpolation,CVPR,2023,point_cloud_analysis
+paper_0255,NeuralUDF: Learning Unsigned Distance Fields for Multi-View Reconstruction of Surfaces With Arbitrary Topologies,CVPR,2023,reconstruction_3d
+paper_0256,Neuralangelo: High-Fidelity Neural Surface Reconstruction,CVPR,2023,reconstruction_3d
+paper_0257,Learning 3D Scene Priors With 2D Supervision,CVPR,2023,reconstruction_3d
+paper_0258,NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior,CVPR,2023,neural_radiance_field
+paper_0259,ObjectStitch: Object Compositing With Diffusion Model,CVPR,2023,novel_view_synthesis
+paper_0260,Occlusion-Free Scene Recovery via Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0261,Novel Class Discovery for 3D Point Cloud Semantic Segmentation,CVPR,2023,segmentation_detection
+paper_0262,Octree Guided Unoriented Surface Reconstruction,CVPR,2023,point_cloud_analysis
+paper_0263,OmniCity: Omnipotent City Understanding With Multi-Level and Multi-View Images,CVPR,2023,scene_understanding
+paper_0264,AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation,CVPR,2023,hand_centric
+paper_0265,OmniVidar: Omnidirectional Depth Estimation From Multi-Fisheye Images,CVPR,2023,depth_estimation
+paper_0266,On Distillation of Guided Diffusion Models,CVPR,2023,generative_2d
+paper_0267,One-Shot High-Fidelity Talking-Head Synthesis With Deformable Neural Radiance Field,CVPR,2023,neural_radiance_field
+paper_0268,Open-Vocabulary Panoptic Segmentation With Text-to-Image Diffusion Models,CVPR,2023,segmentation_detection
+paper_0269,PC2: Projection-Conditioned Point Cloud Diffusion for Single-Image 3D Reconstruction,CVPR,2023,point_cloud_analysis
+paper_0270,PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters,CVPR,2023,reconstruction_3d
+paper_0271,PEAL: Prior-Embedded Explicit Attention Learning for Low-Overlap Point Cloud Registration,CVPR,2023,point_cloud_analysis
+paper_0272,POEM: Reconstructing Hand in a Point Embedded Multi-View Stereo,CVPR,2023,hand_centric
+paper_0273,PVO: Panoptic Visual Odometry,CVPR,2023,segmentation_detection
+paper_0274,Paint by Example: Exemplar-Based Image Editing With Diffusion Models,CVPR,2023,generative_2d
+paper_0275,Painting 3D Nature in 2D: View Synthesis of Natural Scenes From a Single Semantic Mask,CVPR,2023,novel_view_synthesis
+paper_0276,PaletteNeRF: Palette-Based Appearance Editing of Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0277,Parallel Diffusion Models of Operator and Image for Blind Inverse Problems,CVPR,2023,generative_2d
+paper_0278,PartManip: Learning Cross-Category Generalizable Part Manipulation Policy From Point Cloud Observations,CVPR,2023,point_cloud_analysis
+paper_0279,PartSLIP: Low-Shot Part Segmentation for 3D Point Clouds via Pretrained Image-Language Models,CVPR,2023,point_cloud_analysis
+paper_0280,Parts2Words: Learning Joint Embedding of Point Clouds and Texts by Bidirectional Matching Between Parts and Words,CVPR,2023,point_cloud_analysis
+paper_0281,PermutoSDF: Fast Multi-View Reconstruction With Implicit Surfaces Using Permutohedral Lattices,CVPR,2023,reconstruction_3d
+paper_0282,OpenScene: 3D Scene Understanding With Open Vocabularies,CVPR,2023,scene_understanding
+paper_0283,Person Image Synthesis via Denoising Diffusion Model,CVPR,2023,generative_2d
+paper_0284,PersonNeRF: Personalized Reconstruction From Photo Collections,CVPR,2023,novel_view_synthesis
+paper_0285,Object Pop-Up: Can We Infer 3D Objects and Their Poses From Human Interactions Alone?,CVPR,2023,point_cloud_analysis
+paper_0286,Physics-Driven Diffusion Models for Impact Sound Synthesis From Videos,CVPR,2023,other
+paper_0287,PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0288,PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds,CVPR,2023,segmentation_detection
+paper_0289,PlaneDepth: Self-Supervised Depth Estimation via Orthogonal Planes,CVPR,2023,depth_estimation
+paper_0290,Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting,CVPR,2023,point_cloud_analysis
+paper_0291,PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering,CVPR,2023,neural_radiance_field
+paper_0292,Point2Pix: Photo-Realistic Point Cloud Rendering via Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0293,Pointersect: Neural Rendering With Cloud-Ray Intersection,CVPR,2023,point_cloud_analysis
+paper_0294,Polynomial Implicit Neural Representations for Large Diverse Datasets,CVPR,2023,generative_2d
+paper_0295,Post-Training Quantization on Diffusion Models,CVPR,2023,generative_2d
+paper_0296,Progressively Optimized Local Radiance Fields for Robust View Synthesis,CVPR,2023,novel_view_synthesis
+paper_0297,RIAV-MVS: Recurrent-Indexing an Asymmetric Volume for Multi-View Stereo,CVPR,2023,reconstruction_3d
+paper_0298,RGBD2: Generative Scene Synthesis via Incremental View Inpainting Using RGBD Diffusion Models,CVPR,2023,point_cloud_analysis
+paper_0299,ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects,CVPR,2023,novel_view_synthesis
+paper_0300,ProxyFormer: Proxy Alignment Assisted Point Cloud Completion With Missing Part Sensitive Transformer,CVPR,2023,point_cloud_analysis
+paper_0301,Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization,CVPR,2023,neural_radiance_field
+paper_0302,RefSR-NeRF: Towards High Fidelity and Super Resolution View Synthesis,CVPR,2023,neural_radiance_field
+paper_0303,Relightable Neural Human Assets From Multi-View Gradient Illuminations,CVPR,2023,novel_view_synthesis
+paper_0304,Regularize Implicit Neural Representation by Itself,CVPR,2023,reconstruction_3d
+paper_0305,Removing Objects From Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0306,Rethinking the Approximation Error in 3D Surface Fitting for Point Cloud Normal Estimation,CVPR,2023,point_cloud_analysis
+paper_0307,"RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation",CVPR,2023,generative_3d
+paper_0308,Robust Dynamic Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0309,Robust Multiview Point Cloud Registration With Reliable Pose Graph Initialization and History Reweighting,CVPR,2023,point_cloud_analysis
+paper_0310,RobustNeRF: Ignoring Distractors With Robust Losses,CVPR,2023,neural_radiance_field
+paper_0311,Rotation-Invariant Transformer for Point Cloud Matching,CVPR,2023,point_cloud_analysis
+paper_0312,SCADE: NeRFs from Space Carving With Ambiguity-Aware Depth Estimates,CVPR,2023,neural_radiance_field
+paper_0313,SCPNet: Semantic Scene Completion on Point Cloud,CVPR,2023,point_cloud_analysis
+paper_0314,SE-ORNet: Self-Ensembling Orientation-Aware Network for Unsupervised Point Cloud Shape Correspondence,CVPR,2023,point_cloud_analysis
+paper_0315,SINE: SINgle Image Editing With Text-to-Image Diffusion Models,CVPR,2023,generative_2d
+paper_0316,SINE: Semantic-Driven Image-Based NeRF Editing With Prior-Guided Editing Field,CVPR,2023,neural_radiance_field
+paper_0317,SPARF: Neural Radiance Fields From Sparse and Noisy Poses,CVPR,2023,neural_radiance_field
+paper_0318,SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting With Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0319,Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation,CVPR,2023,generative_3d
+paper_0320,Sampling Is Matter: Point-Guided 3D Human Mesh Reconstruction,CVPR,2023,human_pose_mesh
+paper_0321,SeSDF: Self-Evolved Signed Distance Field for Implicit 3D Clothed Human Reconstruction,CVPR,2023,reconstruction_3d
+paper_0322,SeaThru-NeRF: Neural Radiance Fields in Scattering Media,CVPR,2023,neural_radiance_field
+paper_0323,Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding,CVPR,2023,generative_2d
+paper_0324,Seeing Through the Glass: Neural 3D Reconstruction of Object Inside a Transparent Container,CVPR,2023,reconstruction_3d
+paper_0325,Self-Guided Diffusion Models,CVPR,2023,generative_2d
+paper_0326,Self-Supervised Super-Plane for Neural 3D Reconstruction,CVPR,2023,reconstruction_3d
+paper_0327,Self-Positioning Point-Based Transformer for Point Cloud Understanding,CVPR,2023,point_cloud_analysis
+paper_0328,Semidefinite Relaxations for Robust Multiview Triangulation,CVPR,2023,reconstruction_3d
+paper_0329,HuManiFlow: Ancestor-Conditioned Normalising Flows on SO(3) Manifolds for Human Pose and Shape Distribution Estimation,CVPR,2023,human_pose_mesh
+paper_0330,ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal,CVPR,2023,generative_2d
+paper_0331,Shakes on a Plane: Unsupervised Depth Estimation From Unstabilized Photography,CVPR,2023,depth_estimation
+paper_0332,"Shape, Pose, and Appearance From a Single Image via Bootstrapped Radiance Field Inversion",CVPR,2023,neural_radiance_field
+paper_0333,Disentangling Orthogonal Planes for Indoor Panoramic Room Layout Estimation With Cross-Scale Distortion Awareness,CVPR,2023,scene_understanding
+paper_0334,Global-to-Local Modeling for Video-Based 3D Human Pose and Shape Estimation,CVPR,2023,human_pose_mesh
+paper_0335,Learning Human Mesh Recovery in 3D Scenes,CVPR,2023,human_pose_mesh
+paper_0336,Self-Supervised 3D Scene Flow Estimation Guided by Superpoints,CVPR,2023,optical_flow_stereo
+paper_0337,X-Avatar: Expressive Human Avatars,CVPR,2023,human_avatar
+paper_0338,PLIKS: A Pseudo-Linear Inverse Kinematic Solver for 3D Human Body Estimation,CVPR,2023,human_pose_mesh
+paper_0339,Listening Human Behavior: 3D Human Pose Estimation With Acoustic Signals,CVPR,2023,human_pose_mesh
+paper_0340,Panoptic Lifting for 3D Scene Understanding With Neural Fields,CVPR,2023,scene_understanding
+paper_0341,SinGRAF: Learning a 3D Generative Radiance Field for a Single Scene,CVPR,2023,generative_3d
+paper_0342,Single Image Depth Prediction Made Better: A Multivariate Gaussian Take,CVPR,2023,depth_estimation
+paper_0343,SmartBrush: Text and Shape Guided Object Inpainting With Diffusion Model,CVPR,2023,generative_2d
+paper_0344,Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models,CVPR,2023,reconstruction_3d
+paper_0345,Advancing Visual Grounding With Scene Knowledge: Benchmark and Method,CVPR,2023,scene_understanding
+paper_0346,DIFu: Depth-Guided Implicit Function for Clothed Human Reconstruction,CVPR,2023,human_avatar
+paper_0347,SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction,CVPR,2023,reconstruction_3d
+paper_0348,Spatiotemporal Self-Supervised Learning for Point Clouds in the Wild,CVPR,2023,point_cloud_analysis
+paper_0349,Specialist Diffusion: Plug-and-Play Sample-Efficient Fine-Tuning of Text-to-Image Diffusion Models To Learn Any Unseen Style,CVPR,2023,generative_2d
+paper_0350,Sphere-Guided Training of Neural Implicit Surfaces,CVPR,2023,reconstruction_3d
+paper_0351,SteerNeRF: Accelerating NeRF Rendering via Smooth Viewpoint Trajectory,CVPR,2023,neural_radiance_field
+paper_0352,Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction,CVPR,2023,novel_view_synthesis
+paper_0353,StyleGAN Salon: Multi-View Latent Optimization for Pose-Invariant Hairstyle Transfer,CVPR,2023,generative_2d
+paper_0354,StyleRF: Zero-Shot 3D Style Transfer of Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0355,DeFeeNet: Consecutive 3D Human Motion Prediction With Deviation Feedback,CVPR,2023,motion_generation
+paper_0356,Next3D: Generative Neural Texture Rasterization for 3D-Aware Head Avatars,CVPR,2023,face_centric
+paper_0357,Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing,CVPR,2023,human_pose_mesh
+paper_0358,SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes,CVPR,2023,neural_radiance_field
+paper_0359,TRACE: 5D Temporal Regression of Avatars With Dynamic Cameras in 3D Environments,CVPR,2023,human_pose_mesh
+paper_0360,Symmetric Shape-Preserving Autoencoder for Unsupervised Real Scene Point Cloud Completion,CVPR,2023,point_cloud_analysis
+paper_0361,Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation,CVPR,2023,motion_generation
+paper_0362,TINC: Tree-Structured Implicit Neural Compression,CVPR,2023,other
+paper_0363,Temporal Interpolation Is All You Need for Dynamic Neural Radiance Fields,CVPR,2023,neural_radiance_field
+paper_0364,Temporally Consistent Online Depth Estimation Using Point-Based Fusion,CVPR,2023,depth_estimation
+paper_0365,Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment,CVPR,2023,point_cloud_analysis
+paper_0366,Towards Domain Generalization for Multi-View 3D Object Detection in Bird-Eye-View,CVPR,2023,segmentation_detection
+paper_0367,Towards Practical Plug-and-Play Diffusion Models,CVPR,2023,generative_2d
+paper_0368,Transforming Radiance Field With Lipschitz Network for Photorealistic 3D Scene Stylization,CVPR,2023,neural_radiance_field
+paper_0369,Towards Unbiased Volume Rendering of Neural Implicit Surfaces With Geometry Priors,CVPR,2023,reconstruction_3d
+paper_0370,Towards Unsupervised Object Detection From LiDAR Point Clouds,CVPR,2023,segmentation_detection
+paper_0371,Trap Attention: Monocular Depth Estimation With Manual Traps,CVPR,2023,depth_estimation
+paper_0372,3D Human Pose Estimation via Intuitive Physics,CVPR,2023,human_pose_mesh
+paper_0373,TriVol: Point Cloud Rendering via Triple Volumes,CVPR,2023,point_cloud_analysis
+paper_0374,SUDS: Scalable Urban Dynamic Scenes,CVPR,2023,neural_radiance_field
+paper_0375,"ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",CVPR,2023,point_cloud_analysis
+paper_0376,FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding,CVPR,2023,segmentation_detection
+paper_0377,UV Volumes for Real-Time Rendering of Editable Free-View Human Performance,CVPR,2023,novel_view_synthesis
+paper_0378,Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models,CVPR,2023,generative_2d
+paper_0379,Unifying Layout Generation With a Decoupled Diffusion Model,CVPR,2023,generative_2d
+paper_0380,Unite and Conquer: Plug & Play Multi-Modal Synthesis Using Diffusion Models,CVPR,2023,face_centric
+paper_0381,Unsupervised Deep Asymmetric Stereo Matching With Spatially-Adaptive Self-Similarity,CVPR,2023,optical_flow_stereo
+paper_0382,Unsupervised Continual Semantic Adaptation Through Neural Rendering,CVPR,2023,neural_radiance_field
+paper_0383,Unsupervised Inference of Signed Distance Functions From Single Sparse Point Clouds Without Learning Priors,CVPR,2023,point_cloud_analysis
+paper_0384,VDN-NeRF: Resolving Shape-Radiance Ambiguity via View-Dependence Normalization,CVPR,2023,neural_radiance_field
+paper_0385,VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud,CVPR,2023,point_cloud_analysis
+paper_0386,VecFontSDF: Learning To Reconstruct and Synthesize High-Quality Vector Fonts via Signed Distance Functions,CVPR,2023,generative_2d
+paper_0387,GeneCIS: A Benchmark for General Conditional Image Similarity,CVPR,2023,other
+paper_0388,VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models,CVPR,2023,generative_2d
+paper_0389,Viewpoint Equivariance for Multi-View 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0390,VisFusion: Visibility-Aware Online 3D Scene Reconstruction From Videos,CVPR,2023,reconstruction_3d
+paper_0391,VolRecon: Volume Rendering of Signed Ray Distance Functions for Generalizable Multi-View Reconstruction,CVPR,2023,reconstruction_3d
+paper_0392,VoxFormer: Sparse Voxel Transformer for Camera-Based 3D Semantic Scene Completion,CVPR,2023,depth_estimation
+paper_0393,Are We Ready for Vision-Centric Driving Streaming Perception? The ASAP Benchmark,CVPR,2023,motion_generation
+paper_0394,AutoRecon: Automated 3D Object Discovery and Reconstruction,CVPR,2023,reconstruction_3d
+paper_0395,WIRE: Wavelet Implicit Neural Representations,CVPR,2023,image_restoration
+paper_0396,LP-DIF: Learning Local Pattern-Specific Deep Implicit Function for 3D Objects and Scenes,CVPR,2023,reconstruction_3d
+paper_0397,RODIN: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion,CVPR,2023,human_avatar
+paper_0398,Scene-Aware Egocentric 3D Human Pose Estimation,CVPR,2023,human_pose_mesh
+paper_0399,Wavelet Diffusion Models Are Fast and Scalable Image Generators,CVPR,2023,generative_2d
+paper_0400,Weakly Supervised Monocular 3D Object Detection Using Multi-View Projection and Direction Consistency,CVPR,2023,segmentation_detection
+paper_0401,GANHead: Towards Generative Animatable Neural Head Avatars,CVPR,2023,face_centric
+paper_0402,Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition From Egocentric RGB Videos,CVPR,2023,hand_centric
+paper_0403,Incremental 3D Semantic Scene Graph Prediction From RGB Sequences,CVPR,2023,scene_understanding
+paper_0404,Masked Scene Contrast: A Scalable Framework for Unsupervised 3D Representation Learning,CVPR,2023,segmentation_detection
+paper_0405,ECON: Explicit Clothed Humans Optimized via Normal Integration,CVPR,2023,human_pose_mesh
+paper_0406,MM-3DScene: 3D Scene Understanding by Customizing Masked Modeling With Informative-Preserved Reconstruction and Self-Distilled Consistency,CVPR,2023,scene_understanding
+paper_0407,NeuralLift-360: Lifting an In-the-Wild 2D Photo to a 3D Object With 360deg Views,CVPR,2023,generative_3d
+paper_0408,OmniAvatar: Geometry-Guided Controllable 3D Head Synthesis,CVPR,2023,reconstruction_3d
+paper_0409,Toward RAW Object Detection: A New Benchmark and a New Model,CVPR,2023,segmentation_detection
+paper_0410,BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0411,Object Pose Estimation With Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation,CVPR,2023,tracking
+paper_0412,Panoptic Video Scene Graph Generation,CVPR,2023,scene_understanding
+paper_0413,Resource-Efficient RGBD Aerial Tracking,CVPR,2023,tracking
+paper_0414,VectorFloorSeg: Two-Stream Graph Attention Network for Vectorized Roughcast Floorplan Segmentation,CVPR,2023,segmentation_detection
+paper_0415,Generating Holistic 3D Human Motion From Speech,CVPR,2023,motion_generation
+paper_0416,MIME: Human-Aware 3D Scene Generation,CVPR,2023,generative_3d
+paper_0417,DyLiN: Making Light Field Networks Dynamic,CVPR,2023,neural_radiance_field
+paper_0418,Deformable Mesh Transformer for 3D Human Mesh Recovery,CVPR,2023,human_pose_mesh
+paper_0419,Connecting the Dots: Floorplan Reconstruction Using Two-Level Queries,CVPR,2023,reconstruction_3d
+paper_0420,Bi3D: Bi-Domain Active Learning for Cross-Domain 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0421,Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection,CVPR,2023,segmentation_detection
+paper_0422,CloSET: Modeling Clothed Humans on Continuous Surface With Explicit Template Decomposition,CVPR,2023,human_avatar
+paper_0423,Learning 3D Representations From 2D Pre-Trained Models via Image-to-Point Masked Autoencoders,CVPR,2023,point_cloud_analysis
+paper_0424,Generating Human Motion From Textual Descriptions With Discrete Representations,CVPR,2023,motion_generation
+paper_0425,Two-Stage Co-Segmentation Network Based on Discriminative Representation for Recovering Human Mesh From Videos,CVPR,2023,human_pose_mesh
+paper_0426,HS-Pose: Hybrid Scope Feature Extraction for Category-Level Object Pose Estimation,CVPR,2023,point_cloud_analysis
+paper_0427,PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation,CVPR,2023,human_pose_mesh
+paper_0428,POTTER: Pooling Attention Transformer for Efficient Human Mesh Recovery,CVPR,2023,human_pose_mesh
+paper_0429,PointAvatar: Deformable Point-Based Head Avatars From Videos,CVPR,2023,human_avatar
+paper_0430,Human Body Shape Completion With Implicit Shape and Flow Learning,CVPR,2023,human_pose_mesh
+paper_0431,Prototype-Based Embedding Network for Scene Graph Generation,CVPR,2023,scene_understanding
+paper_0432,UDE: A Unified Driving Engine for Human Motion Generation,CVPR,2023,motion_generation
+paper_0433,Learning To Generate Language-Supervised and Open-Vocabulary Scene Graph Using Pre-Trained Visual-Semantic Space,CVPR,2023,segmentation_detection
+paper_0434,UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird's-Eye View,CVPR,2023,segmentation_detection
+paper_0435,E2PN: Efficient SE(3)-Equivariant Point Network,CVPR,2023,point_cloud_analysis
+paper_0436,Understanding the Robustness of 3D Object Detection With Bird's-Eye-View Representations in Autonomous Driving,CVPR,2023,segmentation_detection
+paper_0437,Towards Stable Human Pose Estimation via Cross-View Fusion and Foot Stabilization,CVPR,2023,human_pose_mesh
+paper_0438,Instant Volumetric Head Avatars,CVPR,2023,human_avatar
+paper_0439,gSDF: Geometry-Driven Signed Distance Functions for 3D Hand-Object Reconstruction,CVPR,2023,hand_centric
+paper_0440,iDisc: Internal Discretization for Monocular Depth Estimation,CVPR,2023,depth_estimation
+paper_0441,vMAP: Vectorised Object Mapping for Neural Field SLAM,CVPR,2023,slam_localization
+paper_0442,2S-UDF: A Novel Two-stage UDF Learning Method for Robust Non-watertight Model Reconstruction from Multi-view Images,CVPR,2024,reconstruction_3d
+paper_0443,360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model,CVPR,2024,generative_2d
+paper_0444,3D LiDAR Mapping in Dynamic Environments using a 4D Implicit Neural Representation,CVPR,2024,point_cloud_analysis
+paper_0445,3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis,CVPR,2024,gaussian_splatting
+paper_0446,3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0447,3DFIRES: Few Image 3D REconstruction for Scenes with Hidden Surfaces,CVPR,2024,reconstruction_3d
+paper_0448,3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos,CVPR,2024,gaussian_splatting
+paper_0449,4D Gaussian Splatting for Real-Time Dynamic Scene Rendering,CVPR,2024,gaussian_splatting
+paper_0450,4K4D: Real-Time 4D View Synthesis at 4K Resolution,CVPR,2024,novel_view_synthesis
+paper_0451,A Conditional Denoising Diffusion Probabilistic Model for Point Cloud Upsampling,CVPR,2024,point_cloud_analysis
+paper_0452,A Simple Baseline for Efficient Hand Mesh Reconstruction,CVPR,2024,hand_centric
+paper_0453,ADFactory: An Effective Framework for Generalizing Optical Flow with NeRF,CVPR,2024,optical_flow_stereo
+paper_0454,ASH: Animatable Gaussian Splats for Efficient and Photoreal Human Rendering,CVPR,2024,gaussian_splatting
+paper_0455,AVID: Any-Length Video Inpainting with Diffusion Model,CVPR,2024,image_restoration
+paper_0456,Adaptive Fusion of Single-View and Multi-View Depth for Autonomous Driving,CVPR,2024,depth_estimation
+paper_0457,Adaptive Multi-Modal Cross-Entropy Loss for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0458,3D Human Pose Perception from Egocentric Stereo Videos,CVPR,2024,human_pose_mesh
+paper_0459,Alchemist: Parametric Control of Material Properties with Diffusion Models,CVPR,2024,generative_2d
+paper_0460,Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models,CVPR,2024,gaussian_splatting
+paper_0461,Arbitrary Motion Style Transfer with Multi-condition Motion Latent Diffusion Model,CVPR,2024,motion_generation
+paper_0462,Arbitrary-Scale Image Generation and Upsampling using Latent Diffusion Model and Implicit Neural Decoder,CVPR,2024,generative_2d
+paper_0463,Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion,CVPR,2024,depth_estimation
+paper_0464,Attention-Driven Training-Free Efficiency Enhancement of Diffusion Models,CVPR,2024,generative_2d
+paper_0465,BEVSpread: Spread Voxel Pooling for Bird's-Eye-View Representation in Vision-based Roadside 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0466,BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models,CVPR,2024,generative_2d
+paper_0467,Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes,CVPR,2024,face_centric
+paper_0468,4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling,CVPR,2024,generative_2d
+paper_0469,DriveTrack: A Benchmark for Long-Range Point Tracking in Real-World Videos,CVPR,2024,reconstruction_3d
+paper_0470,Balancing Act: Distribution-Guided Debiasing in Diffusion Models,CVPR,2024,generative_2d
+paper_0471,GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image,CVPR,2024,face_centric
+paper_0472,Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0473,Bayesian Diffusion Models for 3D Shape Reconstruction,CVPR,2024,reconstruction_3d
+paper_0474,Seamless Human Motion Composition with Blended Positional Encodings,CVPR,2024,motion_generation
+paper_0475,Behind the Veil: Enhanced Indoor 3D Scene Reconstruction with Occluded Surfaces Completion,CVPR,2024,reconstruction_3d
+paper_0476,Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM,CVPR,2024,slam_localization
+paper_0477,Bidirectional Multi-Scale Implicit Neural Representations for Image Deraining,CVPR,2024,image_restoration
+paper_0478,BerfScene: Bev-conditioned Equivariant Radiance Fields for Infinite 3D Scene Generation,CVPR,2024,neural_radiance_field
+paper_0479,CAD: Photorealistic 3D Generation via Adversarial Distillation,CVPR,2024,generative_3d
+paper_0480,CAT-DM: Controllable Accelerated Virtual Try-on with Diffusion Model,CVPR,2024,generative_2d
+paper_0481,CDFormer: When Degradation Prediction Embraces Diffusion Model for Blind Image Super-Resolution,CVPR,2024,image_restoration
+paper_0482,CGI-DM: Digital Copyright Authentication for Diffusion Models via Contrasting Gradient Inversion,CVPR,2024,generative_2d
+paper_0483,CLIP-BEVFormer: Enhancing Multi-View Image-Based BEV Detector with Ground Truth Flow,CVPR,2024,segmentation_detection
+paper_0484,COLMAP-Free 3D Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0485,CCEdit: Creative and Controllable Video Editing via Diffusion Models,CVPR,2024,generative_2d
+paper_0486,CONFORM: Contrast is All You Need for High-Fidelity Text-to-Image Diffusion Models,CVPR,2024,generative_2d
+paper_0487,CVT-xRF: Contrastive In-Voxel Transformer for 3D Consistent Radiance Fields from Sparse Inputs,CVPR,2024,neural_radiance_field
+paper_0488,Cache Me if You Can: Accelerating Diffusion Models through Block Caching,CVPR,2024,generative_2d
+paper_0489,Carve3D: Improving Multi-view Reconstruction Consistency for Diffusion Models with RL Finetuning,CVPR,2024,generative_3d
+paper_0490,Generating Human Motion in 3D Scenes from Text Descriptions,CVPR,2024,motion_generation
+paper_0491,MAPLM: A Real-World Large-Scale Vision-Language Benchmark for Map and Traffic Scene Understanding,CVPR,2024,point_cloud_analysis
+paper_0492,PEGASUS: Personalized Generative 3D Avatars with Composable Attributes,CVPR,2024,human_avatar
+paper_0493,Towards Robust 3D Object Detection with LiDAR and 4D Radar Fusion in Various Weather Conditions,CVPR,2024,segmentation_detection
+paper_0494,R-Cyclic Diffuser: Reductive and Cyclic Latent Diffusion for 3D Clothed Human Digitalization,CVPR,2024,human_avatar
+paper_0495,CLIP-Driven Open-Vocabulary 3D Scene Graph Generation via Cross-Modality Contrastive Learning,CVPR,2024,scene_understanding
+paper_0496,F3Loc: Fusion and Filtering for Floorplan Localization,CVPR,2024,slam_localization
+paper_0497,Morphable Diffusion: 3D-Consistent Diffusion for Single-image Avatar Creation,CVPR,2024,human_avatar
+paper_0498,SecondPose: SE(3)-Consistent Dual-Stream Feature Fusion for Category-Level Pose Estimation,CVPR,2024,tracking
+paper_0499,Real Acoustic Fields: An Audio-Visual Room Acoustics Dataset and Benchmark,CVPR,2024,other
+paper_0500,Cinematic Behavior Transfer via NeRF-based Differentiable Filming,CVPR,2024,neural_radiance_field
+paper_0501,CoGS: Controllable Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0502,Coherence As Texture - Passive Textureless 3D Reconstruction by Self-interference,CVPR,2024,reconstruction_3d
+paper_0503,CommonCanvas: Open Diffusion Models Trained on Creative-Commons Images,CVPR,2024,generative_2d
+paper_0504,ColorPCR: Color Point Cloud Registration with Multi-Stage Geometric-Color Fusion,CVPR,2024,point_cloud_analysis
+paper_0505,Compact 3D Gaussian Representation for Radiance Field,CVPR,2024,gaussian_splatting
+paper_0506,Complementing Event Streams and RGB Frames for Hand Mesh Reconstruction,CVPR,2024,hand_centric
+paper_0507,Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0508,ConTex-Human: Free-View Rendering of Human from a Single Image with Texture-Consistent Synthesis,CVPR,2024,human_avatar
+paper_0509,Co-Speech Gesture Video Generation via Motion-Decoupled Diffusion Model,CVPR,2024,motion_generation
+paper_0510,Confronting Ambiguity in 6D Object Pose Estimation via Score-Based Diffusion on SE(3),CVPR,2024,other
+paper_0511,ConsistNet: Enforcing 3D Consistency for Multi-view Images Diffusion,CVPR,2024,generative_2d
+paper_0512,Consistent3D: Towards Consistent High-Fidelity Text-to-3D Generation with Deterministic Sampling Prior,CVPR,2024,generative_3d
+paper_0513,Contrastive Pre-Training with Multi-View Fusion for No-Reference Point Cloud Quality Assessment,CVPR,2024,point_cloud_analysis
+paper_0514,Continuous Pose for Monocular Cameras in Neural Implicit Representation,CVPR,2024,neural_radiance_field
+paper_0515,Construct to Associate: Cooperative Context Learning for Domain Adaptive Point Cloud Segmentation,CVPR,2024,segmentation_detection
+paper_0516,Open-Vocabulary Object 6D Pose Estimation,CVPR,2024,segmentation_detection
+paper_0517,Cross-spectral Gated-RGB Stereo Depth Estimation,CVPR,2024,depth_estimation
+paper_0518,CrowdDiff: Multi-hypothesis Crowd Density Estimation using Diffusion Models,CVPR,2024,segmentation_detection
+paper_0519,Customize your NeRF: Adaptive Source Driven 3D Scene Editing via Local-Global Iterative Training,CVPR,2024,neural_radiance_field
+paper_0520,DART: Implicit Doppler Tomography for Radar Novel View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0521,DEADiff: An Efficient Stylization Diffusion Model with Disentangled Representations,CVPR,2024,generative_2d
+paper_0522,DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data,CVPR,2024,generative_3d
+paper_0523,CurveCloudNet: Processing Point Clouds with 1D Structure,CVPR,2024,point_cloud_analysis
+paper_0524,DITTO: Dual and Integrated Latent Topologies for Implicit 3D Reconstruction,CVPR,2024,reconstruction_3d
+paper_0525,DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization,CVPR,2024,neural_radiance_field
+paper_0526,DUDF: Differentiable Unsigned Distance Fields with Hyperbolic Scaling,CVPR,2024,reconstruction_3d
+paper_0527,DaReNeRF: Direction-aware Representation for Dynamic Scenes,CVPR,2024,neural_radiance_field
+paper_0528,HMD-Poser: On-Device Real-time Human Motion Tracking from Scalable Sparse Observations,CVPR,2024,human_avatar
+paper_0529,D^4: Dataset Distillation via Disentangled Diffusion Model,CVPR,2024,generative_2d
+paper_0530,Decoupled Pseudo-labeling for Semi-Supervised Monocular 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0531,Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction,CVPR,2024,novel_view_synthesis
+paper_0532,DeepCache: Accelerating Diffusion Models for Free,CVPR,2024,generative_2d
+paper_0533,SceneFun3D: Fine-Grained Functionality and Affordance Understanding in 3D Scenes,CVPR,2024,segmentation_detection
+paper_0534,Advancing Saliency Ranking with Human Fixations: Dataset Models and Benchmarks,CVPR,2024,segmentation_detection
+paper_0535,Portrait4D: Learning One-Shot 4D Head Avatar Synthesis using Synthetic Data,CVPR,2024,face_centric
+paper_0536,RAM-Avatar: Real-time Photo-Realistic Avatar from Monocular Videos with Full-body Control,CVPR,2024,human_avatar
+paper_0537,Denoising Point Clouds in Latent Space via Graph Convolution and Invertible Neural Network,CVPR,2024,point_cloud_analysis
+paper_0538,DiSR-NeRF: Diffusion-Guided View-Consistent Super-Resolution NeRF,CVPR,2024,neural_radiance_field
+paper_0539,MoSAR: Monocular Semi-Supervised Model for Avatar Reconstruction using Differentiable Shading,CVPR,2024,human_avatar
+paper_0540,Diff-BGM: A Diffusion Model for Video Background Music Generation,CVPR,2024,other
+paper_0541,DiffAssemble: A Unified Graph-Diffusion Model for 2D and 3D Reassembly,CVPR,2024,generative_2d
+paper_0542,DiffMorpher: Unleashing the Capability of Diffusion Models for Image Morphing,CVPR,2024,generative_2d
+paper_0543,Depth Prompting for Sensor-Agnostic Depth Estimation,CVPR,2024,depth_estimation
+paper_0544,DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0545,DiffSCI: Zero-Shot Snapshot Compressive Imaging via Iterative Spectral Diffusion Model,CVPR,2024,image_restoration
+paper_0546,DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis,CVPR,2024,generative_3d
+paper_0547,Diffusion Handles Enabling 3D Edits for Diffusion Models by Lifting Activations to 3D,CVPR,2024,generative_2d
+paper_0548,Diffusion Model Alignment Using Direct Preference Optimization,CVPR,2024,generative_2d
+paper_0549,Diffusion-FOF: Single-View Clothed Human Reconstruction via Diffusion-Based Fourier Occupancy Field,CVPR,2024,reconstruction_3d
+paper_0550,Diffusion Time-step Curriculum for One Image to 3D Generation,CVPR,2024,generative_3d
+paper_0551,DiffusionMTL: Learning Multi-Task Denoising Diffusion Model from Partially Annotated Data,CVPR,2024,segmentation_detection
+paper_0552,DiffusionGAN3D: Boosting Text-guided 3D Generation and Domain Adaptation by Combining 3D GANs and Diffusion Priors,CVPR,2024,human_avatar
+paper_0553,DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking,CVPR,2024,tracking
+paper_0554,Direct2.5: Diverse Text-to-3D Generation via Multi-view 2.5D Diffusion,CVPR,2024,generative_3d
+paper_0555,WANDR: Intention-guided Human Motion Generation,CVPR,2024,motion_generation
+paper_0556,DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models,CVPR,2024,generative_2d
+paper_0557,DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing,CVPR,2024,generative_2d
+paper_0558,PanoContext-Former: Panoramic Total Scene Understanding with a Transformer,CVPR,2024,segmentation_detection
+paper_0559,DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models,CVPR,2024,human_avatar
+paper_0560,Draw Step by Step: Reconstructing CAD Construction Sequences from Point Clouds via Multimodal Diffusion.,CVPR,2024,point_cloud_analysis
+paper_0561,DreamComposer: Controllable 3D Object Generation via Multi-View Conditions,CVPR,2024,novel_view_synthesis
+paper_0562,DreamControl: Control-Based Text-to-3D Generation with 3D Self-Prior,CVPR,2024,generative_3d
+paper_0563,DreamPropeller: Supercharge Text-to-3D Generation with Parallel Sampling,CVPR,2024,generative_3d
+paper_0564,Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving,CVPR,2024,other
+paper_0565,DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes,CVPR,2024,gaussian_splatting
+paper_0566,EMOPortraits: Emotion-enhanced Multimodal One-shot Head Avatars,CVPR,2024,face_centric
+paper_0567,Neural 3D Strokes: Creating Stylized 3D Scenes with Vectorized 3D Strokes,CVPR,2024,neural_radiance_field
+paper_0568,Normalizing Flows on the Product Space of SO(3) Manifolds for Probabilistic Human Pose Modeling,CVPR,2024,human_pose_mesh
+paper_0569,Diffusion 3D Features (Diff3F): Decorating Untextured Shapes with Distilled Semantic Features,CVPR,2024,point_cloud_analysis
+paper_0570,TokenHMR: Advancing Human Mesh Recovery with a Tokenized Pose Representation,CVPR,2024,human_pose_mesh
+paper_0571,DyBluRF: Dynamic Neural Radiance Fields from Blurry Monocular Video,CVPR,2024,neural_radiance_field
+paper_0572,Dynamic Cues-Assisted Transformer for Robust Point Cloud Registration,CVPR,2024,point_cloud_analysis
+paper_0573,ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation,CVPR,2024,depth_estimation
+paper_0574,DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing,CVPR,2024,neural_radiance_field
+paper_0575,EasyDrag: Efficient Point-based Manipulation on Diffusion Models,CVPR,2024,generative_2d
+paper_0576,EmoGen: Emotional Image Content Generation with Text-to-Image Diffusion Models,CVPR,2024,generative_2d
+paper_0577,Elite360D: Towards Efficient 360 Depth Estimation via Semantic- and Distance-Aware Bi-Projection Fusion,CVPR,2024,depth_estimation
+paper_0578,Enhancing 3D Fidelity of Text-to-3D using Cross-View Correspondences,CVPR,2024,generative_3d
+paper_0579,Entity-NeRF: Detecting and Removing Moving Entities in Urban Scenes,CVPR,2024,neural_radiance_field
+paper_0580,Enhance Image Classification via Inter-Class Image Mixup with Diffusion Model,CVPR,2024,generative_2d
+paper_0581,Entangled View-Epipolar Information Aggregation for Generalizable Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0582,EpiDiff: Enhancing Multi-View Synthesis via Localized Epipolar-Constrained Diffusion,CVPR,2024,novel_view_synthesis
+paper_0583,An Empirical Study of the Generalization Ability of Lidar 3D Object Detectors to Unseen Domains,CVPR,2024,segmentation_detection
+paper_0584,Explaining the Implicit Neural Canvas: Connecting Pixels to Neurons by Tracing their Contributions,CVPR,2024,novel_view_synthesis
+paper_0585,EscherNet: A Generative Model for Scalable View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0586,ExtDM: Distribution Extrapolation Diffusion Model for Video Prediction,CVPR,2024,generative_2d
+paper_0587,ExtraNeRF: Visibility-Aware View Extrapolation of Neural Radiance Fields with Diffusion Models,CVPR,2024,neural_radiance_field
+paper_0588,FINER: Flexible Spectral-bias Tuning in Implicit NEural Representation by Variable-periodic Activation Functions,CVPR,2024,point_cloud_analysis
+paper_0589,Fast ODE-based Sampling for Diffusion Models in Around 5 Steps,CVPR,2024,generative_2d
+paper_0590,Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields,CVPR,2024,gaussian_splatting
+paper_0591,ChatPose: Chatting about 3D Human Pose,CVPR,2024,human_pose_mesh
+paper_0592,Extend Your Own Correspondences: Unsupervised Distant Point Cloud Registration by Progressive Distance Extension,CVPR,2024,point_cloud_analysis
+paper_0593,Stratified Avatar Generation from Sparse Observations,CVPR,2024,human_avatar
+paper_0594,Multi-Level Neural Scene Graphs for Dynamic Urban Environments,CVPR,2024,novel_view_synthesis
+paper_0595,FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models,CVPR,2024,human_pose_mesh
+paper_0596,Fixed Point Diffusion Models,CVPR,2024,face_centric
+paper_0597,FlowDiffuser: Advancing Optical Flow Estimation with Diffusion Models,CVPR,2024,optical_flow_stereo
+paper_0598,FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization,CVPR,2024,gaussian_splatting
+paper_0599,Free3D: Consistent Novel View Synthesis without 3D Representation,CVPR,2024,novel_view_synthesis
+paper_0600,FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition,CVPR,2024,generative_2d
+paper_0601,FreePoint: Unsupervised Point Cloud Instance Segmentation,CVPR,2024,segmentation_detection
+paper_0602,G-NeRF: Geometry-enhanced Novel View Synthesis from Single-View Images,CVPR,2024,novel_view_synthesis
+paper_0603,G3DR: Generative 3D Reconstruction in ImageNet,CVPR,2024,generative_3d
+paper_0604,GARField: Group Anything with Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0605,GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning,CVPR,2024,gaussian_splatting
+paper_0606,GLiDR: Topologically Regularized Graph Generative Network for Sparse LiDAR Point Clouds,CVPR,2024,point_cloud_analysis
+paper_0607,GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0608,GES : Generalized Exponential Splatting for Efficient Radiance Field Rendering,CVPR,2024,gaussian_splatting
+paper_0609,GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding,CVPR,2024,neural_radiance_field
+paper_0610,GPT-4V(ision) is a Human-Aligned Evaluator for Text-to-3D Generation,CVPR,2024,generative_3d
+paper_0611,GS-IR: 3D Gaussian Splatting for Inverse Rendering,CVPR,2024,gaussian_splatting
+paper_0612,Weak-to-Strong 3D Object Detection with X-Ray Distillation,CVPR,2024,segmentation_detection
+paper_0613,Gated Fields: Learning Scene Reconstruction from Gated Videos,CVPR,2024,reconstruction_3d
+paper_0614,GauHuman: Articulated Gaussian Splatting from Monocular Human Videos,CVPR,2024,gaussian_splatting
+paper_0615,Gaussian Shading: Provable Performance-Lossless Image Watermarking for Diffusion Models,CVPR,2024,generative_2d
+paper_0616,GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs,CVPR,2024,generative_3d
+paper_0617,Gaussian Splatting SLAM,CVPR,2024,gaussian_splatting
+paper_0618,Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle,CVPR,2024,gaussian_splatting
+paper_0619,GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians,CVPR,2024,human_avatar
+paper_0620,GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians,CVPR,2024,human_avatar
+paper_0621,GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models,CVPR,2024,generative_3d
+paper_0622,GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions,CVPR,2024,gaussian_splatting
+paper_0623,GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0624,GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces,CVPR,2024,gaussian_splatting
+paper_0625,LPSNet: End-to-End Human Pose and Shape Estimation with Lensless Imaging,CVPR,2024,human_pose_mesh
+paper_0626,Gear-NeRF: Free-Viewpoint Rendering and Tracking with Motion-aware Spatio-Temporal Sampling,CVPR,2024,neural_radiance_field
+paper_0627,GenN2N: Generative NeRF2NeRF Translation,CVPR,2024,neural_radiance_field
+paper_0628,GenNBV: Generalizable Next-Best-View Policy for Active 3D Reconstruction,CVPR,2024,reconstruction_3d
+paper_0629,Generalizable Novel-View Synthesis using a Stereo Camera,CVPR,2024,novel_view_synthesis
+paper_0630,Generate Like Experts: Multi-Stage Font Generation by Incorporating Font Transfer Process into Diffusion Models,CVPR,2024,generative_2d
+paper_0631,Generative Rendering: Controllable 4D-Guided Video Generation with 2D Diffusion Models,CVPR,2024,generative_2d
+paper_0632,GeoAuxNet: Towards Universal 3D Representation Learning for Multi-sensor Point Clouds,CVPR,2024,point_cloud_analysis
+paper_0633,Geometrically-driven Aggregation for Zero-shot 3D Point Cloud Understanding,CVPR,2024,point_cloud_analysis
+paper_0634,Geometry-aware Reconstruction and Fusion-refined Rendering for Generalizable Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0635,Geometry Transfer for Stylizing Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0636,Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging,CVPR,2024,depth_estimation
+paper_0637,Global and Hierarchical Geometry Consistency Priors for Few-shot NeRFs in Indoor Scenes,CVPR,2024,neural_radiance_field
+paper_0638,Global Latent Neural Rendering,CVPR,2024,novel_view_synthesis
+paper_0639,GoMVS: Geometrically Consistent Cost Aggregation for Multi-View Stereo,CVPR,2024,reconstruction_3d
+paper_0640,Grid Diffusion Models for Text-to-Video Generation,CVPR,2024,generative_2d
+paper_0641,Guess The Unseen: Dynamic 3D Scene Reconstruction from Partial 2D Glimpses,CVPR,2024,novel_view_synthesis
+paper_0642,HIR-Diff: Unsupervised Hyperspectral Image Restoration Via Improved Diffusion Models,CVPR,2024,image_restoration
+paper_0643,MoMask: Generative Masked Modeling of 3D Human Motions,CVPR,2024,motion_generation
+paper_0644,HHMR: Holistic Hand Mesh Recovery by Enhancing the Multimodal Controllability of Graph Diffusion Models,CVPR,2024,hand_centric
+paper_0645,HOIAnimator: Generating Text-prompt Human-object Animations using Novel Perceptive Diffusion Models,CVPR,2024,motion_generation
+paper_0646,HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields,CVPR,2024,hand_centric
+paper_0647,HOLD: Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video,CVPR,2024,hand_centric
+paper_0648,HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0649,HUGS: Human Gaussian Splats,CVPR,2024,gaussian_splatting
+paper_0650,HandDiff: 3D Hand Pose Estimation with Diffusion on Image-Point Cloud,CVPR,2024,hand_centric
+paper_0651,HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D,CVPR,2024,generative_3d
+paper_0652,HashPoint: Accelerated Point Searching and Sampling for Neural Rendering,CVPR,2024,segmentation_detection
+paper_0653,DSGG: Dense Relation Transformer for an End-to-end Scene Graph Generation,CVPR,2024,scene_understanding
+paper_0654,Holoported Characters: Real-time Free-viewpoint Rendering of Humans from Sparse RGB Cameras,CVPR,2024,human_avatar
+paper_0655,Video-Based Human Pose Regression via Decoupled Space-Time Aggregation,CVPR,2024,human_pose_mesh
+paper_0656,How Far Can We Compress Instant-NGP-Based NeRF?,CVPR,2024,neural_radiance_field
+paper_0657,HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0658,Fast Adaptation for Human Pose Estimation via Meta-Optimization,CVPR,2024,human_pose_mesh
+paper_0659,MatchU: Matching Unseen Objects for 6D Pose Estimation from RGB-D Images,CVPR,2024,slam_localization
+paper_0660,Make-Your-Anchor: A Diffusion-based 2D Avatar Generation Framework,CVPR,2024,human_avatar
+paper_0661,360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with Cross-device Queries,CVPR,2024,slam_localization
+paper_0662,PTT: Point-Trajectory Transformer for Efficient Temporal 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0663,Human Gaussian Splatting: Real-time Rendering of Animatable Avatars,CVPR,2024,gaussian_splatting
+paper_0664,VBench: Comprehensive Benchmark Suite for Video Generative Models,CVPR,2024,generative_2d
+paper_0665,HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0666,HumanNeRF-SE: A Simple yet Effective Approach to Animate HumanNeRF with Diverse Poses,CVPR,2024,human_pose_mesh
+paper_0667,HumanNorm: Learning Normal Diffusion Model for High-quality and Realistic 3D Human Generation,CVPR,2024,human_avatar
+paper_0668,HumanRef: Single Image to 3D Human Generation via Reference-Guided Diffusion,CVPR,2024,human_avatar
+paper_0669,ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization,CVPR,2024,neural_radiance_field
+paper_0670,HybridNeRF: Efficient Neural Rendering via Adaptive Volumetric Surfaces,CVPR,2024,novel_view_synthesis
+paper_0671,EGTR: Extracting Graph from Transformer for Scene Graph Generation,CVPR,2024,scene_understanding
+paper_0672,IReNe: Instant Recoloring of Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0673,Image Neural Field Diffusion Models,CVPR,2024,generative_2d
+paper_0674,Image Restoration by Denoising Diffusion Models with Iteratively Preconditioned Guidance,CVPR,2024,image_restoration
+paper_0675,Implicit Event-RGBD Neural SLAM,CVPR,2024,slam_localization
+paper_0676,Improved Implicit Neural Representation with Fourier Reparameterized Training,CVPR,2024,reconstruction_3d
+paper_0677,Improving Training Efficiency of Diffusion Models via Multi-Stage Framework and Tailored Multi-Decoder Architecture,CVPR,2024,segmentation_detection
+paper_0678,InNeRF360: Text-Guided 3D-Consistent Object Inpainting on 360-degree Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0679,Improving Physics-Augmented Continuum Neural Radiance Field-Based Geometry-Agnostic System Identification with Lagrangian Particle Optimization,CVPR,2024,neural_radiance_field
+paper_0680,InitNO: Boosting Text-to-Image Diffusion Models via Initial Noise Optimization,CVPR,2024,generative_2d
+paper_0681,Instance-aware Contrastive Learning for Occluded Human Mesh Reconstruction,CVPR,2024,human_pose_mesh
+paper_0682,Inlier Confidence Calibration for Point Cloud Registration,CVPR,2024,point_cloud_analysis
+paper_0683,Interactive3D: Create What You Want by Interactive 3D Generation,CVPR,2024,generative_3d
+paper_0684,InstructVideo: Instructing Video Diffusion Models with Human Feedback,CVPR,2024,generative_2d
+paper_0685,Inverse Rendering of Glossy Objects via the Neural Plenoptic Function and Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0686,InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models,CVPR,2024,generative_2d
+paper_0687,Is Vanilla MLP in Neural Radiance Field Enough for Few-shot View Synthesis?,CVPR,2024,neural_radiance_field
+paper_0688,It's All About Your Sketch: Democratising Sketch Control in Diffusion Models,CVPR,2024,generative_2d
+paper_0689,Enhancing 3D Object Detection with 2D Detection-Guided Query Anchors,CVPR,2024,segmentation_detection
+paper_0690,3DSFLabelling: Boosting 3D Scene Flow Estimation by Pseudo Auto-labelling,CVPR,2024,optical_flow_stereo
+paper_0691,Habitat Synthetic Scenes Dataset (HSSD-200): An Analysis of 3D Scene Scale and Realism Tradeoffs for ObjectGoal Navigation,CVPR,2024,scene_understanding
+paper_0692,JeDi: Joint-Image Diffusion Models for Finetuning-Free Personalized Text-to-Image Generation,CVPR,2024,generative_2d
+paper_0693,DiffusionAvatars: Deferred Diffusion for High-fidelity 3D Head Avatars,CVPR,2024,human_avatar
+paper_0694,LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation,CVPR,2024,scene_understanding
+paper_0695,Know Your Neighbors: Improving Single-View Reconstruction via Spatial Vision-Language Reasoning,CVPR,2024,reconstruction_3d
+paper_0696,NIFTY: Neural Object Interaction Fields for Guided Human Motion Synthesis,CVPR,2024,motion_generation
+paper_0697,OpenESS: Event-based Semantic Scene Understanding with Open Vocabularies,CVPR,2024,segmentation_detection
+paper_0698,L0-Sampler: An L0 Model Guided Volume Sampling for NeRF,CVPR,2024,neural_radiance_field
+paper_0699,L4D-Track: Language-to-4D Modeling Towards 6-DoF Tracking and Shape Reconstruction in 3D Point Cloud Stream,CVPR,2024,point_cloud_analysis
+paper_0700,LAENeRF: Local Appearance Editing for Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0701,LangSplat: 3D Language Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0702,Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding,CVPR,2024,novel_view_synthesis
+paper_0703,Language-driven Object Fusion into Neural Radiance Fields with Pose-Conditioned Dataset Updates,CVPR,2024,neural_radiance_field
+paper_0704,Layout-Agnostic Scene Text Image Synthesis with Diffusion Models,CVPR,2024,generative_2d
+paper_0705,Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes,CVPR,2024,point_cloud_analysis
+paper_0706,Learned Representation-Guided Diffusion Models for Large-Image Generation,CVPR,2024,generative_2d
+paper_0707,Learning Intra-view and Cross-view Geometric Knowledge for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0708,Learning Occupancy for Monocular 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0709,Learning with Unreliability: Fast Few-shot Voxel Radiance Fields with Relative Geometric Consistency,CVPR,2024,neural_radiance_field
+paper_0710,LeftRefill: Filling Right Canvas based on Left Reference through Generalized Text-to-Image Diffusion Model,CVPR,2024,generative_2d
+paper_0711,LiDAR-Net: A Real-scanned 3D Point Cloud Dataset for Indoor Scenes,CVPR,2024,point_cloud_analysis
+paper_0712,3D Feature Tracking via Event Camera,CVPR,2024,tracking
+paper_0713,Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling,CVPR,2024,human_avatar
+paper_0714,BEVNeXt: Reviving Dense BEV Frameworks for 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0715,HyperSDFusion: Bridging Hierarchical Structures in Language and Geometry for Enhanced 3D Text2Shape Generation,CVPR,2024,generative_3d
+paper_0716,DiffAvatar: Simulation-Ready Garment Optimization with Differentiable Simulation,CVPR,2024,reconstruction_3d
+paper_0717,Leveraging Predicate and Triplet Learning for Scene Graph Generation,CVPR,2024,scene_understanding
+paper_0718,SEED-Bench: Benchmarking Multimodal Large Language Models,CVPR,2024,generative_2d
+paper_0719,MVBench: A Comprehensive Multi-modal Video Understanding Benchmark,CVPR,2024,scene_understanding
+paper_0720,Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network,CVPR,2024,point_cloud_analysis
+paper_0721,LidaRF: Delving into Lidar for Neural Radiance Field on Street Scenes,CVPR,2024,neural_radiance_field
+paper_0722,LightIt: Illumination Modeling and Control for Diffusion Models,CVPR,2024,generative_2d
+paper_0723,ICP-Flow: LiDAR Scene Flow Estimation with ICP,CVPR,2024,optical_flow_stereo
+paper_0724,Instance-Adaptive and Geometric-Aware Keypoint Learning for Category-Level 6D Object Pose Estimation,CVPR,2024,tracking
+paper_0725,SAM-6D: Segment Anything Model Meets Zero-Shot 6D Object Pose Estimation,CVPR,2024,segmentation_detection
+paper_0726,Benchmarking Audio Visual Segmentation for Long-Untrimmed Videos,CVPR,2024,segmentation_detection
+paper_0727,TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding,CVPR,2024,hand_centric
+paper_0728,EvalCrafter: Benchmarking and Evaluating Large Video Generation Models,CVPR,2024,generative_2d
+paper_0729,TexVocab: Texture Vocabulary-conditioned Human Avatars,CVPR,2024,human_avatar
+paper_0730,VSRD: Instance-Aware Volumetric Silhouette Rendering for Weakly Supervised 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0731,LoS: Local Structure-Guided Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0732,Local-consistent Transformation Learning for Rotation-invariant Point Cloud Analysis,CVPR,2024,point_cloud_analysis
+paper_0733,Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation,CVPR,2024,hand_centric
+paper_0734,Loopy-SLAM: Dense Neural SLAM with Loop Closures,CVPR,2024,slam_localization
+paper_0735,LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching,CVPR,2024,generative_3d
+paper_0736,Real-Time Simulated Avatar from Head-Mounted Sensors,CVPR,2024,human_avatar
+paper_0737,MACE: Mass Concept Erasure in Diffusion Models,CVPR,2024,generative_2d
+paper_0738,MANUS: Markerless Grasp Capture using Articulated 3D Gaussians,CVPR,2024,hand_centric
+paper_0739,Multimodal Sense-Informed Forecasting of 3D Human Motions,CVPR,2024,motion_generation
+paper_0740,MPOD123: One Image to 3D Content Generation Using Mask-enhanced Progressive Outline-to-Detail Optimization,CVPR,2024,generative_3d
+paper_0741,MAS: Multi-view Ancestral Sampling for 3D Motion Generation Using 2D Diffusion,CVPR,2024,motion_generation
+paper_0742,MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation,CVPR,2024,reconstruction_3d
+paper_0743,MVCPS-NeuS: Multi-view Constrained Photometric Stereo for Neural Surface Reconstruction,CVPR,2024,reconstruction_3d
+paper_0744,MVIP-NeRF: Multi-view 3D Inpainting on NeRF Scenes via Diffusion Prior,CVPR,2024,neural_radiance_field
+paper_0745,MVHumanNet: A Large-scale Dataset of Multi-view Daily Dressing Human Captures,CVPR,2024,generative_2d
+paper_0746,Cam4DOcc: Benchmark for Camera-Only 4D Occupancy Forecasting in Autonomous Driving Applications,CVPR,2024,point_cloud_analysis
+paper_0747,LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs,CVPR,2024,other
+paper_0748,FISBe: A Real-World Benchmark Dataset for Instance Segmentation of Long-Range Thin Filamentous Structures,CVPR,2024,segmentation_detection
+paper_0749,MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model,CVPR,2024,motion_generation
+paper_0750,MeLFusion: Synthesizing Music from Image and Language Cues using Diffusion Models,CVPR,2024,generative_2d
+paper_0751,3DToonify: Creating Your High-Fidelity 3D Stylized Avatar Easily from 2D Portrait Images,CVPR,2024,human_avatar
+paper_0752,MatFuse: Controllable Material Generation with Diffusion Models,CVPR,2024,generative_2d
+paper_0753,MeshPose: Unifying DensePose and 3D Body Mesh Reconstruction,CVPR,2024,human_pose_mesh
+paper_0754,MicroDiffusion: Implicit Representation-Guided Diffusion for 3D Reconstruction from Limited 2D Microscopy Projections,CVPR,2024,reconstruction_3d
+paper_0755,EventEgo3D: 3D Human Motion Capture from Egocentric Event Streams,CVPR,2024,motion_generation
+paper_0756,DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving,CVPR,2024,tracking
+paper_0757,Mind The Edge: Refining Depth Edges in Sparsely-Supervised Monocular Depth Estimation,CVPR,2024,depth_estimation
+paper_0758,Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation,CVPR,2024,depth_estimation
+paper_0759,Mip-Splatting: Alias-free 3D Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0760,Mitigating Motion Blur in Neural Radiance Fields with Events and Frames,CVPR,2024,neural_radiance_field
+paper_0761,Mitigating Object Dependencies: Improving Point Cloud Self-Supervised Learning through Object Exchange,CVPR,2024,point_cloud_analysis
+paper_0762,MoCha-Stereo: Motif Channel Attention Network for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0763,MonoCD: Monocular 3D Object Detection with Complementary Depths,CVPR,2024,segmentation_detection
+paper_0764,Authentic Hand Avatar from a Phone Scan via Universal Hand Model,CVPR,2024,hand_centric
+paper_0765,GenFlow: Generalizable Recurrent Flow for 6D Pose Refinement of Novel Objects,CVPR,2024,optical_flow_stereo
+paper_0766,HumMUSS: Human Motion Understanding using State Space Models,CVPR,2024,human_pose_mesh
+paper_0767,MorpheuS: Neural Dynamic 360deg Surface Reconstruction from Monocular RGB-D Video,CVPR,2024,reconstruction_3d
+paper_0768,MonoDiff: Monocular 3D Object Detection and Pose Estimation with Diffusion Models,CVPR,2024,segmentation_detection
+paper_0769,Mosaic-SDF for 3D Generative Models,CVPR,2024,reconstruction_3d
+paper_0770,Instruct 4D-to-4D: Editing 4D Scenes as Pseudo-3D Scenes Using 2D Diffusion,CVPR,2024,optical_flow_stereo
+paper_0771,MuRF: Multi-Baseline Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0772,Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering,CVPR,2024,gaussian_splatting
+paper_0773,Multi-Session SLAM with Differentiable Wide-Baseline Pose Optimization,CVPR,2024,slam_localization
+paper_0774,MultiDiff: Consistent Novel View Synthesis from a Single Image,CVPR,2024,novel_view_synthesis
+paper_0775,Multiview Aerial Visual RECognition (MAVREC): Can Multi-view Improve Aerial Visual Perception?,CVPR,2024,segmentation_detection
+paper_0776,Multi-view Aggregation Network for Dichotomous Image Segmentation,CVPR,2024,segmentation_detection
+paper_0777,Multiway Point Cloud Mosaicking with Diffusion and Global Optimization,CVPR,2024,point_cloud_analysis
+paper_0778,NC-SDF: Enhancing Indoor Scene Reconstruction Using Neural SDFs with View-Dependent Normal Compensation,CVPR,2024,reconstruction_3d
+paper_0779,NTO3D: Neural Target Object 3D Reconstruction with Segment Anything,CVPR,2024,reconstruction_3d
+paper_0780,Multi-View Attentive Contextualization for Multi-View 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0781,NViST: In the Wild New View Synthesis from a Single Image with Transformers,CVPR,2024,novel_view_synthesis
+paper_0782,NeLF-Pro: Neural Light Field Probes for Multi-Scale Novel View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0783,NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs,CVPR,2024,neural_radiance_field
+paper_0784,NeRF Director: Revisiting View Selection in Neural Volume Rendering,CVPR,2024,neural_radiance_field
+paper_0785,NeRF On-the-go: Exploiting Uncertainty for Distractor-free NeRFs in the Wild,CVPR,2024,neural_radiance_field
+paper_0786,NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation,CVPR,2024,neural_radiance_field
+paper_0787,NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows,CVPR,2024,neural_radiance_field
+paper_0788,NeRFCodec: Neural Feature Compression Meets Neural Radiance Fields for Memory-Efficient Scene Representation,CVPR,2024,neural_radiance_field
+paper_0789,NeRFiller: Completing Scenes via Generative 3D Inpainting,CVPR,2024,neural_radiance_field
+paper_0790,NeuRAD: Neural Rendering for Autonomous Driving,CVPR,2024,neural_radiance_field
+paper_0791,Neural Implicit Representation for Building Digital Twins of Unknown Articulated Objects,CVPR,2024,reconstruction_3d
+paper_0792,Neural Markov Random Field for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0793,Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation,CVPR,2024,point_cloud_analysis
+paper_0794,Neural Sign Actors: A Diffusion Model for 3D Sign Language Production from Text,CVPR,2024,human_pose_mesh
+paper_0795,NeRSP: Neural 3D Reconstruction for Reflective Objects with Sparse Polarized Images,CVPR,2024,reconstruction_3d
+paper_0796,GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence,CVPR,2024,tracking
+paper_0797,NOPE: Novel Object Pose Estimation from a Single Image,CVPR,2024,other
+paper_0798,HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding,CVPR,2024,scene_understanding
+paper_0799,NoiseCLR: A Contrastive Learning Approach for Unsupervised Discovery of Interpretable Directions in Diffusion Models,CVPR,2024,generative_2d
+paper_0800,NoiseCollage: A Layout-Aware Text-to-Image Diffusion Model Based on Noise Cropping and Merging,CVPR,2024,generative_2d
+paper_0801,Not All Voxels Are Equal: Hardness-Aware Semantic Scene Completion with Self-Distillation,CVPR,2024,reconstruction_3d
+paper_0802,Novel View Synthesis with View-Dependent Effects from a Single Image,CVPR,2024,novel_view_synthesis
+paper_0803,OmniLocalRF: Omnidirectional Local Radiance Fields from Dynamic Videos,CVPR,2024,neural_radiance_field
+paper_0804,OmniSDF: Scene Reconstruction using Omnidirectional Signed Distance Functions and Adaptive Binoctrees,CVPR,2024,reconstruction_3d
+paper_0805,On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation,CVPR,2024,depth_estimation
+paper_0806,One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion,CVPR,2024,generative_3d
+paper_0807,Open-Vocabulary Attention Maps with Token Optimization for Semantic Segmentation in Diffusion Models,CVPR,2024,segmentation_detection
+paper_0808,Orthogonal Adaptation for Modular Customization of Diffusion Models,CVPR,2024,generative_2d
+paper_0809,Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships,CVPR,2024,scene_understanding
+paper_0810,PBWR: Parametric-Building-Wireframe Reconstruction from Aerial LiDAR Point Clouds,CVPR,2024,point_cloud_analysis
+paper_0811,PI3D: Efficient Text-to-3D Generation with Pseudo-Image Diffusion,CVPR,2024,generative_3d
+paper_0812,PDF: A Probability-Driven Framework for Open World 3D Point Cloud Semantic Segmentation,CVPR,2024,segmentation_detection
+paper_0813,PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF,CVPR,2024,neural_radiance_field
+paper_0814,PLGSLAM: Progressive Neural Scene Represenation with Local to Global Bundle Adjustment,CVPR,2024,slam_localization
+paper_0815,PRDP: Proximal Reward Difference Prediction for Large-Scale Reward Finetuning of Diffusion Models,CVPR,2024,generative_2d
+paper_0816,PaReNeRF: Toward Fast Large-scale Dynamic NeRF with Patch-based Reference,CVPR,2024,neural_radiance_field
+paper_0817,Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models,CVPR,2024,generative_2d
+paper_0818,How to Train Neural Field Representations: A Comprehensive Study and Benchmark,CVPR,2024,reconstruction_3d
+paper_0819,PanoRecon: Real-Time Panoptic 3D Reconstruction from Monocular Video,CVPR,2024,reconstruction_3d
+paper_0820,Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform,CVPR,2024,point_cloud_analysis
+paper_0821,PAPR in Motion: Seamless Point-level 3D Scene Interpolation,CVPR,2024,point_cloud_analysis
+paper_0822,A Dual-Augmentor Framework for Domain Generalization in 3D Human Pose Estimation,CVPR,2024,human_pose_mesh
+paper_0823,PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation,CVPR,2024,depth_estimation
+paper_0824,Perturbing Attention Gives You More Bang for the Buck: Subtle Imaging Perturbations That Efficiently Fool Customized Diffusion Models,CVPR,2024,generative_2d
+paper_0825,ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D Image,CVPR,2024,human_pose_mesh
+paper_0826,Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular Stereo and RGB-D Cameras,CVPR,2024,slam_localization
+paper_0827,PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics,CVPR,2024,gaussian_splatting
+paper_0828,Physical 3D Adversarial Attacks against Monocular Depth Estimation in Autonomous Driving,CVPR,2024,depth_estimation
+paper_0829,PlatoNeRF: 3D Reconstruction in Plato's Cave via Single-View Two-Bounce Lidar,CVPR,2024,reconstruction_3d
+paper_0830,"Prompt-Free Diffusion: Taking ""Text"" out of Text-to-Image Diffusion Models",CVPR,2024,generative_2d
+paper_0831,Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds,CVPR,2024,point_cloud_analysis
+paper_0832,Polarization Wavefront Lidar: Learning Large Scene Reconstruction from Polarized Wavefronts,CVPR,2024,reconstruction_3d
+paper_0833,M3-UDA: A New Benchmark for Unsupervised Domain Adaptive Fetal Cardiac Structure Detection,CVPR,2024,segmentation_detection
+paper_0834,Prompting Hard or Hardly Prompting: Prompt Inversion for Text-to-Image Diffusion Models,CVPR,2024,generative_2d
+paper_0835,RAVE: Randomized Noise Shuffling for Fast and Consistent Video Editing with Diffusion Models,CVPR,2024,generative_2d
+paper_0836,RNb-NeuS: Reflectance and Normal-based Multi-View 3D Reconstruction,CVPR,2024,reconstruction_3d
+paper_0837,ReconFusion: 3D Reconstruction with Diffusion Priors,CVPR,2024,neural_radiance_field
+paper_0838,RecDiffusion: Rectangling for Image Stitching with Diffusion Models,CVPR,2024,generative_2d
+paper_0839,Relation Rectification in Diffusion Model,CVPR,2024,generative_2d
+paper_0840,LiveHPS: LiDAR-based Scene-level Human Pose and Shape Estimation in Free Environment,CVPR,2024,point_cloud_analysis
+paper_0841,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,CVPR,2024,depth_estimation
+paper_0842,Rethinking Few-shot 3D Point Cloud Semantic Segmentation,CVPR,2024,segmentation_detection
+paper_0843,RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D,CVPR,2024,generative_3d
+paper_0844,Robust Synthetic-to-Real Transfer for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0845,ConCon-Chi: Concept-Context Chimera Benchmark for Personalized Vision-Language Tasks,CVPR,2024,generative_2d
+paper_0846,FAR: Flexible Accurate and Robust 6DoF Relative Camera Pose Estimation,CVPR,2024,slam_localization
+paper_0847,S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes,CVPR,2024,neural_radiance_field
+paper_0848,SANeRF-HQ: Segment Anything for NeRF in High Quality,CVPR,2024,neural_radiance_field
+paper_0849,SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes,CVPR,2024,gaussian_splatting
+paper_0850,SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image,CVPR,2024,neural_radiance_field
+paper_0851,SIGNeRF: Scene Integrated Generation for Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0852,SD4Match: Learning to Prompt Stable Diffusion Model for Semantic Matching,CVPR,2024,generative_2d
+paper_0853,SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model,CVPR,2024,generative_2d
+paper_0854,SNI-SLAM: Semantic Neural Implicit SLAM,CVPR,2024,slam_localization
+paper_0855,SOAC: Spatio-Temporal Overlap-Aware Multi-Sensor Calibration using Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0856,SPAD: Spatially Aware Multi-View Diffusers,CVPR,2024,novel_view_synthesis
+paper_0857,SPU-PMD: Self-Supervised Point Cloud Upsampling via Progressive Mesh Deformation,CVPR,2024,point_cloud_analysis
+paper_0858,SVDTree: Semantic Voxel Diffusion for Single Image Tree Reconstruction,CVPR,2024,reconstruction_3d
+paper_0859,Relightable Gaussian Codec Avatars,CVPR,2024,human_avatar
+paper_0860,SVGDreamer: Text Guided SVG Generation with Diffusion Model,CVPR,2024,generative_2d
+paper_0861,SCULPT: Shape-Conditioned Unpaired Learning of Pose-dependent Clothed and Textured Human Meshes,CVPR,2024,generative_3d
+paper_0862,Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering,CVPR,2024,gaussian_splatting
+paper_0863,Scaling Diffusion Models to Real-World 3D LiDAR Scene Completion,CVPR,2024,point_cloud_analysis
+paper_0864,Sculpt3D: Multi-View Consistent Text-to-3D Generation with Sparse 3D Prior,CVPR,2024,generative_3d
+paper_0865,Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model,CVPR,2024,image_restoration
+paper_0866,Selective-Stereo: Adaptive Frequency Information Selection for Stereo Matching,CVPR,2024,optical_flow_stereo
+paper_0867,SelfPose3d: Self-Supervised Multi-Person Multi-View 3d Pose Estimation,CVPR,2024,reconstruction_3d
+paper_0868,Semantic Human Mesh Reconstruction with Textures,CVPR,2024,human_pose_mesh
+paper_0869,SemCity: Semantic Scene Generation with Triplane Diffusion,CVPR,2024,generative_3d
+paper_0870,Shadow Generation for Composite Image Using Diffusion Model,CVPR,2024,generative_2d
+paper_0871,Sherpa3D: Boosting High-Fidelity Text-to-3D Generation via Coarse 3D Prior,CVPR,2024,generative_3d
+paper_0872,Towards Real-World HDR Video Reconstruction: A Large-Scale Benchmark Dataset and A Two-Stage Alignment Network,CVPR,2024,image_restoration
+paper_0873,Viewpoint-Aware Visual Grounding in 3D Scenes,CVPR,2024,scene_understanding
+paper_0874,SimAC: A Simple Anti-Customization Method for Protecting Face Privacy against Text-to-Image Synthesis of Diffusion Models,CVPR,2024,generative_2d
+paper_0875,Single Mesh Diffusion Models with Field Latents for Texture Generation,CVPR,2024,generative_2d
+paper_0876,Single-View Scene Point Cloud Human Grasp Generation,CVPR,2024,point_cloud_analysis
+paper_0877,SingularTrajectory: Universal Trajectory Predictor Using Diffusion Model,CVPR,2024,motion_generation
+paper_0878,SketchINR: A First Look into Sketches as Implicit Neural Representations,CVPR,2024,generative_2d
+paper_0879,Slice3D: Multi-Slice Occlusion-Revealing Single View 3D Reconstruction,CVPR,2024,reconstruction_3d
+paper_0880,Smooth Diffusion: Crafting Smooth Latent Spaces in Diffusion Models,CVPR,2024,generative_2d
+paper_0881,PostureHMR: Posture Transformation for 3D Human Mesh Recovery,CVPR,2024,human_pose_mesh
+paper_0882,Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0883,SpecNeRF: Gaussian Directional Encoding for Specular Reflections,CVPR,2024,novel_view_synthesis
+paper_0884,SplaTAM: Splat Track & Map 3D Gaussians for Dense RGB-D SLAM,CVPR,2024,slam_localization
+paper_0885,Spherical Mask: Coarse-to-Fine 3D Point Cloud Instance Segmentation with Spherical Representation,CVPR,2024,segmentation_detection
+paper_0886,Splatter Image: Ultra-Fast Single-View 3D Reconstruction,CVPR,2024,reconstruction_3d
+paper_0887,SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0888,StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On,CVPR,2024,generative_2d
+paper_0889,StraightPCF: Straight Point Cloud Filtering,CVPR,2024,point_cloud_analysis
+paper_0890,StrokeFaceNeRF: Stroke-based Facial Appearance Editing in Neural Radiance Field,CVPR,2024,neural_radiance_field
+paper_0891,Structure Matters: Tackling the Semantic Discrepancy in Diffusion Models for Image Inpainting,CVPR,2024,generative_2d
+paper_0892,Structure-Aware Sparse-View X-ray 3D Reconstruction,CVPR,2024,neural_radiance_field
+paper_0893,Structure-Guided Adversarial Training of Diffusion Models,CVPR,2024,generative_2d
+paper_0894,Style Injection in Diffusion: A Training-free Approach for Adapting Large-scale Diffusion Models for Style Transfer,CVPR,2024,generative_2d
+paper_0895,SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering,CVPR,2024,gaussian_splatting
+paper_0896,Seg2Reg: Differentiable 2D Segmentation to 1D Regression Rendering for 360 Room Layout Reconstruction,CVPR,2024,reconstruction_3d
+paper_0897,SuperNormal: Neural Surface Reconstruction via Multi-View Normal Integration,CVPR,2024,reconstruction_3d
+paper_0898,SuperPrimitive: Scene Reconstruction at a Primitive Level,CVPR,2024,reconstruction_3d
+paper_0899,SwiftBrush: One-Step Text-to-Image Diffusion Model with Variational Score Distillation,CVPR,2024,generative_2d
+paper_0900,TI2V-Zero: Zero-Shot Image Conditioning for Text-to-Video Diffusion Models,CVPR,2024,generative_2d
+paper_0901,TIGER: Time-Varying Denoising Model for 3D Point Cloud Generation with Diffusion Process,CVPR,2024,point_cloud_analysis
+paper_0902,TULIP: Transformer for Upsampling of LiDAR Point Clouds,CVPR,2024,point_cloud_analysis
+paper_0903,Tactile-Augmented Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0904,Taming Mode Collapse in Score Distillation for Text-to-3D Generation,CVPR,2024,generative_3d
+paper_0905,TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video,CVPR,2024,neural_radiance_field
+paper_0906,A Unified Diffusion Framework for Scene-aware Human Motion Estimation from Sparse Signals,CVPR,2024,motion_generation
+paper_0907,Equivariant Plug-and-Play Image Reconstruction,CVPR,2024,image_restoration
+paper_0908,TetraSphere: A Neural Descriptor for O(3)-Invariant Point Cloud Analysis,CVPR,2024,point_cloud_analysis
+paper_0909,Text-to-3D Generation with Bidirectional Diffusion using both 2D and 3D priors,CVPR,2024,generative_3d
+paper_0910,Text-to-3D using Gaussian Splatting,CVPR,2024,gaussian_splatting
+paper_0911,Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers,CVPR,2024,generative_2d
+paper_0912,Text2Loc: 3D Point Cloud Localization from Natural Language,CVPR,2024,point_cloud_analysis
+paper_0913,TextNeRF: A Novel Scene-Text Image Synthesis Method based on Neural Radiance Fields,CVPR,2024,neural_radiance_field
+paper_0914,Texture-Preserving Diffusion Models for High-Fidelity Virtual Try-On,CVPR,2024,generative_2d
+paper_0915,Total-Decom: Decomposed 3D Scene Reconstruction with Minimal Interaction,CVPR,2024,reconstruction_3d
+paper_0916,Towards Effective Usage of Human-Centric Priors in Diffusion Models for Text-based Human Image Generation,CVPR,2024,generative_2d
+paper_0917,Towards Accurate Post-training Quantization for Diffusion Models,CVPR,2024,generative_2d
+paper_0918,Towards More Accurate Diffusion Model Acceleration with A Timestep Tuner,CVPR,2024,generative_2d
+paper_0919,Towards Memorization-Free Diffusion Models,CVPR,2024,generative_2d
+paper_0920,Training Diffusion Models Towards Diverse Image Generation with Reinforcement Learning,CVPR,2024,generative_2d
+paper_0921,Towards Realistic Scene Generation with LiDAR Diffusion Models,CVPR,2024,generative_2d
+paper_0922,Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers,CVPR,2024,gaussian_splatting
+paper_0923,No More Ambiguity in 360deg Room Layout via Bi-Layout Estimation,CVPR,2024,scene_understanding
+paper_0924,UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion,CVPR,2024,generative_3d
+paper_0925,UFORecon: Generalizable Sparse-View Surface Reconstruction from Arbitrary and Unfavorable Sets,CVPR,2024,reconstruction_3d
+paper_0926,UltrAvatar: A Realistic Animatable 3D Avatar Diffusion Model with Authenticity Guided Textures,CVPR,2024,human_avatar
+paper_0927,UnO: Unsupervised Occupancy Fields for Perception and Forecasting,CVPR,2024,point_cloud_analysis
+paper_0928,Unifying Correspondence Pose and NeRF for Generalized Pose-Free Novel View Synthesis,CVPR,2024,novel_view_synthesis
+paper_0929,UniDepth: Universal Monocular Metric Depth Estimation,CVPR,2024,depth_estimation
+paper_0930,Unsigned Orthogonal Distance Fields: An Accurate Neural Implicit Representation for Diverse 3D Shapes,CVPR,2024,reconstruction_3d
+paper_0931,UnionFormer: Unified-Learning Transformer with Multi-View Representation for Image Manipulation Detection and Localization,CVPR,2024,generative_2d
+paper_0932,Unsupervised Keypoints from Pretrained Diffusion Models,CVPR,2024,generative_2d
+paper_0933,Unsupervised Gaze Representation Learning from Multi-view Face Images,CVPR,2024,face_centric
+paper_0934,Unsupervised Template-assisted Point Cloud Shape Correspondence Network,CVPR,2024,point_cloud_analysis
+paper_0935,Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution,CVPR,2024,image_restoration
+paper_0936,VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models,CVPR,2024,motion_generation
+paper_0937,VMINer: Versatile Multi-view Inverse Rendering with Near- and Far-field Light Sources,CVPR,2024,neural_radiance_field
+paper_0938,Using Human Feedback to Fine-tune Diffusion Models without Any Reward Model,CVPR,2024,generative_2d
+paper_0939,VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction,CVPR,2024,gaussian_splatting
+paper_0940,DiffusionPoser: Real-time Human Motion Reconstruction From Arbitrary Sparse Sensors Using Autoregressive Diffusion,CVPR,2024,motion_generation
+paper_0941,VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation,CVPR,2024,generative_3d
+paper_0942,ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models,CVPR,2024,novel_view_synthesis
+paper_0943,Video Interpolation with Diffusion Models,CVPR,2024,generative_2d
+paper_0944,VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models,CVPR,2024,generative_2d
+paper_0945,VideoRF: Rendering Dynamic Radiance Fields as 2D Feature Video Streams,CVPR,2024,neural_radiance_field
+paper_0946,ViewFusion: Towards Multi-View Consistency via Interpolated Denoising,CVPR,2024,novel_view_synthesis
+paper_0947,View-Category Interactive Sharing Transformer for Incomplete Multi-View Multi-Label Learning,CVPR,2024,segmentation_detection
+paper_0948,Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models,CVPR,2024,generative_2d
+paper_0949,Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation,CVPR,2024,generative_2d
+paper_0950,WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models,CVPR,2024,generative_2d
+paper_0951,3D Face Reconstruction with the Geometric Guidance of Facial Part Segmentation,CVPR,2024,face_centric
+paper_0952,Visual Point Cloud Forecasting enables Scalable Autonomous Driving,CVPR,2024,point_cloud_analysis
+paper_0953,FreeMan: Towards Benchmarking 3D Human Pose Estimation under Real-World Conditions,CVPR,2024,human_pose_mesh
+paper_0954,Event Stream-based Visual Object Tracking: A High-Resolution Benchmark Dataset and A Novel Baseline,CVPR,2024,tracking
+paper_0955,Move as You Say Interact as You Can: Language-guided Human Motion Generation with Scene Affordance,CVPR,2024,motion_generation
+paper_0956,IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing,CVPR,2024,human_avatar
+paper_0957,Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding,CVPR,2024,scene_understanding
+paper_0958,Object Pose Estimation via the Aggregation of Diffusion Features,CVPR,2024,scene_understanding
+paper_0959,WateRF: Robust Watermarks in Radiance Fields for Protection of Copyrights,CVPR,2024,neural_radiance_field
+paper_0960,Watermark-embedded Adversarial Examples for Copyright Protection against Diffusion Models,CVPR,2024,other
+paper_0961,Weakly Supervised Monocular 3D Detection with a Single-View Image,CVPR,2024,point_cloud_analysis
+paper_0962,FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects,CVPR,2024,novel_view_synthesis
+paper_0963,Weakly Supervised Point Cloud Semantic Segmentation via Artificial Oracle,CVPR,2024,segmentation_detection
+paper_0964,GoMAvatar: Efficient Animatable Human Modeling from Monocular Video Using Gaussians-on-Mesh,CVPR,2024,human_avatar
+paper_0965,Wired Perspectives: Multi-View Wire Art Embraces Generative AI,CVPR,2024,generative_2d
+paper_0966,Wonder3D: Single Image to 3D using Cross-Domain Diffusion,CVPR,2024,generative_3d
+paper_0967,MTMMC: A Large-Scale Real-World Multi-Modal Camera Tracking Benchmark,CVPR,2024,tracking
+paper_0968,WorDepth: Variational Language Prior for Monocular Depth Estimation,CVPR,2024,depth_estimation
+paper_0969,Commonsense Prototype for Outdoor Unsupervised 3D Object Detection,CVPR,2024,segmentation_detection
+paper_0970,X-Adapter: Adding Universal Compatibility of Plugins for Upgraded Diffusion Model,CVPR,2024,generative_2d
+paper_0971,XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies,CVPR,2024,generative_3d
+paper_0972,XScale-NVS: Cross-Scale Novel View Synthesis with Hash Featurized Manifold,CVPR,2024,novel_view_synthesis
+paper_0973,IPoD: Implicit Field Learning with Point Diffusion for Generalizable 3D Object Reconstruction from Single RGB-D Images,CVPR,2024,reconstruction_3d
+paper_0974,RGBD Objects in the Wild: Scaling Real-World 3D Object Learning from RGB-D Videos,CVPR,2024,novel_view_synthesis
+paper_0975,FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding,CVPR,2024,human_avatar
+paper_0976,NECA: Neural Customizable Human Avatar,CVPR,2024,human_avatar
+paper_0977,MS-MANO: Enabling Hand Pose Tracking with Biomechanical Constraints,CVPR,2024,hand_centric
+paper_0978,3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features,CVPR,2024,segmentation_detection
+paper_0979,UVEB: A Large-scale Benchmark and Baseline Towards Real-World Underwater Video Enhancement,CVPR,2024,image_restoration
+paper_0980,6D-Diff: A Keypoint Diffusion Framework for 6D Object Pose Estimation,CVPR,2024,tracking
+paper_0981,Gaussian Head Avatar: Ultra High-fidelity Head Avatar via Dynamic Gaussians,unknown,unknown,human_avatar
+paper_0982,Memory-based Adapters for Online 3D Scene Perception,CVPR,2024,segmentation_detection
+paper_0983,Relightable and Animatable Neural Avatar from Sparse-View Video,CVPR,2024,human_avatar
+paper_0984,ScoreHypo: Probabilistic Human Mesh Estimation with Hypothesis Scoring,CVPR,2024,human_pose_mesh
+paper_0985,RELI11D: A Comprehensive Multimodal Human Motion Dataset and Method,CVPR,2024,human_pose_mesh
+paper_0986,AttriHuman-3D: Editable 3D Human Avatar Generation with Attribute Decomposition and Indexing,CVPR,2024,human_avatar
+paper_0987,Improving Distant 3D Object Detection Using 2D Box Supervision,CVPR,2024,segmentation_detection
+paper_0988,RegionPLC: Regional Point-Language Contrastive Learning for Open-World 3D Scene Understanding,CVPR,2024,scene_understanding
+paper_0989,Benchmarking Segmentation Models with Mask-Preserved Attribute Editing,CVPR,2024,segmentation_detection
+paper_0990,SAI3D: Segment Any Instance in 3D Scenes,unknown,unknown,segmentation_detection
+paper_0991,HAVE-FUN: Human Avatar Reconstruction from Few-Shot Unconstrained Images,CVPR,2024,human_avatar
+paper_0992,Your Student is Better Than Expected: Adaptive Teacher-Student Collaboration for Text-Conditional Diffusion Models,unknown,unknown,generative_2d
+paper_0993,KITRO: Refining Human Mesh by 2D Clues and Kinematic-tree Rotation,CVPR,2024,human_pose_mesh
+paper_0994,Exploring Vision Transformers for 3D Human Motion-Language Models with Motion Patches,CVPR,2024,motion_generation
+paper_0995,Benchmarking the Robustness of Temporal Action Detection Models Against Temporal Corruptions,CVPR,2024,segmentation_detection
+paper_0996,Zero-Shot Structure-Preserving Diffusion Model for High Dynamic Range Tone Mapping,unknown,unknown,image_restoration
+paper_0997,ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Image,unknown,unknown,novel_view_synthesis
+paper_0998,Dynamic Inertial Poser (DynaIP): Part-Based Motion Dynamics Learning for Enhanced Human Pose Estimation with Sparse Inertial Sensors,CVPR,2024,human_pose_mesh
+paper_0999,FLHetBench: Benchmarking Device and State Heterogeneity in Federated Learning,CVPR,2024,other
+paper_1000,ImageNet-D: Benchmarking Neural Network Robustness on Diffusion Synthetic Object,unknown,unknown,generative_2d
+paper_1001,HiKER-SGG: Hierarchical Knowledge Enhanced Robust Scene Graph Generation,CVPR,2024,scene_understanding
+paper_1002,Prompt3D: Random Prompt Assisted Weakly-Supervised 3D Object Detection,CVPR,2024,segmentation_detection
+paper_1003,RoHM: Robust Human Motion Reconstruction via Diffusion,CVPR,2024,motion_generation
+paper_1004,Towards Text-guided 3D Scene Composition,unknown,unknown,generative_2d
+paper_1005,SAFDNet: A Simple and Effective Network for Fully Sparse 3D Object Detection,CVPR,2024,segmentation_detection
+paper_1006,Equivariant Multi-Modality Image Fusion,unknown,unknown,image_restoration
+paper_1007,Instance Tracking in 3D Scenes from Egocentric Videos,unknown,unknown,tracking
+paper_1008,SIFU: Side-view Conditioned Implicit Function for Real-world Usable Clothed Human Reconstruction,CVPR,2024,human_avatar
+paper_1009,Towards Automatic Power Battery Detection: New Challenge Benchmark Dataset and Baseline,CVPR,2024,segmentation_detection
+paper_1010,OHTA: One-shot Hand Avatar via Data-driven Implicit Priors,CVPR,2024,human_avatar
+paper_1011,GeoReF: Geometric Alignment Across Shape Variation for Category-level Object Pose Refinement,CVPR,2024,tracking
+paper_1012,DPMesh: Exploiting Diffusion Prior for Occluded Human Mesh Recovery,CVPR,2024,human_pose_mesh
+paper_1013,AvatarGPT: All-in-One Framework for Motion Understanding Planning Generation and Beyond,CVPR,2024,motion_generation
+paper_1014,pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction,unknown,unknown,gaussian_splatting
+paper_1015,No Time to Train: Empowering Non-Parametric Networks for Few-shot 3D Scene Segmentation,CVPR,2024,segmentation_detection
+paper_1016,2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision,ICCV,2023,point_cloud_analysis
+paper_1017,2D3D-MATR: 2D-3D Matching Transformer for Detection-Free Registration Between Images and Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1018,3D Motion Magnification: Visualizing Subtle Motions from Time-Varying Radiance Fields,ICCV,2023,novel_view_synthesis
+paper_1019,3D Segmentation of Humans in Point Clouds with Synthetic Data,ICCV,2023,point_cloud_analysis
+paper_1020,3D Distillation: Improving Self-Supervised Monocular Depth Estimation on Reflective Surfaces,ICCV,2023,depth_estimation
+paper_1021,3D-aware Blending with Generative NeRFs,ICCV,2023,neural_radiance_field
+paper_1022,3D Semantic Subspace Traverser: Empowering 3D Generative Model with Shape Editing Capability,ICCV,2023,generative_3d
+paper_1023,3D-aware Image Generation using 2D Diffusion Models,ICCV,2023,generative_2d
+paper_1024,A Latent Space of Stochastic Diffusion Models for Zero-Shot Image Editing and Guidance,ICCV,2023,generative_2d
+paper_1025,A Large-Scale Outdoor Multi-Modal Dataset and Benchmark for Novel View Synthesis and Implicit Scene Reconstruction,ICCV,2023,novel_view_synthesis
+paper_1026,ATT3D: Amortized Text-to-3D Object Synthesis,ICCV,2023,generative_3d
+paper_1027,Ablating Concepts in Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1028,ActorsNeRF: Animatable Few-shot Human Rendering with Generalizable NeRFs,ICCV,2023,neural_radiance_field
+paper_1029,Adaptive Positional Encoding for Bundle-Adjusting Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1030,AdvDiffuser: Natural Adversarial Example Synthesis with Diffusion Models,ICCV,2023,generative_2d
+paper_1031,Adding Conditional Control to Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1032,Iterative Superquadric Recomposition of 3D Objects from Multiple Views,ICCV,2023,reconstruction_3d
+paper_1033,Aggregating Feature Point Cloud for Depth Completion,ICCV,2023,point_cloud_analysis
+paper_1034,HMD-NeMo: Online 3D Avatar Motion Generation From Sparse Observations,ICCV,2023,human_avatar
+paper_1035,SINC: Spatial Composition of 3D Human Motions for Simultaneous Action Generation,ICCV,2023,motion_generation
+paper_1036,AutoDiffusion: Training-Free Optimization of Time Steps and Architectures for Automated Diffusion Model Acceleration,ICCV,2023,generative_2d
+paper_1037,Attention Discriminant Sampling for Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1038,Make-An-Animation: Large-Scale Text-conditional 3D Human Motion Generation,ICCV,2023,motion_generation
+paper_1039,Adaptive Spiral Layers for Efficient 3D Representation Learning on Meshes,ICCV,2023,generative_3d
+paper_1040,CC3D: Layout-Conditioned Generation of Compositional 3D Scenes,ICCV,2023,generative_3d
+paper_1041,"HRS-Bench: Holistic, Reliable and Scalable Benchmark for Text-to-Image Models",ICCV,2023,generative_2d
+paper_1042,Be Everywhere - Hear Everything (BEE): Audio Scene Reconstruction by Sparse Audio-Visual Samples,ICCV,2023,reconstruction_3d
+paper_1043,Beyond the Limitation of Monocular 3D Detector via Knowledge Distillation,ICCV,2023,other
+paper_1044,Building3D: A Urban-Scale Dataset and Benchmarks for Learning Roof Structures from Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1045,C2F2NeUS: Cascade Cost Frustum Fusion for High Fidelity and Generalizable Neural Surface Reconstruction,ICCV,2023,reconstruction_3d
+paper_1046,Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1047,CL-MVSNet: Unsupervised Multi-View Stereo with Dual-Level Contrastive Learning,ICCV,2023,reconstruction_3d
+paper_1048,CLIP2Point: Transfer CLIP to Point Cloud Classification with Image-Depth Pre-Training,ICCV,2023,point_cloud_analysis
+paper_1049,CPCM: Contextual Point Cloud Modeling for Weakly-supervised Point Cloud Semantic Segmentation,ICCV,2023,point_cloud_analysis
+paper_1050,CLNeRF: Continual Learning Meets NeRF,ICCV,2023,neural_radiance_field
+paper_1051,Calibrating Panoramic Depth Estimation for Practical Localization and Mapping,ICCV,2023,depth_estimation
+paper_1052,CROSSFIRE: Camera Relocalization On Self-Supervised Features from an Implicit Representation,ICCV,2023,neural_radiance_field
+paper_1053,Chasing Clouds: Differentiable Volumetric Rasterisation of Point Clouds as a Highly Efficient and Accurate Loss for Large-Scale Deformable 3D Registration,ICCV,2023,point_cloud_analysis
+paper_1054,Learning from Noisy Data for Semi-Supervised 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1055,HandR2N2: Iterative 3D Hand Pose Estimation Using a Residual Recurrent Neural Network,ICCV,2023,hand_centric
+paper_1056,"Revisiting Domain-Adaptive 3D Object Detection by Reliable, Diverse and Class-balanced Pseudo-Labeling",ICCV,2023,segmentation_detection
+paper_1057,ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field,ICCV,2023,neural_radiance_field
+paper_1058,Global Adaptation Meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1059,Constraining Depth Map Geometry for Multi-View Stereo: A Dual-Depth Approach with Saddle-shaped Depth Cells,ICCV,2023,reconstruction_3d
+paper_1060,Coordinate Quantized Neural Implicit Representations for Multi-view Reconstruction,ICCV,2023,reconstruction_3d
+paper_1061,CopyRNeRF: Protecting the CopyRight of Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1062,CroCo v2: Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow,ICCV,2023,optical_flow_stereo
+paper_1063,Cross-view Topology Based Consistent and Complementary Information for Deep Multi-view Clustering,ICCV,2023,segmentation_detection
+paper_1064,CuNeRF: Cube-Based Neural Radiance Field for Zero-Shot Medical Image Arbitrary-Scale Super Resolution,ICCV,2023,image_restoration
+paper_1065,Test-time Personalizable Forecasting of 3D Human Poses,ICCV,2023,human_pose_mesh
+paper_1066,Consistent Depth Prediction for Transparent Object Reconstruction from RGB-D Camera,ICCV,2023,depth_estimation
+paper_1067,Cyclic Test-Time Adaptation on Monocular Video for 3D Human Mesh Reconstruction,ICCV,2023,human_pose_mesh
+paper_1068,DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion,ICCV,2023,generative_2d
+paper_1069,DDP: Diffusion Model for Dense Visual Prediction,ICCV,2023,generative_2d
+paper_1070,DELFlow: Dense Efficient Learning of Scene Flow for Large-Scale Point Clouds,ICCV,2023,optical_flow_stereo
+paper_1071,DG-Recon: Depth-Guided Neural 3D Scene Reconstruction,ICCV,2023,reconstruction_3d
+paper_1072,DPS-Net: Deep Polarimetric Stereo Depth Estimation,ICCV,2023,depth_estimation
+paper_1073,DReg-NeRF: Deep Registration for Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1074,Cloth2Body: Generating 3D Human Body Mesh from 2D Clothing,ICCV,2023,human_pose_mesh
+paper_1075,"DeLiRa: Self-Supervised Depth, Light, and Radiance Fields",ICCV,2023,novel_view_synthesis
+paper_1076,DeformToon3D: Deformable Neural Radiance Fields for 3D Toonification,ICCV,2023,neural_radiance_field
+paper_1077,Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings,ICCV,2023,novel_view_synthesis
+paper_1078,Deformable Neural Radiance Fields using RGB and Event Cameras,ICCV,2023,neural_radiance_field
+paper_1079,PoseFix: Correcting 3D Human Poses with Natural Language,ICCV,2023,human_pose_mesh
+paper_1080,Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement,ICCV,2023,neural_radiance_field
+paper_1081,Density-invariant Features for Distant Point Cloud Registration,ICCV,2023,point_cloud_analysis
+paper_1082,Delving into Motion-Aware Matching for Monocular 3D Object Tracking,ICCV,2023,tracking
+paper_1083,Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model,ICCV,2023,image_restoration
+paper_1084,DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability,ICCV,2023,generative_2d
+paper_1085,DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion,ICCV,2023,point_cloud_analysis
+paper_1086,DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models,ICCV,2023,novel_view_synthesis
+paper_1087,DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models,ICCV,2023,human_pose_mesh
+paper_1088,DiffIR: Efficient Diffusion Model for Image Restoration,ICCV,2023,image_restoration
+paper_1089,DiffPose: SpatioTemporal Diffusion Model for Video-Based Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1090,Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions,ICCV,2023,reconstruction_3d
+paper_1091,MeViS: A Large-scale Benchmark for Video Segmentation with Motion Expressions,ICCV,2023,segmentation_detection
+paper_1092,DiffusionRet: Generative Text-Video Retrieval with Diffusion Model,ICCV,2023,other
+paper_1093,Discriminative Class Tokens for Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1094,Divide and Conquer: 3D Point Cloud Instance Segmentation With Point-Wise Binarization,ICCV,2023,segmentation_detection
+paper_1095,AG3D: Learning to Generate 3D Avatars from 2D Image Collections,ICCV,2023,human_avatar
+paper_1096,Shape Anchor Guided Holistic Indoor Scene Understanding,ICCV,2023,scene_understanding
+paper_1097,TORE: Token Reduction for Efficient Human Mesh Recovery with Transformer,ICCV,2023,human_pose_mesh
+paper_1098,DreamBooth3D: Subject-Driven Text-to-3D Generation,ICCV,2023,generative_3d
+paper_1099,Dynamic Mesh Recovery from Partial Point Cloud Sequence,ICCV,2023,point_cloud_analysis
+paper_1100,Dynamic Mesh-Aware Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1101,Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF,ICCV,2023,neural_radiance_field
+paper_1102,E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images,ICCV,2023,neural_radiance_field
+paper_1103,EGformer: Equirectangular Geometry-biased Transformer for 360 Depth Estimation,ICCV,2023,depth_estimation
+paper_1104,EPiC: Ensemble of Partial Point Clouds for Robust Classification,ICCV,2023,point_cloud_analysis
+paper_1105,Efficient Region-Aware Neural Radiance Fields for High-Fidelity Talking Portrait Synthesis,ICCV,2023,neural_radiance_field
+paper_1106,Editing Implicit Assumptions in Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1107,End2End Multi-View Feature Matching with Differentiable Pose Optimization,ICCV,2023,reconstruction_3d
+paper_1108,Enhancing NeRF akin to Enhancing LLMs: Generalizable NeRF Transformer with Mixture-of-View-Experts,ICCV,2023,neural_radiance_field
+paper_1109,Erasing Concepts from Diffusion Models,ICCV,2023,generative_2d
+paper_1110,Efficient View Synthesis with Neural Radiance Distribution Field,ICCV,2023,neural_radiance_field
+paper_1111,ExBluRF: Efficient Radiance Fields for Extreme Motion Blurred Images,ICCV,2023,neural_radiance_field
+paper_1112,FaceCLIPNeRF: Text-driven 3D Face Manipulation using Deformable Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1113,Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection,ICCV,2023,reconstruction_3d
+paper_1114,Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation,ICCV,2023,generative_3d
+paper_1115,FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models,ICCV,2023,novel_view_synthesis
+paper_1116,Generalizing Neural Human Fitting to Unseen Poses With Articulated SE(3) Equivariance,ICCV,2023,point_cloud_analysis
+paper_1117,Few-Shot Physically-Aware Articulated Mesh Generation via Hierarchical Deformation,ICCV,2023,generative_3d
+paper_1118,FineRecon: Depth-aware Feed-forward Network for Detailed 3D Reconstruction,ICCV,2023,reconstruction_3d
+paper_1119,Forward Flow for Novel View Synthesis of Dynamic Scenes,ICCV,2023,novel_view_synthesis
+paper_1120,FlipNeRF: Flipped Reflection Rays for Few-shot Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1121,FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model,ICCV,2023,generative_2d
+paper_1122,Dancing in the Dark: A Benchmark towards General Low-light Video Enhancement,ICCV,2023,image_restoration
+paper_1123,Deformer: Dynamic Fusion Transformer for Robust Hand Pose Estimation,ICCV,2023,hand_centric
+paper_1124,Distribution-Aligned Diffusion for Human Mesh Recovery,ICCV,2023,human_pose_mesh
+paper_1125,GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction,ICCV,2023,slam_localization
+paper_1126,GECCO: Geometrically-Conditioned Point Diffusion Models,ICCV,2023,point_cloud_analysis
+paper_1127,GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1128,GaPro: Box-Supervised 3D Point Cloud Instance Segmentation Using Gaussian Processes as Pseudo Labelers,ICCV,2023,segmentation_detection
+paper_1129,Generalized Few-Shot Point Cloud Segmentation via Geometric Words,ICCV,2023,point_cloud_analysis
+paper_1130,GasMono: Geometry-Aided Self-Supervised Monocular Depth Estimation for Indoor Scenes,ICCV,2023,depth_estimation
+paper_1131,Generative Multiplane Neural Radiance for 3D-Aware Image Generation,ICCV,2023,generative_2d
+paper_1132,Generative Novel View Synthesis with 3D-Aware Diffusion Models,ICCV,2023,novel_view_synthesis
+paper_1133,GeoUDF: Surface Reconstruction from 3D Point Clouds via Geometry-guided Distance Representation,ICCV,2023,point_cloud_analysis
+paper_1134,Geometry-guided Feature Learning and Fusion for Indoor Scene Reconstruction,ICCV,2023,segmentation_detection
+paper_1135,GridPull: Towards Scalability in Learning Implicit Representations from 3D Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1136,Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model Using Pixel-Aligned Reconstruction Priors,ICCV,2023,generative_3d
+paper_1137,From Sky to the Ground: A Large-scale Benchmark and Simple Baseline Towards Real Rain Removal,ICCV,2023,image_restoration
+paper_1138,HOSNeRF: Dynamic Human-Object-Scene Neural Radiance Fields from a Single Video,ICCV,2023,neural_radiance_field
+paper_1139,Pseudo Flow Consistency for Self-Supervised 6D Object Pose Estimation,ICCV,2023,tracking
+paper_1140,HaMuCo: Hand Pose Estimation via Multiview Collaborative Self-Supervised Learning,ICCV,2023,hand_centric
+paper_1141,HairNeRF: Geometry-Aware Image Synthesis for Hairstyle Transfer,ICCV,2023,generative_2d
+paper_1142,Harnessing the Spatial-Temporal Attention of Diffusion Models for High-Fidelity Text-to-Image Synthesis,ICCV,2023,generative_2d
+paper_1143,BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes,ICCV,2023,human_avatar
+paper_1144,"Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks",ICCV,2023,other
+paper_1145,Hierarchical Prior Mining for Non-local Multi-View Stereo,ICCV,2023,reconstruction_3d
+paper_1146,Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation,ICCV,2023,point_cloud_analysis
+paper_1147,Normalizing Flows for Human Pose Anomaly Detection,ICCV,2023,segmentation_detection
+paper_1148,HollowNeRF: Pruning Hashgrid-Based NeRFs with Trainable Collision Mitigation,ICCV,2023,neural_radiance_field
+paper_1149,HoloFusion: Towards Photo-realistic 3D Generative Modeling,ICCV,2023,generative_3d
+paper_1150,360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking,ICCV,2023,tracking
+paper_1151,One-shot Implicit Animatable Avatars with Model-based Priors,ICCV,2023,neural_radiance_field
+paper_1152,LVOS: A Benchmark for Long-term Video Object Segmentation,ICCV,2023,segmentation_detection
+paper_1153,HumanSD: A Native Skeleton-Guided Diffusion Model for Human Image Generation,ICCV,2023,generative_2d
+paper_1154,Hyperbolic Chamfer Distance for Point Cloud Completion,ICCV,2023,point_cloud_analysis
+paper_1155,HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion,ICCV,2023,generative_3d
+paper_1156,ICE-NeRF: Interactive Color Editing of NeRFs via Decomposition-Aware Weight Optimization,ICCV,2023,neural_radiance_field
+paper_1157,ImGeoNet: Image-induced Geometry-aware Voxel Representation for Multi-view 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1158,Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models,ICCV,2023,generative_2d
+paper_1159,Improving Sample Quality of Diffusion Models Using Self-Attention Guidance,ICCV,2023,generative_2d
+paper_1160,Instance Neural Radiance Field,ICCV,2023,neural_radiance_field
+paper_1161,Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions,ICCV,2023,neural_radiance_field
+paper_1162,IntrinsicNeRF: Learning Intrinsic Neural Radiance Fields for Editable Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1163,RANA: Relightable Articulated Neural Avatars,ICCV,2023,human_avatar
+paper_1164,AffordPose: A Large-Scale Dataset of Hand-Object Interactions with Affordance-Driven Hand Pose,ICCV,2023,hand_centric
+paper_1165,AvatarCraft: Transforming Text into Neural Human Avatars with Parameterized Shape and Pose Control,ICCV,2023,human_avatar
+paper_1166,Center-Based Decoupled Point-cloud Registration for 6D Object Pose Estimation,ICCV,2023,point_cloud_analysis
+paper_1167,Guided Motion Diffusion for Controllable Human Motion Synthesis,ICCV,2023,motion_generation
+paper_1168,Joint Implicit Neural Representation for High-fidelity and Compact Vector Fonts,ICCV,2023,reconstruction_3d
+paper_1169,EMDB: The Electromagnetic Database of Global 3D Human Pose and Shape in the Wild,ICCV,2023,human_pose_mesh
+paper_1170,"FishNet: A Large-scale Dataset and Benchmark for Fish Recognition, Detection, and Functional Trait Prediction",ICCV,2023,segmentation_detection
+paper_1171,Ego-Humans: An Ego-Centric 3D Multi-Human Benchmark,ICCV,2023,reconstruction_3d
+paper_1172,Chupa: Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models,ICCV,2023,generative_3d
+paper_1173,PG-RCNN: Semantic Surface Point Generation for 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1174,Predict to Detect: Prediction-guided 3D Object Detection using Sequential Images,ICCV,2023,segmentation_detection
+paper_1175,Open-vocabulary Video Question Answering: A New Benchmark for Evaluating the Generalizability of Video Question Answering Models,ICCV,2023,scene_understanding
+paper_1176,LERF: Language Embedded Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1177,LIST: Learning Implicitly from Spatial Transformers for Single-View 3D Reconstruction,ICCV,2023,reconstruction_3d
+paper_1178,LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs,ICCV,2023,neural_radiance_field
+paper_1179,Label-Guided Knowledge Distillation for Continual Semantic Segmentation on 2D Images and 3D Point Clouds,ICCV,2023,segmentation_detection
+paper_1180,Learning Depth Estimation for Transparent and Mirror Surfaces,ICCV,2023,depth_estimation
+paper_1181,Learning Neural Implicit Surfaces with Object-Aware Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1182,LeaF: Learning Frames for 4D Point Cloud Sequence Understanding,ICCV,2023,point_cloud_analysis
+paper_1183,Learning Unified Decompositional and Compositional NeRF for Editable Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1184,Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection,ICCV,2023,point_cloud_analysis
+paper_1185,Learning a Room with the Occ-SDF Hybrid: Signed Distance Function Mingled with Occupancy Aids Scene Representation,ICCV,2023,reconstruction_3d
+paper_1186,Collecting The Puzzle Pieces: Disentangled Self-Driven Human Pose Transfer by Permuting Textures,ICCV,2023,tracking
+paper_1187,Learning from Semantic Alignment between Unpaired Multiviews for Egocentric Video Recognition,ICCV,2023,scene_understanding
+paper_1188,DFA3D: 3D Deformable Attention For 2D-to-3D Feature Lifting,ICCV,2023,segmentation_detection
+paper_1189,JOTR: 3D Joint Contrastive Learning with Transformers for Occluded Human Mesh Recovery,ICCV,2023,human_pose_mesh
+paper_1190,RenderIH: A Large-Scale Synthetic Dataset for 3D Interacting Hand Pose Estimation,ICCV,2023,hand_centric
+paper_1191,Representation Disparity-aware Distillation for 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1192,CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network,ICCV,2023,other
+paper_1193,Learning Non-Local Spatial-Angular Correlation for Light Field Image Super-Resolution,ICCV,2023,image_restoration
+paper_1194,Lighting up NeRF via Unsupervised Decomposition and Enhancement,ICCV,2023,neural_radiance_field
+paper_1195,Learning Robust Representations with Information Bottleneck and Memory Network for RGB-D-based Gesture Recognition,ICCV,2023,segmentation_detection
+paper_1196,VI-Net: Boosting Category-level 6D Object Pose Estimation via Learning Decoupled Rotations on the Spherical Representations,ICCV,2023,tracking
+paper_1197,Bird's-Eye-View Scene Graph for Vision-Language Navigation,ICCV,2023,scene_understanding
+paper_1198,Learning Clothing and Pose Invariant 3D Shape Representation for Long-Term Person Re-Identification,ICCV,2023,tracking
+paper_1199,Multi-interactive Feature Learning and a Full-time Multi-modality Benchmark for Image Fusion and Segmentation,ICCV,2023,segmentation_detection
+paper_1200,Linear-Covariance Loss for End-to-End Learning of 6D Pose Estimation,ICCV,2023,tracking
+paper_1201,PlanarTrack: A Large-scale Challenging Benchmark for Planar Object Tracking,ICCV,2023,tracking
+paper_1202,LivePose: Online 3D Reconstruction from Monocular Video with Dynamic Camera Poses,ICCV,2023,reconstruction_3d
+paper_1203,LoLep: Single-View View Synthesis with Locally-Learned Planes and Self-Attention Occlusion Inference,ICCV,2023,novel_view_synthesis
+paper_1204,Localizing Object-Level Shape Variations with Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1205,Locally Stylized Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1206,Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models,ICCV,2023,novel_view_synthesis
+paper_1207,Perpetual Humanoid Control for Real-time Simulated Avatars,ICCV,2023,human_avatar
+paper_1208,MUVA: A New Large-Scale Benchmark for Multi-View Amodal Instance Segmentation in the Shopping Scenario,ICCV,2023,segmentation_detection
+paper_1209,MAMo: Leveraging Memory and Attention for Monocular Video Depth Estimation,ICCV,2023,depth_estimation
+paper_1210,MV-DeepSDF: Implicit Modeling with Multi-Sweep Point Clouds for 3D Vehicle Reconstruction in Autonomous Driving,ICCV,2023,reconstruction_3d
+paper_1211,MBPTrack: Improving 3D Point Cloud Tracking with Memory Networks and Box Priors,ICCV,2023,point_cloud_analysis
+paper_1212,MIMO-NeRF: Fast Neural Rendering with Multi-input Multi-output Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1213,MV-Map: Offboard HD-Map Generation with Multi-view Consistency,ICCV,2023,neural_radiance_field
+paper_1214,A Benchmark for Chinese-English Scene Text Image Super-Resolution,ICCV,2023,image_restoration
+paper_1215,Synchronize Feature Extracting and Matching: A Single Branch Framework for 3D Object Tracking,ICCV,2023,tracking
+paper_1216,MVPSNet: Fast Generalizable Multi-view Photometric Stereo,ICCV,2023,reconstruction_3d
+paper_1217,MagicFusion: Boosting Text-to-Image Generation Performance by Fusing Diffusion Models,ICCV,2023,generative_2d
+paper_1218,EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries,ICCV,2023,reconstruction_3d
+paper_1219,Masked Spatio-Temporal Structure Prediction for Self-supervised Learning on Point Cloud Videos,ICCV,2023,point_cloud_analysis
+paper_1220,Environment-Invariant Curriculum Relation Learning for Fine-Grained Scene Graph Generation,ICCV,2023,scene_understanding
+paper_1221,Mixed Neural Voxels for Fast Multi-view Video Synthesis,ICCV,2023,novel_view_synthesis
+paper_1222,MonoNeRD: NeRF-like Representations for Monocular 3D Object Detection,ICCV,2023,neural_radiance_field
+paper_1223,MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond,ICCV,2023,neural_radiance_field
+paper_1224,MonoNeRF: Learning a Generalizable Dynamic Radiance Field from Monocular Videos,ICCV,2023,neural_radiance_field
+paper_1225,Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor,ICCV,2023,slam_localization
+paper_1226,Multi-Object Navigation with Dynamically Learned Neural Implicit Representations,ICCV,2023,slam_localization
+paper_1227,Multi-Scale Bidirectional Recurrent Network with Hybrid Correlation for Point Cloud Based Scene Flow Estimation,ICCV,2023,optical_flow_stereo
+paper_1228,Multi-task View Synthesis with Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1229,Monocular 3D Object Detection with Bounding Box Denoising in 3D by Perceiver,ICCV,2023,segmentation_detection
+paper_1230,Multi-view Spectral Polarization Propagation for Video Glass Segmentation,ICCV,2023,segmentation_detection
+paper_1231,Multi-view Self-supervised Disentanglement for General Image Denoising,ICCV,2023,image_restoration
+paper_1232,Multiscale Representation for Real-Time Anti-Aliasing Neural Rendering,ICCV,2023,neural_radiance_field
+paper_1233,NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space,ICCV,2023,scene_understanding
+paper_1234,NEMTO: Neural Environment Matting for Novel View and Relighting Synthesis of Transparent Objects,ICCV,2023,novel_view_synthesis
+paper_1235,NSF: Neural Surface Fields for Human Modeling from Monocular Depth,ICCV,2023,reconstruction_3d
+paper_1236,NLOS-NeuS: Non-line-of-sight Neural Implicit Surface,ICCV,2023,reconstruction_3d
+paper_1237,NeMF: Inverse Volume Rendering with Neural Microflake Field,ICCV,2023,reconstruction_3d
+paper_1238,NeO 360: Neural Fields for Sparse View Synthesis of Outdoor Scenes,ICCV,2023,novel_view_synthesis
+paper_1239,NaviNeRF: NeRF-based 3D Representation Disentanglement by Latent Semantic Navigation,ICCV,2023,neural_radiance_field
+paper_1240,NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection,ICCV,2023,neural_radiance_field
+paper_1241,NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping,ICCV,2023,neural_radiance_field
+paper_1242,NeRF-MS: Neural Radiance Fields with Multi-Sequence,ICCV,2023,neural_radiance_field
+paper_1243,NeRFrac: Neural Radiance Fields through Refractive Surface,ICCV,2023,neural_radiance_field
+paper_1244,NeuS2: Fast Learning of Neural Implicit Surfaces for Multi-view Reconstruction,ICCV,2023,reconstruction_3d
+paper_1245,NerfAcc: Efficient Sampling Accelerates NeRFs,ICCV,2023,neural_radiance_field
+paper_1246,Nerfbusters: Removing Ghostly Artifacts from Casually Captured NeRFs,ICCV,2023,neural_radiance_field
+paper_1247,Neural Implicit Surface Evolution,ICCV,2023,reconstruction_3d
+paper_1248,Neural LiDAR Fields for Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1249,Neural Radiance Field with LiDAR maps,ICCV,2023,neural_radiance_field
+paper_1250,ObjectSDF++: Improved Object-Compositional Neural Implicit Surfaces,ICCV,2023,reconstruction_3d
+paper_1251,Novel-View Synthesis and Pose Estimation for Hand-Object Interaction from Sparse Views,ICCV,2023,hand_centric
+paper_1252,Open-vocabulary Object Segmentation with Diffusion Models,ICCV,2023,generative_2d
+paper_1253,P2C: Self-Supervised Point Cloud Completion from Single Partial Clouds,ICCV,2023,point_cloud_analysis
+paper_1254,PARF: Primitive-Aware Radiance Fusion for Indoor Scene Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1255,PODIA-3D: Domain Adaptation of 3D Generative Model Across Large Domain Gap Using Pose-Preserved Text-to-Image Diffusion,ICCV,2023,generative_3d
+paper_1256,Parameterized Cost Volume for Stereo Matching,ICCV,2023,optical_flow_stereo
+paper_1257,Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception,ICCV,2023,segmentation_detection
+paper_1258,Partition Speeds Up Learning Implicit Neural Representations Based on Exponential-Increase Hypothesis,ICCV,2023,image_restoration
+paper_1259,Source-free Domain Adaptive Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1260,Phasic Content Fusing Diffusion Model with Directional Distribution Consistency for Few-Shot Model Adaption,ICCV,2023,segmentation_detection
+paper_1261,PhysDiff: Physics-Guided Human Motion Diffusion Model,ICCV,2023,motion_generation
+paper_1262,Pixel-Aligned Recurrent Queries for Multi-View 3D Object Detection,ICCV,2023,reconstruction_3d
+paper_1263,PlankAssembly: Robust 3D Reconstruction from Three Orthographic Views with Learnt Shape Programs,ICCV,2023,reconstruction_3d
+paper_1264,Point-TTA: Test-Time Adaptation for Point Cloud Registration Using Multitask Meta-Auxiliary Learning,ICCV,2023,point_cloud_analysis
+paper_1265,PointMBF: A Multi-scale Bidirectional Fusion Network for Unsupervised RGB-D Point Cloud Registration,ICCV,2023,point_cloud_analysis
+paper_1266,PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-Modal Distillation and Super-Voxel Clustering,ICCV,2023,segmentation_detection
+paper_1267,Ponder: Point Cloud Pre-training via Neural Rendering,ICCV,2023,point_cloud_analysis
+paper_1268,Pose-Free Neural Radiance Fields via Implicit Pose Regularization,ICCV,2023,neural_radiance_field
+paper_1269,Preserve Your Own Correlation: A Noise Prior for Video Diffusion Models,ICCV,2023,generative_2d
+paper_1270,Point-SLAM: Dense Neural Point Cloud-based SLAM,ICCV,2023,slam_localization
+paper_1271,Probabilistic Triangulation for Uncalibrated Multi-View 3D Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1272,Prompt Tuning Inversion for Text-driven Image Editing Using Diffusion Models,ICCV,2023,generative_2d
+paper_1273,ProtoTransfer: Cross-Modal Prototype Transfer for Point Cloud Segmentation,ICCV,2023,point_cloud_analysis
+paper_1274,Understanding 3D Object Interaction from a Single Image,ICCV,2023,hand_centric
+paper_1275,R3D3: Dense 3D Reconstruction of Dynamic Scenes from Multiple Cameras,ICCV,2023,reconstruction_3d
+paper_1276,RPEFlow: Multimodal Fusion of RGB-PointCloud-Event for Joint Optical Flow and Scene Flow Estimation,ICCV,2023,optical_flow_stereo
+paper_1277,Prior-guided Source-free Domain Adaptation for Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1278,Re-ReND: Real-Time Rendering of NeRFs across Devices,ICCV,2023,neural_radiance_field
+paper_1279,Ray Conditioning: Trading Photo-consistency for Photo-realism in Multi-view Image Generation,ICCV,2023,generative_2d
+paper_1280,ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model,ICCV,2023,motion_generation
+paper_1281,RealGraph: A Multiview Dataset for 4D Real-world Context Graph Generation,ICCV,2023,segmentation_detection
+paper_1282,ReNeRF: Relightable Neural Radiance Fields with Nearfield Lighting,ICCV,2023,neural_radiance_field
+paper_1283,Ref-NeuS: Ambiguity-Reduced Neural Implicit Surface Learning for Multi-View Reconstruction with Reflection,ICCV,2023,reconstruction_3d
+paper_1284,Reference-guided Controllable Inpainting of Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1285,RegFormer: An Efficient Projection-Aware Transformer Network for Large-Scale Point Cloud Registration,ICCV,2023,point_cloud_analysis
+paper_1286,Relightify: Relightable 3D Faces from a Single Image via Diffusion Models,ICCV,2023,face_centric
+paper_1287,Retro-FPN: Retrospective Feature Pyramid Network for Point Cloud Semantic Segmentation,ICCV,2023,point_cloud_analysis
+paper_1288,Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering,ICCV,2023,depth_estimation
+paper_1289,Replay: Multi-modal Multi-view Acted Videos for Casual Holography,ICCV,2023,novel_view_synthesis
+paper_1290,Robust Monocular Depth Estimation under Challenging Conditions,ICCV,2023,depth_estimation
+paper_1291,S-VolSDF: Sparse Multi-View Stereo Regularization of Neural Implicit Surfaces,ICCV,2023,reconstruction_3d
+paper_1292,Root Pose Decomposition Towards Generic Non-rigid 3D Reconstruction with Monocular Videos,ICCV,2023,reconstruction_3d
+paper_1293,SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1294,SAMPLING: Scene-adaptive Hierarchical Multiplane Images Representation for Novel View Synthesis from a Single Image,ICCV,2023,novel_view_synthesis
+paper_1295,SHACIRA: Scalable HAsh-grid Compression for Implicit Neural Representations,ICCV,2023,neural_radiance_field
+paper_1296,"SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data",ICCV,2023,point_cloud_analysis
+paper_1297,SHERF: Generalizable Human NeRF from a Single Image,ICCV,2023,neural_radiance_field
+paper_1298,SIRA-PCR: Sim-to-Real Adaptation for 3D Point Cloud Registration,ICCV,2023,point_cloud_analysis
+paper_1299,SVDFormer: Complementing Point Cloud via Self-view Augmentation and Self-structure Dual-generator,ICCV,2023,point_cloud_analysis
+paper_1300,SVQNet: Sparse Voxel-Adjacent Query Network for 4D Spatio-Temporal LiDAR Semantic Segmentation,ICCV,2023,segmentation_detection
+paper_1301,Sample-adaptive Augmentation for Point Cloud Recognition Against Real-world Corruptions,ICCV,2023,point_cloud_analysis
+paper_1302,S-TREK: Sequential Translation and Rotation Equivariant Keypoints for Local Feature Extraction,ICCV,2023,reconstruction_3d
+paper_1303,SGAligner: 3D Scene Alignment with Scene Graphs,ICCV,2023,scene_understanding
+paper_1304,ScatterNeRF: Seeing Through Fog with Physically-Based Inverse Neural Rendering,ICCV,2023,reconstruction_3d
+paper_1305,OmniLabel: A Challenging Benchmark for Language-Based Object Detection,ICCV,2023,segmentation_detection
+paper_1306,GACE: Geometry Aware Confidence Enhancement for Black-Box 3D Object Detectors on LiDAR-Data,ICCV,2023,point_cloud_analysis
+paper_1307,Score-Based Diffusion Models as Principled Priors for Inverse Imaging,ICCV,2023,segmentation_detection
+paper_1308,Seal-3D: Interactive Pixel-Level Editing for Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1309,Self-Ordering Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1310,See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data,ICCV,2023,point_cloud_analysis
+paper_1311,Template Inversion Attack against Face Recognition Systems using 3D Face Reconstruction,ICCV,2023,face_centric
+paper_1312,Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation,ICCV,2023,human_pose_mesh
+paper_1313,Self-Supervised Monocular Depth Estimation by Direction-aware Cumulative Convolution Network,ICCV,2023,depth_estimation
+paper_1314,PhaseMP: Robust 3D Pose Estimation via Phase-conditioned Human Motion Prior,ICCV,2023,motion_generation
+paper_1315,3DPPE: 3D Point Positional Encoding for Transformer-based Multi-Camera 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1316,DPF-Net: Combining Explicit Shape Priors in Deformable Primitive Field for Unsupervised Structural Reconstruction of 3D Objects,ICCV,2023,reconstruction_3d
+paper_1317,Efficient Computation Sharing for Multi-Task Visual Scene Understanding,ICCV,2023,depth_estimation
+paper_1318,Single Image Defocus Deblurring via Implicit Neural Inverse Kernels,ICCV,2023,image_restoration
+paper_1319,Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction,ICCV,2023,generative_3d
+paper_1320,Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation,ICCV,2023,point_cloud_analysis
+paper_1321,SlaBins: Fisheye Depth Estimation using Slanted Bins on Road Environments,ICCV,2023,depth_estimation
+paper_1322,GraphAlign: Enhancing Accurate Feature Alignment by Graph matching for Multi-Modal 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1323,Spacetime Surface Regularization for Neural Dynamic Scene Reconstruction,ICCV,2023,reconstruction_3d
+paper_1324,SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1325,Spectral Graphormer: Spectral Graph-Based Transformer for Egocentric Two-Hand Reconstruction using Multi-View Color Images,ICCV,2023,hand_centric
+paper_1326,StegaNeRF: Embedding Invisible Information within Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1327,Stochastic Segmentation with Conditional Categorical Diffusion Models,ICCV,2023,segmentation_detection
+paper_1328,Speech4Mesh: Speech-Assisted Monocular 3D Facial Reconstruction for Speech-Driven 3D Facial Animation,ICCV,2023,face_centric
+paper_1329,Strata-NeRF : Neural Radiance Fields for Stratified Scenes,ICCV,2023,neural_radiance_field
+paper_1330,Strivec: Sparse Tri-Vector Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1331,Structure-Aware Surface Reconstruction via Primitive Assembly,ICCV,2023,point_cloud_analysis
+paper_1332,StyleDiffusion: Controllable Disentangled Style Transfer via Diffusion Models,ICCV,2023,generative_2d
+paper_1333,CaPhy: Capturing Physical Properties for Animatable Human Avatars,ICCV,2023,human_avatar
+paper_1334,Surface Extraction from Neural Unsigned Distance Fields,ICCV,2023,reconstruction_3d
+paper_1335,Vision Relation Transformer for Unbiased Scene Graph Generation,ICCV,2023,scene_understanding
+paper_1336,Surface Normal Clustering for Implicit Representation of Manhattan Scenes,ICCV,2023,novel_view_synthesis
+paper_1337,DINAR: Diffusion Inpainting of Neural Textures for One-Shot Human Avatars,ICCV,2023,human_avatar
+paper_1338,"TEMPO: Efficient Multi-View Pose Estimation, Tracking, and Forecasting",ICCV,2023,human_pose_mesh
+paper_1339,Take-A-Photo: 3D-to-2D Generative Pre-training of Point Cloud Models,ICCV,2023,point_cloud_analysis
+paper_1340,Social Diffusion: Long-term Multiple Human Motion Anticipation,ICCV,2023,motion_generation
+paper_1341,Temporal Enhanced Training of Multi-view 3D Object Detector via Historical Object Prediction,ICCV,2023,reconstruction_3d
+paper_1342,Tetra-NeRF: Representing Neural Radiance Fields Using Tetrahedra,ICCV,2023,neural_radiance_field
+paper_1343,ChildPlay: A New Benchmark for Understanding Children's Gaze Behaviour,ICCV,2023,scene_understanding
+paper_1344,TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models,ICCV,2023,generative_2d
+paper_1345,Text2Tex: Text-driven Texture Synthesis via Diffusion Models,ICCV,2023,generative_3d
+paper_1346,Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators,ICCV,2023,generative_2d
+paper_1347,Total-Recon: Deformable Scene Reconstruction for Embodied View Synthesis,ICCV,2023,novel_view_synthesis
+paper_1348,Towards Authentic Face Restoration with Iterative Diffusion Models and Beyond,ICCV,2023,face_centric
+paper_1349,Towards Zero-Shot Scale-Aware Monocular Depth Estimation,ICCV,2023,depth_estimation
+paper_1350,Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1351,Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation,ICCV,2023,generative_2d
+paper_1352,U-RED: Unsupervised 3D Shape Retrieval and Deformation for Partial Point Clouds,ICCV,2023,point_cloud_analysis
+paper_1353,UHDNeRF: Ultra-High-Definition Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1354,Uncertainty Guided Adaptive Warping for Robust and Efficient Stereo Matching,ICCV,2023,optical_flow_stereo
+paper_1355,Uni-3D: A Universal Model for Panoptic 3D Scene Reconstruction,ICCV,2023,segmentation_detection
+paper_1356,Unleashing Text-to-Image Diffusion Models for Visual Perception,ICCV,2023,generative_2d
+paper_1357,UniFusion: Unified Multi-View Fusion Transformer for Spatial-Temporal Representation in Bird's-Eye-View,ICCV,2023,scene_understanding
+paper_1358,Urban Radiance Field Representation with Deformable Neural Mesh Primitives,ICCV,2023,neural_radiance_field
+paper_1359,VAPCNet: Viewpoint-Aware 3D Point Cloud Completion,ICCV,2023,point_cloud_analysis
+paper_1360,VeRi3D: Generative Vertex-based Radiance Fields for 3D Controllable Human Image Synthesis,ICCV,2023,generative_2d
+paper_1361,"Versatile Diffusion: Text, Images and Variations All in One Diffusion Model",ICCV,2023,generative_2d
+paper_1362,ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding,ICCV,2023,scene_understanding
+paper_1363,Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data,ICCV,2023,generative_3d
+paper_1364,Vox-E: Text-Guided Voxel Editing of 3D Objects,ICCV,2023,generative_3d
+paper_1365,SOCS: Semantically-Aware Object Coordinate Space for Category-Level 6D Object Pose Estimation under Large Shape Variations,ICCV,2023,tracking
+paper_1366,DiLiGenT-Pi: Photometric Stereo for Planar Surfaces with Rich Details - Benchmark Dataset and Beyond,ICCV,2023,reconstruction_3d
+paper_1367,3D Human Mesh Recovery with Sequentially Global Rotation Estimation,ICCV,2023,human_pose_mesh
+paper_1368,Not Every Side Is Equal: Localization Uncertainty Estimation for Semi-Supervised 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1369,DistillBEV: Boosting Multi-Camera 3D Object Detection with Cross-Modal Knowledge Distillation,ICCV,2023,segmentation_detection
+paper_1370,OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception,ICCV,2023,scene_understanding
+paper_1371,Query6DoF: Learning Sparse Queries as Implicit Shape Prior for Category-Level 6DoF Pose Estimation,ICCV,2023,point_cloud_analysis
+paper_1372,WaveNeRF: Wavelet-based Generalizable Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1373,Clutter Detection and Removal in 3D Scenes with View-Consistent Inpainting,ICCV,2023,reconstruction_3d
+paper_1374,Leveraging SE(3) Equivariance for Learning 3D Geometric Shape Assembly,ICCV,2023,reconstruction_3d
+paper_1375,When Epipolar Constraint Meets Non-Local Operators in Multi-View Stereo,ICCV,2023,reconstruction_3d
+paper_1376,Towards Universal LiDAR-Based 3D Object Detection by Multi-Domain Knowledge Transfer,ICCV,2023,segmentation_detection
+paper_1377,CoIn: Contrastive Instance Feature Mining for Outdoor 3D Object Detection with Very Limited Annotations,ICCV,2023,segmentation_detection
+paper_1378,SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1379,Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction,ICCV,2023,motion_generation
+paper_1380,Human-centric Scene Understanding for 3D Large-scale Scenarios,ICCV,2023,scene_understanding
+paper_1381,Grounding 3D Object Affordance from 2D Interactions in Images,ICCV,2023,scene_understanding
+paper_1382,Co-Evolution of Pose and Mesh for 3D Human Body Estimation from Video,ICCV,2023,human_pose_mesh
+paper_1383,ClothPose: A Real-world Benchmark for Visual Analysis of Garment Pose via An Indirect Recording Solution,ICCV,2023,human_pose_mesh
+paper_1384,Bidirectionally Deformable Motion Modulation For Video-based Human Pose Transfer,ICCV,2023,motion_generation
+paper_1385,GLA-GCN: Global-local Adaptive Graph Convolutional Network for 3D Human Pose Estimation from Monocular Video,ICCV,2023,human_pose_mesh
+paper_1386,Your Diffusion Model is Secretly a Zero-Shot Classifier,ICCV,2023,generative_2d
+paper_1387,Zero-1-to-3: Zero-shot One Image to 3D Object,ICCV,2023,generative_3d
+paper_1388,Zero-Shot Point Cloud Segmentation by Semantic-Visual Aware Synthesis,ICCV,2023,segmentation_detection
+paper_1389,A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1390,HopFIR: Hop-wise GraphFormer with Intragroup Joint Refinement for 3D Human Pose Estimation,ICCV,2023,human_pose_mesh
+paper_1391,DMNet: Delaunay Meshing Network for 3D Shape Representation,ICCV,2023,point_cloud_analysis
+paper_1392,Zero-Shot Spatial Layout Conditioning for Text-to-Image Diffusion Models,ICCV,2023,generative_2d
+paper_1393,NeILF++: Inter-Reflectable Light Fields for Geometry and Material Estimation,ICCV,2023,neural_radiance_field
+paper_1394,Multi3DRefer: Grounding Text Description to Multiple 3D Objects,ICCV,2023,scene_understanding
+paper_1395,OCHID-Fi: Occlusion-Robust Hand Pose Estimation in 3D via RF-Vision,ICCV,2023,hand_centric
+paper_1396,Probabilistic Human Mesh Recovery in 3D Scenes from Egocentric Views,ICCV,2023,human_pose_mesh
+paper_1397,Self-supervised Learning of Implicit Shape Representation with Dense Correspondence for Deformable Objects,ICCV,2023,reconstruction_3d
+paper_1398,Ada3D : Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection,ICCV,2023,segmentation_detection
+paper_1399,TextPSG: Panoptic Scene Graph Generation from Textual Descriptions,ICCV,2023,scene_understanding
+paper_1400,Learning Symmetry-Aware Geometry Correspondences for 6D Object Pose Estimation,ICCV,2023,point_cloud_analysis
+paper_1401,AttT2M: Text-Driven Human Motion Generation with Multi-Perspective Attention Mechanism,ICCV,2023,motion_generation
+paper_1402,Human from Blur: Human Pose Tracking from Blurry Images,ICCV,2023,tracking
+paper_1403,Deep Fusion Transformer Network with Weighted Vector-Wise Keypoints Voting for Robust 6D Object Pose Estimation,ICCV,2023,tracking
+paper_1404,HiLo: Exploiting High Low Frequency Relations for Unbiased Panoptic Scene Graph Generation,ICCV,2023,scene_understanding
+paper_1405,H3WB: Human3.6M 3D WholeBody Dataset and Benchmark,ICCV,2023,human_pose_mesh
+paper_1406,Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields,ICCV,2023,neural_radiance_field
+paper_1407,Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction,ICCV,2023,human_pose_mesh
+paper_1408,Cross-modal Latent Space Alignment for Image to Avatar Translation,ICCV,2023,human_avatar
+paper_1409,iVS-Net: Learning Human View Synthesis from Internet Videos,ICCV,2023,novel_view_synthesis
