@@ -2,11 +2,13 @@
 
 VisionQ is a benchmark for **VLM judges on qualitative comparison figures from computer-vision papers**. Each question shows the cropped outputs of 2–4 methods from a peer-reviewed CVPR/ICCV figure and names one visual criterion from a six-axis taxonomy (e.g. *"Which method shows sharper boundaries?"*). A judge is correct when it picks the output the paper's authors identify as best on that criterion: *criterion-conditioned visual discrimination*.
 
+📄 **Our paper is now available on arXiv: https://arxiv.org/abs/2610.00666**
+
 This repository contains the benchmark harness, the code to train **VisionQ-Judge** (a DPO-tuned Gemma-4-E4B judge), the raw predictions behind every number in the paper, and the scripts that reproduce the paper's tables and figures.
 
 | | |
 |---|---|
-| Paper | arXiv link *(to be added)* |
+| Paper | https://arxiv.org/abs/2610.00666 |
 | Code | https://github.com/ReML-AI/visionq |
 | Dataset | https://huggingface.co/datasets/visionq-anon-2026/VisionQ-1k |
 
@@ -97,8 +99,9 @@ The split it produces is identical to `data/judge/test_questions.jsonl` (717 tes
 
 ```bibtex
 @article{visionq2026,
-  title  = {VisionQ: VLM-as-a-Judge Taxonomy, Dataset and Benchmark for Qualitative Analysis in Computer Vision},
-  author = {(to be added)},
-  year   = {2026}
+  title   = {VisionQ: VLM-as-a-Judge Taxonomy, Dataset and Benchmark for Qualitative Analysis in Computer Vision},
+  author  = {Vu Dinh Xuan and Duc-Hai Nguyen and Minh-Dung Dao and Vu Quynh Giao and Quang Hong Nguyen and Binh-Son Hua and Barry O'Sullivan and David Murphy and Hoang D. Nguyen},
+  journal = {arXiv preprint arXiv:2610.00666},
+  year    = {2026}
 }
 ```
