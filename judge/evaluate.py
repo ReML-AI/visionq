@@ -17,7 +17,7 @@ on the second run the per-leaf table will include base vs tuned columns.
 Usage on the cluster:
 
     # 1. Base-model baseline (~30 min on Qwen-7B / ~60 min on Gemma-12B):
-    srun --gres=gpu:1 python evaluate.py \\
+    srun -p crtai2 --gres=gpu:1 python evaluate.py \\
         --test-questions output/judge_v1/test_questions.jsonl \\
         --dataset-root   ~/visionqc-v4.3 \\
         --model-id       google/gemma-3-12b-it \\
@@ -25,7 +25,7 @@ Usage on the cluster:
         --tag            base
 
     # 2. Tuned model (same time):
-    srun --gres=gpu:1 python evaluate.py \\
+    srun -p crtai2 --gres=gpu:1 python evaluate.py \\
         --test-questions output/judge_v1/test_questions.jsonl \\
         --dataset-root   ~/visionqc-v4.3 \\
         --model-id       google/gemma-3-12b-it \\
@@ -167,6 +167,7 @@ def run_predictions(
     tile_multi: bool = True,
     prepend_context: bool = False,
     anti_bias: bool = False,
+    fp16: bool = False,
 ) -> None:
     """Stream questions from ``test_path``, run greedy generation, dump
     one prediction record per line to ``out_jsonl``.
@@ -179,12 +180,14 @@ def run_predictions(
     )
     from PIL import Image                                                  # noqa: WPS433
 
+    compute_dtype = torch.float16 if fp16 else torch.bfloat16  # fp16 on Turing
+
     bnb_config = None
     if load_in_4bit:
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_compute_dtype=compute_dtype,
             bnb_4bit_use_double_quant=True,
         )
 
@@ -197,7 +200,7 @@ def run_predictions(
     print(f"  loading base model from {model_id}")
     model = AutoModelForImageTextToText.from_pretrained(
         model_id,
-        torch_dtype=torch.bfloat16,
+        torch_dtype=compute_dtype,
         device_map="auto",
         quantization_config=bnb_config,
         trust_remote_code=True,
@@ -576,6 +579,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                         "(e.g. 16) only if you also force terse-output "
                         "via the prompt.")
     p.add_argument("--load-in-4bit",   action="store_true")
+    p.add_argument("--fp16", action="store_true",
+                   help="Load in fp16 instead of bf16 (required on Turing/RTX 8000).")
     p.add_argument("--no-tile-multi",  action="store_true",
                    help="Disable multi-image tiling at inference. Must match "
                         "what the trainer used.")
@@ -619,6 +624,7 @@ def main(argv: list[str] | None = None) -> None:
             tile_multi=not args.no_tile_multi,
             prepend_context=args.prepend_context,
             anti_bias=args.anti_bias_instruction,
+            fp16=args.fp16,
         )
 
     # Aggregate whatever is in out_dir (so we can call this twice and

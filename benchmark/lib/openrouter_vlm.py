@@ -130,7 +130,6 @@ class OpenRouterVLMClient:
         headers = {
             "Authorization": f"Bearer {api_key}",
             "Content-Type":  "application/json",
-            "HTTP-Referer":  "https://github.com/spatial-as-judge",
             "X-Title":       "VisionQ-benchmark",
         }
 

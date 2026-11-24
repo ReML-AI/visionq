@@ -54,10 +54,10 @@ LOG = logging.getLogger("bench_run")
 
 EXP_DIR = Path(__file__).resolve().parent
 REPO = EXP_DIR.parent
-# Image root: the "bench/" folder of the downloaded VisionQ dataset (set VISIONQ_DATA, or pass --dataset-root).
-DATASET_ROOT_DEFAULT = Path(os.environ.get("VISIONQ_DATA", REPO / "data" / "images")) / "bench"
-DATA_POINTS_DEFAULT  = REPO / "data" / "benchmark" / "data_points.jsonl"
-QUESTIONS_DEFAULT = REPO / "data" / "benchmark" / "test_questions.jsonl"
+# Image root: the "images/" folder of the downloaded VisionQ dataset (set VISIONQ_DATA, or pass --dataset-root).
+DATASET_ROOT_DEFAULT = Path(os.environ.get("VISIONQ_DATA", REPO / "data" / "images"))
+DATA_POINTS_DEFAULT  = REPO / "data" / "bench" / "data_points.jsonl"
+QUESTIONS_DEFAULT = REPO / "data" / "bench" / "test_questions.jsonl"
 
 # SKIP_BASELINE pattern used by synthesize_dpo_scratch.py — anything matching
 # this is treated as a reference/context crop, not a candidate. Used by the

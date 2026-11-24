@@ -1,0 +1,5706 @@
+{
+  "n_items": 309,
+  "n_orders": 1029,
+  "per_order_accuracy": {
+    "0": 0.5598705501618123,
+    "1": 0.627831715210356,
+    "2": 0.5604838709677419,
+    "3": 0.5828220858895705
+  },
+  "majority_strict_accuracy": 0.6019417475728155,
+  "majority_tie_as_correct_accuracy": 0.6893203883495146,
+  "within_item_consistency": 0.5145631067961165,
+  "within_item_consistency_n": 309,
+  "last_slot_share": 0.3022351797862002,
+  "last_slot_denominator": 1029,
+  "first_slot_share": 0.34499514091350825,
+  "baseline_always_first_accuracy_order0": 0.3333333333333333,
+  "baseline_always_last_accuracy_order0": 0.32038834951456313,
+  "baseline_fixed_slot_accuracy_all_orders": 0.30029154518950435,
+  "unparsed_orders": 0,
+  "vote_order_denominator": 1029,
+  "criterion_removed_accuracy": 0.517799352750809,
+  "blank_accuracy": 0.2686084142394822,
+  "mismatched_accuracy": 0.3074433656957929,
+  "per_order": [
+    {
+      "id": "paper_0269__fig_6_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0541__fig_4_p6__b",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0541__fig_4_p6__b",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0541__fig_4_p6__b",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0541__fig_4_p6__b",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_10_p7__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_10_p7__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_10_p7__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_great_wave",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_great_wave",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_great_wave",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_great_wave",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0608__fig_9_p7__train",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0608__fig_9_p7__train",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__twindom",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__twindom",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__twindom",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__twindom",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1304__fig_4_p5__full",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1304__fig_4_p5__full",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1304__fig_4_p5__full",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1304__fig_4_p5__full",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1299__fig_7_p6__chair_sample",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__chair_sample",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1299__fig_7_p6__chair_sample",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__chair_sample",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0815__fig_5_p5__frog_wizard",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__frog_wizard",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__frog_wizard",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1171__fig_5_p7__scene_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1171__fig_5_p7__scene_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1225__fig_5_p5__reception",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__reception",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__reception",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_37",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_37",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_37",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_1_p0__rgb_input",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_1_p0__rgb_input",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_7",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_7",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_7",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_40",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_40",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_40",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_6_p5__barn",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_6_p5__barn",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_6_p5__barn",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_6_p5__barn",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_a",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_a",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_a",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_a",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0337__fig_6_p6__full_body",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0337__fig_6_p6__full_body",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0337__fig_6_p6__full_body",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0444__fig_6_p6__main_scene",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0444__fig_6_p6__main_scene",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0444__fig_6_p6__main_scene",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0444__fig_6_p6__main_scene",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1157__fig_1_p0__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1157__fig_1_p0__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_5",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_5",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1237__fig_6_p6__rendering",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1237__fig_6_p6__rendering",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1237__fig_6_p6__rendering",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_9",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_9",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_9",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__lego",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__lego",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_7_p6__lego",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_6",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_6",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0114__fig_4_p6__s3dis",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0114__fig_4_p6__s3dis",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0114__fig_4_p6__s3dis",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__scannet",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__scannet",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0841__fig_5_p6__scannet",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__scannet",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0085__fig_4_p5__scene_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0687__fig_7_p7__office",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0687__fig_7_p7__office",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0687__fig_7_p7__office",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__fern",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__fern",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__fern",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan77",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan77",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan77",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan77",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1075__fig_3_p4__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_error",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_error",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_error",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_error",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1304__fig_4_p5__zoom",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1304__fig_4_p5__zoom",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1304__fig_4_p5__zoom",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1304__fig_4_p5__zoom",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__novel_view_s1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0884__fig_3_p7__novel_view_s1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_24",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_24",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_3_p4__scan_24",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0114__fig_4_p6__scannet",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0114__fig_4_p6__scannet",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0114__fig_4_p6__scannet",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0337__fig_6_p6__hand_zoom",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0337__fig_6_p6__hand_zoom",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0337__fig_6_p6__hand_zoom",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_1_p0__table",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_1_p0__table",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0093__fig_9_p7__stair",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0093__fig_9_p7__stair",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1237__fig_6_p6__roughness",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1237__fig_6_p6__roughness",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1237__fig_6_p6__roughness",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0781__fig_9_p7__main_sample",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0781__fig_9_p7__main_sample",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0781__fig_9_p7__main_sample",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__precision",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__precision",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__precision",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__precision",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_c",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_c",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__horns",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__horns",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__horns",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__horns",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__materials",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__materials",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__materials",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__materials",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__orchids",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__orchids",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__orchids",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__orchids",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_5",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_5",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__bonsai",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_7_p6__bonsai",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__bonsai",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0246__fig_4_p5__subject_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0680__fig_2_p1__cat_and_dog",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0680__fig_2_p1__cat_and_dog",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0680__fig_2_p1__cat_and_dog",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_4",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_4",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_7_p6__row_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_4",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__living_room",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__living_room",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__living_room",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_6",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_6",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1263__fig_7_p7__row_6",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0450__fig_3_p5__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0639__fig_1_p0__recall",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__recall",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__recall",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0639__fig_1_p0__recall",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0303__fig_5_p4__sample_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0303__fig_5_p4__sample_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0303__fig_5_p4__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0303__fig_5_p4__sample_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__bicycle",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__bicycle",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__bicycle",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_4",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0256__fig_7_p7__row_a",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_7_p7__row_a",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0251__fig_7_p6__200_frames_result",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0251__fig_7_p6__200_frames_result",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0251__fig_7_p6__200_frames_result",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0251__fig_7_p6__200_frames_result",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0093__fig_9_p7__grass",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0093__fig_9_p7__grass",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__flower",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__flower",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__flower",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__flower",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1202__fig_5_p7__main_results",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1202__fig_5_p7__main_results",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1202__fig_5_p7__main_results",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1202__fig_5_p7__main_results",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_reconstruction",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_reconstruction",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_reconstruction",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0897__fig_4_p6__buddha_reconstruction",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_10_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_10_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__train_view_s1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__train_view_s1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__thuman2_0",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__thuman2_0",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__thuman2_0",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__thuman2_0",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0303__fig_6_p5__albedo",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0303__fig_6_p5__albedo",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_b",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_b",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1294__fig_1_p0__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0430__fig_1_p0__target",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0430__fig_1_p0__target",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0430__fig_1_p0__target",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0430__fig_1_p0__target",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0010__fig_5_p5__scannet",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0010__fig_5_p5__scannet",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0010__fig_5_p5__scannet",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1254__fig_5_p6__extrapolation_view",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1254__fig_5_p6__extrapolation_view",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1254__fig_5_p6__extrapolation_view",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1254__fig_5_p6__extrapolation_view",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__train_view_s2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__train_view_s2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_17",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_17",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_17",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_17",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__wooden_sculpture",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__wooden_sculpture",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__wooden_sculpture",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_0",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_0",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_0",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_0",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_c",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_c",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_c",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1044__fig_4_p7__building_c",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0680__fig_2_p1__elephant_with_a_crown",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0680__fig_2_p1__elephant_with_a_crown",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0680__fig_2_p1__elephant_with_a_crown",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0841__fig_5_p6__diode",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__diode",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0841__fig_5_p6__diode",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0841__fig_5_p6__diode",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_4",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0275__fig_5_p6__row_4",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1141__fig_6_p6__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0884__fig_3_p7__novel_view_s2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0884__fig_3_p7__novel_view_s2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1260__fig_5_p4__our_icsg_vs_ilvr",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1260__fig_5_p4__our_icsg_vs_ilvr",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1260__fig_5_p4__our_icsg_vs_ilvr",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_8",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_8",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_8",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_8",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0597__fig_4_p6__sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0597__fig_4_p6__sample_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0597__fig_4_p6__sample_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0844__fig_7_p6__sample_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0844__fig_7_p6__sample_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0844__fig_7_p6__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0844__fig_7_p6__sample_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0326__fig_9_p7__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__sofa",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__sofa",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__sofa",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1122__fig_10_p7__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_d",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_d",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1233__fig_8_p7__scene_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1233__fig_8_p7__scene_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1171__fig_5_p7__scene_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1171__fig_5_p7__scene_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0251__fig_7_p6__50_frames_result",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0251__fig_7_p6__50_frames_result",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0251__fig_7_p6__50_frames_result",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0251__fig_7_p6__50_frames_result",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_6",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_6",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_6",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__cherry_tree",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__cherry_tree",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__cherry_tree",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__chibi_frog",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__chibi_frog",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__chibi_frog",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1157__fig_1_p0__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1157__fig_1_p0__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_7_p6__kitchen",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__kitchen",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_7_p6__kitchen",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1244__fig_2_p2__buddha_statue",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1244__fig_2_p2__buddha_statue",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1244__fig_2_p2__buddha_statue",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1244__fig_2_p2__buddha_statue",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_5_p7__segmentation",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_5_p7__segmentation",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_5_p7__segmentation",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_5_p7__segmentation",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2shoes",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2shoes",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2shoes",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2shoes",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__hotdog",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__hotdog",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__hotdog",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__hotdog",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_5_p6__sample_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__truck",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__truck",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_6_p5__truck",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__truck",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0654__fig_3_p3__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0654__fig_3_p3__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0058__fig_4_p5__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__kitti",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0929__fig_4_p6__kitti",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__kitti",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0929__fig_4_p6__kitti",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0959__fig_4_p6__error_map",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0959__fig_4_p6__error_map",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0959__fig_4_p6__error_map",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1268__fig_3_p5__bird",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1268__fig_3_p5__bird",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0959__fig_4_p6__rgb_render",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0959__fig_4_p6__rgb_render",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0959__fig_4_p6__rgb_render",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0414__fig_4_p6__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_5_p7__heatmap",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_5_p7__heatmap",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_5_p7__heatmap",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_5_p7__heatmap",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__nyuv2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__nyuv2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__nyuv2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0929__fig_4_p6__nyuv2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_1_p0__chair",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_1_p0__chair",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1268__fig_3_p5__smurf",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1268__fig_3_p5__smurf",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_4",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_4_p6__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0981__fig_3_p5__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0505__fig_5_p6__room",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__room",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__room",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1276__fig_3_p5__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_01",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_01",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_01",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__mcm_01",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_4_p5__faces2comics",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__faces2comics",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__faces2comics",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_4_p5__faces2comics",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_c",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_c",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_c",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_c",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__sofa",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__sofa",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__sofa",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__sofa",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__drums",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__drums",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__drums",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__drums",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_starry_night",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_starry_night",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_starry_night",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_starry_night",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0894__fig_7_p6__content",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__content",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__content",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__content",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0250__fig_6_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0250__fig_6_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_4",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_5",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0931__fig_4_p6__row_5",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1299__fig_7_p6__car_sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1160__fig_6_p7__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__toy_car",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__toy_car",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__toy_car",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0946__fig_5_p6__toy_car",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_7",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_7",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_7",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_7",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0250__fig_6_p6__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0250__fig_6_p6__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0452__fig_5_p6__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0230__fig_5_p5__bag",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0230__fig_5_p5__bag",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0230__fig_5_p5__bag",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0230__fig_5_p5__bag",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1180__fig_6_p6__sample_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1180__fig_6_p6__sample_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1180__fig_6_p6__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1180__fig_6_p6__sample_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0929__fig_4_p6__diode",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0929__fig_4_p6__diode",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__diode",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0929__fig_4_p6__diode",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0012__fig_2_p2__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_3",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0710__fig_8_p5__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_1_p0__scene_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__ignatius",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__ignatius",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__ignatius",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_6_p5__ignatius",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1192__fig_4_p7__sample_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1192__fig_4_p7__sample_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1192__fig_4_p7__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0115__fig_5_p6__scene_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_1_p0__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_1_p0__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_1_p0__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_1_p0__sample_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_2",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0143__fig_4_p4__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0226__fig_1_p0__row_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0074__fig_4_p6__stanford2d3d",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_4_p6__stanford2d3d",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_4_p6__stanford2d3d",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0074__fig_4_p6__stanford2d3d",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_8_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_8_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_8_p7__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0011__fig_8_p7__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_4",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan48",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan48",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan48",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0108__fig_6_p6__scan48",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__zoomed_patch",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__zoomed_patch",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__zoomed_patch",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0894__fig_7_p6__zoomed_patch",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__lego",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__lego",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0102__fig_5_p5__lego",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0102__fig_5_p5__lego",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_67",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_67",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_6_p5__frame_67",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0010__fig_5_p5__kitti",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0010__fig_5_p5__kitti",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0010__fig_5_p5__kitti",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0074__fig_4_p6__matterport3d",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_4_p6__matterport3d",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_4_p6__matterport3d",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0074__fig_4_p6__matterport3d",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0303__fig_6_p5__normal",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0303__fig_6_p5__normal",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1269__fig_5_p7__sailboat",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1269__fig_5_p7__sailboat",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0815__fig_5_p5__monkey_van_gogh",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__monkey_van_gogh",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__monkey_van_gogh",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0234__fig_1_p0__recon",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0234__fig_1_p0__recon",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0234__fig_1_p0__recon",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_bedroom",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_bedroom",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_bedroom",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_bedroom",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0546__fig_9_p7__scene_generation",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0546__fig_9_p7__scene_generation",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_8_p8__human_subject",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1235__fig_8_p8__human_subject",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0536__fig_8_p6__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__kitchen",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__kitchen",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1225__fig_5_p5__kitchen",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_5",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_5",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1242__fig_6_p5__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0139__fig_3_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0176__fig_3_p5__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0176__fig_3_p5__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0176__fig_3_p5__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1337__fig_6_p6__sample_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_b",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_b",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_b",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_b",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_4_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__nyuv2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__nyuv2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__nyuv2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0841__fig_5_p6__nyuv2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0269__fig_6_p6__row_4",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0234__fig_1_p0__input_images",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0234__fig_1_p0__input_images",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0234__fig_1_p0__input_images",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0812__fig_4_p7__row_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0704__fig_8_p7__case_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0044__fig_4_p4__all_samples",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0044__fig_4_p4__all_samples",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0815__fig_5_p5__train_desert",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__train_desert",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0815__fig_5_p5__train_desert",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_a",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1287__fig_2_p1__scene_a",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0230__fig_5_p5__airplane",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0230__fig_5_p5__airplane",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0230__fig_5_p5__airplane",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0230__fig_5_p5__airplane",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_7_p6__horns",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__horns",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_7_p6__horns",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0242__fig_5_p3__ours",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0242__fig_5_p3__ours",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0242__fig_5_p3__ours",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_6_p7__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_6_p7__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0275__fig_6_p7__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_a",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_a",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_a",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0560__fig_1_p0__row_a",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0093__fig_9_p7__road",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0093__fig_9_p7__road",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1155__fig_6_p7__row_4",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_7_p7__row_b",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0256__fig_7_p7__row_b",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0946__fig_5_p6__mario",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0946__fig_5_p6__mario",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0946__fig_5_p6__mario",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0946__fig_5_p6__mario",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0312__fig_7_p7__scene_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_4",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_4",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_4",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0968__fig_3_p4__row_4",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0949__fig_5_p5__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0687__fig_7_p7__dinosaur",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0687__fig_7_p7__dinosaur",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0687__fig_7_p7__dinosaur",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_3_p5__sample_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__fern",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0276__fig_9_p7__fern",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__fern",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0276__fig_9_p7__fern",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0186__fig_1_p0__segmentation",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0186__fig_1_p0__segmentation",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_1",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_1",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0695__fig_4_p6__sample_1",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2handbags",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2handbags",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2handbags",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0023__fig_4_p5__edges2handbags",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1259__fig_6_p7__row_3",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_3",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_3",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_3",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0974__fig_9_p6__sample_3",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__girl_with_a_pearl_earring",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__girl_with_a_pearl_earring",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__girl_with_a_pearl_earring",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__girl_with_a_pearl_earring",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_3",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_3",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0416__fig_6_p6__row_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__real_world_data",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0607__fig_3_p6__real_world_data",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__real_world_data",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0607__fig_3_p6__real_world_data",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0318__fig_7_p7__sample_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0147__fig_6_p6__sample_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0147__fig_6_p6__sample_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0147__fig_6_p6__sample_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__garden",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__garden",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0505__fig_5_p6__garden",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0942__fig_4_p4__row_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_4",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_4",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1286__fig_5_p5__row_4",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0337__fig_6_p6__head_zoom",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0337__fig_6_p6__head_zoom",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0337__fig_6_p6__head_zoom",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1254__fig_5_p6__interpolation_view",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1254__fig_5_p6__interpolation_view",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1254__fig_5_p6__interpolation_view",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1254__fig_5_p6__interpolation_view",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0842__fig_4_p6__row_1",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0842__fig_4_p6__row_1",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0842__fig_4_p6__row_1",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0842__fig_4_p6__row_1",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0467__fig_1_p0__face_rendering",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0467__fig_1_p0__face_rendering",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0467__fig_1_p0__face_rendering",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0467__fig_1_p0__face_rendering",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0451__fig_3_p5__point_cloud_sample",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0451__fig_3_p5__point_cloud_sample",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0451__fig_3_p5__point_cloud_sample",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0451__fig_3_p5__point_cloud_sample",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0312__fig_6_p6__scene_2",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__kodak_21",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__kodak_21",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1231__fig_3_p6__kodak_21",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_1231__fig_3_p6__kodak_21",
+      "shift": 3,
+      "correct": false
+    },
+    {
+      "id": "paper_0654__fig_3_p3__row_2",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0654__fig_3_p3__row_2",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_scream",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_scream",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_scream",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_1109__fig_4_p4__the_scream",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_0010__fig_5_p5__matterport3d",
+      "shift": 0,
+      "correct": false
+    },
+    {
+      "id": "paper_0010__fig_5_p5__matterport3d",
+      "shift": 1,
+      "correct": false
+    },
+    {
+      "id": "paper_0010__fig_5_p5__matterport3d",
+      "shift": 2,
+      "correct": false
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_2",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_2",
+      "shift": 1,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_2",
+      "shift": 2,
+      "correct": true
+    },
+    {
+      "id": "paper_0544__fig_6_p5__sample_2",
+      "shift": 3,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_1",
+      "shift": 0,
+      "correct": true
+    },
+    {
+      "id": "paper_1123__fig_1_p0__time_step_1",
+      "shift": 1,
+      "correct": true
+    }
+  ],
+  "usage": {
+    "input_tokens": 1145202,
+    "output_tokens": 17997,
+    "logical_calls": 2574,
+    "image_blocks": 2574,
+    "billable_attempts": 2689
+  },
+  "error_rows_by_condition": {
+    "perm": 0,
+    "criterion_removed": 0,
+    "blank": 0,
+    "mismatched": 0,
+    "E4": 0,
+    "E4-text-only": 0
+  },
+  "paired_differences": {
+    "permutation_mean_vs_single_order": {
+      "mean_difference": 0.03748651564185544,
+      "ci95": [
+        0.008474576271186439,
+        0.0664983164983165
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "majority_strict_vs_single_order": {
+      "mean_difference": 0.042071197411003236,
+      "ci95": [
+        0.006269592476489028,
+        0.07958477508650519
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "order_0_vs_single_order": {
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "order_1_vs_single_order": {
+      "mean_difference": 0.06796116504854369,
+      "ci95": [
+        0.015432098765432098,
+        0.12341772151898735
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "order_2_vs_single_order": {
+      "mean_difference": 0.028225806451612902,
+      "ci95": [
+        -0.03418803418803419,
+        0.09266409266409266
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 248,
+      "n_papers": 91
+    },
+    "order_3_vs_single_order": {
+      "mean_difference": 0.049079754601226995,
+      "ci95": [
+        -0.018518518518518517,
+        0.11842105263157894
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 163,
+      "n_papers": 62
+    },
+    "e1_item_mean_vs_single_order": {
+      "mean_difference": 0.03748651564185544,
+      "ci95": [
+        0.008474576271186439,
+        0.0664983164983165
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "criterion_removed": {
+      "mean_difference": -0.042071197411003236,
+      "ci95": [
+        -0.10309278350515463,
+        0.017361111111111112
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "blank": {
+      "mean_difference": -0.2912621359223301,
+      "ci95": [
+        -0.367601246105919,
+        -0.21122112211221122
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "mismatched": {
+      "mean_difference": -0.2524271844660194,
+      "ci95": [
+        -0.33766233766233766,
+        -0.1686046511627907
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "E4": {
+      "mean_difference": 0.05501618122977346,
+      "ci95": [
+        0.006711409395973154,
+        0.10223642172523961
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    },
+    "E4-text-only": {
+      "mean_difference": 0.025889967637540454,
+      "ci95": [
+        -0.0033112582781456954,
+        0.054441260744985676
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 309,
+      "n_papers": 109
+    }
+  },
+  "e1_item_mean_accuracy": 0.5973570658036678,
+  "e1_item_mean_denominator": 309,
+  "e1_item_mean_chance": 0.32227615965480044,
+  "e4_split": {
+    "n_with_reference": 205,
+    "n_without_reference": 104,
+    "E4_minus_standard_with_reference": {
+      "mean_difference": 0.08292682926829269,
+      "ci95": [
+        0.013574660633484163,
+        0.15151515151515152
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 205,
+      "n_papers": 72
+    },
+    "E4_minus_text_only_with_reference": {
+      "mean_difference": 0.05853658536585366,
+      "ci95": [
+        -0.014634146341463415,
+        0.13270142180094788
+      ],
+      "B": 10000,
+      "seed": 0,
+      "n_items": 205,
+      "n_papers": 72
+    }
+  },
+  "per_axis": {
+    "Image Appearance": {
+      "criterion_removed": {
+        "accuracy": 0.717948717948718,
+        "n": 39
+      },
+      "blank": {
+        "accuracy": 0.28205128205128205,
+        "n": 39
+      },
+      "mismatched": {
+        "accuracy": 0.23076923076923078,
+        "n": 39
+      },
+      "E4": {
+        "accuracy": 0.6410256410256411,
+        "n": 39
+      },
+      "E4-text-only": {
+        "accuracy": 0.6923076923076923,
+        "n": 39
+      },
+      "baseline": {
+        "accuracy": 0.6666666666666666,
+        "n": 39
+      },
+      "criterion_removed_difference": {
+        "mean_difference": 0.05128205128205128,
+        "ci95": [
+          -0.08108108108108109,
+          0.16666666666666666
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 39,
+        "n_papers": 16
+      },
+      "E4_difference": {
+        "mean_difference": -0.02564102564102564,
+        "ci95": [
+          -0.10256410256410256,
+          0.058823529411764705
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 39,
+        "n_papers": 16
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.02564102564102564,
+        "ci95": [
+          -0.06060606060606061,
+          0.1111111111111111
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 39,
+        "n_papers": 16
+      }
+    },
+    "Object Form": {
+      "criterion_removed": {
+        "accuracy": 0.5314685314685315,
+        "n": 143
+      },
+      "blank": {
+        "accuracy": 0.27972027972027974,
+        "n": 143
+      },
+      "mismatched": {
+        "accuracy": 0.3356643356643357,
+        "n": 143
+      },
+      "E4": {
+        "accuracy": 0.6293706293706294,
+        "n": 143
+      },
+      "E4-text-only": {
+        "accuracy": 0.6433566433566433,
+        "n": 143
+      },
+      "baseline": {
+        "accuracy": 0.6153846153846154,
+        "n": 143
+      },
+      "criterion_removed_difference": {
+        "mean_difference": -0.08391608391608392,
+        "ci95": [
+          -0.18543046357615894,
+          0.007352941176470588
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 143,
+        "n_papers": 50
+      },
+      "E4_difference": {
+        "mean_difference": 0.013986013986013986,
+        "ci95": [
+          -0.05185185185185185,
+          0.07142857142857142
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 143,
+        "n_papers": 50
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.027972027972027972,
+        "ci95": [
+          -0.007633587786259542,
+          0.06756756756756757
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 143,
+        "n_papers": 50
+      }
+    },
+    "Prompt Match": {
+      "criterion_removed": {
+        "accuracy": 0.5909090909090909,
+        "n": 22
+      },
+      "blank": {
+        "accuracy": 0.22727272727272727,
+        "n": 22
+      },
+      "mismatched": {
+        "accuracy": 0.2727272727272727,
+        "n": 22
+      },
+      "E4": {
+        "accuracy": 0.7272727272727273,
+        "n": 22
+      },
+      "E4-text-only": {
+        "accuracy": 0.5454545454545454,
+        "n": 22
+      },
+      "baseline": {
+        "accuracy": 0.5,
+        "n": 22
+      },
+      "criterion_removed_difference": {
+        "mean_difference": 0.09090909090909091,
+        "ci95": [
+          -0.06666666666666667,
+          0.375
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 22,
+        "n_papers": 9
+      },
+      "E4_difference": {
+        "mean_difference": 0.22727272727272727,
+        "ci95": [
+          0.08333333333333333,
+          0.47058823529411764
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 22,
+        "n_papers": 9
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.045454545454545456,
+        "ci95": [
+          -0.14285714285714285,
+          0.18181818181818182
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 22,
+        "n_papers": 9
+      }
+    },
+    "Reference Fidelity": {
+      "criterion_removed": {
+        "accuracy": 0.3484848484848485,
+        "n": 66
+      },
+      "blank": {
+        "accuracy": 0.19696969696969696,
+        "n": 66
+      },
+      "mismatched": {
+        "accuracy": 0.2878787878787879,
+        "n": 66
+      },
+      "E4": {
+        "accuracy": 0.48484848484848486,
+        "n": 66
+      },
+      "E4-text-only": {
+        "accuracy": 0.4393939393939394,
+        "n": 66
+      },
+      "baseline": {
+        "accuracy": 0.4393939393939394,
+        "n": 66
+      },
+      "criterion_removed_difference": {
+        "mean_difference": -0.09090909090909091,
+        "ci95": [
+          -0.20634920634920634,
+          0.030303030303030304
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 66,
+        "n_papers": 23
+      },
+      "E4_difference": {
+        "mean_difference": 0.045454545454545456,
+        "ci95": [
+          -0.037037037037037035,
+          0.125
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 66,
+        "n_papers": 23
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.0,
+        "ci95": [
+          -0.04918032786885246,
+          0.0379746835443038
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 66,
+        "n_papers": 23
+      }
+    },
+    "Relation": {
+      "criterion_removed": {
+        "accuracy": 0.45161290322580644,
+        "n": 31
+      },
+      "blank": {
+        "accuracy": 0.3225806451612903,
+        "n": 31
+      },
+      "mismatched": {
+        "accuracy": 0.3548387096774194,
+        "n": 31
+      },
+      "E4": {
+        "accuracy": 0.7096774193548387,
+        "n": 31
+      },
+      "E4-text-only": {
+        "accuracy": 0.5161290322580645,
+        "n": 31
+      },
+      "baseline": {
+        "accuracy": 0.45161290322580644,
+        "n": 31
+      },
+      "criterion_removed_difference": {
+        "mean_difference": 0.0,
+        "ci95": [
+          -0.20689655172413793,
+          0.1276595744680851
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 31,
+        "n_papers": 8
+      },
+      "E4_difference": {
+        "mean_difference": 0.25806451612903225,
+        "ci95": [
+          0.0,
+          0.5
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 31,
+        "n_papers": 8
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.06451612903225806,
+        "ci95": [
+          -0.08,
+          0.1875
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 31,
+        "n_papers": 8
+      }
+    },
+    "Scene Layout": {
+      "criterion_removed": {
+        "accuracy": 0.75,
+        "n": 8
+      },
+      "blank": {
+        "accuracy": 0.5,
+        "n": 8
+      },
+      "mismatched": {
+        "accuracy": 0.25,
+        "n": 8
+      },
+      "E4": {
+        "accuracy": 0.625,
+        "n": 8
+      },
+      "E4-text-only": {
+        "accuracy": 0.625,
+        "n": 8
+      },
+      "baseline": {
+        "accuracy": 0.625,
+        "n": 8
+      },
+      "criterion_removed_difference": {
+        "mean_difference": 0.125,
+        "ci95": [
+          0.0,
+          0.6
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 8,
+        "n_papers": 4
+      },
+      "E4_difference": {
+        "mean_difference": 0.0,
+        "ci95": [
+          -0.5,
+          0.5
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 8,
+        "n_papers": 4
+      },
+      "E4-text-only_difference": {
+        "mean_difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 0,
+        "n_items": 8,
+        "n_papers": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "standard": {
+    "n": 309,
+    "accuracy": 0.6084142394822006,
+    "errors": 0
+  },
+  "mirrored": {
+    "n": 309,
+    "accuracy": 0.6181229773462783,
+    "errors": 0
+  },
+  "mirrored_minus_standard": {
+    "mean_difference": 0.009708737864077669,
+    "ci95": [
+      -0.03761755485893417,
+      0.056291390728476824
+    ],
+    "B": 10000,
+    "seed": 0,
+    "n_items": 309,
+    "n_papers": 109
+  },
+  "same_answer": 0.7928802588996764
+}

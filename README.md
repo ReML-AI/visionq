@@ -1,105 +1,96 @@
 # VisionQ
 
-VisionQ is a benchmark for **VLM judges on qualitative comparison figures from computer-vision papers**. Each question shows the cropped outputs of 2–4 methods from a peer-reviewed CVPR/ICCV figure and names one visual criterion from a six-axis taxonomy (e.g. *"Which method shows sharper boundaries?"*). A judge is correct when it picks the output the paper's authors identify as best on that criterion: *criterion-conditioned visual discrimination*.
+Paper: [arXiv:2610.00666](https://arxiv.org/abs/2610.00666) · Data and weights: [huggingface.co/visionq-review](https://huggingface.co/visionq-review)
 
-📄 **Our paper is now available on arXiv: https://arxiv.org/abs/2610.00666**
-
-This repository contains the benchmark harness, the code to train **VisionQ-Judge** (a DPO-tuned Gemma-4-E4B judge), the raw predictions behind every number in the paper, and the scripts that reproduce the paper's tables and figures.
-
-| | |
-|---|---|
-| Paper | https://arxiv.org/abs/2610.00666 |
-| Code | https://github.com/ReML-AI/visionq |
-| Dataset | https://huggingface.co/datasets/visionq-anon-2026/VisionQ-1k |
-
-## What's here
-
-```
-benchmark/        run any VLM on VisionQ-Bench and score it (OpenRouter or AWS Bedrock)
-judge/            train and evaluate VisionQ-Judge (DPO + LoRA)
-analysis/         reproduce the paper's numbers, tables, and figures from saved predictions
-data/
-  paper_list.csv            the 1,409 source papers (title, venue, year, task type)
-  taxonomy_codebook.json    the six-axis, 51-leaf taxonomy
-  benchmark/                VisionQ-Bench questions (332; 309 eligible) and annotated data points
-  judge/test_questions.jsonl  the 717-question VisionQ-Judge test split
-  eda/                      per-task coverage tables used by the appendix figures
-results/
-  benchmark/predictions/    raw per-question outputs of all 21 rows on VisionQ-Bench
-  judge/                    base, checkpoint-900 (reported), and final predictions on the 717-question split
-```
+Code for *VisionQ: Benchmarking VLM Judges on Criterion-Specific Comparisons of Computer Vision Method Outputs*. It runs VLM judges on VisionQ-Bench, runs the input controls, trains and evaluates VisionQ-Judge, and rebuilds the paper's tables from saved predictions.
 
 ## Setup
 
-Python 3.10+.
-
 ```bash
 pip install -r requirements.txt
+hf download visionq-review/VisionQ --repo-type dataset --local-dir data   # questions, splits, images (pip install huggingface_hub)
+cp .env.example .env                                                      # API keys, only for new judge runs
 ```
 
-The images are in the dataset on Hugging Face. Download it and point `VISIONQ_DATA` at its root:
+The dataset goes in `data/` (`data/bench`, `data/mcq`, `data/images`, ...). Every script finds it there. Nothing below needs an API key or a GPU unless marked.
+
+## Paper to code
+
+| Paper | What it shows | Command | Inputs |
+|---|---|---|---|
+| Sec. 3.2, App. B | rule-based filter (332 to 309 questions) | `python benchmark/bench_run.py ... --tag-quality` | `data/bench/` |
+| Tab. 2, Tab. S6 | expert alignment of all 21 judges, per axis, 95% paper-bootstrap intervals (Tab. 2 shows nine of them) | `python tables/make_tab_leaderboard.py tab2.tex supp_full.tex` | `results/benchmark/predictions/` |
+| Sec. 5 (IQA) | no-reference IQA baselines (CLIP-IQA+ 41.7, TOPIQ 40.8, MUSIQ 40.1, sharpness 36.2) | `python baselines/iqa_baseline.py --from-scores results/iqa/iqa_scores.json` | `results/iqa/` |
+| Tab. 3, App. C | input controls E1 to E4 for six judges | `python tables/make_tab_controls.py tab3.tex` | `results/controls/` |
+| App. D (audited controls) | the same on the 254 audited questions | `python tables/make_tab_controls.py tab3_aud.tex --audited` | same |
+| App. D (mirror test) | accuracy with original and mirrored crops for three judges | `python -c "import json,glob; [print(f, json.load(open(f))['mirrored_minus_standard']) for f in glob.glob('results/recognition/*/summary.json')]"`; new run: `python controls/recognition.py --run --model <slug> --out-dir <dir>` (API key) | `results/recognition/` |
+| Tab. 5 (a) | VisionQ-Judge vs base, reordering ablation, last-option share | `cd results/judge/test && python ../../../judge/stats.py .` | `results/judge/test/` |
+| Tab. 5 (b) | VisionQ-Judge minus each larger judge | `cd results/judge/test && python ../../../judge/seedmean.py "Cfix_s42,Cfix_s43,Cfix_s44:api_gpt-5.5" ...` | same |
+| Sec. 6 | VisionQ-Judge vs larger judges (paired) | `cd results/judge/test && python ../../../judge/seedmean.py "Cfix_s42,Cfix_s43,Cfix_s44:api_gpt-5.3-codex"` | same |
+| Tab. 5 (c) | PriDe and log-prob averaging over option orders | `cd results/judge/logprobs && python ../../../judge/pride_analyze.py` | `results/judge/logprobs/`, `results/judge/e2/` |
+| Fig. 3 | the six controlled judges' choices on the Fig. 1 question (`paper_0226__fig_1_p0__row_2`) under each condition | read `pred_letter` for this id in the control predictions | `results/controls/` |
+
+Figs. 1, 2 and 4 are drawn diagrams with no script, and Fig. 3 is drawn from the predictions listed above. Fig. 5 plots VisionQ-Judge on the VisionQ-MCQ test split: panels (a) and (b) use `results/judge/test/`, and panel (c) uses predictions on every cyclic option order, which are not in this release. Tab. 4 (human study) and the raters' column of Fig. 3 are not reproducible from this release, because the raters' responses are withheld to protect their privacy.
+
+## Run a judge on VisionQ-Bench (API key)
 
 ```bash
-export VISIONQ_DATA=/path/to/visionq-dataset   # contains bench/ and mcq/
+python benchmark/bench_run.py --provider openrouter --model "<openrouter/model-slug>" \
+    --composite --tag-quality --concurrency 4 --out outputs/my_model.jsonl
+python benchmark/bench_score.py outputs/my_model.jsonl --slice eligible
 ```
 
-- `bench/` holds the image crops for VisionQ-Bench.
-- `mcq/` holds VisionQ-MCQ: `dpo_v5_1.jsonl` (4,524 questions from 513 papers) and one folder per paper with its figures, crops, and annotations.
+Each question is sent as one composite image with (A) to (D) labels and the question text only (no caption, claim or method name). `--tag-quality` marks the 309 scored questions. `benchmark/retry_failed.py` retries failed calls. Name the output `results/benchmark/predictions/test_questions_<name>_p1.jsonl` to add the judge to Tab. 2.
 
-## Reproduce the paper's numbers (no GPU, no API keys)
-
-Everything below reads the saved predictions in `results/`.
+## Input controls (API key or GPU)
 
 ```bash
-python analysis/benchmark_stats.py     # §4 and Table 5: accuracy per model and axis, 95% intervals, year check
-python analysis/dpo_stats.py           # §5: VisionQ-Judge accuracy, intervals, positional bias, per-leaf changes
-python analysis/build_paper_figures.py --no-mcnemar   # ranking and per-axis figures -> results/figures/
-python analysis/build_profile_dashboard.py            # interactive dashboard -> results/dashboard_profiles.html
-python analysis/figures/taxonomy.py                   # taxonomy, DPO pipeline, and coverage figures
-python analysis/figures/dpo_dataset.py
-python analysis/figures/coverage_figs.py
+python controls/controls.py --selftest                     # offline check against saved predictions
+python controls/controls.py --run --provider openrouter --model "<slug>" --out-dir outputs/controls_<name>
 ```
 
-Confidence intervals come from a bootstrap that resamples source papers, because questions from the same paper are not independent. On VisionQ-Bench, an unparseable answer or a failed API request counts as wrong.
+One run makes 2,574 calls over the 309 questions:
+- E1: every cyclic option order.
+- E2: the criterion removed, with questions rewritten by `controls/sanitize.py`.
+- E3: blank and mismatched images.
+- E4: full question plus the reference row.
 
-## Evaluate a new judge on VisionQ-Bench
+`--provider local --model google/gemma-4-E4B-it [--adapter ...]` runs a local model on a GPU.
 
-Copy `.env.example` to `.env` and add an OpenRouter key (or AWS Bedrock credentials). Then:
+## VisionQ-Judge (GPU)
+
+`judge/split_strat_v1.json` is the frozen paper-disjoint split (train 2,687 / val 359 / test 538), rebuilt exactly by `python judge/make_split.py data/mcq/pool.jsonl split.json` from the 4,524-question pool. Training is DPO with LoRA on Gemma-4-E4B, using symmetric evidence pairs in every cyclic option order (13,394 pairs, one epoch):
 
 ```bash
-cd benchmark
-python bench_run.py --provider openrouter --model "<openrouter/model-slug>" \
-    --composite --tag-quality --concurrency 4 --out ../outputs/my_model.jsonl
-python bench_score.py ../outputs/my_model.jsonl --slice eligible
+judge/train.sh Cfix_s42 42 all     # VisionQ-Judge; seeds 42, 43, 44 in Tab. 5
+judge/train.sh Bfix_s42 42 one     # one reordered copy (ablation)
+judge/train.sh B_noswap 42 none    # no reordering (ablation)
+judge/train.sh base 0 base         # base model, no training
 ```
 
-Each question is sent as one composite image with hard-rendered (A)–(D) labels and the question text only; no caption, claim, or method name. `--tag-quality` marks the 309 eligible questions (the four validity checks remove 23 of the 332). Failed requests can be retried with `retry_failed.py`.
+Trained adapters for the three reported seeds are on Hugging Face ([`visionq-review/VisionQ-Judge`](https://huggingface.co/visionq-review/VisionQ-Judge), folders `seed42`, `seed43`, `seed44`); `judge/evaluate.py --adapter <path>/seed42` scores one. Each training run also scores the val and test splits with `judge/evaluate.py`. `judge/api_eval_mcq.py` runs API judges on the MCQ test split. `judge/make_perm.py` and `judge/logprobs.py` produce the per-order letter log-probabilities used in Tab. 5 (c). fp16 results vary with GPU type, so compare runs on the same GPU type.
 
-## Train VisionQ-Judge
+## Layout
 
-`judge/run.slurm` trains and evaluates with the paper's settings (Gemma-4-E4B-it, LoRA r=16, β=0.3, learning rate 5e-6, one epoch, 300 questions per leaf, seed 42, paper-disjoint split). It runs under Slurm or plain bash on one GPU with about 16 GB of memory:
-
-```bash
-bash judge/run.slurm              # add FP16=1 on GPUs without bf16 support
+```
+benchmark/   judge runner, scoring, API clients
+baselines/   no-reference IQA baselines
+controls/    input controls E1 to E4, criterion removal, mirror test
+judge/       split, DPO training, evaluation, statistics
+tables/      Tab. 2 and Tab. 3 generators
+figures/     make_teaser.py, which draws an earlier version of Fig. 3 on another question
+results/     saved predictions behind every number above
 ```
 
-The split it produces is identical to `data/judge/test_questions.jsonl` (717 test questions, 9,525 training pairs). Checkpoints are saved every 300 steps; the paper reports checkpoint 900. `--fixed-split` switches to a split that keeps each leaf's test share closer to the 15% target; it is off by default so the paper's split is reproduced.
+## Licence
 
-## License
-
-- **Code:** MIT (see `LICENSE`).
-- **Annotations, taxonomy, and questions:** CC BY 4.0.
-- **Figure crops:** copyright remains with the authors and publishers of the source papers (CVPR and ICCV proceedings, available through CVF Open Access). They are redistributed for non-commercial research use only, each linked to its source paper in `data/paper_list.csv`.
-
-**Intended use.** VisionQ is for diagnostic evaluation of VLM judges. Automated reviewing, scoring, or generation of scientific papers is outside its intended use.
-
-**Opt-out.** If you are an author and do not want your figures included, open an issue; we remove them in the next release.
+Code: MIT. Data: see the dataset card (annotations CC BY 4.0; figure crops non-commercial research use).
 
 ## Citation
 
 ```bibtex
 @article{visionq2026,
-  title   = {VisionQ: VLM-as-a-Judge Taxonomy, Dataset and Benchmark for Qualitative Analysis in Computer Vision},
+  title   = {VisionQ: Benchmarking VLM Judges on Criterion-Specific Comparisons of Computer Vision Method Outputs},
   author  = {Vu Dinh Xuan and Duc-Hai Nguyen and Minh-Dung Dao and Vu Quynh Giao and Quang Hong Nguyen and Binh-Son Hua and Barry O'Sullivan and David Murphy and Hoang D. Nguyen},
   journal = {arXiv preprint arXiv:2610.00666},
   year    = {2026}

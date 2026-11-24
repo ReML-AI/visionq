@@ -1,5 +1,6 @@
 # Analysis and figures (enough to reproduce the paper's numbers)
 numpy
+pyiqa   # no-reference IQA baselines (GPU)
 matplotlib
 pillow
 

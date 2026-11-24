@@ -26,7 +26,7 @@ under git, and the loader below tolerates new optional fields.
 
 Usage on a single GPU (Slurm A40 / L40S, ~46 GB free):
 
-    srun --gres=gpu:1 python train_dpo.py \\
+    srun -p crtai2 --gres=gpu:1 python train_dpo.py \\
         --questions   ~/mllm-as-judge/dpo/questions.jsonl \\
         --dataset-root ~/visionqc-v4.3 \\
         --model-id    google/gemma-3-12b-it \\
@@ -35,7 +35,7 @@ Usage on a single GPU (Slurm A40 / L40S, ~46 GB free):
 
 Resume from the last checkpoint (Trainer auto-detects):
 
-    srun --gres=gpu:1 python train_dpo.py \\
+    srun -p crtai2 --gres=gpu:1 python train_dpo.py \\
         --questions ~/mllm-as-judge/dpo/questions.jsonl \\
         --dataset-root ~/visionqc-v4.3 \\
         --model-id google/gemma-3-12b-it \\
@@ -267,6 +267,18 @@ def filter_records(
     return rows
 
 
+def _remap_letters(r: dict, perm: list[int]) -> dict:
+    """Evidence fields of a reordered copy, with each "image X" renamed to X's new letter.
+
+    perm[j] is the original option now shown at position j, so original letter i moves to perm.index(i).
+    Letters outside the options (e.g. figure-wide labels) are left as they are.
+    """
+    new = {chr(65 + i): chr(65 + perm.index(i)) for i in range(len(perm))}
+    sub = lambda m: m.group(1) + new.get(m.group(2).upper(), m.group(2))
+    return {k: re.sub(r"\b(image\s+)([A-Z])\b", sub, r[k], flags=re.IGNORECASE)
+            for k in ("v5_claim_norm", "v5_visual_attr") if r.get(k)}
+
+
 def position_swap_augment(rows: list[dict], seed: int) -> list[dict]:
     """For each record, emit one extra record with the choice order shuffled
     so the gold answer falls on a different letter. Doubles the dataset and
@@ -303,8 +315,25 @@ def position_swap_augment(rows: list[dict], seed: int) -> list[dict]:
         swapped["image_paths"] = [r["image_paths"][i] for i in perm]
         swapped["methods"]     = [r["methods"][i]     for i in perm]
         swapped["answer"]      = f"({chr(ord('A') + new_ans_idx)})"
+        swapped.update(_remap_letters(r, perm))
         # choices stays as ["(A)","(B)",...] — the labels themselves don't change
         out.append(swapped)
+    return out
+
+
+def all_orders_augment(rows: list[dict]) -> list[dict]:
+    """Keep each record and add every other cyclic order of its options (gold crop and methods move together)."""
+    out: list[dict] = []
+    for r in rows:
+        out.append(r)
+        n = len(r["choices"]); g = ord(r["answer"].strip("()")) - ord("A")
+        for k in range(1, n):
+            perm = [(j + k) % n for j in range(n)]
+            c = dict(r, id=f'{r["id"]}__cyc{k}', answer=f"({chr(ord('A') + perm.index(g))})",
+                     image_paths=[r["image_paths"][i] for i in perm], methods=[r["methods"][i] for i in perm],
+                     **_remap_letters(r, perm))
+            assert c["image_paths"][perm.index(g)] == r["image_paths"][g]
+            out.append(c)
     return out
 
 
@@ -364,6 +393,26 @@ def stratified_paper_split(
     rng.shuffle(train)
     rng.shuffle(test)
     return train, test
+
+
+def global_paper_split(rows: list[dict], frac: float, seed: int) -> tuple[list[dict], list[dict]]:
+    """every paper lies on exactly one side across ALL leaves (no cross-leaf leakage).
+    Papers are shuffled and moved to the held-out side until it holds ~frac of the rows."""
+    rng = random.Random(seed)
+    papers: dict[str, list[dict]] = defaultdict(list)
+    for r in rows:
+        papers[r["paper_id"]].append(r)
+    pids = sorted(papers); rng.shuffle(pids)
+    target, held, n = round(len(rows) * frac), set(), 0
+    for pid in pids:
+        if n >= target:
+            break
+        held.add(pid); n += len(papers[pid])
+    keep = [r for pid in pids if pid not in held for r in papers[pid]]
+    out = [r for pid in pids if pid in held for r in papers[pid]]
+    assert not ({r["paper_id"] for r in keep} & {r["paper_id"] for r in out})
+    rng.shuffle(keep); rng.shuffle(out)
+    return keep, out
 
 
 def _resolve_image_path(record_path: str, dataset_root: Path) -> Path | None:
@@ -709,6 +758,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="Append an explicit 'evaluate every option equally' "
                         "instruction to fight architectural position bias "
                         "(Gemma-4 has a strong anti-A preference in 4-choice).")
+    p.add_argument("--all-orders", action="store_true",
+                   help="add every cyclic option order of each train record (replaces --position-swap).")
+    p.add_argument("--sft-weight", type=float, default=0.0,
+                   help="weight of an SFT (NLL) loss on the chosen response added to DPO; 0 = DPO only.")
     p.add_argument("--position-swap",  action="store_true",
                    help="Augment by emitting each record twice with a "
                         "permuted choice order. Cancels positional answer "
@@ -768,6 +821,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     # Misc ---------------------------------------------------------------
     p.add_argument("--output-dir",   type=Path, default=Path("output/judge"))
     p.add_argument("--seed",         type=int,  default=42)
+    p.add_argument("--split-file",   type=Path, default=None,
+                   help="Frozen JSON {train,val,test: [paper_id]} (make_split.py); overrides --paper-split/--val-frac.")
+    p.add_argument("--split-seed",   type=int,  default=42,
+                   help="Seed for the leaf cap and train/val/test split; kept fixed so every training seed sees the same data and test set.")
     p.add_argument("--resume",       action="store_true",
                    help="Resume from the latest checkpoint in --output-dir.")
     p.add_argument("--dry-run",      action="store_true",
@@ -776,11 +833,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="Stop right after the stratified split — skip pair "
                         "construction (no file existence checks). Use for "
                         "5-second sanity checks on cluster filesystems.")
-    # Optional flags (defaults reproduce the paper's split and precision)
+    # A/B experiment flags
     p.add_argument("--fixed-split", action="store_true",
-                   help="Use a closest-stop split that keeps each leaf's test share "
-                        "nearer --test-frac. Off (default) reproduces the "
-                        "paper's greedy split, whose realised test share is 20%%.")
+                   help="BUGFIX 2: use the closest-stop split that avoids the "
+                        "test-fraction overshoot. Off = reproduce the original "
+                        "buggy greedy split (for the controlled A/B).")
+    p.add_argument("--paper-split", action="store_true",
+                   help="split by paper over the whole dataset (papers never cross splits).")
+    p.add_argument("--val-frac", type=float, default=0.0,
+                   help="carve a paper-disjoint validation split from train (for model selection).")
+    p.add_argument("--exclude-papers", type=Path, default=None,
+                   help="text file of paper_ids to drop before splitting (e.g. benchmark papers).")
+    p.add_argument("--max-steps", type=int, default=-1, help="stop after N optimiser steps (smoke).")
+    p.add_argument("--lora-vision", action="store_true",
+                   help="also put LoRA on every nn.Linear in the vision tower.")
     p.add_argument("--fp16", action="store_true",
                    help="Train in fp16 instead of bf16. Required on Turing GPUs "
                         "(RTX 8000) which have no native bf16.")
@@ -804,7 +870,7 @@ def main(argv: list[str] | None = None) -> None:
             rows,
             drop_trap4=args.filter_trap4,
             max_per_leaf=args.max_per_leaf,
-            seed=args.seed,
+            seed=args.split_seed,
         )
         print(f"  remaining records           : {len(rows)}")
 
@@ -819,14 +885,45 @@ def main(argv: list[str] | None = None) -> None:
             print("ERROR: max-images-per-q removed all rows.", file=sys.stderr)
             sys.exit(1)
 
-    print(f"\n=== Stratified split (test_frac={args.test_frac}) ===")
-    train_rows, test_rows = stratified_paper_split(
-        rows, args.test_frac, args.seed, closest_stop=args.fixed_split)
-    print(f"  split mode: {'closest-stop (--fixed-split)' if args.fixed_split else 'greedy (as in the paper)'}")
+    if args.exclude_papers:
+        drop = {l.strip() for l in args.exclude_papers.read_text().split() if l.strip()}
+        n0, p0 = len(rows), len({r["paper_id"] for r in rows})
+        rows = [r for r in rows if r["paper_id"] not in drop]
+        print(f"\n=== Excluded {len(drop)} listed papers: rows {n0} -> {len(rows)}, "
+              f"papers {p0} -> {len({r['paper_id'] for r in rows})} ===")
+
+    print(f"\n=== Split (test_frac={args.test_frac}) ===")
+    if args.split_file:
+        sp = json.loads(args.split_file.read_text())
+        where = {pid: s for s in ("train", "val", "test") for pid in sp[s]}
+        missing = {r["paper_id"] for r in rows} - set(where)
+        assert not missing, f"{len(missing)} papers not in the split file"
+        train_rows, val_rows, test_rows = ([r for r in rows if where[r["paper_id"]] == s] for s in ("train", "val", "test"))
+        print(f"  split mode: FROZEN FILE {args.split_file.name}")
+    elif args.paper_split:
+        train_rows, test_rows = global_paper_split(rows, args.test_frac, args.split_seed)
+        print("  split mode: GLOBAL PAPER SPLIT (papers never cross splits)")
+    else:
+        train_rows, test_rows = stratified_paper_split(
+            rows, args.test_frac, args.split_seed, closest_stop=args.fixed_split)
+        print(f"  split mode: {'FIXED (closest-stop)' if args.fixed_split else 'BUGGY (original greedy)'}")
+    if not args.split_file:
+      val_rows = []
+      if args.val_frac > 0:
+        # split seed, not the training seed, so every config/seed sees the identical train/val/test
+        train_rows, val_rows = global_paper_split(train_rows, args.val_frac / (1 - args.test_frac), args.split_seed + 1)
+    for name, part in (("train", train_rows), ("val", val_rows), ("test", test_rows)):
+        print(f"  {name:5s}: {len(part):5d} questions, {len({r['paper_id'] for r in part}):4d} papers")
+    cross = ({r["paper_id"] for r in train_rows} & {r["paper_id"] for r in test_rows}) if args.paper_split else set()
+    print(f"  papers shared train/test: {len(cross)}")
 
     # Position-swap is a TRAIN-side augmentation; the test set stays clean
     # so per-letter position-bias can be measured on the original answers.
-    if args.position_swap:
+    if args.all_orders:
+        n_before = len(train_rows)
+        train_rows = all_orders_augment(train_rows)
+        print(f"\n=== All-cyclic-orders augmentation (train only): {n_before} -> {len(train_rows)} ===")
+    elif args.position_swap:
         print(f"\n=== Position-swap augmentation (train only) ===")
         n_before = len(train_rows)
         train_rows = position_swap_augment(train_rows, args.seed)
@@ -889,6 +986,11 @@ def main(argv: list[str] | None = None) -> None:
         for r in test_rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"  test split saved -> {test_dump}")
+    if val_rows:
+        with (args.output_dir / "val_questions.jsonl").open("w", encoding="utf-8") as f:
+            for r in val_rows:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        print(f"  val split saved  -> {args.output_dir / 'val_questions.jsonl'} ({len(val_rows)} questions)")
 
     if args.dry_run:
         print("\n--dry-run: stopping before model load.")
@@ -940,6 +1042,15 @@ def main(argv: list[str] | None = None) -> None:
         attn_implementation="eager",
     )
     model.config.use_cache = False  # required with gradient checkpointing
+    if args.lora_vision:
+        import re as _re
+        lang = _re.compile(args.lora_target_pattern) if args.lora_target_pattern else None
+        lin = [(n, m) for n, m in model.named_modules() if isinstance(m, torch.nn.Linear)]
+        lang_t = [n for n, _ in lin if lang and lang.fullmatch(n)]
+        vis_t = [n for n, _ in lin if "vision" in n and "language_model" not in n]
+        print(f"  LoRA targets: language={len(lang_t)} vision={len(vis_t)} (e.g. {vis_t[:2]})")
+        args.lora_target_pattern = None
+        args.lora_targets = lang_t + vis_t
 
     # LoRA
     peft_config = None
@@ -980,6 +1091,7 @@ def main(argv: list[str] | None = None) -> None:
     dpo_config = DPOConfig(
         output_dir=str(args.output_dir),
         num_train_epochs=args.epochs,
+        max_steps=args.max_steps,
         per_device_train_batch_size=args.batch_size,
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr,
@@ -999,9 +1111,11 @@ def main(argv: list[str] | None = None) -> None:
         dataset_num_proc=1,
         dataloader_num_workers=args.dataloader_workers,
         seed=args.seed,
+        loss_type=["sigmoid", "sft"] if args.sft_weight > 0 else ["sigmoid"],   # DPO + NLL on the chosen response
+        loss_weights=[1.0, args.sft_weight] if args.sft_weight > 0 else None,
     )
 
-    print(f"\n=== DPO training ===")
+    print(f"\n=== DPO training ===  loss={dpo_config.loss_type} weights={dpo_config.loss_weights}")
     print(f"  pairs={len(train_pairs)}  epochs={args.epochs}  "
           f"effective_batch={args.batch_size * args.grad_accum}")
     steps_per_epoch = max(1, len(train_pairs) // (args.batch_size * args.grad_accum))
@@ -1030,7 +1144,11 @@ def main(argv: list[str] | None = None) -> None:
         else:
             print("  --resume requested but no checkpoint found; starting fresh.")
 
+    trainer.model.print_trainable_parameters()
     trainer.train(**train_kwargs)
+    if torch.cuda.is_available():
+        print(f"PEAK_VRAM_GB allocated={torch.cuda.max_memory_allocated()/2**30:.1f} "
+              f"reserved={torch.cuda.max_memory_reserved()/2**30:.1f}")
 
     final_dir = args.output_dir / "final"
     trainer.save_model(str(final_dir))
